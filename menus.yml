@@ -1,0 +1,77 @@
+WT_BWWYL:
+  title: §e§km§6§l百味万用炉§e§km
+  slots:
+    '6':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '7':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '8':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '15':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '16':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '17':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '24':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '26':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '33':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '34':
+      name: §6§l单击合成
+      amount: 1
+      material_type: mc
+      material: CRAFTING_TABLE
+      progressbar:
+        name: §6§l单击合成
+        amount: 1
+        material_type: mc
+        material: CRAFTING_TABLE
+    '35':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '42':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '43':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '44':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '51':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '52':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '53':
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE

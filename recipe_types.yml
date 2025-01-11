@@ -1,0 +1,74 @@
+WUWEI_CHUFANG:
+  lateInit: false
+  name: '&#2afb49&l五&#34c376&l味&#3e8aa3&l厨&#4752d0&l房'
+  lore:
+    - '&7该物品需要在五味厨房里制作'
+  material: BLAST_FURNACE
+WUWEI_FAJIAO:
+  lateInit: false
+  name: '&a&l发酵箱'
+  lore:
+    - '&7该物品需要在发酵箱里制作'
+  material: COMPOSTER
+WUWEI_MIANBAO:
+  lateInit: false
+  name: '&6&l面包窖'
+  lore:
+    - '&7该物品需要在面包窖里制作'
+  material: SMOKER
+WUWEI_WAGUO:
+  lateInit: false
+  name: '&b&l瓦锅'
+  lore:
+    - '&7该物品需要在瓦锅里制作'
+  material: CAULDRON
+WUWEI_ZHAGUO:
+  lateInit: false
+  name: '&6&l炸锅'
+  lore:
+    - '&7该物品需要在炸锅里制作'
+  material: CAMPFIRE
+WUWEI_YINGLIAOJI:
+  lateInit: false
+  name: '&f&l饮料机'
+  lore:
+    - '&7该物品需要在饮料机里制作'
+  material: BREWING_STAND
+WUWEI_DANGAO:
+  lateInit: false
+  name: '&c&l蛋糕炉'
+  lore:
+    - '&7该物品需要在蛋糕炉里制作'
+  material: CAKE
+WUWEI_BINGZHEN:
+  lateInit: false
+  name: '&b&l冰镇柜'
+  lore:
+    - '&7该物品需要在冰镇柜里制作'
+  material: BLUE_ICE
+WUWEI_LIEQI:
+  lateInit: false
+  name: '&d&l猎奇厨房'
+  lore:
+    - '&7该物品需要在猎奇厨房里制作'
+  material: SCULK_SENSOR
+WUWEI_JUANYAN:
+  lateInit: false
+  name: '&6&l卷烟台'
+  lore:
+    - '&7该物品需要在卷烟台里制作'
+  material: BARREL
+WUWEI_WAJUE:
+  lateInit: false
+  name: '&f&l挖掘方块'
+  lore:
+    - '&7该物品需要挖掘指定的方块掉落'
+  material: IRON_PICKAXE
+WUWEI_BWWYL:
+  lateInit: false
+  name: '&f&l百味万用炉'
+  lore:
+    - '&7该物品需要&6百味万用炉&7中制作'
+    - '&7具体配方详见&6百味万用炉'
+  material_type: skull_hash
+  material: 2f5cffcc555c21e17a68f411ad5c19f089d36f42c9e04cd5c5ee6cd77439970e

@@ -1,0 +1,19 @@
+WUWEI_GEOYAN:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&d&l喜马拉雅岩盐'
+    lore:
+    - '&7经过百年的地质变化'
+    - '&7这种岩盐广泛分布于地下'
+    - '&7是顶级的调味品'
+    material_type: skull_hash
+    material: 49ba8fa2975032fff6cbbb03317df4e1a5b55eaf0ab6d56343cb0198070f2e37
+  max_deviation: 2
+  geo_name: '&d&l喜马拉雅岩盐'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 2
+    nether: 3
+    the_end: 1

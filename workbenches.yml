@@ -1,0 +1,1852 @@
+WT_BWWYL:
+  lateInit: false
+  item_group: ws_jiqi
+  item:
+    name: '&6&l百味万用炉'
+    lore:
+      - ''
+      - '&7用于制作复杂的食品'
+      - ''
+      - '&b工作台'
+      - '&8⇨ &e⚡&7 36000 J 可存储'
+      - '&8⇨ &e⚡&7 18000 J/物品'
+    material_type: skull_hash
+    material: 2f5cffcc555c21e17a68f411ad5c19f089d36f42c9e04cd5c5ee6cd77439970e
+  click: 34
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_NAMITUDOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: FOOD_FABRICATOR_2
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_NAMITUDOU
+    '4':
+      amount: 1
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+    '6':
+      amount: 1
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    '7':
+      amount: 1
+      material_type: slimefun
+      material: COOLING_UNIT
+    '8':
+      amount: 1
+      material_type: slimefun
+      material: COAL_GENERATOR_2
+    '9':
+      amount: 1
+      material_type: slimefun
+      material: HEATING_COIL
+  capacity: 36000
+  energyPerCraft: 18000
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        '36':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIJUXIE
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 4
+        '5':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIJUXIE
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 9
+        '7':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_CARROT
+          slot: 10
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 11
+        '9':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 12
+        '10':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_CARROT
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 18
+        '13':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 19
+        '14':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_APPLE
+          slot: 20
+        '15':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_APPLE
+          slot: 21
+        '16':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 27
+        '19':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 28
+        '20':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_APPLE
+          slot: 29
+        '21':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_APPLE
+          slot: 30
+        '22':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 36
+        '25':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_CARROT
+          slot: 37
+        '26':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 38
+        '27':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 39
+        '28':
+          amount: 1
+          material_type: mc
+          material: GOLDEN_CARROT
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 41
+        '30':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIJUXIE
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: GOLD_NUGGET
+          slot: 49
+        '35':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIJUXIE
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_KANGXING
+          slot: 25
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 1
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 9
+        '7':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 10
+        '8':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 11
+        '9':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 12
+        '10':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 18
+        '13':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 19
+        '14':
+          amount: 1
+          material_type: mc
+          material: DRAGON_EGG
+          slot: 20
+        '15':
+          amount: 1
+          material_type: mc
+          material: DRAGON_EGG
+          slot: 21
+        '16':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 27
+        '19':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 28
+        '20':
+          amount: 1
+          material_type: mc
+          material: DRAGON_EGG
+          slot: 29
+        '21':
+          amount: 1
+          material_type: mc
+          material: DRAGON_EGG
+          slot: 30
+        '22':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 36
+        '25':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 37
+        '26':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 38
+        '27':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 39
+        '28':
+          amount: 1
+          material_type: slimefun
+          material: WT_NAMITUDOU
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: CAKE
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: RABBIT_STEW
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_FUSHI
+          slot: 25
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 1
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: DRAGON_BREATH
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: DRAGON_BREATH
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 9
+        '7':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 10
+        '8':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 11
+        '9':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 12
+        '10':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 18
+        '13':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 19
+        '14':
+          amount: 1
+          material_type: slimefun
+          material: WT_GUIJIAO
+          slot: 20
+        '15':
+          amount: 1
+          material_type: slimefun
+          material: WT_GUIJIAO
+          slot: 21
+        '16':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 27
+        '19':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 28
+        '20':
+          amount: 1
+          material_type: slimefun
+          material: WT_GUIJIAO
+          slot: 29
+        '21':
+          amount: 1
+          material_type: slimefun
+          material: WT_GUIJIAO
+          slot: 30
+        '22':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 36
+        '25':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 37
+        '26':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 38
+        '27':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 39
+        '28':
+          amount: 1
+          material_type: mc
+          material: FERMENTED_SPIDER_EYE
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: DRAGON_BREATH
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: DRAGON_BREATH
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_BAOSHI
+          slot: 25
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 9
+        '7':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIANSHOUZHEXINZANG
+          slot: 10
+        '8':
+          amount: 1
+          material_type: slimefun
+          material: WT_YGSHOUWEIZHE
+          slot: 11
+        '9':
+          amount: 1
+          material_type: slimefun
+          material: WT_YGSHOUWEIZHE
+          slot: 12
+        '10':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIANSHOUZHEXINZANG
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 18
+        '13':
+          amount: 1
+          material_type: slimefun
+          material: WT_RENTI
+          slot: 19
+        '14':
+          amount: 1
+          material_type: mc
+          material: HEART_OF_THE_SEA
+          slot: 20
+        '15':
+          amount: 1
+          material_type: mc
+          material: TOTEM_OF_UNDYING
+          slot: 21
+        '16':
+          amount: 1
+          material_type: slimefun
+          material: WT_RENTI
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 27
+        '19':
+          amount: 1
+          material_type: slimefun
+          material: WT_RENTI
+          slot: 28
+        '20':
+          amount: 1
+          material_type: mc
+          material: ENCHANTED_GOLDEN_APPLE
+          slot: 29
+        '21':
+          amount: 1
+          material_type: mc
+          material: SPYGLASS
+          slot: 30
+        '22':
+          amount: 1
+          material_type: slimefun
+          material: WT_RENTI
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 36
+        '25':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIANSHOUZHEXINZANG
+          slot: 37
+        '26':
+          amount: 1
+          material_type: slimefun
+          material: WT_YGSHOUWEIZHE
+          slot: 38
+        '27':
+          amount: 1
+          material_type: slimefun
+          material: WT_YGSHOUWEIZHE
+          slot: 39
+        '28':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIANSHOUZHEXINZANG
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: ECHO_SHARD
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_MAOXIAN
+          slot: 25
+    '5':
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: RABBIT_FOOT
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: RABBIT_FOOT
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 9
+        '7':
+          amount: 1
+          material_type: mc
+          material: FEATHER
+          slot: 10
+        '8':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 11
+        '9':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 12
+        '10':
+          amount: 1
+          material_type: mc
+          material: FEATHER
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 18
+        '13':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 19
+        '14':
+          amount: 1
+          material_type: slimefun
+          material: WT_TIEHULUOBO
+          slot: 20
+        '15':
+          amount: 1
+          material_type: slimefun
+          material: WT_TIEHULUOBO
+          slot: 21
+        '16':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 27
+        '19':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 28
+        '20':
+          amount: 1
+          material_type: slimefun
+          material: WT_TIEHULUOBO
+          slot: 29
+        '21':
+          amount: 1
+          material_type: slimefun
+          material: WT_TIEHULUOBO
+          slot: 30
+        '22':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 36
+        '25':
+          amount: 1
+          material_type: mc
+          material: FEATHER
+          slot: 37
+        '26':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 38
+        '27':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+          slot: 39
+        '28':
+          amount: 1
+          material_type: mc
+          material: FEATHER
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: RABBIT_FOOT
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: GRASS_BLOCK
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: RABBIT_FOOT
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHENGCUN
+          slot: 25
+    '6':
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 9
+        '7':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 10
+        '8':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 11
+        '9':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 12
+        '10':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 18
+        '13':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 19
+        '14':
+          amount: 1
+          material_type: slimefun
+          material: WT_BOLUOMI
+          slot: 20
+        '15':
+          amount: 1
+          material_type: mc
+          material: COOKED_MUTTON
+          slot: 21
+        '16':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 27
+        '19':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 28
+        '20':
+          amount: 1
+          material_type: mc
+          material: COOKED_MUTTON
+          slot: 29
+        '21':
+          amount: 1
+          material_type: slimefun
+          material: WT_BOLUOMI
+          slot: 30
+        '22':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 36
+        '25':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 37
+        '26':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 38
+        '27':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 39
+        '28':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: PAPER
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_BAOHE
+          slot: 25
+    '7':
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 37
+        '1':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 38
+        '2':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 39
+        '3':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 40
+        '4':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 10
+        '5':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 11
+        '6':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 12
+        '7':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 13
+        '8':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 19
+        '9':
+          amount: 1
+          material_type: mc
+          material: REDSTONE
+          slot: 20
+        '10':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+          slot: 21
+        '11':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 22
+        '12':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 28
+        '13':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+          slot: 29
+        '14':
+          amount: 1
+          material_type: mc
+          material: REDSTONE
+          slot: 30
+        '15':
+          amount: 1
+          material_type: mc
+          material: STRING
+          slot: 31
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIANYA
+          slot: 25
+    '8':
+      seconds: 1
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: LIGHT_BLUE_DYE
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: LIGHT_BLUE_DYE
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: LIGHT_BLUE_DYE
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: LIGHT_BLUE_DYE
+          slot: 9
+        '7':
+          amount: 1
+          material_type: slimefun
+          material: WT_DIYUJIANG
+          slot: 10
+        '8':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 11
+        '9':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 12
+        '10':
+          amount: 1
+          material_type: slimefun
+          material: WT_GUAIWEIJIANG
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: MAGENTA_DYE
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: CYAN_DYE
+          slot: 18
+        '13':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 19
+        '14':
+          amount: 1
+          material_type: slimefun
+          material: SMALL_CAPACITOR
+          slot: 20
+        '15':
+          amount: 1
+          material_type: mc
+          material: DRAGON_HEAD
+          slot: 21
+        '16':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: ORANGE_DYE
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: CYAN_DYE
+          slot: 27
+        '19':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 28
+        '20':
+          amount: 1
+          material_type: mc
+          material: NETHER_STAR
+          slot: 29
+        '21':
+          amount: 1
+          material_type: slimefun
+          material: ELECTRIC_MOTOR
+          slot: 30
+        '22':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: ORANGE_DYE
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: YELLOW_DYE
+          slot: 36
+        '25':
+          amount: 1
+          material_type: slimefun
+          material: WT_WEIZENGJIANG
+          slot: 37
+        '26':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 38
+        '27':
+          amount: 1
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          slot: 39
+        '28':
+          amount: 1
+          material_type: slimefun
+          material: WT_GUAIWEIGUOJIANG
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: LIME_DYE
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: YELLOW_DYE
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: YELLOW_DYE
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: YELLOW_DYE
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: LIME_DYE
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: LIME_DYE
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: LIME_DYE
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_BAOJIAN
+          slot: 25
+    '9':
+      input:
+        '36':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 4
+        '5':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 9
+        '7':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHANZHU
+          slot: 10
+        '8':
+          amount: 1
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          slot: 11
+        '9':
+          amount: 1
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          slot: 12
+        '10':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHANZHU
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 18
+        '13':
+          amount: 1
+          material_type: slimefun
+          material: WT_YUTOU
+          slot: 19
+        '14':
+          amount: 1
+          material_type: mc
+          material: POWDER_SNOW_BUCKET
+          slot: 20
+        '15':
+          amount: 1
+          material_type: mc
+          material: POWDER_SNOW_BUCKET
+          slot: 21
+        '16':
+          amount: 1
+          material_type: slimefun
+          material: WT_YUTOU
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 27
+        '19':
+          amount: 1
+          material_type: slimefun
+          material: WT_YUTOU
+          slot: 28
+        '20':
+          amount: 1
+          material_type: mc
+          material: POWDER_SNOW_BUCKET
+          slot: 29
+        '21':
+          amount: 1
+          material_type: mc
+          material: POWDER_SNOW_BUCKET
+          slot: 30
+        '22':
+          amount: 1
+          material_type: slimefun
+          material: WT_YUTOU
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 36
+        '25':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHANZHU
+          slot: 37
+        '26':
+          amount: 1
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          slot: 38
+        '27':
+          amount: 1
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          slot: 39
+        '28':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHANZHU
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 41
+        '30':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 49
+        '35':
+          amount: 1
+          material_type: mc
+          material: SNOW_BLOCK
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_HUIFU
+          slot: 25
+    '10':
+      input:
+        '36':
+          amount: 1
+          material_type: slimefun
+          material: WT_HAIKUI
+          slot: 0
+        '1':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 2
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 3
+        '4':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 4
+        '5':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIJUXIE
+          slot: 5
+        '6':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 9
+        '7':
+          amount: 1
+          material_type: slimefun
+          material: WT_YNSHUIMU
+          slot: 10
+        '8':
+          amount: 1
+          material_type: slimefun
+          material: WT_TENGFHU
+          slot: 11
+        '9':
+          amount: 1
+          material_type: slimefun
+          material: WT_TENGFHU
+          slot: 12
+        '10':
+          amount: 1
+          material_type: slimefun
+          material: WT_YNSHUIMU
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 14
+        '12':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 18
+        '13':
+          amount: 1
+          material_type: slimefun
+          material: WT_HAIZHE
+          slot: 19
+        '14':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHSHUIMU
+          slot: 20
+        '15':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHSHUIMU
+          slot: 21
+        '16':
+          amount: 1
+          material_type: slimefun
+          material: WT_HAIZHE
+          slot: 22
+        '17':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 23
+        '18':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 27
+        '19':
+          amount: 1
+          material_type: slimefun
+          material: WT_HAIZHE
+          slot: 28
+        '20':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHSHUIMU
+          slot: 29
+        '21':
+          amount: 1
+          material_type: slimefun
+          material: WT_SHSHUIMU
+          slot: 30
+        '22':
+          amount: 1
+          material_type: slimefun
+          material: WT_HAIZHE
+          slot: 31
+        '23':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+        '24':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 36
+        '25':
+          amount: 1
+          material_type: slimefun
+          material: WT_YNSHUIMU
+          slot: 37
+        '26':
+          amount: 1
+          material_type: slimefun
+          material: WT_TENGFHU
+          slot: 38
+        '27':
+          amount: 1
+          material_type: slimefun
+          material: WT_TENGFHU
+          slot: 39
+        '28':
+          amount: 1
+          material_type: slimefun
+          material: WT_YNSHUIMU
+          slot: 40
+        '29':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 41
+        '30':
+          amount: 1
+          material_type: slimefun
+          material: WT_JIJUXIE
+          slot: 45
+        '31':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 46
+        '32':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 47
+        '33':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 48
+        '34':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 49
+        '35':
+          amount: 1
+          material_type: slimefun
+          material: WT_HAIKUI
+          slot: 50
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_YANGQI
+          slot: 25
+  input: [0, 1, 2, 3, 4, 5, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 22, 23, 27, 28,
+    29, 30, 31, 32, 36, 37, 38, 39, 40, 41, 45, 46, 47, 48, 49, 50]
+  output: [25]

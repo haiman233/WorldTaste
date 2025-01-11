@@ -1,0 +1,252 @@
+WT_JUSHILIJI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&6&l巨尸里脊'
+    lore:
+    - '&7巨尸身上最嫩的一块'
+    material_type: skull_hash
+    material: d2f854b156d1924735b8cbabe0a098ddb211d95c52fe5fa2cd43e6c785f5cd
+    amount: 1
+  entity: GIANT
+  chance: 40
+WT_ZHUTI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&d&l猪蹄'
+    lore:
+    - '&7美容养颜'
+    material_type: skull_hash
+    material: 604faebefd0a8f721403e3142efecb83fbf4b7d1f705d0c9b44d91f0bf40127b
+    amount: 1
+  entity: PIG
+  chance: 25
+WT_RENTI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l人蹄'
+    lore:
+    - '&7别让拔叔失望'
+    material_type: skull_hash
+    material: 2e5c9b65b7bd7de14ae26189c2690357a960cc197f3ef68d3f4584e7ae9a242e
+    amount: 1
+  entity: PLAYER
+  chance: 10
+WT_CHIZHUSHOUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l炽足兽肉'
+    lore:
+    - '&7吃起来自带辣椒'
+    material_type: skull_hash
+    material: f580feee9e063a51dc4e98ba2fcdd14a837e4f248e4c3bfa0f4cb97d6039316b
+    amount: 1
+  entity: STRIDER
+  chance: 50
+WT_MOYINGLONGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&8&l末影龙肉'
+    lore:
+    - '&7这会好吃吗？'
+    material_type: skull_hash
+    material: fc2c57a97d9fcb42c1fed4994af7b3774c1ba9f12c0f1ef7636c0fe3561dc9
+    amount: 1
+  entity: ENDER_DRAGON
+  chance: 80
+WT_MOYINGLONGZHANG:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&8&l末影龙掌'
+    lore:
+    - '&7厚实且有嚼劲'
+    material_type: skull_hash
+    material: a49c9941e907b9d8b25719eebdccb2a4bef473d2adfaf7fe2d989a7705e42
+    amount: 1
+  entity: ENDER_DRAGON
+  chance: 8
+WT_XIONGZHANG:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&6&l熊掌'
+    lore:
+    - '&7熊掌，亦我所欲也！'
+    material_type: skull_hash
+    material: 6998953dcf793609de22710a3407cfa989134db943d676a59dcce310a7ab7be0
+    amount: 1
+  entity: POLAR_BEAR
+  chance: 40
+WT_GOUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&c&l狗肉'
+    lore:
+    - '&7烹饪起来挺难的'
+    material_type: skull_hash
+    material: 893c0a843a4c14093da81a87222106971a4e4473f8b418eb8df23a58e26d913f
+    amount: 1
+  entity: WOLF
+  chance: 40
+WT_XUEHUAZHUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l雪花猪肉'
+    lore:
+    - '&7鲜嫩美味'
+    material_type: skull_hash
+    material: 4f193ce2e3236a5b15f01b38c550ca0b19d2326b8df212c2816df72aeac6949
+    amount: 1
+  entity: PIGLIN
+  chance: 20
+WT_XIUTANSHOUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l嗅探兽肉'
+    lore:
+    - '&7因为它找不到种子？'
+    material_type: skull_hash
+    material: 971485d78c44fa9f97e603c367bfc26ea28d395191aebf8454f36661efcd5578
+    amount: 1
+  entity: SNIFFER
+  chance: 25
+WT_TUOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&c&l驼肉'
+    lore:
+    - '&7沙漠中的美味'
+    material_type: skull_hash
+    material: 78cfd0588a8a93b8cd21bdd2ce165489cb393948714fdd85fb10e44d4886f6
+    amount: 1
+  entity: CAMEL
+  chance: 40
+WT_YINGWUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&6&l鹦鹉肉'
+    lore:
+    - '&7在丛林中找不到食物？'
+    material_type: skull_hash
+    material: d12c19b9b84b4f59456058086c7523a8dad4ac90719fa242b207db32bbae8f5d
+    amount: 1
+  entity: PARROT
+  chance: 55
+WT_WAROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&a&l蛙肉'
+    lore:
+    - '&7红烧好吃！'
+    material_type: skull_hash
+    material: 928cbcc500ac91ecf06327d541df8e671835632874585f5359f802295d7944a8
+    amount: 1
+  entity: FROG
+  chance: 45
+WT_JIELUESHOUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l劫掠兽肉'
+    lore:
+    - '&7谁才是掠夺者？'
+    material_type: skull_hash
+    material: db8754617a6d978e50f11cb163fe07b6aba90068ed3cd746ff0fc055d1ef328d
+    amount: 1
+  entity: RAVAGER
+  chance: 42
+WT_YUELINGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&b&l悦灵肉'
+    lore:
+    - '&7灵体残存下来的一丝...美味？'
+    material_type: skull_hash
+    material: d30531e731b721d69440f1e3b268240f1fd86b2ab1c58b8a0f36f1b00e485689
+    amount: 1
+  entity: ALLAY
+  chance: 50
+WT_JIANSHOUZHEXINZANG:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&b&l坚守者心脏'
+    lore:
+    - '&7这是个错误的决定'
+    material_type: skull_hash
+    material: c6c0bac5d00badaf457a3d619f7e8739e73c2a898d86af0565149aaa92a24223
+    amount: 1
+  entity: WARDEN
+  chance: 40
+WT_QIANYINGBEIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&d&l潜影贝肉'
+    lore:
+    - '&7鲜美！好吃！'
+    material_type: skull_hash
+    material: f8c9657d237773c3596e2c743c94a5be3849ebc28e1d4667b7accd93a48b04ab
+    amount: 1
+  entity: SHULKER
+  chance: 40
+WT_NAOZI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l脑子'
+    lore:
+    - '&7吃啥补啥'
+    material_type: skull_hash
+    material: 2dd3b01ec32f3f5ea26ad4e23305401f73d13f3c16b3facefe70d92176b311
+    amount: 1
+  entity: PIG
+  chance: 1
+WT_SHOUWEIZHEYAN:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&b&l守卫者之眼'
+    lore:
+    - '&7我感觉有什么东西在视监我'
+    material_type: skull_hash
+    material: b55ec925cfed9246bbef55a9c2573031b352f6cb1a815bd58dda61d73b28c164
+    amount: 1
+  entity: GUARDIAN
+  chance: 15
+WT_ZHUXIN:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l猪心'
+    lore:
+    - '&7极大考验烹饪手法'
+    material_type: skull_hash
+    material: d45f4d139c9e89262ec06b27aaad73fa488ab49290d2ccd685a2554725373c9b
+    amount: 1
+  entity: PIG
+  chance: 4
+WT_YGSHOUWEIZHE:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&8&l远古守卫者肉'
+    lore:
+    - '&7凝聚了复杂的鲜味'
+    material_type: skull_hash
+    material: bfca43cb34e9d4b60459789a5220e032ec64cda2240325f8f7cb1901eeea6106
+    amount: 1
+  entity: ELDER_GUARDIAN
+  chance: 35
