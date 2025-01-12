@@ -29,12 +29,8 @@ function onUse(event) {
         player.setFoodLevel(player.getFoodLevel() + 17);
         player.setSaturation(player.getSaturation() + 17);
         player.setExhaustion(player.getExhaustion() - 1.7);
-        player.sendMessage(org.bukkit.potion.PotionEffectType.POISON.toString());
-        player.sendMessage(org.bukkit.potion.PotionEffectType.UNLUCK.toString());
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.POISON, 10, 6, false));
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.UNLUCK, 10, 6, false));
-        player.sendMessage(org.bukkit.potion.PotionEffectType.POISON);
-        player.sendMessage(org.bukkit.potion.PotionEffectType.UNLUCK);
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.POISON, 1000, 6, false));
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.UNLUCK, 1000, 6, false));
     
 
         // 使用正确的声音名称

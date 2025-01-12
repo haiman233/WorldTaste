@@ -26,9 +26,9 @@ function onUse(event) {
         var amount = 1;
         // 将玩家主手中的物品数量设置为已有物品数量 - 1，即消耗了一个物品 
         itemInMainHand.setAmount(itemInMainHand.getAmount() - amount);
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.DAMAGE_RESISTANCE, 1200, 1, false));
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.INCREASE_DAMAGE, 1200, 1, false));
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.CONFUSION, 200, 0, false));
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.ABSORPTION, 1400, 2, false));
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.DOLPHINS_GRACE, 1400, 1, false));
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.HUNGER, 800, 1, false));
 
         const radius = 8;
         for (let y = -radius; y <= radius; y++) {
