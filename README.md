@@ -23,6 +23,7 @@
 - Slimefun
 - GuizhanLibPlugin
 - Gastronomicon（美食家）
+
 软前置：
 - Cultivation（农耕工艺）
 
