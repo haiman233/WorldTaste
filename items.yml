@@ -36,7 +36,7 @@ WORLDTASTE_TNANKS:
     name: "&f&l鸣谢"
     material: OAK_SIGN
     lore:
-      - '&7感谢大香蕉和HikariLost在脚本编写上给予的大力支持'
+      - '&7感谢大香蕉和Eventually在脚本编写上给予的大力支持'
       - '&7感谢大香蕉编写的rsc editor大幅降低了编写的繁琐程度'
   placeable: false
   recipe_type: 'NULL'
