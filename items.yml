@@ -24,7 +24,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本：'
-      - '&bRelease-1.0.1'
+      - '&bRelease-1.0.2'
       - '&7您在提issues的时候需要展示这个'
       - '&7尘世百味附属始于2025年1月12日'
   placeable: false

@@ -5,7 +5,7 @@ pluginDepends:
 - Gastronomicon
 softDepends:
 - Cultivation
-version: Release-1.0.1
+version: Release-1.0.2
 description: 尘世五味，为粘液科技添加了上百种食物
 authors:
 - haiman233
