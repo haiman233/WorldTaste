@@ -18,11 +18,14 @@
 
 2、安装尘世百味，只需要将下载的文件解压，然后直接拖入server\plugins\RykenSlimefunCustomizer\addons目录下即可
 
+3、尘世百味1.1版本及以上需要服务器安装异域花园附属
+
 ## 前置插件需求
 前置：
 - Slimefun
 - GuizhanLibPlugin
 - Gastronomicon（美食家）
+- ExoticGarden（异域花园）(尘世百味1.1版本及以上)
 
 软前置：
 - Cultivation（农耕工艺）
