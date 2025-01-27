@@ -107,7 +107,7 @@ ws_jiqi:
   item:
     material_type: skull_hash
     material: da88ab0af11230d3a4683e033354c428115d52a9588c93f3263512e440214600
-    name: '&6&l机器'
+    name: '&6&l厨房用具'
   parent: worldtaste
 ws_zuowu:
   lateInit: false
@@ -201,13 +201,13 @@ ws_zwf_11:
   parent: worldtaste
   actions:
    'none'
-ws_xican:
+ws_bingjiling:
   lateInit: false
   type: sub
   item:
     material_type: skull_hash
-    material: 225fda17e590dda72ad497eed7bb8d83179fed7149c24be96139553b6ccd5f0
-    name: '&d&l西餐'
+    material: 35ed19c0802e9b485242ab9a18aa37570df7df05ed5edef402df26156c85ba08
+    name: '&d&l冰激凌与糖'
   parent: worldtaste
 ws_riliao:
   lateInit: false
@@ -223,7 +223,7 @@ ws_dangao:
   item:
     material_type: skull_hash
     material: c1a5ee8db73b81ee9550da29f93ca9ada2a6d88d35ec22841cc03b25c176d380
-    name: '&e&l蛋糕'
+    name: '&e&l甜品'
   parent: worldtaste
 ws_zwf_12:
   lateInit: false
@@ -285,7 +285,7 @@ ws_yingliao:
   item:
     material_type: skull_hash
     material: 94ae151e73602882b250dedcde5df6a9d5ff16470e39f9118b42f250f937f52b
-    name: '&6&l饮料与冰激凌'
+    name: '&6&l饮料'
   parent: worldtaste
 ws_dacan:
   lateInit: false
