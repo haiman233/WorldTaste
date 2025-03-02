@@ -5,6 +5,9 @@ WT_KAOMAOROU:
     material: COOKED_MUTTON
     glow: true
   recipe_type: WUWEI_JYKRL
+  nutrition: 5
+  saturation: 4
+  eatseconds: 1.3
   script: rou
   recipe:
     1:
@@ -17,6 +20,9 @@ WT_KAOBAOMAOROU:
     material: COOKED_PORKCHOP
     glow: false
   recipe_type: WUWEI_JYKRL
+  nutrition: 5
+  saturation: 4
+  eatseconds: 1.3
   script: rou
   recipe:
     1:
@@ -30,6 +36,9 @@ WT_KAOSHANYANGROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 6
+  saturation: 4
+  eatseconds: 1.3
   recipe:
     1:
       material_type: slimefun
@@ -42,6 +51,9 @@ WT_KAOHULIROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 4
+  saturation: 5
+  eatseconds: 1.3
   recipe:
     1:
       material_type: slimefun
@@ -54,6 +66,9 @@ WT_KAOYANGTUOROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 6
+  saturation: 5
+  eatseconds: 1.3
   recipe:
     1:
       material_type: slimefun
@@ -66,6 +81,9 @@ WT_KAOXIONGMAOROU:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 6
+  saturation: 6
+  eatseconds: 2.0
   recipe:
     1:
       material_type: slimefun
@@ -78,6 +96,9 @@ WT_KAOBEIJIXIONGROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 6
+  saturation: 7
+  eatseconds: 2.0
   recipe:
     1:
       material_type: slimefun
@@ -90,6 +111,9 @@ WT_KAOXSYANGTUOROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 6
+  saturation: 5
+  eatseconds: 1.3
   recipe:
     1:
       material_type: slimefun
@@ -102,6 +126,9 @@ WT_KAOHUANMOZHEROU:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 7
+  saturation: 5
+  eatseconds: 1.7
   recipe:
     1:
       material_type: slimefun
@@ -114,6 +141,9 @@ WT_KAOYOUZHUSHOUROU:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 6
+  saturation: 4
+  eatseconds: 1.6
   recipe:
     1:
       material_type: slimefun
@@ -126,6 +156,9 @@ WT_KAOZHULINGMANBINGROU:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 9
+  saturation: 5
+  eatseconds: 2.2
   recipe:
     1:
       material_type: slimefun
@@ -138,6 +171,9 @@ WT_KAOZHULINGROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 4
+  saturation: 3
+  eatseconds: 1.8
   recipe:
     1:
       material_type: slimefun
@@ -150,6 +186,9 @@ WT_KAOLUEDUOZHEROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 5
+  saturation: 5
+  eatseconds: 1.7
   recipe:
     1:
       material_type: slimefun
@@ -162,6 +201,9 @@ WT_KAOWEIDAOSHIROU:
     glow: false
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 5
+  saturation: 5
+  eatseconds: 1.7
   recipe:
     1:
       material_type: slimefun
@@ -174,6 +216,9 @@ WT_KAONVWUROU:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 5
+  saturation: 4
+  eatseconds: 1.6
   recipe:
     1:
       material_type: slimefun
@@ -186,6 +231,9 @@ WT_KAOJSCMR:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 5
+  saturation: 3
+  eatseconds: 1.7
   recipe:
     1:
       material_type: slimefun
@@ -198,6 +246,9 @@ WT_KAONSR:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 5
+  saturation: 3
+  eatseconds: 1.7
   recipe:
     1:
       material_type: slimefun
@@ -210,6 +261,9 @@ WT_KAOJSZLR:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 5
+  saturation: 3
+  eatseconds: 1.7
   recipe:
     1:
       material_type: slimefun
@@ -222,6 +276,9 @@ WT_KHSSR:
     glow: true
   recipe_type: WUWEI_JYKRL
   script: rou
+  nutrition: 10
+  saturation: 9
+  eatseconds: 1.9
   recipe:
     1:
       material_type: slimefun
