@@ -2,7 +2,7 @@
 
 ![8e1344c148965aa9c5999a1b3a705d07](https://github.com/user-attachments/assets/0ada326a-eb54-40b1-855c-0f4160e76cce)
 
-尘世百味RykenSlimefunCustomizer插件写成的一份配置文件，旨在向粘液科技中加入上百种来自世界各地的美食
+尘世百味RykenSlimefunCustomizer插件写成的一份配置文件，旨在向粘液科技中加入上百种来自世界各地的美食(共计500+食物)
 
 安装尘世百味需要使用RykenSlimefunCustomizer，简称rsc，在此[下载RykenSlimefunCustomizer](https://builds.guizhanss.com/SlimefunReloadingProject/RykenSlimeCustomizer/main)
 
@@ -18,11 +18,14 @@
 
 2、安装尘世百味，只需要将下载的文件解压，然后直接拖入server\plugins\RykenSlimefunCustomizer\addons目录下即可
 
+3、尘世百味1.1版本及以上需要服务器安装异域花园附属
+
 ## 前置插件需求
 前置：
 - Slimefun
 - GuizhanLibPlugin
 - Gastronomicon（美食家）
+- ExoticGarden（异域花园）(尘世百味1.1版本及以上)
 
 软前置：
 - Cultivation（农耕工艺）
