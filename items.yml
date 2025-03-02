@@ -1490,8 +1490,7 @@ VERSION_WT_WEIZENGJIANG:
       material: GN_RAW_BASS
       amount: 1
     6:
-      material_type: slimefun
-      material: CLT_GROUND_JUNIPER_BERRY
+      material: EGG
       amount: 1
     7:
       material_type: slimefun
