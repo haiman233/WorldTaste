@@ -24758,9 +24758,6 @@ WT_KQYR:
       material: WT_QIUYUROU
   placeable: false
   script: 5
-  register:
-    conditions:
-      - version >= 1.20.5
 WT_KXFR:
   item:
     name: §f§l烤旋风肉
@@ -24776,9 +24773,6 @@ WT_KXFR:
       material: WT_XUANFENGROU
   placeable: false
   script: 5
-  register:
-    conditions:
-      - version >= 1.21
 WT_KZHTX:
   item:
     name: §f§l烤沼骸苔藓
@@ -24795,9 +24789,6 @@ WT_KZHTX:
       material: WT_ZHAOHAITAIXIAN
   placeable: false
   script: 3
-  register:
-    conditions:
-      - version >= 1.21
 WT_KGAZHIROU:
   item:
     name: §f§l烤嘎枝肉
@@ -24813,9 +24804,6 @@ WT_KGAZHIROU:
       material: WT_GAZHIROU
   placeable: false
   script: 5
-  register:
-    conditions:
-      - version >= 1.21.3
 WT_KAOFUROU:
   item:
     name: §f§l烤腐肉
