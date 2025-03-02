@@ -250,3 +250,681 @@ WT_YGSHOUWEIZHE:
     amount: 1
   entity: ELDER_GUARDIAN
   chance: 35
+
+# 非材料肉类
+WT_RENROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生玩家肉'
+    material_type: skull_hash
+    material: 163290c622d5100111926cc7f925aece84a3e15f71a739f843485d8c7e99d7a1
+    amount: 2
+  entity: PLAYER
+  chance: 20
+WT_BIANFUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蝙蝠肉'
+    material_type: skull_hash
+    material: f128ea81e364ae89119cb79a9617784fbdea85b2e5fd5bdfa686fe84ebfd3db7
+    amount: 1
+  entity: BAT
+  chance: 40
+WT_LVROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生驴肉排'
+    material_type: skull_hash
+    material: d807f20942d84a3b733a1a2d66de475bf416c2e6c55421367742b17706ba2159
+    amount: 2
+  entity: DONKEY
+  chance: 40
+WT_FAGUANGYOUYU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生发光鱿鱼'
+    material_type: skull_hash
+    material: f5dd16eab51a10f8dec307f86b53c04e031ef275f1d4b3104e95ebc0c3f8c6ae
+    amount: 1
+  entity: GLOW_SQUID
+  chance: 35
+WT_MAROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生马肉排'
+    material_type: skull_hash
+    material: 71d7c816fc8c636d7f50a93a0ba7aaeff06c96a561645e9eb1bef391655c531
+    amount: 2
+  entity: HORSE
+  chance: 65
+WT_LUOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生骡肉排'
+    material_type: skull_hash
+    material: c25025873e3c5e75f9acfbcdd08d315e48359c587b87ed3fcca2ceef0c479331
+    amount: 2
+  entity: MULE
+  chance: 80
+WT_MOGUNIUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蘑菇牛肉'
+    material_type: skull_hash
+    material: 7c752fe4a3d24a684aa54a64d4dd89b6e7ab2660f4b2a315cc6f460350b5e8d3
+    amount: 2
+  entity: MUSHROOM_COW
+  chance: 50
+  register:
+    conditions:
+      - version < 1.20.5
+WT_MOGUNIUROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蘑菇牛肉'
+    material_type: skull_hash
+    material: 7c752fe4a3d24a684aa54a64d4dd89b6e7ab2660f4b2a315cc6f460350b5e8d3
+    amount: 2
+  entity: MOOSHROOM
+  chance: 50
+  id_alias: WT_MOGUNIUROU
+  register:
+    conditions:
+      - version >= 1.20.5
+WT_KULOUMA:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l骷髅马肋骨'
+    material_type: skull_hash
+    material: d7fca8664864a246eb765fc72497e8b1c9162246140e08e8ed7ca04d82de60c3
+    amount: 1
+  entity: SKELETON_HORSE
+  chance: 80
+WT_CHIZHUSHOUTUIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生炽足兽腿肉'
+    material_type: skull_hash
+    material: 5cb28abed54cb475b197be10c940e2b2ce2edae3acedff2b6e1f623fa2b52a0
+    amount: 2
+  entity: STRIDER
+  chance: 60
+WT_KEDOU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蝌蚪'
+    material_type: skull_hash
+    material: 987035f5352334c2cba6ac4c65c2b9059739d6d0e839c1dd98d75d2e77957847
+    amount: 1
+  entity: TADPOLE
+  chance: 90
+WT_HAIGUISHOUROUPAI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生海龟肉排'
+    material_type: skull_hash
+    material: a87af4adadde62b35243e8ee1e783e22e3be07e95b27748b36da0c28dbad8a17
+    amount: 1
+  entity: TURTLE
+  chance: 50
+WT_LIULANGSHANGRENROUPAI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生流浪商人肉'
+    material_type: skull_hash
+    material: 8f10b815327d27c1e620be7438be8b1621d976e50b9a6af4673c2c12ad17e6
+    amount: 1
+  entity: WANDERING_TRADER
+  chance: 70
+WT_CUNMINGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生村民肉'
+    material_type: skull_hash
+    material: 26336f5bb9975bf57e14db6615c1896c5c4b9c39aad17b17e4ee20b231cf6
+    amount: 1
+  entity: VILLAGER
+  chance: 70
+WT_MEIXIYUANROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生美西螈'
+    material_type: skull_hash
+    material: 21c3aa0d539208b47972bf8e72f0505cdcfb8d7796b2fcf85911ce94fd0193d0
+    amount: 1
+  entity: AXOLOTL
+  chance: 60
+WT_MAOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生猫肉'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+    glow: true
+  entity: CAT
+  chance: 70
+WT_BAOMAOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生豹猫肉'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: OCELOT
+  chance: 70
+WT_XUERENROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生雪傀儡肉排'
+    material_type: skull_hash
+    material: e6f20aec528c3968dd8164f9d9336b081b3a2c7ecf189cf73df6f925e5a4ed14
+    amount: 1
+  entity: SNOWMAN
+  chance: 50
+  register:
+    conditions:
+      - version < 1.20.5
+WT_XUERENROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生雪傀儡肉排'
+    material_type: skull_hash
+    material: e6f20aec528c3968dd8164f9d9336b081b3a2c7ecf189cf73df6f925e5a4ed14
+    amount: 1
+  entity: SNOW_GOLEM
+  chance: 50
+  id_alias: WT_XUERENROU
+  register:
+    conditions:
+      - version >= 1.20.5
+WT_SHANYANGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生山羊肉'
+    material_type: mc
+    material: MUTTON
+    amount: 2
+  entity: GOAT
+  chance: 60
+WT_SHENGMIFENGOU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蜜蜂肉'
+    material_type: skull_hash
+    material: cb745b43d6f00ee9363f45c019b829477f6134ac855c473e7e275aa1763a9e85
+    amount: 1
+  entity: BEE
+  chance: 50
+WT_SHENGHAITUNROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生海豚肉排'
+    material_type: skull_hash
+    material: 8e9688b950d880b55b7aa2cfcd76e5a0fa94aac6d16f78e833f7443ea29fed3
+    amount: 1
+  entity: DOLPHIN
+  chance: 50
+WT_SHENGHULIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生狐狸肉排'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: FOX
+  chance: 50
+WT_TIEKUILEIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生铁傀儡肉排'
+    material_type: skull_hash
+    material: 8142e7882757e0f33bf744b6e2ac7e7b85f5f1e6f2e2cd6558ef0873ba46a8f1
+    amount: 1
+  entity: IRON_GOLEM
+  chance: 10
+WT_YANGTUOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生羊驼肉排'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: LLAMA
+  chance: 55
+WT_XIONGMAOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生熊猫肉排'
+    material_type: mc
+    material: BEEF
+    amount: 2
+    glow: true
+  entity: PANDA
+  chance: 65
+WT_BEIJIXIONGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生北极熊肉排'
+    material_type: mc
+    material: BEEF
+    amount: 2
+  entity: POLAR_BEAR
+  chance: 50
+WT_XINGSHANGYANGTUOROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生行商羊驼肉排'
+    material_type: mc
+    material: MUTTON
+    amount: 1
+  entity: TRADER_LLAMA
+  chance: 60
+WT_SHOUWEIZHEROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生守卫者肉'
+    material_type: skull_hash
+    material: a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+    amount: 1
+  entity: GUARDIAN
+  chance: 50
+WT_LIEYANRENTUI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生烈焰人腿肉'
+    material_type: skull_hash
+    material: 64b1b9ce2e9a6ce8a985d39776e2908077b82e6a333d2a81a441438eab39f8e1
+    amount: 2
+  entity: BLAZE
+  chance: 50
+WT_KULIPATUI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生苦力怕腿肉'
+    material_type: skull_hash
+    material: 2dbd5016cb48e074d725577b44917b3be6e986a1e39a8dabeecd6f319050b1ee
+    amount: 1
+  entity: CREEPER
+  chance: 5
+WT_MOYINGMAN:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生末影螨肉'
+    material_type: skull_hash
+    material: 1730127e3ac7677122422df0028d9e7368bd157738c8c3cddecc502e896be01c
+    amount: 1
+  entity: ENDERMITE
+  chance: 20
+WT_HUANMOZHEROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生唤魔者肉排'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+    glow: true
+  entity: EVOKER
+  chance: 50
+WT_EHUNCUSHOU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生恶魂触手肉'
+    material_type: skull_hash
+    material: 91823db152476116715c46c70b3f6ca90ce6d404af4712f724b17341d5d2a
+    amount: 2
+  entity: GHAST
+  chance: 40
+WT_YOUZHUSHOUROUPAI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生疣猪兽肉排'
+    material_type: mc
+    material: RABBIT
+    amount: 1
+    glow: true
+  entity: HOGLIN
+  chance: 60
+WT_SHIKEROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生尸壳肉'
+    material_type: skull_hash
+    material: 10307f493fdda76858e5daa511e3fdb4b7ed241f7d3a7a22656ed5c6bacbf52
+    amount: 1
+  entity: HUSK
+  chance: 50
+WT_HUANYIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生幻翼肉排'
+    material_type: skull_hash
+    material: b4ad63b697a4c4790d00c435460baf49191657e61bee611f7588dbcda7198bbd
+    amount: 1
+  entity: PHANTOM
+  chance: 60
+WT_ZHULINGMANBINGROUPAI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生猪灵蛮兵肉排'
+    material_type: mc
+    material: PORKCHOP
+    glow: true
+    amount: 1
+  entity: PIGLIN_BRUTE
+  chance: 45
+WT_ZHULINGROUPAI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生猪灵肉排'
+    material_type: mc
+    material: PORKCHOP
+    glow: false
+    amount: 1
+  entity: PIGLIN
+  chance: 30
+WT_LUODUOZHEROUPAI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生掠夺者肉排'
+    material_type: mc
+    material: BEEF
+    amount: 1
+  entity: PILLAGER
+  chance: 35
+WT_DUCHONGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蠹虫肉'
+    material_type: skull_hash
+    material: 92ec2c3cb95ab77f7a60fb4d160bced4b879329b62663d7a9860642e588ab210
+    amount: 1
+  entity: SILVERFISH
+  chance: 20
+WT_LIULANGZHELEIGU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生流浪者肋骨'
+    material_type: skull_hash
+    material: 22a8acaa3f22bb0905cef3599d1dc4f081c703cfb904faca6e6e313cfe5ea17b
+    amount: 1
+  entity: STRAY
+  chance: 50
+WT_WEIDAOSHIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生卫道士肉排'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+  entity: VINDICATOR
+  chance: 30
+WT_JIANSHOUZHEROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生坚守者肉排'
+    material_type: skull_hash
+    material: c8db78046198114d6d87cb0afc5ad6f85caa76b80bece795a8bbae753e5d61d9
+    amount: 1
+  entity: WARDEN
+  chance: 50
+WT_NVWUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生女巫肉排'
+    material_type: mc
+    material: PORKCHOP
+    amount: 1
+    glow: true
+  entity: WITCH
+  chance: 10
+WT_JSYOUZHUSHOUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生僵尸疣猪兽肉排'
+    material_type: skull_hash
+    material: a80f168d16c9431a8ec5dd211a0919718de3233398897baddde4f65717ab9bcf
+    amount: 2
+  entity: ZOGLIN
+  chance: 70
+WT_DIAOLINGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生凋灵肉排'
+    material_type: skull_hash
+    material: 9bcc1c5b0825b9521ce032e31c5f2cd5d906a5e61a1c8248004515e748b2a6c4
+    amount: 1
+  entity: WITHER
+  chance: 80
+WT_JIANGSHIMAROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生僵尸马肉排'
+    material_type: skull_hash
+    material: 7d6647113ae249d2d1a36ebc61fbd376ecca1f60570fab2477377d50a3aee146
+    amount: 2
+  entity: ZOMBIE_HORSE
+  chance: 60
+WT_JIANGSHICUNMINGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生僵尸村民肉排'
+    material_type: mc
+    material: ROTTEN_FLESH
+    amount: 1
+  entity: ZOMBIE_VILLAGER
+  chance: 15
+WT_NISHIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生溺尸肉排'
+    material_type: mc
+    material: ROTTEN_FLESH
+    amount: 1
+  entity: DROWNED
+  chance: 15
+WT_JIANGSHIZHULINGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生僵尸猪灵肉排'
+    material_type: mc
+    material: ROTTEN_FLESH
+    amount: 1
+  entity: ZOMBIFIED_PIGLIN
+  chance: 10
+WT_HUANSHUSHIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生幻术师肉排'
+    material_type: mc
+    material: BEEF
+    amount: 1
+    glow: true
+  entity: ILLUSIONER
+  chance: 60
+WT_NAOGUIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生恼鬼肉'
+    material_type: mc
+    material: LIGHT_BLUE_DYE
+    amount: 1
+    glow: true
+  entity: VEX
+  chance: 40
+WT_DIAOLINGKULOULEIGU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生凋零骷髅脆骨'
+    material_type: skull_hash
+    material: 895a05992afa37b3806b81f0003ca617b3c1cbb9170a2309115b9c6a03eb73af
+    amount: 1
+  entity: WITHER_SKELETON
+  chance: 45
+WT_MOYINGRENCUIGU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生末影人脆骨'
+    material_type: skull_hash
+    material: 78cf2596fb4cca004ee79561a062819c247cb4ba711d9540970e4398d9dbac43
+    amount: 1
+  entity: ENDERMAN
+  chance: 1
+WT_ZHIZHUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生蜘蛛肉'
+    material_type: skull_hash
+    material: b095ec032409da5b4a73118750c1a111a454321bd85a282c4170c844754438eb
+    amount: 1
+  entity: SPIDER
+  chance: 16
+WT_DONGXUEZHIZHUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生洞穴蜘蛛肉'
+    material_type: skull_hash
+    material: 10128e9db4b544e147ec68f94d85f9db810994aeb943b038dd491ea2ea9a4696
+    amount: 1
+  entity: CAVE_SPIDER
+  chance: 20
+WT_ZHIZHUDAN:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l蜘蛛蛋'
+    material_type: skull_hash
+    material: 5286a628864efec76d21f1bfb84d1809b302deab728b8dab6be80467b7e6fce8
+    amount: 1
+  entity: CAVE_SPIDER
+  chance: 1
+WT_SHILAIMUNI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&a&l史莱姆泥'
+    material_type: skull_hash
+    material: a9cbd8748582dc68526b0a29955f58f7e6cbda480a0455e86534c6d210651713
+    amount: 1
+  entity: SLIME
+  chance: 20
+WT_YANJIANGGUAINI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l岩浆怪泥'
+    material_type: skull_hash
+    material: 819d40b827c8d244226e8319b1326c9dfce42fdfda4b6d00fbba30e848b250b9
+    amount: 1
+  entity: MAGMA_CUBE
+  chance: 20
+WT_QIUYUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生犰狳肉'
+    material_type: skull_hash
+    material: 541693d604ed8eb31f550d3c8b124ad3f0f4a34f5f83a72def177fce4ac90916
+    amount: 1
+  entity: ARMADILLO
+  chance: 55
+  register:
+    conditions:
+      - version >= 1.20.5
+WT_XUANFENGROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生旋风肉'
+    material_type: skull_hash
+    material: a275728af7e6a29c88125b675a39d88ae9919bb61fdc200337fed6ab0c49d65c
+    amount: 1
+  entity: BREEZE
+  chance: 30
+  register:
+    conditions:
+      - version >= 1.21
+WT_ZHAOHAITAIXIAN:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生沼骸苔藓'
+    material_type: mc
+    material: MOSS_BLOCK
+    amount: 1
+    glow: true
+  entity: BOGGED
+  chance: 35
+  register:
+    conditions:
+      - version >= 1.21
+WT_GAZHIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生嘎枝肉'
+    material_type: skull_hash
+    material: 24c9401ae7979b9561fe8fd9536286ee70475e8f8f6569c11c298ef25d54c120
+    amount: 1
+  entity: CREAKING
+  chance: 50
+  register:
+    conditions:
+      - version >= 1.21.3

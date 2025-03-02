@@ -1,0 +1,228 @@
+WT_KAOMAOROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤猫肉"
+    material: COOKED_MUTTON
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_MAOROU
+WT_KAOBAOMAOROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤豹猫肉"
+    material: COOKED_PORKCHOP
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_BAOMAOROU
+WT_KAOSHANYANGROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤山羊肉"
+    material: COOKED_MUTTON
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_SHANYANGROU
+WT_KAOHULIROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤狐狸肉排"
+    material: COOKED_BEEF
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_SHENGHULIROU
+WT_KAOYANGTUOROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤羊驼肉排"
+    material: COOKED_MUTTON
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_YANGTUOROU
+WT_KAOXIONGMAOROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤熊猫肉排"
+    material: COOKED_BEEF
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_XIONGMAOROU
+WT_KAOBEIJIXIONGROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤北极熊肉排"
+    material: COOKED_BEEF
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_BEIJIXIONGROU
+WT_KAOXSYANGTUOROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤行商羊驼肉排"
+    material: COOKED_MUTTON
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_XINGSHANGYANGTUOROU
+WT_KAOHUANMOZHEROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤唤魔者肉排"
+    material: COOKED_PORKCHOP
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_HUANMOZHEROU
+WT_KAOYOUZHUSHOUROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤疣猪兽肉排"
+    material: COOKED_RABBIT
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_YOUZHUSHOUROUPAI
+WT_KAOZHULINGMANBINGROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤猪灵蛮兵肉排"
+    material: COOKED_PORKCHOP
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_ZHULINGMANBINGROUPAI
+WT_KAOZHULINGROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤猪灵肉排"
+    material: COOKED_PORKCHOP
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_ZHULINGROUPAI
+WT_KAOLUEDUOZHEROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤掠夺者肉排"
+    material: COOKED_BEEF
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_LUODUOZHEROUPAI
+WT_KAOWEIDAOSHIROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤卫道士肉排"
+    material: COOKED_PORKCHOP
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_WEIDAOSHIROU
+WT_KAONVWUROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤女巫肉排"
+    material: COOKED_PORKCHOP
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_NVWUROU
+WT_KAOJSCMR:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤僵尸村民肉排"
+    material: ROTTEN_FLESH
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_JIANGSHICUNMINGROU
+WT_KAONSR:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤溺尸肉排"
+    material: ROTTEN_FLESH
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_NISHIROU
+WT_KAOJSZLR:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤僵尸猪灵肉排"
+    material: ROTTEN_FLESH
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_JIANGSHIZHULINGROU
+WT_KHSSR:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤幻术师肉排"
+    material: COOKED_BEEF
+    glow: true
+  recipe_type: WUWEI_JYKRL
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_HUANSHUSHIROU

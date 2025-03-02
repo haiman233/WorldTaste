@@ -82,6 +82,11 @@ function onUse(event) {
         player.sendMessage("您的副手必须持有物品！");
         return;
     }
+    
+    if (player.getFoodLevel() >= 20) {
+        player.sendMessage("饥饿值已满!");
+        return;
+    }
 
     var sfItem_ironDust = SlimefunItem.getById("WT_FUSHI");
     if (sfItem_ironDust == null) {

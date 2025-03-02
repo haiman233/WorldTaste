@@ -150,15 +150,14 @@ ws_tang:
     material: 6e1c7ac436c0e4972d093a8f63306409e3fa5321db4bf106f4ef1d80cc360774
     name: '&b&l汤'
   parent: worldtaste
-ws_zwf_9:
+ws_kaorou:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: lime_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: 66ca1698f77d60b8b92c795ab9ed5bf3f35ba9ffde433175a53fdfe32dedd
+    name: '&6&l烤肉'
   parent: worldtaste
-  actions:
-   'none'
 ws_tieshi:
   lateInit: false
   type: sub
@@ -225,15 +224,14 @@ ws_dangao:
     material: c1a5ee8db73b81ee9550da29f93ca9ada2a6d88d35ec22841cc03b25c176d380
     name: '&e&l甜品'
   parent: worldtaste
-ws_zwf_12:
+ws_cfzs:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: lime_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: f4d376a23bc1c1cf6b4b51a7aaa61949aea43b83e3c46c284317ff208d91002d
+    name: '&e&l厨房装饰'
   parent: worldtaste
-  actions:
-   'none'
 ws_zwf_13:
   lateInit: false
   type: button

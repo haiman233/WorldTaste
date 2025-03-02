@@ -27,11 +27,13 @@ function onUse(event, itemStack) {
   } else {
     return;
   }
-  
 
-  
   let item = event.getItem();
   item.setAmount(item.getAmount() - 1);
+  var soundName = "entity.strider.eat";
+
+  // 播放声音，确保音量和音调参数在0到1之间
+  player.getLocation().getWorld().playSound(player.getLocation(), soundName, 1.0, 1.0);
   
   let block = player.getTargetBlock(null, 5);
   let location = block.getLocation().add(0, 1, 0); 

@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.1'
+      - '&bRelease-1.2'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -155,15 +155,7 @@ WORLDTASTE_ZWF10:
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
-WORLDTASTE_ZWF11:
-  item_group: ws_zwf_9
-  item:
-    name: "&f&l这就是一个占位符而已"
-    lore:
-      - '&6&l这就是一个占位符而已'
-    material: PAPER
-  placeable: false
-  recipe_type: 'NULL'
+
 WORLDTASTE_ZWF12:
   item_group: ws_zwf_10
   item:
@@ -176,15 +168,6 @@ WORLDTASTE_ZWF12:
 WORLDTASTE_ZWF13:
   item_group: ws_zwf_11
   item: 
-    name: "&f&l这就是一个占位符而已"
-    lore:
-      - '&6&l这就是一个占位符而已'
-    material: PAPER
-  placeable: false
-  recipe_type: 'NULL'
-WORLDTASTE_ZWF14:
-  item_group: ws_zwf_12
-  item:
     name: "&f&l这就是一个占位符而已"
     lore:
       - '&6&l这就是一个占位符而已'
@@ -723,6 +706,7 @@ WT_YANCAO:
   drop_from: LARGE_FERN
   drop_chance: 1
   drop_amount: 1
+
 # 海鲜
 
 WT_LONGXIA:
@@ -903,6 +887,24 @@ WT_HAILUO:
   drop_from: SEA_PICKLE
   drop_chance: 1
   drop_amount: 1
+
+# 蚕
+WT_CAN:
+  item_group: ws_roulei
+  item:
+    name: "&f&l蚕"
+    material_type: mc
+    material: STRING
+  placeable: false
+  recipe_type: WUWEI_WAJUE
+  recipe:
+    5:
+      material: OAK_LEAVES
+      amount: 1
+  drop_from: OAK_LEAVES
+  drop_chance: 40
+  drop_amount: 1
+
 #食材
 WT_ZHIWUYOU:
   lateInit: false
@@ -14382,7 +14384,7 @@ WT_BAIQIAOKELI:
   script: '6'
 WT_MIANHUATANG:
   item:
-    lore: ['', §7§o恢复 §b§l2 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
     name: §f§l棉花糖
     amount: 1
     material_type: skull_hash
@@ -14792,7 +14794,7 @@ WT_PINGZHUANGKL:
   script: yl3
 WT_XUEBI:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §a§l雪碧
     amount: 1
     material_type: skull_hash
@@ -15888,7 +15890,7 @@ WT_BOBANAICHA:
   script: yl5
 WT_MEILEYZ:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §e§l美乐柚子
     amount: 1
     material_type: skull_hash
@@ -15928,7 +15930,7 @@ WT_MEILEYZ:
   script: yl3
 WT_DAFUPIJIU:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §4§l达夫啤酒
     amount: 1
     material_type: skull_hash
@@ -15968,7 +15970,7 @@ WT_DAFUPIJIU:
   script: yl4
 WT_XINGBAKEKF:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l星巴克咖啡
     amount: 1
     material_type: skull_hash
@@ -16016,7 +16018,7 @@ WT_XINGBAKEKF:
   script: yl4
 WT_HONGNIU:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §9§l红牛
     amount: 1
     material_type: skull_hash
@@ -16056,7 +16058,7 @@ WT_HONGNIU:
   script: yl4
 WT_YINHEYINGLIAO:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §b§l银河饮料
     amount: 1
     material_type: skull_hash
@@ -16104,7 +16106,7 @@ WT_YINHEYINGLIAO:
   script: yl4
 WT_TAIWANPIJIU:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §2§l台湾啤酒
     amount: 1
     material_type: skull_hash
@@ -16144,7 +16146,7 @@ WT_TAIWANPIJIU:
   script: yl4
 WT_DANNAIJIU:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §6§l蛋奶酒
     amount: 1
     material_type: skull_hash
@@ -16192,7 +16194,7 @@ WT_DANNAIJIU:
   script: yl3
 WT_MOCHANIUNAI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §a§l抹茶牛奶
     amount: 1
     material_type: skull_hash
@@ -16240,7 +16242,7 @@ WT_MOCHANIUNAI:
   script: yl4
 WT_JIAOTANGNT:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l焦糖拿铁
     amount: 1
     material_type: skull_hash
@@ -16280,7 +16282,7 @@ WT_JIAOTANGNT:
   script: yl4
 WT_XJNYLCKF:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §c§l咸焦糖奶油冷萃咖啡
     amount: 1
     material_type: skull_hash
@@ -16328,7 +16330,7 @@ WT_XJNYLCKF:
   script: yl5
 WT_CSLJHPZS:
   item:
-    lore: ['', §7§o恢复 §b§l2 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值]
     name: §b§l纯水乐净化瓶装水
     amount: 1
     material_type: skull_hash
@@ -16356,7 +16358,7 @@ WT_CSLJHPZS:
   script: yl2
 WT_NENGLIANGYL:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §6§l能量饮料
     amount: 1
     material_type: skull_hash
@@ -16396,7 +16398,7 @@ WT_NENGLIANGYL:
   script: yl5
 WT_XUANWONAICHA:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §f§l旋涡奶茶
     amount: 1
     material_type: skull_hash
@@ -16436,7 +16438,7 @@ WT_XUANWONAICHA:
   script: yl4
 WT_LIANRU:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §6§l炼乳
     amount: 1
     material_type: skull_hash
@@ -16476,7 +16478,7 @@ WT_LIANRU:
   script: yl3
 WT_PINGGANSUINATIE:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §c§l饼干碎拿铁
     amount: 1
     material_type: skull_hash
@@ -16524,7 +16526,7 @@ WT_PINGGANSUINATIE:
   script: yl5
 WT_LONGNATIE:
   item:
-    lore: ['', §7§o恢复 §b§l7 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值]
     name: §d§l龙拿铁
     amount: 1
     material_type: skull_hash
@@ -16572,7 +16574,7 @@ WT_LONGNATIE:
   script: yl7
 WT_SHUIGUOBINGYIN:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l水果冰饮
     amount: 1
     material_type: skull_hash
@@ -16620,7 +16622,7 @@ WT_SHUIGUOBINGYIN:
   script: yl4
 WT_JTQKLSPXBL:
   item:
-    lore: ['', §7§o恢复 §b§l6 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值]
     name: §c§l焦糖巧克力碎片星冰乐
     amount: 1
     material_type: skull_hash
@@ -16668,7 +16670,7 @@ WT_JTQKLSPXBL:
   script: yl6
 WT_JIAOTANGMKXBL:
   item:
-    lore: ['', §7§o恢复 §b§l6 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值]
     name: §6§l焦糖摩卡星冰乐
     amount: 1
     material_type: skull_hash
@@ -16716,7 +16718,7 @@ WT_JIAOTANGMKXBL:
   script: yl6
 WT_GUOCHA:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §e§l果茶
     amount: 1
     material_type: skull_hash
@@ -16748,7 +16750,7 @@ WT_GUOCHA:
   script: yl3
 WT_NONGSUOKAFEI:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §6§l浓缩咖啡
     amount: 1
     material_type: skull_hash
@@ -16796,7 +16798,7 @@ WT_NONGSUOKAFEI:
   script: yl5
 WT_YOUNIMOKA:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §b§l幽匿摩卡
     amount: 1
     material_type: skull_hash
@@ -16836,7 +16838,7 @@ WT_YOUNIMOKA:
   script: yl4
 WT_JTSDCPXBL:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §6§l焦糖丝带脆片星冰乐
     amount: 1
     material_type: skull_hash
@@ -16884,7 +16886,7 @@ WT_JTSDCPXBL:
   script: yl5
 WT_DANQILENGCUIKAFEI:
   item:
-    lore: ['', §7§o恢复 §b§l6 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值]
     name: §c§l氮气冷萃咖啡
     amount: 1
     material_type: skull_hash
@@ -16932,7 +16934,7 @@ WT_DANQILENGCUIKAFEI:
   script: yl6
 WT_ZISEXINQING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §5§l紫色心情
     amount: 1
     material_type: skull_hash
@@ -16964,7 +16966,7 @@ WT_ZISEXINQING:
   script: yl4
 WT_YANGSHENGCHA:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §6§l养生茶
     amount: 1
     material_type: skull_hash
@@ -17004,7 +17006,7 @@ WT_YANGSHENGCHA:
   script: yl5
 WT_NAIXIDAGE:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §d§l奶昔大哥
     amount: 1
     material_type: skull_hash
@@ -17044,7 +17046,7 @@ WT_NAIXIDAGE:
   script: yl4
 WT_CHUNGUOLE:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §6§l纯果乐
     amount: 1
     material_type: skull_hash
@@ -17084,7 +17086,7 @@ WT_CHUNGUOLE:
   script: yl5
 WT_LVCHA:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §a§l绿茶
     amount: 1
     material_type: skull_hash
@@ -17116,7 +17118,7 @@ WT_LVCHA:
   script: yl3
 WT_CHUNNIUNAI:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §f§l纯牛奶
     amount: 1
     material_type: skull_hash
@@ -17164,7 +17166,7 @@ WT_CHUNNIUNAI:
   script: yl3
 WT_ZHIHUIZHISHUI:
   item:
-    lore: ['', §7§o恢复 §b§l2 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值]
     name: §b§l智慧之水
     amount: 1
     material_type: skull_hash
@@ -17196,7 +17198,7 @@ WT_ZHIHUIZHISHUI:
   script: yl2
 WT_BINGGANPAONIUNAI:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §f§l饼干泡牛奶
     amount: 1
     material_type: skull_hash
@@ -17236,7 +17238,7 @@ WT_BINGGANPAONIUNAI:
   script: yl5
 WT_FEIJISHUI:
   item:
-    lore: ['', §7§o恢复 §b§l2 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值]
     name: §b§l斐济水
     amount: 1
     material_type: skull_hash
@@ -17268,7 +17270,7 @@ WT_FEIJISHUI:
   script: yl2
 WT_MADAICHA:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §a§l马黛茶
     amount: 1
     material_type: skull_hash
@@ -17308,7 +17310,7 @@ WT_MADAICHA:
   script: yl4
 WT_QIAOKELINAIXI:
   item:
-    lore: ['', §7§o恢复 §b§l6 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值]
     name: §6§l巧克力奶昔
     amount: 1
     material_type: skull_hash
@@ -17348,7 +17350,7 @@ WT_QIAOKELINAIXI:
   script: yl6
 WT_NANGUANATIE:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §c§l南瓜拿铁
     amount: 1
     material_type: skull_hash
@@ -17388,7 +17390,7 @@ WT_NANGUANATIE:
   script: yl4
 WT_YIZHAPIJIU:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §2§l一扎啤酒
     amount: 1
     material_type: skull_hash
@@ -17436,7 +17438,7 @@ WT_YIZHAPIJIU:
   script: yl5
 WT_YIZHAKUANGQUANSHUI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §b§l一扎矿泉水
     amount: 1
     material_type: skull_hash
@@ -17484,7 +17486,7 @@ WT_YIZHAKUANGQUANSHUI:
   script: yl4
 WT_YIZHANIUNAIPING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §f§l一扎牛奶瓶
     amount: 1
     material_type: skull_hash
@@ -17532,7 +17534,7 @@ WT_YIZHANIUNAIPING:
   script: yl4
 WT_MAIDANGLAOQISHUI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l麦当劳汽水
     amount: 1
     material_type: skull_hash
@@ -17564,7 +17566,7 @@ WT_MAIDANGLAOQISHUI:
   script: yl4
 WT_XIANLU:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §e§l仙露
     amount: 1
     material_type: skull_hash
@@ -17604,7 +17606,7 @@ WT_XIANLU:
   script: yl4
 WT_CAIHONGCHA:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §f§l彩虹茶
     amount: 1
     material_type: skull_hash
@@ -17652,7 +17654,7 @@ WT_CAIHONGCHA:
   script: yl5
 WT_NAIPING:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §e§l奶瓶
     amount: 1
     material_type: skull_hash
@@ -17684,7 +17686,7 @@ WT_NAIPING:
   script: yl3
 WT_DANZHUQISHUI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §b§l弹珠汽水
     amount: 1
     material_type: skull_hash
@@ -17724,7 +17726,7 @@ WT_DANZHUQISHUI:
   script: yl4
 WT_BOLUOYING:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §a§l菠萝饮
     amount: 1
     material_type: skull_hash
@@ -17764,7 +17766,7 @@ WT_BOLUOYING:
   script: yl5
 WT_BDBJZQS:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §e§l宾得宝姜汁汽水
     amount: 1
     material_type: skull_hash
@@ -17804,7 +17806,7 @@ WT_BDBJZQS:
   script: yl4
 WT_JIANGSHIJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §4§l僵尸鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -17844,7 +17846,7 @@ WT_JIANGSHIJWJ:
   script: yl4
 WT_YCJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §b§l泳池鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -17884,7 +17886,7 @@ WT_YCJWJ:
   script: yl4
 WT_HONGZHAJIJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l轰炸机鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -17932,7 +17934,7 @@ WT_HONGZHAJIJWJ:
   script: yl4
 WT_LSLRC:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §e§l龙舌兰日出
     amount: 1
     material_type: skull_hash
@@ -17972,7 +17974,7 @@ WT_LSLRC:
   script: yl4
 WT_LVSEDUYAOJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §a§l绿色毒药鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -18012,7 +18014,7 @@ WT_LVSEDUYAOJWJ:
   script: yl4
 WT_XIANGCAIJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §f§l香草鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -18052,7 +18054,7 @@ WT_XIANGCAIJWJ:
   script: yl4
 WT_YELINPIAOXIANGJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l椰林飘香鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -18092,7 +18094,7 @@ WT_YELINPIAOXIANGJWJ:
   script: yl4
 WT_NINGMENGJWJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §e§l柠檬鸡尾酒
     amount: 1
     material_type: skull_hash
@@ -18132,7 +18134,7 @@ WT_NINGMENGJWJ:
   script: yl4
 WT_YANGLEDUO:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §d§l养乐多
     amount: 1
     material_type: skull_hash
@@ -18164,7 +18166,7 @@ WT_YANGLEDUO:
   script: yl3
 WT_YANGLEDUO40:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §9§l养乐多40
     amount: 1
     material_type: skull_hash
@@ -18204,7 +18206,7 @@ WT_YANGLEDUO40:
   script: yl4
 WT_YINGHUANAIYOUSUDA:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §d§l樱花奶油苏打
     amount: 1
     material_type: skull_hash
@@ -18244,7 +18246,7 @@ WT_YINGHUANAIYOUSUDA:
   script: yl4
 WT_KUJING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §b§l苦精
     amount: 1
     material_type: skull_hash
@@ -18284,7 +18286,7 @@ WT_KUJING:
   script: yl4
 WT_SILEBING:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §f§l思乐冰
     amount: 1
     material_type: skull_hash
@@ -18324,7 +18326,7 @@ WT_SILEBING:
   script: yl3
 WT_PINGGUONIANG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l苹果酿
     amount: 1
     material_type: skull_hash
@@ -18364,7 +18366,7 @@ WT_PINGGUONIANG:
   script: yl4
 WT_QINGRENJIENAICHA:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §d§l情人节奶茶
     amount: 1
     material_type: skull_hash
@@ -18404,7 +18406,7 @@ WT_QINGRENJIENAICHA:
   script: yl4
 WT_YUMIYING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §e§l玉米饮
     amount: 1
     material_type: skull_hash
@@ -18444,7 +18446,7 @@ WT_YUMIYING:
   script: yl4
 WT_DADOUYL:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §6§l大豆饮料
     amount: 1
     material_type: skull_hash
@@ -18484,7 +18486,7 @@ WT_DADOUYL:
   script: yl3
 WT_TAIXIANCHA:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
     name: §2§l苔藓茶
     amount: 1
     material_type: skull_hash
@@ -18524,7 +18526,7 @@ WT_TAIXIANCHA:
   script: yl3
 WT_XIANGJIAONX:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §e§l香蕉奶昔
     amount: 1
     material_type: skull_hash
@@ -18564,7 +18566,7 @@ WT_XIANGJIAONX:
   script: yl4
 WT_GEWASI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §6§l格瓦斯
     amount: 1
     material_type: skull_hash
@@ -18604,7 +18606,7 @@ WT_GEWASI:
   script: yl4
 WT_YUGUANTOU:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §b§l鱼罐头
     amount: 1
     material_type: skull_hash
@@ -18652,7 +18654,7 @@ WT_YUGUANTOU:
   script: yl5
 WT_RENZAOYL:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §9§l人造饮料
     amount: 1
     material_type: skull_hash
@@ -18700,7 +18702,7 @@ WT_RENZAOYL:
   script: yl4
 WT_XUEYING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值]
     name: §4§l血饮
     amount: 1
     material_type: skull_hash
@@ -18740,7 +18742,7 @@ WT_XUEYING:
   script: yl4
 WT_HAIMANPAIPJ:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
     name: §b§l海曼牌啤酒
     amount: 1
     material_type: skull_hash
@@ -18825,7 +18827,7 @@ WT_SANSEMUSI:
   script: '8'
 WT_QIAOKELIMUSI:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §6§l巧克力慕斯
     amount: 1
     material_type: skull_hash
@@ -18849,7 +18851,7 @@ WT_QIAOKELIMUSI:
   script: '7'
 WT_YUANWEIMUSI:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §f§l原味慕斯
     amount: 1
     material_type: skull_hash
@@ -18873,7 +18875,7 @@ WT_YUANWEIMUSI:
   script: '6'
 WT_CAOMEIMUSI:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §d§l草莓慕斯
     amount: 1
     material_type: skull_hash
@@ -18905,7 +18907,7 @@ WT_CAOMEIMUSI:
   script: '7'
 WT_QIAOKELIJIANBING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §c§l巧克力煎饼
     amount: 1
     material_type: skull_hash
@@ -18937,7 +18939,7 @@ WT_QIAOKELIJIANBING:
   script: '8'
 WT_ZUANSHIDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §b§l钻石酱曲奇蛋糕
     amount: 1
     material_type: skull_hash
@@ -18969,7 +18971,7 @@ WT_ZUANSHIDG:
   script: '9'
 WT_CAIHONGDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §6§l彩虹蛋糕
     amount: 1
     material_type: skull_hash
@@ -19017,7 +19019,7 @@ WT_CAIHONGDG:
   script: '8'
 WT_GUOJIANGDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §d§l果酱蛋糕
     amount: 1
     material_type: skull_hash
@@ -19049,7 +19051,7 @@ WT_GUOJIANGDG:
   script: '10'
 WT_QIAOKELITTQ:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §6§l巧克力甜甜圈
     amount: 1
     material_type: skull_hash
@@ -19081,7 +19083,7 @@ WT_QIAOKELITTQ:
   script: '7'
 WT_FENHONGQKLTTQ:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §d§l粉红巧克力甜甜圈
     amount: 1
     material_type: skull_hash
@@ -19113,7 +19115,7 @@ WT_FENHONGQKLTTQ:
   script: '7'
 WT_XUETTQ:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §4§l血甜甜圈
     amount: 1
     material_type: skull_hash
@@ -19145,7 +19147,7 @@ WT_XUETTQ:
   script: '7'
 WT_MAKALONG:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §f§l马卡龙
     amount: 1
     material_type: skull_hash
@@ -19185,7 +19187,7 @@ WT_MAKALONG:
   script: '7'
 WT_HULUOBODG:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §6§l胡萝卜蛋糕
     amount: 1
     material_type: skull_hash
@@ -19217,7 +19219,7 @@ WT_HULUOBODG:
   script: '6'
 WT_ZHIBEIDG:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §f§l纸杯蛋糕
     amount: 1
     material_type: skull_hash
@@ -19257,7 +19259,7 @@ WT_ZHIBEIDG:
   script: '6'
 WT_WSJDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §6§l万圣节蛋糕
     amount: 1
     material_type: skull_hash
@@ -19305,7 +19307,7 @@ WT_WSJDG:
   script: '8'
 WT_RONGYANDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §c§l熔岩蛋糕
     amount: 1
     material_type: skull_hash
@@ -19337,7 +19339,7 @@ WT_RONGYANDG:
   script: '8'
 WT_RUISHIJUAN:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §d§l瑞士卷
     amount: 1
     material_type: skull_hash
@@ -19369,7 +19371,7 @@ WT_RUISHIJUAN:
   script: '8'
 WT_QKLRSJ:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §6§l巧克力瑞士卷
     amount: 1
     material_type: skull_hash
@@ -19401,7 +19403,7 @@ WT_QKLRSJ:
   script: '8'
 WT_HUAFUBING:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §c§l华夫饼
     amount: 1
     material_type: skull_hash
@@ -19433,7 +19435,7 @@ WT_HUAFUBING:
   script: '6'
 WT_TUDOUDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §e§l土豆蛋糕
     amount: 1
     material_type: skull_hash
@@ -19473,7 +19475,7 @@ WT_TUDOUDANGAO:
   script: '7'
 WT_JITTQ:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §f§l鸡甜甜圈
     amount: 1
     material_type: skull_hash
@@ -19513,7 +19515,7 @@ WT_JITTQ:
   script: '7'
 WT_WDSJ15ZNQDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §d§l我的世界15周年庆蛋糕
     amount: 1
     material_type: skull_hash
@@ -19561,7 +19563,7 @@ WT_WDSJ15ZNQDG:
   script: '10'
 WT_JIANGSHIDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §2§l僵尸蛋糕
     amount: 1
     material_type: skull_hash
@@ -19601,7 +19603,7 @@ WT_JIANGSHIDG:
   script: '8'
 WT_SHITOUDG:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §8§l石头蛋糕
     amount: 1
     material_type: skull_hash
@@ -19641,7 +19643,7 @@ WT_SHITOUDG:
   script: '6'
 WT_BOLANYSZDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §6§l波兰罂粟籽蛋糕
     amount: 1
     material_type: skull_hash
@@ -19689,7 +19691,7 @@ WT_BOLANYSZDG:
   script: '9'
 WT_LALADG:
   item:
-    lore: ['', §7§o恢复 §b§l5.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5.5 §7§o点饥饿值和饱和度]
     name: §d§l拉拉蛋糕
     amount: 1
     material_type: skull_hash
@@ -19729,7 +19731,7 @@ WT_LALADG:
   script: '11'
 WT_YUEBING:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §6§l月饼
     amount: 1
     material_type: skull_hash
@@ -19777,7 +19779,7 @@ WT_YUEBING:
   script: '8'
 WT_YOUNIMKL:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §b§l幽匿马卡龙
     amount: 1
     material_type: skull_hash
@@ -19825,7 +19827,7 @@ WT_YOUNIMKL:
   script: '8'
 WT_BULANGNI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §e§l布朗尼
     amount: 1
     material_type: skull_hash
@@ -19865,7 +19867,7 @@ WT_BULANGNI:
   script: '8'
 WT_SUANCHENGDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §a§l酸橙蛋糕
     amount: 1
     material_type: skull_hash
@@ -19905,7 +19907,7 @@ WT_SUANCHENGDG:
   script: '8'
 WT_JIANGBINGDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §6§l姜饼蛋糕
     amount: 1
     material_type: skull_hash
@@ -19953,7 +19955,7 @@ WT_JIANGBINGDG:
   script: '10'
 WT_BAITANGBG:
   item:
-    lore: ['', §7§o恢复 §b§l2.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o2.5 §7§o点饥饿值和饱和度]
     name: §f§l白糖饼干
     amount: 1
     material_type: skull_hash
@@ -20001,7 +20003,7 @@ WT_BAITANGBG:
   script: '5'
 WT_XIAJIEDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §d§l下界蛋糕
     amount: 1
     material_type: skull_hash
@@ -20033,7 +20035,7 @@ WT_XIAJIEDANGAO:
   script: '10'
 WT_ZHUTANDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §8§l竹炭蛋糕
     amount: 1
     material_type: skull_hash
@@ -20065,7 +20067,7 @@ WT_ZHUTANDG:
   script: '8'
 WT_MOCHADG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §a§l抹茶蛋糕
     amount: 1
     material_type: skull_hash
@@ -20097,7 +20099,7 @@ WT_MOCHADG:
   script: '8'
 WT_YERONGDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §f§l椰蓉蛋糕
     amount: 1
     material_type: skull_hash
@@ -20137,7 +20139,7 @@ WT_YERONGDG:
   script: '8'
 WT_BEIGUO:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §6§l贝果
     amount: 1
     material_type: skull_hash
@@ -20177,7 +20179,7 @@ WT_BEIGUO:
   script: '7'
 WT_HULIDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §c§l狐狸蛋糕
     amount: 1
     material_type: skull_hash
@@ -20217,7 +20219,7 @@ WT_HULIDANGAO:
   script: '8'
 WT_HUANXIONGDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §f§l浣熊蛋糕
     amount: 1
     material_type: skull_hash
@@ -20265,7 +20267,7 @@ WT_HUANXIONGDG:
   script: '8'
 WT_XIAOGOUDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §6§l小狗蛋糕
     amount: 1
     material_type: skull_hash
@@ -20313,7 +20315,7 @@ WT_XIAOGOUDG:
   script: '8'
 WT_TUZIDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §d§l兔子蛋糕
     amount: 1
     material_type: skull_hash
@@ -20361,7 +20363,7 @@ WT_TUZIDANGAO:
   script: '8'
 WT_LAOSHUDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §8§l老鼠蛋糕
     amount: 1
     material_type: skull_hash
@@ -20409,7 +20411,7 @@ WT_LAOSHUDG:
   script: '8'
 WT_TUDOUTUANZI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §6§l土豆团子
     amount: 1
     material_type: skull_hash
@@ -20457,7 +20459,7 @@ WT_TUDOUTUANZI:
   script: '8'
 WT_XIANGMUDGJ:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §c§l橡木蛋糕卷
     amount: 1
     material_type: skull_hash
@@ -20505,7 +20507,7 @@ WT_XIANGMUDGJ:
   script: '9'
 WT_JUFENGDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §b§l飓风蛋糕
     amount: 1
     material_type: skull_hash
@@ -20553,7 +20555,7 @@ WT_JUFENGDG:
   script: '10'
 WT_KENAIFEI:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §2§l克纳菲
     amount: 1
     material_type: skull_hash
@@ -20601,7 +20603,7 @@ WT_KENAIFEI:
   script: '9'
 WT_QINGNINGPAI:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §a§l青柠派
     amount: 1
     material_type: skull_hash
@@ -20649,7 +20651,7 @@ WT_QINGNINGPAI:
   script: '8'
 WT_XIAJIEHEJINDG:
   item:
-    lore: ['', §7§o恢复 §b§l10 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o10 §7§o点饥饿值和饱和度]
     name: §f§l下界合金蛋糕
     amount: 1
     material_type: skull_hash
@@ -20697,7 +20699,7 @@ WT_XIAJIEHEJINDG:
   script: '20'
 WT_BAKEWANA:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §6§l巴克拉瓦
     amount: 1
     material_type: skull_hash
@@ -20745,7 +20747,7 @@ WT_BAKEWANA:
   script: '9'
 WT_LVJIANGDG:
   item:
-    lore: ['', §7§o恢复 §b§l5.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5.5 §7§o点饥饿值和饱和度]
     name: §a§l绿酱蛋糕
     amount: 1
     material_type: skull_hash
@@ -20793,7 +20795,7 @@ WT_LVJIANGDG:
   script: '11'
 WT_ZISHUIJINGDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §d§l紫水晶蛋糕
     amount: 1
     material_type: skull_hash
@@ -20841,7 +20843,7 @@ WT_ZISHUIJINGDG:
   script: '10'
 WT_BAOSHIDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §9§l宝石蛋糕
     amount: 1
     material_type: skull_hash
@@ -20889,7 +20891,7 @@ WT_BAOSHIDG:
   script: '10'
 WT_HEISENLIN:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §8§l黑森林
     amount: 1
     material_type: skull_hash
@@ -20937,7 +20939,7 @@ WT_HEISENLIN:
   script: '8'
 WT_PINGGUOPAI:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §c§l苹果派
     amount: 1
     material_type: skull_hash
@@ -20977,7 +20979,7 @@ WT_PINGGUOPAI:
   script: '7'
 WT_ZHISHIDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §e§l芝士蛋糕
     amount: 1
     material_type: skull_hash
@@ -21025,7 +21027,7 @@ WT_ZHISHIDANGAO:
   script: '9'
 WT_NYJXDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §f§l奶油夹心蛋糕
     amount: 1
     material_type: skull_hash
@@ -21073,7 +21075,7 @@ WT_NYJXDG:
   script: '8'
 WT_LAJIAODG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §4§l辣椒蛋糕
     amount: 1
     material_type: skull_hash
@@ -21121,7 +21123,7 @@ WT_LAJIAODG:
   script: '8'
 WT_KULIPADG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §a§l苦力怕蛋糕
     amount: 1
     material_type: skull_hash
@@ -21169,7 +21171,7 @@ WT_KULIPADG:
   script: '9'
 WT_ZHIZHUDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §8§l蜘蛛蛋糕
     amount: 1
     material_type: skull_hash
@@ -21217,7 +21219,7 @@ WT_ZHIZHUDG:
   script: '9'
 WT_RENJIDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §f§l人机蛋糕
     amount: 1
     material_type: skull_hash
@@ -21265,7 +21267,7 @@ WT_RENJIDANGAO:
   script: '10'
 WT_MODIDG:
   item:
-    lore: ['', §7§o恢复 §b§l7 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
     name: §e§l末地蛋糕
     amount: 1
     material_type: skull_hash
@@ -21313,7 +21315,7 @@ WT_MODIDG:
   script: '14'
 WT_DUYAODG:
   item:
-    lore: ['', §7§o恢复 §b§l6 §7§o点饥饿值和饱和度, '', '§6特殊效果: §a中毒']
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度, '', '§6特殊效果: §a中毒']
     name: §a§l毒药蛋糕
     amount: 1
     material_type: skull_hash
@@ -21361,7 +21363,7 @@ WT_DUYAODG:
   script: zhongdu2
 WT_XIAJIEMOGUDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §4§l下界蘑菇蛋糕
     amount: 1
     material_type: skull_hash
@@ -21409,7 +21411,7 @@ WT_XIAJIEMOGUDG:
   script: '10'
 WT_YINHEDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §f§l银河蛋糕
     amount: 1
     material_type: skull_hash
@@ -21457,7 +21459,7 @@ WT_YINHEDG:
   script: '9'
 WT_NITUDG:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §6§l泥土蛋糕
     amount: 1
     material_type: skull_hash
@@ -21505,7 +21507,7 @@ WT_NITUDG:
   script: '7'
 WT_YEYINGDG:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §c§l野营蛋糕
     amount: 1
     material_type: skull_hash
@@ -21553,7 +21555,7 @@ WT_YEYINGDG:
   script: '7'
 WT_CAOFANGKUAIDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §a§l草方块蛋糕
     amount: 1
     material_type: skull_hash
@@ -21601,7 +21603,7 @@ WT_CAOFANGKUAIDG:
   script: '9'
 WT_LATEKE:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §6§l拉特克
     amount: 1
     material_type: skull_hash
@@ -21649,7 +21651,7 @@ WT_LATEKE:
   script: '9'
 WT_SHENGDANDG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §c§l圣诞蛋糕
     amount: 1
     material_type: skull_hash
@@ -21697,7 +21699,7 @@ WT_SHENGDANDG:
   script: '8'
 WT_HUNYANDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §d§l婚宴蛋糕
     amount: 1
     material_type: skull_hash
@@ -21745,7 +21747,7 @@ WT_HUNYANDG:
   script: '10'
 WT_YOUNIDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §b§l幽匿蛋糕
     amount: 1
     material_type: skull_hash
@@ -21793,7 +21795,7 @@ WT_YOUNIDG:
   script: '9'
 WT_AIXINFANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §d§l爱心蛋糕
     amount: 1
     material_type: skull_hash
@@ -21841,7 +21843,7 @@ WT_AIXINFANGAO:
   script: '8'
 WT_NAIYOUPAI:
   item:
-    lore: ['', §7§o恢复 §b§l3.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
     name: §f§l奶油派
     amount: 1
     material_type: skull_hash
@@ -21889,7 +21891,7 @@ WT_NAIYOUPAI:
   script: '7'
 WT_SHENGDAIDG:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §e§l圣代蛋糕
     amount: 1
     material_type: skull_hash
@@ -21937,7 +21939,7 @@ WT_SHENGDAIDG:
   script: '9'
 WT_TUTUSHENGDAIDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §d§l兔兔圣代蛋糕
     amount: 1
     material_type: skull_hash
@@ -21985,7 +21987,7 @@ WT_TUTUSHENGDAIDG:
   script: '10'
 WT_XIANGJIAOQKLDG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §e§l香蕉巧克力蛋糕
     amount: 1
     material_type: skull_hash
@@ -22033,7 +22035,7 @@ WT_XIANGJIAOQKLDG:
   script: '10'
 WT_QIAOKELIBMH:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §6§l巧克力爆米花
     amount: 1
     material_type: skull_hash
@@ -22065,7 +22067,7 @@ WT_QIAOKELIBMH:
   script: '9'
 WT_HUANGYOUBMH:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §e§l黄油爆米花
     amount: 1
     material_type: skull_hash
@@ -22089,7 +22091,7 @@ WT_HUANGYOUBMH:
   script: '9'
 WT_SHIJIDANGAO:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §6§l世纪蛋糕
     amount: 1
     material_type: skull_hash
@@ -22137,7 +22139,7 @@ WT_SHIJIDANGAO:
   script: '10'
 WT_BUDING:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §e§l布丁
     amount: 1
     material_type: skull_hash
@@ -22169,7 +22171,7 @@ WT_BUDING:
   script: '6'
 WT_TUDOUTUDOUTUDOU:
   item:
-    lore: ['', §7§o恢复 §b§l2.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o2.5 §7§o点饥饿值和饱和度]
     name: §c§l土豆土豆土豆
     amount: 1
     material_type: skull_hash
@@ -22201,7 +22203,7 @@ WT_TUDOUTUDOUTUDOU:
   script: '5'
 WT_MOJANGDG:
   item:
-    lore: ['', §7§o恢复 §b§l7.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o7.5 §7§o点饥饿值和饱和度]
     name: §c§lmojang蛋糕
     amount: 1
     material_type: skull_hash
@@ -22249,7 +22251,7 @@ WT_MOJANGDG:
   script: '15'
 WT_MEILIJIANPAI:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §d§l美利坚派
     amount: 1
     material_type: skull_hash
@@ -22297,7 +22299,7 @@ WT_MEILIJIANPAI:
   script: '9'
 WT_HAOSHIZHIWEN:
   item:
-    lore: ['', §7§o恢复 §b§l4.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
     name: §f§l好时之吻
     amount: 1
     material_type: skull_hash
@@ -22345,7 +22347,7 @@ WT_HAOSHIZHIWEN:
   script: '9'
 WT_DIUSHICAIZHI:
   item:
-    lore: ['', §7§o恢复 §b§l3 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
     name: §f§l§ka啊啊啊啊a
     amount: 1
     material_type: skull_hash
@@ -22395,7 +22397,7 @@ WT_DIUSHICAIZHI:
 # dlc 1
 WT_YANQIUMIANBAO:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §4§l眼球面包
     amount: 1
     material_type: skull_hash
@@ -22443,7 +22445,7 @@ WT_YANQIUMIANBAO:
   script: '8'
 WT_FAGUN:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §6§l法棍
     amount: 1
     material_type: skull_hash
@@ -22491,7 +22493,7 @@ WT_FAGUN:
   script: '10'
 WT_JIANGBINGREN:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §c§l姜饼人
     amount: 1
     material_type: skull_hash
@@ -22539,7 +22541,7 @@ WT_JIANGBINGREN:
   script: '8'
 WT_PAOCAITANG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §6§l泡菜汤
     amount: 1
     material_type: skull_hash
@@ -22587,7 +22589,7 @@ WT_PAOCAITANG:
   script: tang_5
 WT_DAJIANGTANG:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §f§l大酱汤
     amount: 1
     material_type: skull_hash
@@ -22635,7 +22637,7 @@ WT_DAJIANGTANG:
   script: tang_5
 WT_SHASHATANG:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §a§l莎莎汤
     amount: 1
     material_type: skull_hash
@@ -22683,7 +22685,7 @@ WT_SHASHATANG:
   script: tang_4
 WT_LAJIAONIANGROU:
   item:
-    lore: ['', §7§o恢复 §b§l5.5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5.5 §7§o点饥饿值和饱和度]
     name: §6§l辣椒酿肉
     amount: 1
     material_type: skull_hash
@@ -22731,7 +22733,7 @@ WT_LAJIAONIANGROU:
   script: '11'
 WT_ZHENGZHIZJ:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §6§l整只炸鸡
     amount: 1
     material_type: skull_hash
@@ -22755,7 +22757,7 @@ WT_ZHENGZHIZJ:
   script: '10'
 WT_TUERQIKAOROU:
   item:
-    lore: ['', §7§o恢复 §b§l5 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
     name: §c§l土耳其烤肉
     amount: 1
     material_type: skull_hash
@@ -22787,7 +22789,7 @@ WT_TUERQIKAOROU:
   script: '10'
 WT_YDLLXC:
   item:
-    lore: ['', §7§o恢复 §b§l4 §7§o点饥饿值]
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
     name: §4§l意大利辣香肠
     amount: 1
     material_type: skull_hash
@@ -22815,7 +22817,7 @@ WT_YDLLXC:
   script: '8'
 WT_TAISHISHUIGUOBAN:
   item:
-    lore: ['', §7§o恢复 §b§l5.5 §7§o点饥饿值和饱和度]
+    lore: ['', §7§o恢复 §b§o5.5 §7§o点饥饿值和饱和度]
     name: §a§l泰式水果拌
     amount: 1
     material_type: skull_hash
@@ -22869,7 +22871,7 @@ WT_GUO:
     amount: 1
     material_type: skull_hash
     material: 56f36f28ce2928e6b216ecd446a512a0527b9e6066526a9c5a9373122a1d594c
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '4':
@@ -22899,7 +22901,7 @@ WT_CIWAN:
     amount: 1
     material_type: skull_hash
     material: f4d376a23bc1c1cf6b4b51a7aaa61949aea43b83e3c46c284317ff208d91002d
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '4':
@@ -22929,7 +22931,7 @@ WT_TUSIJI:
     amount: 1
     material_type: skull_hash
     material: 6bf8a699bf1fcca8a8cba3be44f4cbb5a671006c4bd325d51943c216afe28239
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '4':
@@ -22963,7 +22965,7 @@ WT_CHAHU:
     amount: 1
     material_type: skull_hash
     material: 539ecec3112b4f542a2eb21f8917c235a76ae0b4b34b8eb7e8339298ed1b6291
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23001,7 +23003,7 @@ WT_HSCHAHU:
     amount: 1
     material_type: skull_hash
     material: cac6a1415a9c73a4a74c17150b4227a898ac95e48a5e29f9240c12440463a0b7
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23043,7 +23045,7 @@ WT_KAFEIHU:
     amount: 1
     material_type: skull_hash
     material: 90f5548fa1844e5adaaeb7eb6bdc1912d6ed14c98986e94bf37f18be306e34e4
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23089,7 +23091,7 @@ WT_CHABEI:
     amount: 1
     material_type: skull_hash
     material: 98fe97b240e07934d09dbf8bd5a397e1e2dc8a4a1dce3b11c5c19348744d4654
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '4':
@@ -23123,7 +23125,7 @@ WT_YIDIEPANZI:
     amount: 1
     material_type: skull_hash
     material: ea13af36ec8f1c2a6ca8a3b85b0e52864a1b0e77e6b917942780648e7d373ac8
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23169,7 +23171,7 @@ WT_ZANGPANZI:
     amount: 1
     material_type: skull_hash
     material: ad66b25fbf685b09d33ecab17db4135fccecc3016d9e8045249e818759f2feb6
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23215,7 +23217,7 @@ WT_ZHALAN:
     amount: 1
     material_type: skull_hash
     material: 29963378ffebec420f4c8a58ad696a1518d57ec56f9069e5c920d63d5ee4eff3
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '3':
@@ -23249,7 +23251,7 @@ WT_WEIBOLU:
     amount: 1
     material_type: skull_hash
     material: a39334739a40831e237433ea37e297346d8186e16f7125b8c1e4919d9ebb63d
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23295,7 +23297,7 @@ WT_MINIBX:
     amount: 1
     material_type: skull_hash
     material: d038e9bba3af6a03756a2e704a3a7cbc39968d346207391c4005d47fa6780d4f
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23341,7 +23343,7 @@ WT_KAOROULU:
     amount: 1
     material_type: skull_hash
     material: 10447db5b0da84cc7737604e14d38e50bd391f997a93df2b847b45b51ba9d75f
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23383,7 +23385,7 @@ WT_CHUFANGGJJ:
     amount: 1
     material_type: skull_hash
     material: 4c48044e937c044920ec0d537cfb31d89d07a51724f38db19f8bf7cc7293d65d
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23429,7 +23431,7 @@ WT_GAOYAGUO:
     amount: 1
     material_type: skull_hash
     material: 78a4a1815b59867c9d2790c44ea5da544629242599cdf830b1491c7ff303755
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23475,7 +23477,7 @@ WT_KONGWAN:
     amount: 1
     material_type: skull_hash
     material: 99b873b4e216019cc2f8066097d2eee4af642c14264bb35e676c0c11e5eae961
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '4':
@@ -23509,7 +23511,7 @@ WY_KONGBEIZI:
     amount: 1
     material_type: skull_hash
     material: 65171f741afbab99022556ca6c288f447a29d9f3be9733395d8a16072dc9571d
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23551,7 +23553,7 @@ WT_CHUFANGDJJ:
     amount: 1
     material_type: skull_hash
     material: 5a1b900eb5d253a40cffdff564e49e6e1d8022ab33e19cbc30a7175b4cfc6bc2
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23589,7 +23591,7 @@ WT_TAOCHAHU:
     amount: 1
     material_type: skull_hash
     material: ecbcfdc8c49581577eea2f71f6f7fcb86a361faf8765693ec204bcec6c32a6e
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23627,7 +23629,7 @@ WT_HEFENGCHAHU:
     amount: 1
     material_type: skull_hash
     material: 4a43441bd64259bb1349c4bfc8d34beda0dc91bbe44aeb81a7752f1683cd40
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23665,7 +23667,7 @@ WT_YIDAIDAMI:
     amount: 1
     material_type: skull_hash
     material: cb70f2fb5ebf49f79ff3e873616863ae5d362fbbfc31aef2dfb93d6e17dbf2
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23711,7 +23713,7 @@ WT_YIDAITANG:
     amount: 1
     material_type: skull_hash
     material: 53ce76602d3fec7c0273da60009007be4140ac9fac0341450c0757e53d751577
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23757,7 +23759,7 @@ WT_CANJINGJIA:
     amount: 1
     material_type: skull_hash
     material: c4b6f220d9d5823327f08b449f2df8682dd7e5f533affe9b86fb5d7421e1c
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23803,7 +23805,7 @@ WT_CHUSHIMAO:
     amount: 1
     material_type: skull_hash
     material: 15619d1c298e0454799cdc34a42cd7c0612b7203a4f85fb0752aa96bef69bd0e
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23841,7 +23843,7 @@ WT_JIAOBANJI:
     amount: 1
     material_type: skull_hash
     material: f5e0304e7f74e82208a7bfbc4cda4794952d879e8a1709b9b9471746c462ea7
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23883,7 +23885,7 @@ WT_SHUICHI:
     amount: 1
     material_type: skull_hash
     material: 6bc35b68bc14d49b08288f6e722c438fd8b283101b4342909bfa62002d06f7da
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23929,7 +23931,7 @@ WT_YINGSHUIJI:
     amount: 1
     material_type: skull_hash
     material: db1a806b1ba267e0bbc2c5d4a8feb420acb4362e57a9d1090450a47ad525adc6
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -23975,7 +23977,7 @@ WT_CHUWULAN:
     amount: 1
     material_type: skull_hash
     material: 364fbe2131da72ea4bf55d49560fd88d68f950ab70ee16be0b0bf72b24b98a66
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -24021,7 +24023,7 @@ WT_KAFEITAI:
     amount: 1
     material_type: skull_hash
     material: 16ddb3f1bb64e8f3c0cabf84dbc58ae8d38d84c1a1858b41bd3173c0da4f
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '2':
@@ -24059,7 +24061,7 @@ WT_GOUHUOJZG:
     amount: 1
     material_type: skull_hash
     material: 330fdf16ba25c5cd28b0d81a4d6c60e1a6f3c889dc0f94293783af191ee511f6
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -24093,7 +24095,7 @@ WT_TIAOLIAOJIA:
     amount: 1
     material_type: skull_hash
     material: 192685c04a867c86aac78cb8e5abd1d3b56b161cee0fbf5b7ab56d1aad4d4b9
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -24139,7 +24141,7 @@ WT_XIJIEJING:
     amount: 1
     material_type: skull_hash
     material: a85a5bc211e9b3e05911cf7d9f63eefada89005123450ce5c7065d84cb913487
-  item_group: ws_jiqi
+  item_group: ws_cfzs
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     '1':
@@ -24179,14 +24181,714 @@ WT_XIJIEJING:
       material_type: mc
       material: ORANGE_TERRACOTTA
   placeable: true
-WT_FENGEXIAN1:
+
+# 烤肉
+WT_KWANJIAROU:
   item:
-    lore: [ §f左边为装饰物品, §f右边为功能机器]
-    name: §e§l分割线
+    name: §f§l烤玩家肉
+    amount: 1
+    material_type: skull_hash
+    material: 5e689337cd66ad29a632a4cb05eea42ec8a1406c2d10284479da0696a9b2b9a1
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_RENROU
+  placeable: false
+  script: 6
+WT_KBIANFUROU:
+  item:
+    name: §f§l烤蝙蝠肉
+    amount: 1
+    material_type: skull_hash
+    material: be7a4a933e18210f57c7d9c20e68d2afa373c27d0fc163136000a334c4e3ff3c
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_BIANFUROU
+  placeable: false
+  script: 3
+WT_KLVROU:
+  item:
+    name: §f§l烤驴肉排
+    amount: 1
+    material_type: skull_hash
+    material: 513fdcf7a6e25580d1a044b57e843e3174a0ca5a9fbde361058c8d0f4fdf6474
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_LVROU
+  placeable: false
+  script: 5
+WT_KFGYY:
+  item:
+    name: §f§l烤发光鱿鱼
+    amount: 1
+    material_type: skull_hash
+    material: 8156770ca20dc2dc4de4672e5e11a7a3fd9cc4e98cbffd3382b0d034b93a6d4
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_FAGUANGYOUYU
+  placeable: false
+  script: 4
+WT_KMRP:
+  item:
+    name: §f§l烤马肉排
+    amount: 1
+    material_type: skull_hash
+    material: 66ca1698f77d60b8b92c795ab9ed5bf3f35ba9ffde433175a53fdfe32dedd
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_MAROU
+  placeable: false
+  script: 6
+WT_KLRP:
+  item:
+    name: §f§l烤骡肉排
+    amount: 1
+    material_type: skull_hash
+    material: 667f91a027b6dc0649e78a16ad6edb35c584eeec193d074b2e97709aa9e7fcd6
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_LUOROU
+  placeable: false
+  script: 6
+WT_KMOGUNIURP:
+  item:
+    name: §f§l烤蘑菇牛肉排
+    amount: 1
+    material_type: skull_hash
+    material: 776e03f37b88742ed3cc097648691575274366918bf58c07c26a9c07341eac44
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_MOGUNIUROU
+  placeable: false
+  script: 5
+WT_KKLMLG:
+  item:
+    name: §f§l烤骷髅马肋骨
+    amount: 1
+    material_type: skull_hash
+    material: 631cb0163b86b4c22ef31b9dd97c25a579f99f7a3a9aa2df3fbe16e3235d966f
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_KULOUMA
+  placeable: false
+  script: 6
+WT_KCZSTR:
+  item:
+    name: §f§l烤炽足兽腿肉
+    amount: 1
+    material_type: skull_hash
+    material: cb8172c2dfe3f94e92eeaf72f78fcf634e996657ff74d73d93e5781528b4583
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_CHIZHUSHOUTUIROU
+  placeable: false
+  script: 4
+WT_KKD:
+  item:
+    name: §f§l烤蝌蚪
+    amount: 1
+    material_type: skull_hash
+    material: 331ffa1fcf017af60e312912db72963c5714731cbf991a76edff47082f138280
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_KEDOU
+  placeable: false
+  script: 3
+WT_KHGRP:
+  item:
+    name: §f§l烤海龟肉排
+    amount: 1
+    material_type: skull_hash
+    material: b1bd93596a3464a5e75f2829e1bbc72f769838f9d91bc9c8494dabc2c39766
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_HAIGUISHOUROUPAI
+  placeable: false
+  script: 4
+WT_KLLSRRP:
+  item:
+    name: §f§l烤流浪商人肉排
+    amount: 1
+    material_type: skull_hash
+    material: 52107d284835fdf958359b4871f2c593e72d77a4ccd9657ccf642f953b7b35
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_LIULANGSHANGRENROUPAI
+  placeable: false
+  script: 5
+WT_KCMP:
+  item:
+    name: §f§l烤村民肉排
+    amount: 1
+    material_type: skull_hash
+    material: eb4da22499de2b666dc2468b96b53de8629d1e469fcc57f7ce97799676b6c0f1
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_CUNMINGROU
+  placeable: false
+  script: 5
+WT_KMXY:
+  item:
+    name: §f§l烤美西螈
+    amount: 1
+    material_type: skull_hash
+    material: 996d51654667aecda6bbb46516990a2e2c63ac87511a1ca8108a0b5aaae692be
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_MEIXIYUANROU
+  placeable: false
+  script: 4
+WT_KXKLRP:
+  item:
+    name: §f§l烤雪傀儡肉排
+    amount: 1
+    material_type: skull_hash
+    material: cddaf2e94453f530861e05a00d434ae4c01aafd0499ff2c24cbe1bf3499f2e40
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_XUERENROU
+  placeable: false
+  script: 3
+WT_KMFR:
+  item:
+    name: §f§l烤蜜蜂肉
+    amount: 1
+    material_type: skull_hash
+    material: 6bbfac9c277966fe27af60c7ee14062c5aa69d2adf665e662acd8dcd4585098f
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SHENGMIFENGOU
+  placeable: false
+  script: 3
+WT_KHTR:
+  item:
+    name: §f§l烤海豚肉排
+    amount: 1
+    material_type: skull_hash
+    material: ad2a6a107c0fb45e2b469e143b8ec9fe2e3269e0658d52e71b4b622a021adbfb
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SHENGHAITUNROU
+  placeable: false
+  script: 5
+WT_KTKLROUPAI:
+  item:
+    name: §f§l烤铁傀儡肉排
+    amount: 1
+    material_type: skull_hash
+    material: 595b52ff03a17c535fab4ce99217d463e00ec52572a1f6edaa27455876baa48c
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_TIEKUILEIROU
+  placeable: false
+  script: 4
+WT_KSWZR:
+  item:
+    name: §f§l烤守卫者肉
+    amount: 1
+    material_type: skull_hash
+    material: 6c3701fe7131861ed4cbe3c0846923400845e470167283a31747807f3fce423c
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SHOUWEIZHEROU
+  placeable: false
+  script: 3
+WT_KLYRTR:
+  item:
+    name: §f§l烤烈焰人腿肉
+    amount: 1
+    material_type: skull_hash
+    material: f7bec376ecbec54dc6795cbca4918e12b153dd34a0827abc9ba7be63af87c078
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_LIEYANRENTUI
+  placeable: false
+  script: 4
+WT_KKLPTR:
+  item:
+    name: §f§l烤苦力怕腿肉
+    amount: 1
+    material_type: skull_hash
+    material: feec4fbd3f9a163aaf47184b2cac4755a7966b38434d9832501bf84ba5f4b477
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_KULIPATUI
+  placeable: false
+  script: 4
+WT_KMYMR:
+  item:
+    name: §f§l烤末影螨肉
+    amount: 1
+    material_type: skull_hash
+    material: ea953869a0c53e7c5c012115c2a4303ccbff9d2fb78bad4e28d066ed16d0f91
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_MOYINGMAN
+  placeable: false
+  script: 3
+WT_KEHCSR:
+  item:
+    name: §f§l烤恶魂触手肉
+    amount: 1
+    material_type: skull_hash
+    material: 548c452d8f9bb9da35fc71e0ad441e37e8ad184a2bd7866c162f7f2e1a46dff
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_EHUNCUSHOU
+  placeable: false
+  script: 6
+WT_KSKR:
+  item:
+    name: §f§l烤尸壳肉
+    amount: 1
+    material_type: skull_hash
+    material: f658e796fa7194cf9512d4106615cf4452e0acc5388ef004e01013234cf9d88
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SHIKEROU
+  placeable: false
+  script: 4
+WT_KHYR:
+  item:
+    name: §f§l烤幻翼肉排
+    amount: 1
+    material_type: skull_hash
+    material: 83ab022dba02b14b86f2293fe51c4df9d51b6cd0ced16aaf139e3e7fd3809dba
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_HUANYIROU
+  placeable: false
+  script: 5
+WT_KDCR:
+  item:
+    name: §f§l烤蠹虫肉
+    amount: 1
+    material_type: skull_hash
+    material: 33397111bf3f2a59374c186fa8b7556c6e50423b116e252a89f6b4225b3980e4
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUCHONGROU
+  placeable: false
+  script: 3
+WT_KLLZLG:
+  item:
+    name: §f§l烤流浪者肋骨
+    amount: 1
+    material_type: skull_hash
+    material: 22f67e373a60c1de24a00a5906edbb91f362eb762b2b01fdc670b4e208ac272a
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_LIULANGZHELEIGU
+  placeable: false
+  script: 4
+WT_KJSZR:
+  item:
+    name: §f§l烤坚守者肉排
+    amount: 1
+    material_type: skull_hash
+    material: d289a9aae012c03b5bd1a9afe79c84e0ccc6286a12b0bb91b4a7c22ee9f86c4f
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_JIANSHOUZHEROU
+  placeable: false
+  script: 10
+WT_KJSYZSR:
+  item:
+    name: §f§l烤僵尸疣猪兽肉排
+    amount: 1
+    material_type: skull_hash
+    material: a6407a2dd139a546de56251fb68722aecc01e96bcb72c03cfe22dac3441cc45c
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_JSYOUZHUSHOUROU
+  placeable: false
+  script: 10
+WT_KDLR:
+  item:
+    name: §f§l烤凋灵肉排
+    amount: 1
+    material_type: skull_hash
+    material: 15944345b09a612d06001ba42667e203ac59223c0eaec5832ff2cd00bb2bebb1
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DIAOLINGROU
+  placeable: false
+  script: 9
+WT_KJSMR:
+  item:
+    name: §f§l烤僵尸马肉排
+    amount: 1
+    material_type: skull_hash
+    material: cf9ddcbf2438e6ee0740cdeaed9465210dd9a386aa77a1c1a366433d460193f8
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_JIANGSHIMAROU
+  placeable: false
+  script: 6
+WT_KNGR:
+  item:
+    name: §f§l烤恼鬼肉
     amount: 1
     material_type: mc
-    material: YELLOW_STAINED_GLASS_PANE
-  item_group: ws_jiqi
-  recipe_type: 'NULL'
+    material: BLUE_DYE
+    glow: true
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_NAOGUIROU
   placeable: false
-
+  script: 3
+WT_KDLKLCG:
+  item:
+    name: §f§l烤凋灵骷髅脆骨
+    amount: 1
+    material_type: skull_hash
+    material: a3db321a02806ddf18217222afa80ed8f47cc890be3235ef1d90cc8d790733a8
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DIAOLINGKULOULEIGU
+  placeable: false
+  script: 5
+WT_KMYRCG:
+  item:
+    name: §f§l烤末影人脆骨
+    amount: 1
+    material_type: skull_hash
+    material: 88835aee584536a02691ba2cbc293b8c27aa8365d64e5339121f9440b19a06ef
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_MOYINGRENCUIGU
+  placeable: false
+  script: 3
+WT_KZZR:
+  item:
+    name: §f§l烤蜘蛛肉
+    amount: 1
+    material_type: skull_hash
+    material: b097d08ada8bde69228345b6d10565c854f7ae9d244a1289f1bf9f2e84945580
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_ZHIZHUROU
+  placeable: false
+  script: 4
+WT_KDXZZR:
+  item:
+    name: §f§l烤洞穴蜘蛛肉
+    amount: 1
+    material_type: skull_hash
+    material: b6d79c0268747941df9a2a45103cbd731fdedcba588f643b670fd77aa2bd918c
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DONGXUEZHIZHUROU
+  placeable: false
+  script: 4
+WT_KYDJ:
+  item:
+    name: §f§l可疑的酱
+    amount: 1
+    material_type: skull_hash
+    material: 8aebd0df92ebf43a744e86663230cb08274faf303e6b3caef4e50d3838fbf14f
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SHILAIMUNI
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_YANJIANGGUAINI
+  placeable: false
+  script: 8
+WT_KQYR:
+  item:
+    name: §f§l烤犰狳肉
+    amount: 1
+    material_type: skull_hash
+    material: c6339a036039d686b0b207393574f39d622c23cfd1dac39d5c467d15f7e229d6
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_QIUYUROU
+  placeable: false
+  script: 5
+  register:
+    conditions:
+      - version >= 1.20.5
+WT_KXFR:
+  item:
+    name: §f§l烤旋风肉
+    amount: 1
+    material_type: skull_hash
+    material: 236a393adc2eb2537ce42316da256754c1639311813c4ef8c34165b42dfb9022
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_XUANFENGROU
+  placeable: false
+  script: 5
+  register:
+    conditions:
+      - version >= 1.21
+WT_KZHTX:
+  item:
+    name: §f§l烤沼骸苔藓
+    amount: 1
+    material_type: mc
+    material: GLOW_LICHEN
+    glow: true
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_ZHAOHAITAIXIAN
+  placeable: false
+  script: 3
+  register:
+    conditions:
+      - version >= 1.21
+WT_KGAZHIROU:
+  item:
+    name: §f§l烤嘎枝肉
+    amount: 1
+    material_type: skull_hash
+    material: f1cfeebbe2f6868f730cadf89baff660b8d2cd4d6778e7c53ae656964a40f44d
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_GAZHIROU
+  placeable: false
+  script: 5
+  register:
+    conditions:
+      - version >= 1.21.3
+WT_KAOFUROU:
+  item:
+    name: §f§l烤腐肉
+    amount: 1
+    material_type: mc
+    material: LEATHER
+    glow: true
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: ROTTEN_FLESH
+  placeable: false
+  script: 5
+WT_KAOCAN:
+  item:
+    name: §f§l烤蚕
+    amount: 1
+    material_type: skull_hash
+    material: c6339a036039d686b0b207393574f39d622c23cfd1dac39d5c467d15f7e229d6
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_CAN
+  placeable: false
+  script: 4
+WT_KZSG:
+  item:
+    name: §f§l烤紫颂果肉
+    amount: 1
+    material_type: mc
+    material: POPPED_CHORUS_FRUIT
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: CHORUS_FRUIT
+  placeable: false
+  script: 6
+WT_KZSH:
+  item:
+    name: §f§l烤紫颂花
+    amount: 1
+    material_type: skull_hash
+    material: 304e49906227e034a83279e1629ceff082c99ef7b9c24837265147c0ebfa1a9b
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: CHORUS_FLOWER
+  placeable: false
+  script: 6
+WT_KZSZZ:
+  item:
+    name: §f§l烤紫颂植株
+    amount: 1
+    material_type: skull_hash
+    material: c40f1db9714fa143b2cd4ab4b1a134dbf2fec5ce04911b21eefe7911361eb9
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: CHORUS_PLANT
+  placeable: false
+  script: 6

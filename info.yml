@@ -6,7 +6,8 @@ pluginDepends:
 - ExoticGarden
 softDepends:
 - Cultivation
-version: Release-1.1
+version: Release-1.2
+# scriptListener: yu
 description: 尘世五味，为粘液科技添加了上百种食物
 authors:
 - haiman233

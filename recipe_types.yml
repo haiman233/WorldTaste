@@ -58,6 +58,13 @@ WUWEI_JUANYAN:
   lore:
     - '&7该物品需要在卷烟台里制作'
   material: BARREL
+WUWEI_JYKRL:
+  lateInit: false
+  name: '&f&l简易烤肉炉'
+  lore:
+    - '&7该物品需要在简易烤肉炉里制作'
+    - '&7可以烤原版食物'
+  material: FURNACE
 WUWEI_WAJUE:
   lateInit: false
   name: '&f&l挖掘方块'
