@@ -79,3 +79,24 @@ WUWEI_BWWYL:
     - '&7具体配方详见&6百味万用炉'
   material_type: skull_hash
   material: 2f5cffcc555c21e17a68f411ad5c19f089d36f42c9e04cd5c5ee6cd77439970e
+WUWEI_ZZJDY:
+  lateInit: false
+  name: '&f&l种子鉴定仪'
+  lore:
+    - '&7该物品需要&6种子鉴定仪&7中制作'
+  material_type: skull_hash
+  material: cde017ff05bff237c4b18b9f2ea6804e3d84c2bc7446f28e5d6f449139f560ab
+WUWEI_SHOUHUOZUOWU:
+  lateInit: false
+  name: '&f&l收获作物获取'
+  lore:
+    - '&7获得该物品需要收获对应作物'
+  material_type: mc
+  material: IRON_HOE
+WUWEI_ZHUSUNWAJUE:
+  lateInit: false
+  name: '&f&l挖掘竹笋获取'
+  lore:
+    - '&7就是竹子刚种下去时的笋尖'
+  material_type: mc
+  material: DIAMOND_HOE

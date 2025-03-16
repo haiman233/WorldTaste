@@ -1,0 +1,689 @@
+WT_ZHONGZIJDY:
+  item:
+    name: "&e&l种子分析仪"
+    lore: 
+      - ""
+      - "&7用于分析未鉴定的种子"
+    material_type: skull_hash
+    material: cde017ff05bff237c4b18b9f2ea6804e3d84c2bc7446f28e5d6f449139f560ab
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HOOK
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HOOK
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+  capacity: 1000
+  energyPerCraft: 15
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SCZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_XHLB
+          amount: 1
+          chance: 40
+        '2':
+          material_type: slimefun
+          material: WT_SEED_TQ
+          amount: 1
+          chance: 50
+        '3':
+          material_type: slimefun
+          material: WT_SEED_JC
+          amount: 1
+          chance: 30
+        '4':
+          material_type: slimefun
+          material: WT_SEED_XHL
+          amount: 1
+          chance: 10
+        '5':
+          material_type: slimefun
+          material: WT_SEED_BLB
+          amount: 1
+          chance: 17
+        '6':
+          material_type: slimefun
+          material: WT_SEED_SHENGJIANG
+          amount: 1
+          chance: 30
+        '7':
+          material_type: slimefun
+          material: WT_SEED_DOUYA
+          amount: 1
+          chance: 56
+        '8':
+          material_type: slimefun
+          material: WT_SEED_YANGJI
+          amount: 1
+          chance: 8
+        '9':
+          material_type: slimefun
+          material: WT_SEED_XIANGGU
+          amount: 1
+          chance: 45
+        '10':
+          material_type: slimefun
+          material: WT_SEED_YUTOU
+          amount: 1
+          chance: 40
+        '11':
+          material_type: slimefun
+          material: WT_SEED_DASUAN
+          amount: 1
+          chance: 20
+        '12':
+          material_type: slimefun
+          material: WT_SEED_ZIGANLAN
+          amount: 1
+          chance: 22
+        '13':
+          material_type: slimefun
+          material: WT_SEED_QIEZI
+          amount: 1
+          chance: 33
+        '14':
+          material_type: slimefun
+          material: WT_SEED_CAIGOU
+          amount: 1
+          chance: 1
+        '15':
+          material_type: slimefun
+          material: WT_SEED_SHENGCAI
+          amount: 1
+          chance: 70
+        '16':
+          material_type: slimefun
+          material: WT_SEED_XIHONGSHI
+          amount: 1
+          chance: 68
+        '17':
+          material_type: slimefun
+          material: WT_SEED_YANGCONG
+          amount: 1
+          chance: 65
+        '18':
+          material_type: slimefun
+          material: WT_SEED_RIBENNANGUA
+          amount: 1
+          chance: 10
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YMZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CORN_BUSH
+          amount: 1
+          chance: 90
+        '2':
+          material_type: slimefun
+          material: WT_SEED_YMHFJ
+          amount: 1
+          chance: 1
+        '3':
+          material_type: slimefun
+          material: WT_SEED_YZYM
+          amount: 1
+          chance: 50
+        '4':
+          material_type: slimefun
+          material: WT_SEED_LYM
+          amount: 1
+          chance: 10
+        '5':
+          material_type: slimefun
+          material: WT_SEED_HYM
+          amount: 1
+          chance: 3
+        '6':
+          material_type: slimefun
+          material: WT_SEED_QYM
+          amount: 1
+          chance: 20
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_LJZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: RED_BELL_PEPPER_BUSH
+          amount: 1
+          chance: 35
+        '2':
+          material_type: slimefun
+          material: GN_CHILI_PEPPER_SEEDS
+          amount: 1
+          chance: 90
+        '3':
+          material_type: slimefun
+          material: WT_SEED_QINGJIAO
+          amount: 1
+          chance: 40
+        '4':
+          material_type: slimefun
+          material: WT_SEED_HWNLJ
+          amount: 1
+          chance: 15
+        '5':
+          material_type: slimefun
+          material: WT_SEED_KLLNSSLJ
+          amount: 1
+          chance: 1
+        '6':
+          material_type: slimefun
+          material: WT_SEED_QJJ
+          amount: 1
+          chance: 42
+        '7':
+          material_type: slimefun
+          material: WT_SEED_MXGLJ
+          amount: 1
+          chance: 20
+        '8':
+          material_type: slimefun
+          material: WT_SEED_HLPNALJ
+          amount: 1
+          chance: 15
+        '9':
+          material_type: slimefun
+          material: WT_SEED_TGLJ
+          amount: 1
+          chance: 8
+        '10':
+          material_type: slimefun
+          material: WT_SEED_DLJ
+          amount: 1
+          chance: 5
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_WDZWZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_CLZ
+          amount: 1
+          chance: 15
+        '2':
+          material_type: slimefun
+          material: WT_SEED_MGL
+          amount: 1
+          chance: 40
+        '3':
+          material_type: slimefun
+          material: WT_SEED_MHT
+          amount: 1
+          chance: 30
+        '4':
+          material_type: slimefun
+          material: WT_SEED_MEIZI
+          amount: 1
+          chance: 25
+        '5':
+          material_type: slimefun
+          material: WT_SEED_HONGZAO
+          amount: 1
+          chance: 30
+        '6':
+          material_type: slimefun
+          material: WT_SEED_SANGSHEN
+          amount: 1
+          chance: 50
+        '7':
+          material_type: slimefun
+          material: WT_SEED_CULI
+          amount: 1
+          chance: 40
+        '8':
+          material_type: slimefun
+          material: WT_SEED_QINGTI
+          amount: 1
+          chance: 50
+        '9':
+          material_type: slimefun
+          material: WT_SEED_GANXIA
+          amount: 1
+          chance: 20
+        '10':
+          material_type: slimefun
+          material: WT_SEED_SHILIU
+          amount: 1
+          chance: 60
+        '11':
+          material_type: slimefun
+          material: WT_SEED_PIPA
+          amount: 1
+          chance: 45
+        '12':
+          material_type: slimefun
+          material: WT_SEED_WENBOGUO
+          amount: 1
+          chance: 6
+        '13':
+          material_type: slimefun
+          material: WT_SEED_XIANGSU
+          amount: 1
+          chance: 10
+        '14':
+          material_type: slimefun
+          material: WT_SEED_MIANHUA
+          amount: 1
+          chance: 3
+        '15':
+          material_type: slimefun
+          material: WT_SEED_PIJIUHUA
+          amount: 1
+          chance: 12
+        '16':
+          material_type: slimefun
+          material: WT_SEED_MOCHA
+          amount: 1
+          chance: 30
+        '17':
+          material_type: slimefun
+          material: WT_SEED_SHIZI
+          amount: 1
+          chance: 45
+        '18':
+          material_type: slimefun
+          material: WT_SEED_YANCAO
+          amount: 1
+          chance: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '5':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RDZWZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_HUANGJINGGUO
+          amount: 1
+          chance: 35
+        '2':
+          material_type: slimefun
+          material: WT_SEED_YANGTAO
+          amount: 1
+          chance: 20
+        '3':
+          material_type: slimefun
+          material: WT_SEED_QINGNING
+          amount: 1
+          chance: 60
+        '4':
+          material_type: slimefun
+          material: WT_SEED_MAMEIGUO
+          amount: 1
+          chance: 45
+        '5':
+          material_type: slimefun
+          material: WT_SEED_QINGXIANGJIAO
+          amount: 1
+          chance: 60
+        '6':
+          material_type: slimefun
+          material: WT_SEED_KEKEGUO
+          amount: 1
+          chance: 66
+        '7':
+          material_type: slimefun
+          material: WT_SEED_SHEPIGUO
+          amount: 1
+          chance: 25
+        '8':
+          material_type: slimefun
+          material: WT_SEED_FEIZHOULI
+          amount: 1
+          chance: 32
+        '9':
+          material_type: slimefun
+          material: WT_SEED_MANGGUO
+          amount: 1
+          chance: 30
+        '10':
+          material_type: slimefun
+          material: WT_SEED_SUANJIAO
+          amount: 1
+          chance: 6
+        '11':
+          material_type: slimefun
+          material: WT_SEED_LIULIAN
+          amount: 1
+          chance: 4
+        '12':
+          material_type: slimefun
+          material: WT_SEED_MIYOU
+          amount: 1
+          chance: 10
+        '13':
+          material_type: slimefun
+          material: WT_SEED_HEIGANLAN
+          amount: 1
+          chance: 15
+        '14':
+          material_type: slimefun
+          material: WT_SEED_FANSHILIU
+          amount: 1
+          chance: 25
+        '15':
+          material_type: slimefun
+          material: WT_SEED_XUECHENG
+          amount: 1
+          chance: 15
+        '16':
+          material_type: slimefun
+          material: WT_SEED_WUHUAGUO
+          amount: 1
+          chance: 20
+        '17':
+          material_type: slimefun
+          material: WT_SEED_KAFEIDOU
+          amount: 1
+          chance: 22
+        '18':
+          material_type: slimefun
+          material: WT_SEED_MIANBAOGUO
+          amount: 1
+          chance: 35
+        '19':
+          material_type: slimefun
+          material: WT_SEED_BOLUOMI
+          amount: 1
+          chance: 16
+        '20':
+          material_type: slimefun
+          material: WT_SEED_HAMIGUA
+          amount: 1
+          chance: 12
+        '21':
+          material_type: slimefun
+          material: WT_SEED_MUGUA
+          amount: 1
+          chance: 15
+        '22':
+          material_type: slimefun
+          material: WT_SEED_RENXINGUO
+          amount: 1
+          chance: 6
+        '23':
+          material_type: slimefun
+          material: WT_SEED_SHUFANQIE
+          amount: 1
+          chance: 8
+        '24':
+          material_type: slimefun
+          material: WT_SEED_FENGGUNCAO
+          amount: 1
+          chance: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '6':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_ZALDJGR
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_JIANGUO
+          amount: 1
+          chance: 10
+        '2':
+          amount: 1
+          chance: 90
+          material_type: mc
+          material: COCOA_BEANS
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '7':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XJZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_EMOGUOSHI
+          amount: 1
+          chance: 1
+        '2':
+          material_type: slimefun
+          material: WT_SEED_GUIJIAO
+          amount: 1
+          chance: 10
+        '3':
+          material_type: slimefun
+          material: WT_SEED_GUIYIGUO
+          amount: 1
+          chance: 8
+        '4':
+          amount: 1
+          chance: 90
+          material_type: mc
+          material: NETHER_WART
+        '5':
+          amount: 1
+          chance: 65
+          material_type: mc
+          material: NETHER_SPROUTS
+        '6':
+          amount: 1
+          chance: 50
+          material_type: mc
+          material: WARPED_ROOTS
+        '7':
+          amount: 1
+          chance: 50
+          material_type: mc
+          material: CRIMSON_ROOTS
+        '8':
+          amount: 1
+          chance: 40
+          material_type: mc
+          material: CRIMSON_FUNGUS
+        '9':
+          amount: 1
+          chance: 40
+          material_type: mc
+          material: WARPED_FUNGUS
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '8':
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MDZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_ZISONGYE
+          amount: 1
+          chance: 40
+        '2':
+          material_type: slimefun
+          material: WT_SEED_MODIGUO
+          amount: 1
+          chance: 35
+        '3':
+          material_type: slimefun
+          material: WT_SEED_MANDELACAO
+          amount: 1
+          chance: 2
+        '4':
+          material_type: slimefun
+          material: WT_SEED_RENSHEN
+          amount: 1
+          chance: 1
+        '5':
+          amount: 1
+          chance: 90
+          material_type: mc
+          material: CHORUS_FLOWER
+        '6':
+          amount: 1
+          chance: 48
+          material_type: mc
+          material: CHORUS_PLANT
+        '7':
+          amount: 1
+          chance: 60
+          material_type: mc
+          material: CHORUS_FRUIT
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '9':
+      seconds: 180
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_QGDZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_ZUANSHIHULUOBO
+          amount: 1
+          chance: 1
+        '2':
+          material_type: slimefun
+          material: WT_SEED_TIEHULUOBO
+          amount: 1
+          chance: 60
+        '3':
+          material_type: slimefun
+          material: WT_SEED_NAMITUDOU
+          amount: 1
+          chance: 45
+        '4':
+          material_type: slimefun
+          material: WT_SEED_ZUANSHINANGUA
+          amount: 1
+          chance: 1
+        '5':
+          material_type: slimefun
+          material: WT_SEED_QJSXJ
+          amount: 1
+          chance: 12
+        '6':
+          amount: 1
+          chance: 1
+          material_type: mc
+          material: DIAMOND
+        '7':
+          amount: 4
+          chance: 20
+          material_type: mc
+          material: LAPIS_LAZULI
+        '8':
+          amount: 4
+          chance: 60
+          material_type: mc
+          material: IRON_INGOT
+        '9':
+          amount: 4
+          chance: 50
+          material_type: mc
+          material: GOLD_INGOT
+        '10':
+          amount: 8
+          chance: 80
+          material_type: mc
+          material: COPPER_INGOT
+        '11':
+          amount: 4
+          chance: 70
+          material_type: mc
+          material: REDSTONE
+        '12':
+          amount: 2
+          chance: 20
+          material_type: mc
+          material: EMERALD
+        '13':
+          amount: 16
+          chance: 90
+          material_type: mc
+          material: COAL
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10]
+  output: [4, 5, 6, 7, 8, 13, 14, 15, 16, 17, 22, 23, 24, 25, 26, 31, 32, 33, 34,
+    35, 40, 41, 42, 43, 44, 49, 50, 51, 52, 53]

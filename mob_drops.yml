@@ -78,7 +78,7 @@ WT_XIONGZHANG:
     lore:
     - '&7熊掌，亦我所欲也！'
     material_type: skull_hash
-    material: 6998953dcf793609de22710a3407cfa989134db943d676a59dcce310a7ab7be0
+    material: 6312a5a12ecb24d6852db388e6a34721cc67f522ccde7e824b9f75e95036ac93
     amount: 1
   entity: POLAR_BEAR
   chance: 40
@@ -883,8 +883,22 @@ WT_QIUYUROU:
     material_type: skull_hash
     material: 541693d604ed8eb31f550d3c8b124ad3f0f4a34f5f83a72def177fce4ac90916
     amount: 1
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.20.5
+WT_QIUYUROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生犰狳肉'
+    material_type: skull_hash
+    material: 541693d604ed8eb31f550d3c8b124ad3f0f4a34f5f83a72def177fce4ac90916
+    amount: 1
   entity: ARMADILLO
   chance: 55
+  id_alias: WT_QIUYUROU
   register:
     conditions:
       - version >= 1.20.5
@@ -896,8 +910,22 @@ WT_XUANFENGROU:
     material_type: skull_hash
     material: a275728af7e6a29c88125b675a39d88ae9919bb61fdc200337fed6ab0c49d65c
     amount: 1
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.21
+WT_XUANFENGROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生旋风肉'
+    material_type: skull_hash
+    material: a275728af7e6a29c88125b675a39d88ae9919bb61fdc200337fed6ab0c49d65c
+    amount: 1
   entity: BREEZE
   chance: 30
+  id_alias: WT_XUANFENGROU
   register:
     conditions:
       - version >= 1.21
@@ -910,8 +938,23 @@ WT_ZHAOHAITAIXIAN:
     material: MOSS_BLOCK
     amount: 1
     glow: true
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.21
+WT_ZHAOHAITAIXIAN_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生沼骸苔藓'
+    material_type: mc
+    material: MOSS_BLOCK
+    amount: 1
+    glow: true
   entity: BOGGED
   chance: 35
+  id_alias: WT_ZHAOHAITAIXIAN
   register:
     conditions:
       - version >= 1.21
@@ -923,8 +966,22 @@ WT_GAZHIROU:
     material_type: skull_hash
     material: 24c9401ae7979b9561fe8fd9536286ee70475e8f8f6569c11c298ef25d54c120
     amount: 1
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.21.3
+WT_GAZHIROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生嘎枝肉'
+    material_type: skull_hash
+    material: 24c9401ae7979b9561fe8fd9536286ee70475e8f8f6569c11c298ef25d54c120
+    amount: 1
   entity: CREAKING
   chance: 50
+  id_alias: WT_GAZHIROU
   register:
     conditions:
       - version >= 1.21.3

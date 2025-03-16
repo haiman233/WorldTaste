@@ -24,24 +24,22 @@ ws_zwf_2:
   parent: worldtaste
   actions:
    'none'
-ws_zwf_3:
+ws_cfzs:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: pink_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: f4d376a23bc1c1cf6b4b51a7aaa61949aea43b83e3c46c284317ff208d91002d
+    name: '&e&l厨房装饰'
   parent: worldtaste
-  actions:
-   'none'
-ws_zwf_4:
+ws_zhongzi:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: pink_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: 7aadb37dd556f9eefbb8ea54943e1f657fac45409e34cd99c810d4dd461bc633
+    name: '&a&l种子'
   parent: worldtaste
-  actions:
-   'none'
 ws_zwf_5:
   lateInit: false
   type: button
@@ -224,13 +222,13 @@ ws_dangao:
     material: c1a5ee8db73b81ee9550da29f93ca9ada2a6d88d35ec22841cc03b25c176d380
     name: '&e&l甜品'
   parent: worldtaste
-ws_cfzs:
+ws_lingshi:
   lateInit: false
   type: sub
   item:
     material_type: skull_hash
-    material: f4d376a23bc1c1cf6b4b51a7aaa61949aea43b83e3c46c284317ff208d91002d
-    name: '&e&l厨房装饰'
+    material: b2e797b8b4733e1711aa17cbd8b4c51b537809af2df6727f0a61465387d3020a
+    name: '&e&l零食'
   parent: worldtaste
 ws_zwf_13:
   lateInit: false
