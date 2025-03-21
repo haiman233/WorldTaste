@@ -763,6 +763,106 @@ WUWEI_JYKRL:
         material_type: slimefun
         material: WT_KZSZZ
         amount: 1
+    gn_cooked_chevon:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_CHEVON
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_CHEVON
+        amount: 1
+    gn_cooked_squid:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_SQUID
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_SQUID
+        amount: 1
+    gn_cooked_mackerel:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_MACKEREL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_MACKEREL
+        amount: 1
+    gn_cooked_eel:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_EEL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_EEL
+        amount: 1
+    gn_cooked_trout:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_TROUT
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_TROUT
+        amount: 1
+    gn_cooked_bass:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_BASS
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_BASS
+        amount: 1
+    gn_cooked_carp:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_CARP
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_CARP
+        amount: 1
+    gn_cooked_pike:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_PIKE
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_PIKE
+        amount: 1
+    gn_cooked_tuna:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_TUNA
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_TUNA
+        amount: 1
+    gn_cooked_turkey:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_TURKEY
+          amount: 1
+      output:
+        material_type: slimefun
+        material: GN_COOKED_TURKEY
+        amount: 1
 
 WUWEI_CHUFANG:
   item_group: ws_jiqi

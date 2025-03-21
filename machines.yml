@@ -157,7 +157,7 @@ WT_SEED_XIANGGU:
   recipe: 
     5:
       material_type: slimefun
-      material: WT_SCZZ
+      material: WT_MGBZ
       amount: 1
   recipe_type: WUWEI_ZZJDY
   script: seed/xianggu
@@ -1348,7 +1348,7 @@ WT_SEED_EMOGUOSHI:
   item:
     name: "&f&l恶魔果实种子"
     material_type: skull_hash
-    material: 8a09708b594157635729a6a479aa7866b8078457a44198ce7d12374f132efcf7
+    material: dd00ba8c03fc6e4e69be5248cc2c0592390f052f64d825d354d5596a57a27160
     lore: 
       - ""
       - "&7需种植在灵魂沙上"
@@ -1561,7 +1561,224 @@ WT_SEED_QJSXJ:
   recipe: 
     5:
       material_type: slimefun
-      material: WT_RDZWZZ
+      material: WT_QGDZZ
       amount: 1
   recipe_type: WUWEI_ZZJDY
   script: seed/qjsxj
+# 1.3.1
+WT_SEED_YAOQIANSHU:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l摇钱树种子"
+    material_type: skull_hash
+    material: 6e7aaf0bfdce2fd034540a362205746ae1333d886da98e7acbdcb17047f9d044
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约5分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_QGDZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/yaoqianshu
+WT_SEED_MATONG:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l马桶种子"
+    material_type: skull_hash
+    material: 7054e1834437b9690181032e756aeb07c144932fc9c3cfbc7fe33eca6a62a2c5
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约3分半钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_QPZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/matong
+WT_SEED_TONGNIAN:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l童年种子"
+    material_type: skull_hash
+    material: 2326d4d46c24362d91164d6bc3d755831c494da33d7e37ea3e7bb57dad84212
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约4分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_QPZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/tongnian
+WT_SEED_ZONGYE:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l粽叶种子"
+    material_type: skull_hash
+    material: a8986a1c8b47f6cc2016c95a9ace030aa29a7106c26409d3afdb2c405fbe8a8a
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_WDZWZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/zongye
+WT_SEED_AICAO:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l艾草种子"
+    material_type: skull_hash
+    material: 495da4b424c662f910510382dd117f56991ca8ecfb7e192728a9b86c93aafabe
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_WDZWZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/aicao
+WT_SEED_GUIYIYOU:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l诡异疣种子"
+    material_type: skull_hash
+    material: ace9a4057a3ce1836aae9d3632aa48f6215e2455ecd71f73ab66ec86a1018702
+    lore: 
+      - ""
+      - "&7需种植在灵魂沙上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_XJZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/guiyiyou
+WT_SEED_LONGSHELAN:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l龙舌兰种子"
+    material_type: skull_hash
+    material: e973ffac28efc334efaacf61fec5722cff0c985951e5d20a6229cd154b7e19c
+    lore: 
+      - ""
+      - "&7需种植在灵魂沙上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_XJZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/longshelan
+WT_SEED_BIANBIANYUMI:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l便便玉米种子"
+    material_type: skull_hash
+    material: 353817fcf13fea9795c3323c59f1719fc253dbd25821e12f7b5047ad9c33
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_YMZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/bianbianyumi
+WT_SEED_HEIYUMI:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l黑玉米种子"
+    material_type: skull_hash
+    material: 35b116dc769d6d5726f12a24f3f186f839427321e82f4138775a4c40367a49
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_YMZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/heiyumi
+WT_SEED_SHUGU:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l树菇孢子"
+    material_type: skull_hash
+    material: 6176a4c446b54d50ae3e5ba8fe6f41317689ff5a7523028097f611953d1d1297
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_MGBZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/shugu
+WT_SEED_DIANLANGU:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l靛蓝菇孢子"
+    material_type: skull_hash
+    material: 760a08da8d3e73c5addcc103895656ac404ff42f2d5b5b746ccde607ce90443c
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_MGBZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/dianlangu
+WT_SEED_SHUIJINGGU:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l水晶菇孢子"
+    material_type: skull_hash
+    material: 1e5574a4ef94ef4ca300d02f644d98be07dbfba7df78808e8a9a021b067d996d
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_MGBZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/shuijinggu
