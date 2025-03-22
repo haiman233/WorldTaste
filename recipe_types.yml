@@ -86,6 +86,13 @@ WUWEI_ZZJDY:
     - '&7该物品需要&6种子鉴定仪&7中制作'
   material_type: skull_hash
   material: cde017ff05bff237c4b18b9f2ea6804e3d84c2bc7446f28e5d6f449139f560ab
+WUWEI_NGZZJDY:
+  lateInit: false
+  name: '&f&l农耕种子鉴定仪'
+  lore:
+    - '&7该物品需要&6农耕种子鉴定仪&7中制作'
+  material_type: skull_hash
+  material: fd880f423cc25aa86208115f57740e6627d695e71bb33fec381e4c66b20ffd72
 WUWEI_SHOUHUOZUOWU:
   lateInit: false
   name: '&f&l收获作物获取'

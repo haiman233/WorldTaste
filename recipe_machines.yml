@@ -4,6 +4,10 @@ WT_ZHONGZIJDY:
     lore: 
       - ""
       - "&7用于分析未鉴定的种子"
+      - ""
+      - '&b机器'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 15 J/s'
     material_type: skull_hash
     material: cde017ff05bff237c4b18b9f2ea6804e3d84c2bc7446f28e5d6f449139f560ab
   item_group: ws_jiqi
@@ -98,11 +102,6 @@ WT_ZHONGZIJDY:
           material: WT_SEED_YANGJI
           amount: 1
           chance: 8
-        '9':
-          material_type: slimefun
-          material: WT_SEED_XIANGGU
-          amount: 1
-          chance: 45
         '10':
           material_type: slimefun
           material: WT_SEED_YUTOU
@@ -148,7 +147,7 @@ WT_ZHONGZIJDY:
           material: WT_SEED_RIBENNANGUA
           amount: 1
           chance: 10
-      chooseOne: false
+      chooseOne: true
       forDisplay: false
       hide: false
     '2':
@@ -189,7 +188,17 @@ WT_ZHONGZIJDY:
           material: WT_SEED_QYM
           amount: 1
           chance: 20
-      chooseOne: false
+        '7':
+          material_type: slimefun
+          material: WT_SEED_BIANBIANYUMI
+          amount: 1
+          chance: 3
+        '8':
+          material_type: slimefun
+          material: WT_SEED_HEIYUMI
+          amount: 1
+          chance: 8
+      chooseOne: true
       forDisplay: false
       hide: false
     '3':
@@ -250,7 +259,7 @@ WT_ZHONGZIJDY:
           material: WT_SEED_DLJ
           amount: 1
           chance: 5
-      chooseOne: false
+      chooseOne: true
       forDisplay: false
       hide: false
     '4':
@@ -325,7 +334,7 @@ WT_ZHONGZIJDY:
           material_type: slimefun
           material: WT_SEED_XIANGSU
           amount: 1
-          chance: 10
+          chance: 2
         '14':
           material_type: slimefun
           material: WT_SEED_MIANHUA
@@ -351,7 +360,17 @@ WT_ZHONGZIJDY:
           material: WT_SEED_YANCAO
           amount: 1
           chance: 1
-      chooseOne: false
+        '19':
+          material_type: slimefun
+          material: WT_SEED_ZONGYE
+          amount: 1
+          chance: 1
+        '20':
+          material_type: slimefun
+          material: WT_SEED_AICAO
+          amount: 1
+          chance: 2
+      chooseOne: true
       forDisplay: false
       hide: false
     '5':
@@ -482,7 +501,7 @@ WT_ZHONGZIJDY:
           material: WT_SEED_FENGGUNCAO
           amount: 1
           chance: 1
-      chooseOne: false
+      chooseOne: true
       forDisplay: false
       hide: false
     '6':
@@ -503,7 +522,7 @@ WT_ZHONGZIJDY:
           chance: 90
           material_type: mc
           material: COCOA_BEANS
-      chooseOne: false
+      chooseOne: true
       forDisplay: false
       hide: false
     '7':
@@ -559,7 +578,32 @@ WT_ZHONGZIJDY:
           chance: 40
           material_type: mc
           material: WARPED_FUNGUS
-      chooseOne: false
+        '10':
+          material_type: slimefun
+          material: WT_SEED_GUIYIYOU
+          amount: 1
+          chance: 3
+        '11':
+          material_type: slimefun
+          material: WT_SEED_LONGSHELAN
+          amount: 1
+          chance: 1
+        '12':
+          material_type: slimefun
+          material: QUARTZ_PLANT
+          amount: 1
+          chance: 45
+        '13':
+          material_type: slimefun
+          material: GLOWSTONE_PLANT
+          amount: 1
+          chance: 50
+        '14':
+          material_type: slimefun
+          material: OBSIDIAN_PLANT
+          amount: 1
+          chance: 40
+      chooseOne: true
       forDisplay: false
       hide: false
     '8':
@@ -605,7 +649,22 @@ WT_ZHONGZIJDY:
           chance: 60
           material_type: mc
           material: CHORUS_FRUIT
-      chooseOne: false
+        '8':
+          amount: 1
+          chance: 55
+          material_type: slimefun
+          material: ENDER_PLANT
+        '9':
+          amount: 1
+          chance: 50
+          material_type: slimefun
+          material: SLIME_PLANT
+        '10':
+          amount: 1
+          chance: 15
+          material_type: slimefun
+          material: DIRT_PLANT
+      chooseOne: true
       forDisplay: false
       hide: false
     '9':
@@ -644,46 +703,1022 @@ WT_ZHONGZIJDY:
         '6':
           amount: 1
           chance: 1
-          material_type: mc
-          material: DIAMOND
+          material_type: slimefun
+          material: DIAMOND_PLANT
         '7':
-          amount: 4
-          chance: 20
-          material_type: mc
-          material: LAPIS_LAZULI
+          amount: 1
+          chance: 15
+          material_type: slimefun
+          material: LAPIS_PLANT
         '8':
-          amount: 4
-          chance: 60
-          material_type: mc
-          material: IRON_INGOT
-        '9':
-          amount: 4
+          amount: 1
           chance: 50
-          material_type: mc
-          material: GOLD_INGOT
+          material_type: slimefun
+          material: IRON_PLANT
+        '9':
+          amount: 1
+          chance: 35
+          material_type: slimefun
+          material: GOLD_PLANT
         '10':
-          amount: 8
-          chance: 80
-          material_type: mc
-          material: COPPER_INGOT
+          amount: 1
+          chance: 30
+          material_type: slimefun
+          material: COPPER_PLANT
         '11':
-          amount: 4
-          chance: 70
-          material_type: mc
-          material: REDSTONE
+          amount: 1
+          chance: 36
+          material_type: slimefun
+          material: REDSTONE_PLANT
         '12':
-          amount: 2
+          amount: 1
           chance: 20
-          material_type: mc
-          material: EMERALD
+          material_type: slimefun
+          material: EMERALD_PLANT
         '13':
-          amount: 16
-          chance: 90
+          amount: 1
+          chance: 80
+          material_type: slimefun
+          material: COAL_PLANT
+        '14':
+          material_type: slimefun
+          material: WT_SEED_YAOQIANSHU
+          amount: 1
+          chance: 3
+        '15':
+          material_type: slimefun
+          material: WT_QPZZ
+          amount: 1
+          chance: 5
+        '16':
+          amount: 1
+          chance: 40
+          material_type: slimefun
+          material: ALUMINUM_PLANT
+        '17':
+          amount: 1
+          chance: 40
+          material_type: slimefun
+          material: TIN_PLANT
+        '18':
+          amount: 1
+          chance: 38
+          material_type: slimefun
+          material: SILVER_PLANT
+        '19':
+          amount: 1
+          chance: 38
+          material_type: slimefun
+          material: LEAD_PLANT
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    qipa:
+      seconds: 180
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_QPZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_MATONG
+          amount: 1
+          chance: 1
+        '2':
+          material_type: slimefun
+          material: WT_SEED_TONGNIAN
+          amount: 1
+          chance: 1
+        '3':
+          amount: 1
           material_type: mc
-          material: COAL
-      chooseOne: false
+          material: PITCHER_POD
+          chance: 50
+        '4':
+          amount: 1
+          material_type: mc
+          material: TORCHFLOWER_SEEDS
+          chance: 50
+        '5':
+          amount: 1
+          material_type: slimefun
+          material: NETHERITE_PLANT
+          chance: 2
+        '6':
+          amount: 1
+          material_type: mc
+          material: BUDDING_AMETHYST
+          chance: 5
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    mogu:
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MGBZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_XIANGGU
+          amount: 1
+          chance: 30
+        '2':
+          material_type: slimefun
+          material: WT_SEED_SHUGU
+          amount: 1
+          chance: 25
+        '3':
+          material_type: slimefun
+          material: WT_SEED_DIANLANGU
+          amount: 1
+          chance: 10
+        '4':
+          material_type: slimefun
+          material: WT_SEED_SHUIJINGGU
+          amount: 1
+          chance: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: BROWN_MUSHROOM
+          chance: 50
+        '6':
+          amount: 1
+          material_type: mc
+          material: RED_MUSHROOM
+          chance: 40
+        '7':
+          amount: 1
+          material_type: mc
+          material: CRIMSON_FUNGUS
+          chance: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: WARPED_FUNGUS
+          chance: 30
+        '9':
+          material_type: slimefun
+          material: GN_TRUFFLE
+          amount: 1
+          chance: 20
+        '10':
+          material_type: slimefun
+          material: GN_ENOKI_MUSHROOMS
+          amount: 1
+          chance: 24
+        '11':
+          material_type: slimefun
+          material: GN_KING_OYSTER_MUSHROOM
+          amount: 1
+          chance: 28
+        '12':
+          material_type: slimefun
+          material: GN_BUTTON_MUSHROOM
+          amount: 1
+          chance: 30
+        '13':
+          amount: 1
+          material_type: mc
+          material: MUSHROOM_STEM
+          chance: 50
+        '14':
+          amount: 1
+          material_type: mc
+          material: MYCELIUM
+          chance: 40
+        '15':
+          amount: 1
+          material_type: mc
+          material: SHROOMLIGHT
+          chance: 35
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    msjrd:
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MSJRDZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: GN_CASSAVA
+          amount: 1
+          chance: 30
+        '2':
+          material_type: slimefun
+          material: GN_LENTILS
+          amount: 1
+          chance: 40
+        '3':
+          material_type: slimefun
+          material: GN_HONEYDEW_MELON_SEEDS
+          amount: 1
+          chance: 30
+        '4':
+          material_type: slimefun
+          material: GN_CUMIN_SEEDS
+          amount: 1
+          chance: 35
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    msjhd:
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MSJHDZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: GN_BROCCOLI_SEEDS
+          amount: 1
+          chance: 30
+        '2':
+          material_type: slimefun
+          material: GN_CELERY
+          amount: 1
+          chance: 40
+        '3':
+          material_type: slimefun
+          material: GN_SQUASH_SEEDS
+          amount: 1
+          chance: 20
+        '4':
+          material_type: slimefun
+          material: GN_RYE_SEEDS
+          amount: 1
+          chance: 36
+        '5':
+          material_type: slimefun
+          material: GN_QUINOA
+          amount: 1
+          chance: 46
+        '6':
+          material_type: slimefun
+          material: GN_PEAS
+          amount: 1
+          chance: 55
+        '7':
+          material_type: slimefun
+          material: GN_BRUSSLES_SPROUTS
+          amount: 1
+          chance: 55
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    msjwd:
+      seconds: 60
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MSJWDZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: GN_RICE
+          amount: 1
+          chance: 50
+        '2':
+          material_type: slimefun
+          material: GN_OATS
+          amount: 1
+          chance: 45
+        '3':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 1
+          chance: 40
+        '4':
+          material_type: slimefun
+          material: GN_BARLEY_SEEDS
+          amount: 1
+          chance: 45
+        '5':
+          material_type: slimefun
+          material: GN_SORGHUM_SEEDS
+          amount: 1
+          chance: 38
+        '6':
+          material_type: slimefun
+          material: GN_TURNIP_SEEDS
+          amount: 1
+          chance: 38
+        '7':
+          material_type: slimefun
+          material: GN_BOK_CHOY_SEEDS
+          amount: 1
+          chance: 35
+        '8':
+          material_type: slimefun
+          material: GN_CUCUMBER_SEEDS
+          amount: 1
+          chance: 40
+        '9':
+          material_type: slimefun
+          material: GN_BASIL_SEEDS
+          amount: 1
+          chance: 40
+        '10':
+          material_type: slimefun
+          material: GN_SPINACH_SEEDS
+          amount: 1
+          chance: 40  
+        '11':
+          material_type: slimefun
+          material: GN_MINT_SEEDS
+          amount: 1
+          chance: 30
+        '12':
+          material_type: slimefun
+          material: GN_PARSLEY_SEEDS
+          amount: 1
+          chance: 40
+        '13':
+          material_type: slimefun
+          material: GN_BEANS
+          amount: 1
+          chance: 50
+        '14':
+          material_type: slimefun
+          material: GN_ASPARAGUS_SEEDS
+          amount: 1
+          chance: 42
+        '15':
+          material_type: slimefun
+          material: GN_GREEN_ONION_SEEDS
+          amount: 1
+          chance: 45
+        '16':
+          material_type: slimefun
+          material: GN_CAULIFLOWER_SEEDS
+          amount: 1
+          chance: 30
+        '17':
+          material_type: slimefun
+          material: GN_AVOCADO_PIT
+          amount: 1
+          chance: 25
+        '18':
+          material_type: slimefun
+          material: GN_TURMERIC
+          amount: 1
+          chance: 30
+        '19':
+          material_type: slimefun
+          material: GN_RED_BEANS
+          amount: 1
+          chance: 30
+        '20':
+          material_type: slimefun
+          material: GN_CANTALOUPE_SEEDS
+          amount: 1
+          chance: 50
+        '21':
+          material_type: slimefun
+          material: GN_PEANUTS
+          amount: 1
+          chance: 40
+        '22':
+          material_type: slimefun
+          material: GN_SESAME_SEEDS
+          amount: 1
+          chance: 40
+        '23':
+          material_type: slimefun
+          material: GN_VANILLA_PLANT
+          amount: 1
+          chance: 30
+        '24':
+          material_type: slimefun
+          material: GN_FIDDLEHEADS
+          amount: 1
+          chance: 50
+        '25':
+          material_type: slimefun
+          material: GN_BANANA_SAPLING
+          amount: 1
+          chance: 22
+        '26':
+          material_type: slimefun
+          material: GN_LYCHEE_SAPLING
+          amount: 1
+          chance: 22
+      chooseOne: true
       forDisplay: false
       hide: false
   input: [10]
   output: [4, 5, 6, 7, 8, 13, 14, 15, 16, 17, 22, 23, 24, 25, 26, 31, 32, 33, 34,
     35, 40, 41, 42, 43, 44, 49, 50, 51, 52, 53]
+WT_NGZHONGZIJDY:
+  item:
+    name: "&e&l农耕种子分析仪"
+    lore: 
+      - ""
+      - "&7用于分析未鉴定的农耕种子"
+      - ""
+      - '&b机器'
+      - '&8⇨ &e⚡&7 2000 J 可存储'
+      - '&8⇨ &e⚡&7 100 J/s'
+    material_type: skull_hash
+    material: fd880f423cc25aa86208115f57740e6627d695e71bb33fec381e4c66b20ffd72
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HOOK
+      amount: 1
+    '5':
+      material_type: mc
+      material: DIAMOND_HOE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HOOK
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    ngscgm1:
+      seconds: 200
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NGSCZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CLT_BUSH_BELL_PEPPER
+          amount: 1
+          chance: 40
+        '2':
+          material_type: slimefun
+          material: CLT_BUSH_TOMATO
+          amount: 1
+          chance: 52
+        '3':
+          material_type: slimefun
+          material: CLT_BUSH_CAYENNE_PEPPER
+          amount: 1
+          chance: 42
+        '4':
+          material_type: slimefun
+          material: CLT_BUSH_GARLIC
+          amount: 1
+          chance: 40
+        '5':
+          material_type: slimefun
+          material: CLT_BUSH_RICE
+          amount: 1
+          chance: 50
+        '6':
+          material_type: slimefun
+          material: CLT_BUSH_PEANUTS
+          amount: 1
+          chance: 35
+        '7':
+          material_type: slimefun
+          material: CLT_BUSH_CHILLI_PEPPER
+          amount: 1
+          chance: 30
+        '8':
+          material_type: slimefun
+          material: CLT_BUSH_CHIVES
+          amount: 1
+          chance: 40
+        '9':
+          material_type: slimefun
+          material: CLT_BUSH_CHICORY
+          amount: 1
+          chance: 42
+        '10':
+          material_type: slimefun
+          material: CLT_BUSH_BROCCOLI
+          amount: 1
+          chance: 36
+        '11':
+          material_type: slimefun
+          material: CLT_BUSH_MUSTARD
+          amount: 1
+          chance: 32
+        '12':
+          material_type: slimefun
+          material: CLT_BUSH_LETTUCE
+          amount: 1
+          chance: 35
+        '13':
+          material_type: slimefun
+          material: CLT_BUSH_RAPESEED
+          amount: 1
+          chance: 40
+        '14':
+          material_type: slimefun
+          material: CLT_BUSH_PEA
+          amount: 1
+          chance: 50
+        '15':
+          material_type: slimefun
+          material: CLT_BUSH_ONION
+          amount: 1
+          chance: 50
+        '16':
+          material_type: slimefun
+          material: CLT_BUSH_KALE
+          amount: 1
+          chance: 33
+        '17':
+          material_type: slimefun
+          material: CLT_BUSH_CELERY
+          amount: 1
+          chance: 36
+        '18':
+          material_type: slimefun
+          material: CLT_BUSH_CAULIFLOWER
+          amount: 1
+          chance: 36
+        '19':
+          material_type: slimefun
+          material: CLT_BUSH_CABBAGE
+          amount: 1
+          chance: 34
+        '20':
+          material_type: slimefun
+          material: CLT_BUSH_BRUSSELS_SPROUTS
+          amount: 1
+          chance: 32
+        '21':
+          material_type: slimefun
+          material: CLT_BUSH_ASPARAGUS
+          amount: 1
+          chance: 35
+        '22':
+          material_type: slimefun
+          material: CLT_BUSH_AUBERGINE
+          amount: 1
+          chance: 40
+        '23':
+          material_type: slimefun
+          material: CLT_BUSH_ARTICHOKE
+          amount: 1
+          chance: 50
+        '24':
+          material_type: slimefun
+          material: CLT_BUSH_WASABI
+          amount: 1
+          chance: 40
+        '25':
+          material_type: slimefun
+          material: CLT_BUSH_OKRA
+          amount: 1
+          chance: 33
+        '26':
+          material_type: slimefun
+          material: CLT_BUSH_RUNNER_BEANS
+          amount: 1
+          chance: 28
+        '27':
+          material_type: slimefun
+          material: CLT_BUSH_PINTO_BEANS
+          amount: 1
+          chance: 28
+        '28':
+          material_type: slimefun
+          material: CLT_BUSH_SOY_BEANS
+          amount: 1
+          chance: 28
+        '29':
+          material_type: slimefun
+          material: CLT_BUSH_CHICKPEAS
+          amount: 1
+          chance: 40
+        '30':
+          material_type: slimefun
+          material: CLT_BUSH_GREEN_BEANS
+          amount: 1
+          chance: 38
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    ngscgm2:
+      seconds: 200
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NGSCZZ2
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CLT_BUSH_BLACK_BEANS
+          amount: 1
+          chance: 40
+        '2':
+          material_type: slimefun
+          material: CLT_BUSH_SPINACH
+          amount: 1
+          chance: 45
+        '3':
+          material_type: slimefun
+          material: CLT_BUSH_LEEK
+          amount: 1
+          chance: 44
+        '4':
+          material_type: slimefun
+          material: CLT_BUSH_SHALLOT
+          amount: 1
+          chance: 38
+        '5':
+          material_type: slimefun
+          material: CLT_BUSH_JALAPENO
+          amount: 1
+          chance: 35
+        '6':
+          material_type: slimefun
+          material: CLT_BUSH_RADICCHIO
+          amount: 1
+          chance: 38
+        '7':
+          material_type: slimefun
+          material: CLT_BUSH_RHUBARB
+          amount: 1
+          chance: 46
+        '8':
+          material_type: slimefun
+          material: CLT_BUSH_CELERIAC
+          amount: 1
+          chance: 36
+        '9':
+          material_type: slimefun
+          material: CLT_BUSH_PARSNIP
+          amount: 1
+          chance: 40
+        '10':
+          material_type: slimefun
+          material: CLT_BUSH_RUTABAGA
+          amount: 1
+          chance: 42
+        '11':
+          material_type: slimefun
+          material: CLT_BUSH_RADDISH
+          amount: 1
+          chance: 40
+        '12':
+          material_type: slimefun
+          material: CLT_BUSH_SWEET_POTATO
+          amount: 1
+          chance: 36
+        '13':
+          material_type: slimefun
+          material: CLT_BUSH_TURNIP
+          amount: 1
+          chance: 45
+        '14':
+          material_type: slimefun
+          material: CLT_BUSH_SWEETCORN
+          amount: 1
+          chance: 45
+        '15':
+          material_type: slimefun
+          material: CLT_BUSH_COURGETTE
+          amount: 1
+          chance: 40
+        '16':
+          material_type: slimefun
+          material: CLT_BUSH_CUCUMBER
+          amount: 1
+          chance: 38
+        '17':
+          material_type: slimefun
+          material: CLT_BUSH_MARROW
+          amount: 1
+          chance: 38
+        '18':
+          material_type: slimefun
+          material: CLT_BUSH_GREEN_ONION
+          amount: 1
+          chance: 38
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    ngxlgm1:
+      seconds: 200
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NGSLZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CLT_BUSH_CINNAMON
+          amount: 1
+          chance: 40
+        '2':
+          material_type: slimefun
+          material: CLT_BUSH_BASIL
+          amount: 1
+          chance: 40
+        '3':
+          material_type: slimefun
+          material: CLT_BUSH_BAY_LEAF
+          amount: 1
+          chance: 36
+        '4':
+          material_type: slimefun
+          material: CLT_BUSH_CILANTRO
+          amount: 1
+          chance: 32
+        '5':
+          material_type: slimefun
+          material: CLT_BUSH_CLOVE
+          amount: 1
+          chance: 36
+        '6':
+          material_type: slimefun
+          material: CLT_BUSH_CUMIN
+          amount: 1
+          chance: 40
+        '7':
+          material_type: slimefun
+          material: CLT_BUSH_CURRY_LEAF
+          amount: 1
+          chance: 40
+        '8':
+          material_type: slimefun
+          material: CLT_BUSH_DILL
+          amount: 1
+          chance: 38
+        '9':
+          material_type: slimefun
+          material: CLT_BUSH_FENNEL
+          amount: 1
+          chance: 42
+        '10':
+          material_type: slimefun
+          material: CLT_BUSH_GINGER
+          amount: 1
+          chance: 44
+        '11':
+          material_type: slimefun
+          material: CLT_BUSH_HORSERADISH
+          amount: 1
+          chance: 44
+        '12':
+          material_type: slimefun
+          material: CLT_BUSH_JASMINE
+          amount: 1
+          chance: 42
+        '13':
+          material_type: slimefun
+          material: CLT_BUSH_JUNIPER_BERRY
+          amount: 1
+          chance: 40
+        '14':
+          material_type: slimefun
+          material: CLT_BUSH_KAFFIR_LIME
+          amount: 1
+          chance: 40
+        '15':
+          material_type: slimefun
+          material: CLT_BUSH_LAVENDER
+          amount: 1
+          chance: 38
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    ngxlgm2:
+      seconds: 200
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NGSLZZ2
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CLT_BUSH_LICORICE
+          amount: 1
+          chance: 38
+        '2':
+          material_type: slimefun
+          material: CLT_BUSH_MACE
+          amount: 1
+          chance: 33
+        '3':
+          material_type: slimefun
+          material: CLT_BUSH_MARJORAM
+          amount: 1
+          chance: 34
+        '4':
+          material_type: slimefun
+          material: CLT_BUSH_MINT
+          amount: 1
+          chance: 34
+        '5':
+          material_type: slimefun
+          material: CLT_BUSH_OREGANO
+          amount: 1
+          chance: 34
+        '6':
+          material_type: slimefun
+          material: CLT_BUSH_PARSLEY
+          amount: 1
+          chance: 38
+        '7':
+          material_type: slimefun
+          material: CLT_BUSH_ROSEMARY
+          amount: 1
+          chance: 44
+        '8':
+          material_type: slimefun
+          material: CLT_BUSH_SASSAFRAS
+          amount: 1
+          chance: 42
+        '9':
+          material_type: slimefun
+          material: CLT_BUSH_SHISO
+          amount: 1
+          chance: 40
+        '10':
+          material_type: slimefun
+          material: CLT_BUSH_STAR_ANISE
+          amount: 1
+          chance: 42
+        '11':
+          material_type: slimefun
+          material: CLT_BUSH_TARRAGON
+          amount: 1
+          chance: 40
+        '12':
+          material_type: slimefun
+          material: CLT_BUSH_THYME
+          amount: 1
+          chance: 38
+        '13':
+          material_type: slimefun
+          material: CLT_BUSH_TURMERIC
+          amount: 1
+          chance: 44
+        '14':
+          material_type: slimefun
+          material: CLT_BUSH_VANILLA
+          amount: 1
+          chance: 45
+        '15':
+          material_type: slimefun
+          material: CLT_BUSH_PEPPER
+          amount: 1
+          chance: 34
+        '16':
+          material_type: slimefun
+          material: CLT_BUSH_NETTLES
+          amount: 1
+          chance: 45
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    ngsggm:
+      seconds: 200
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NGSMZZ
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CLT_BUSH_GRAPE
+          amount: 1
+          chance: 35
+        '2':
+          material_type: slimefun
+          material: CLT_BUSH_STRAWBERRY
+          amount: 1
+          chance: 35
+        '3':
+          material_type: slimefun
+          material: CLT_BUSH_AVOCADO
+          amount: 1
+          chance: 32
+        '4':
+          material_type: slimefun
+          material: CLT_TREE_BANANA
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: CLT_TREE_LEMON
+          amount: 1
+          chance: 46
+        '6':
+          material_type: slimefun
+          material: CLT_TREE_ORANGE
+          amount: 1
+          chance: 45
+        '7':
+          material_type: slimefun
+          material: CLT_TREE_GREEN_APPLE
+          amount: 1
+          chance: 45
+        '8':
+          material_type: slimefun
+          material: CLT_TREE_PINEAPPLE
+          amount: 1
+          chance: 45
+        '9':
+          material_type: slimefun
+          material: CLT_TREE_MANGO
+          amount: 1
+          chance: 45
+        '10':
+          material_type: slimefun
+          material: CLT_TREE_PEACH
+          amount: 1
+          chance: 45
+        '11':
+          material_type: slimefun
+          material: CLT_TREE_APRICOT
+          amount: 1
+          chance: 42
+        '12':
+          material_type: slimefun
+          material: CLT_TREE_PEAR
+          amount: 1
+          chance: 42
+        '13':
+          material_type: slimefun
+          material: CLT_TREE_CHERRY
+          amount: 1
+          chance: 44
+        '14':
+          material_type: slimefun
+          material: CLT_TREE_KIWI
+          amount: 1
+          chance: 42
+        '15':
+          material_type: slimefun
+          material: CLT_TREE_LIME
+          amount: 1
+          chance: 40
+        '16':
+          material_type: slimefun
+          material: CLT_TREE_CHESTNUT
+          amount: 1
+          chance: 40 
+        '17':
+          material_type: slimefun
+          material: CLT_TREE_HAZELNUT
+          amount: 1
+          chance: 38
+        '18':
+          material_type: slimefun
+          material: CLT_TREE_PECAN
+          amount: 1
+          chance: 38
+      chooseOne: true
+      forDisplay: false
+      hide: false
+  input: [10]
+  output: [4, 5, 6, 7, 8, 13, 14, 15, 16, 17, 22, 23, 24, 25, 26, 31, 32, 33, 34,
+    35, 40, 41, 42, 43, 44, 49, 50, 51, 52, 53]
+  register:
+    conditions:
+       - "hasplugin Cultivation"

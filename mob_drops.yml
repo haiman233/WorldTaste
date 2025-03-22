@@ -206,7 +206,7 @@ WT_NAOZI:
   lateInit: false
   item_group: ws_roulei
   item:
-    name: '&4&l脑子'
+    name: '&4&l猪脑'
     lore:
     - '&7吃啥补啥'
     material_type: skull_hash

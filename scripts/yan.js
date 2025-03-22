@@ -1,8 +1,4 @@
-function createPotionEffect(type, duration, amplifier) {
-    return createPotionEffect(type, duration, amplifier, false);
-}
-
-function createPotionEffect(type, duration, amplifier, ambient) {
+function createPotionEffect(type, duration, amplifier, ambient = false) {
     return new org.bukkit.potion.PotionEffect(type, duration, amplifier, ambient);
 }
 
@@ -16,33 +12,35 @@ function onUse(event) {
     var y1 = location.getY();
     var z1 = location.getZ();
     
-    if (offHandItem.getType() != org.bukkit.Material.FLINT_AND_STEEL) {
+    // 检查副手是否持有打火石
+    if (offHandItem == null || offHandItem.getType() != org.bukkit.Material.FLINT_AND_STEEL) {
         player.sendMessage("您必须使用主手点烟且副手持有打火石！");
         return;
     }
 
     // 判断玩家主手中是否有物品，且该物品的数量大于0  
-    if (itemInMainHand != null && itemInMainHand.getAmount() > 0 && offHandItem.getType() == org.bukkit.Material.FLINT_AND_STEEL) {
+    if (itemInMainHand != null && itemInMainHand.getAmount() > 0) {
         var amount = 1;
         // 将玩家主手中的物品数量设置为已有物品数量 - 1，即消耗了一个物品 
         itemInMainHand.setAmount(itemInMainHand.getAmount() - amount);
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.ABSORPTION, 1400, 2, false));
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.DOLPHINS_GRACE, 1400, 1, false));
-        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.HUNGER, 800, 1, false));
+        offHandItem.setAmount(offHandItem.getAmount() - amount);
+        inv.setItemInMainHand(itemInMainHand); // 更新主手物品
 
-        const radius = 8;
-        for (let y = -radius; y <= radius; y++) {
-            for (let x = -radius; x <= radius; x++) {
-                for (let z = -radius; z <= radius; z++) {
-                    player.getWorld().spawnParticle(org.bukkit.Particle.CAMPFIRE_COSY_SMOKE, new org.bukkit.Location(player.getWorld(), x1 + x, y1 + y, z1 + z), 1);
-                }
+        // 添加药水效果
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.ABSORPTION, 1400, 2));
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.DOLPHINS_GRACE, 1400, 1));
+        player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.HUNGER, 800, 1));
+
+      // 生成粒子效果
+        const radius = 1;
+        for (let x = -radius; x <= radius; x++) {
+            for (let z = -radius; z <= radius; z++) {
+                    player.getWorld().spawnParticle(org.bukkit.Particle.CAMPFIRE_COSY_SMOKE, new org.bukkit.Location(player.getWorld(), x1 + x, y1+1, z1 + z), 1);
             }
         }
 
-        // 使用正确的声音名称
+        // 播放声音
         var soundName = "item.flintandsteel.use";
-
-        // 播放声音，确保音量和音调参数在0到1之间
         player.getLocation().getWorld().playSound(player.getLocation(), soundName, 1.0, 1.0);
     }
 }
