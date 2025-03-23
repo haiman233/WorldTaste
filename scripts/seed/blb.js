@@ -18,7 +18,7 @@ var smallSteps = [1/10, 1/6, 1/3, 1/2, 2/3, 5/6, 1, 7/6]; // 小生长阶段
 var growthStages = {
     "WT_SEED_BLB": {
         stages: smallSteps,
-        material: Material.POTATOS,
+        material: Material.POTATOES,
         maxAge: 7
     }
 };

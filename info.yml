@@ -6,7 +6,7 @@ pluginDepends:
 - ExoticGarden
 softDepends:
 - Cultivation
-version: Release-1.3.2
+version: Release-1.3.3
 # scriptListener: yu
 description: 尘世百味，为粘液科技添加了上百种食物
 authors:
