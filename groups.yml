@@ -308,3 +308,11 @@ ws_zwf_18:
   parent: worldtaste
   actions:
    'none'
+# 愚人节
+ws_yurenjie:
+  type: seasonal
+  month: 4
+  item:
+    name: "&6&k&ld&a&l“毒薯管理员”&6&k&ld"
+    material: POISONOUS_POTATO
+    glow: true

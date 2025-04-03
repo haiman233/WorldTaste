@@ -1,0 +1,214 @@
+WT_QIEDPTTJ:
+  item:
+    name: '§a§l切毒普忒头机'
+    lore:
+      - ''
+      - '&7切菜还是砍菜'
+      - ''
+      - '&8⇨ &e⚡&7 100 J 可存储'
+      - '&8⇨ &e⚡&7 30 J/s'
+    material: STONECUTTER
+  item_group: ws_yurenjie
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '2':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '3':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '4':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '5':
+      amount: 1
+      material_type: mc
+      material: STONECUTTER
+    '6':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '7':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '8':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '9':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+  capacity: 100
+  energyPerCraft: 15
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: POTATO
+          slot: 20
+        '2':
+          amount: 1
+          material_type: mc
+          material: SHEARS
+          slot: 38
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MALINGSHUPI
+          amount: 4
+          slot: 24
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DUPUTUITOU
+          amount: 1
+          slot: 20
+        '2':
+          amount: 1
+          material_type: mc
+          material: WOODEN_AXE
+          slot: 38
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SDMLST
+          amount: 2
+          slot: 24
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DUPUTUITOU
+          amount: 1
+          slot: 20
+        '2':
+          amount: 1
+          material_type: mc
+          material: WOODEN_SWORD
+          slot: 38
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SDMLSP
+          amount: 2
+          slot: 24
+    '4':
+      seconds: 10
+      input:
+        '1':
+          material_type: mc
+          material: POISONOUS_POTATO
+          amount: 1
+          slot: 20
+        '2':
+          amount: 1
+          material_type: mc
+          material: BARREL
+          slot: 38
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SEED_DPTT
+          amount: 1
+          slot: 24
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [20, 38]
+  output: [33, 34, 24, 25]
+WT_PTTJLJ:
+  item:
+    name: '§2§l普忒头精炼机'
+    lore:
+      - ''
+      - '&7取其糟粕，去之精华'
+      - ''
+      - '&8⇨ &e⚡&7 100 J 可存储'
+      - '&8⇨ &e⚡&7 20 J/s'
+    material: FURNACE
+  item_group: ws_yurenjie
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '2':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '3':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '4':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '5':
+      amount: 1
+      material_type: mc
+      material: FURNACE
+    '6':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '7':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '8':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '9':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+  capacity: 100
+  energyPerCraft: 10
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DUPUTUITOU
+          amount: 1
+          slot: 37
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MALINGSHUYOU
+          amount: 1
+          slot: 43
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [37]
+  output: [43]

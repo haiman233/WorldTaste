@@ -1782,3 +1782,51 @@ WT_SEED_SHUIJINGGU:
       amount: 1
   recipe_type: WUWEI_ZZJDY
   script: seed/shuijinggu
+# 愚人节
+WT_SEED_DPTT:
+  item_group: ws_yurenjie
+  item:
+    name: "&f&l一点都不神秘的普忒头桶"
+    material_type: skull_hash
+    material: 49de70e4ea018b23fb6241eb2d5244e79773269b7669e379e89fb3c3ab9eda3
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约1分半钟"
+      - ""
+      - "&e你说我要是把它倒在田里会如何？"
+    glow: false
+  recipe: 
+    4:
+      material_type: mc
+      material: POISONOUS_POTATO
+      amount: 1
+    6:
+      material_type: mc
+      material: BARREL
+      amount: 1
+  recipe_type: WUWEI_QIEDPTTJ
+  script: yurenjie/dptt
+WT_SEED_JUDUGUO:
+  item_group: ws_yurenjie
+  item:
+    name: "&f&l非常不神秘的令人作呕的神秘之物"
+    material_type: skull_hash
+    material: 80bcc3e9cdee9b65fd880dcce61bd44cf3a1bcd72b8f31a6e7df8f5049ede138
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约1分半钟"
+      - ""
+      - "&e到底是神秘还是不神秘"
+      - "&e还有，你这是在给毒马铃薯提纯吗？"
+      - "&e是毒普忒头！(指正)"
+      - "&e申金"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_SEED_DPTT
+      amount: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  script: yurenjie/juduguo

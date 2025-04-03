@@ -75,7 +75,7 @@ WUWEI_BWWYL:
   lateInit: false
   name: '&f&l百味万用炉'
   lore:
-    - '&7该物品需要&6百味万用炉&7中制作'
+    - '&7该物品需要在&6百味万用炉&7中制作'
     - '&7具体配方详见&6百味万用炉'
   material_type: skull_hash
   material: 2f5cffcc555c21e17a68f411ad5c19f089d36f42c9e04cd5c5ee6cd77439970e
@@ -83,14 +83,14 @@ WUWEI_ZZJDY:
   lateInit: false
   name: '&f&l种子鉴定仪'
   lore:
-    - '&7该物品需要&6种子鉴定仪&7中制作'
+    - '&7该物品需要在&6种子鉴定仪&7中鉴定'
   material_type: skull_hash
   material: cde017ff05bff237c4b18b9f2ea6804e3d84c2bc7446f28e5d6f449139f560ab
 WUWEI_NGZZJDY:
   lateInit: false
   name: '&f&l农耕种子鉴定仪'
   lore:
-    - '&7该物品需要&6农耕种子鉴定仪&7中制作'
+    - '&7该物品需要在&6农耕种子鉴定仪&7中鉴定'
   material_type: skull_hash
   material: fd880f423cc25aa86208115f57740e6627d695e71bb33fec381e4c66b20ffd72
 WUWEI_SHOUHUOZUOWU:
@@ -107,3 +107,17 @@ WUWEI_ZHUSUNWAJUE:
     - '&7就是竹子刚种下去时的笋尖'
   material_type: mc
   material: DIAMOND_HOE
+WUWEI_QIEDPTTJ:
+  lateInit: false
+  name: '&f&l切毒普忒头机'
+  lore:
+    - '&7该物品需要在&6切毒普忒头机&7中制作'
+  material_type: mc
+  material: STONECUTTER
+WUWEI_PTTJLJ:
+  lateInit: false
+  name: '&f&l普忒头精炼机'
+  lore:
+    - '&7该物品需要在&6普忒头精炼机&7中制作'
+  material_type: mc
+  material: FURNACE

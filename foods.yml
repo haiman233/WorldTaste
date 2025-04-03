@@ -283,3 +283,28 @@ WT_KHSSR:
     1:
       material_type: slimefun
       material: WT_HUANSHUSHIROU
+# 愚人节
+WT_FMDPTT:
+  item_group: ws_yurenjie
+  item:
+    name: "&f&l附魔毒普忒头"
+    lore: 
+      - ""
+      - "§7我建议你给老鼠吃这个"
+    material: POISONOUS_POTATO
+    glow: true
+  recipe_type: MAGIC_WORKBENCH
+  script: yurenjie/du2
+  nutrition: 2
+  saturation: 2
+  eatseconds: 1.2
+  recipe:
+    1:
+      material_type: mc
+      material: LAPIS_BLOCK
+    2:
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    3:
+      material_type: mc
+      material: LAPIS_BLOCK

@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.3.2'
+      - '&bRelease-11.4.514'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -26554,3 +26554,953 @@ WT_KZSZZ:
       material: CHORUS_PLANT
   placeable: false
   script: 6
+# 愚人节
+WT_DUPUTUITOU:
+  item:
+    name: §a§l毒普忒头
+    lore: 
+      - ""
+      - "§7谢谢，我不吃这个。"
+    amount: 1
+    material_type: skull_hash
+    material: d7b7b796382015392a648d6b58897fb248031a81b22548d4d68886c156e9f55e
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_SEED_DPTT
+  placeable: false
+  script: yurenjie/du0
+WT_JUDUGUO:
+  item:
+    name: §2§l超级超级无敌牛逼吊炸天之神奇魔法剧毒福茹特
+    lore: 
+      - ""
+      - "§7把这个拿远一点，越远越好。"
+      - "§7就是你把农田给毁了！"
+    amount: 1
+    material_type: skull_hash
+    material: 4d9e8de1fe176083869e302524c65010d7cf2e31b063ebb8bc76b79d14130
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_SEED_JUDUGUO
+  placeable: false
+  script: yurenjie/du114514
+WT_SHELINGSHU:
+  item:
+    name: §a§l蛇铃薯
+    lore: 
+      - ""
+      - "§7这是什么鬼土豆！"
+    amount: 1
+    material_type: skull_hash
+    material: dddacc418df7e30db188be7f3865495b2c8f7c9963bd9e1b9ed8d28d45cf3460
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_SEED_DPTT
+  placeable: false
+  script: yurenjie/shelingshu
+WT_MALINGSHUPI:
+  lateInit: false
+  item_group: ws_yurenjie
+  item:
+    name: '&d&l马铃薯皮'
+    lore:
+      - ""
+      - '&7你管附魔的马铃薯叫马铃薯皮?'
+      - '&7我说它是马铃薯皮就叫马铃薯皮!'
+    material_type: mc
+    material: POTATO
+    glow: true
+    amount: 1
+  placeable: false
+  recipe_type: WUWEI_QIEDPTTJ
+  recipe:
+    '4':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '6':
+      amount: 1
+      material_type: mc
+      material: SHEARS
+WT_SDMLSP:
+  item:
+    name: §2§l生毒马铃薯片
+    lore: 
+      - ""
+      - "§7目前不像是能吃的样子。"
+    amount: 1
+    material: GREEN_DYE
+    glow: true
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_QIEDPTTJ
+  recipe:
+    '4':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '6':
+      amount: 1
+      material_type: mc
+      material: WOODEN_SWORD
+  placeable: false
+  script: yurenjie/du0
+WT_SDMLST:
+  item:
+    name: §2§l生毒马铃薯条
+    lore: 
+      - ""
+      - "§7目前也不像是能吃的样子。"
+    amount: 1
+    material: STICK
+    glow: true
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_QIEDPTTJ
+  glow: true
+  recipe:
+    '4':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '6':
+      amount: 1
+      material_type: mc
+      material: WOODEN_AXE
+  placeable: false
+  script: yurenjie/du0
+WT_MALINGSHUYOU:
+  item:
+    name: §f§l毒普忒头油
+    lore: 
+      - ""
+      - "§7干了奥，兄弟们！"
+    amount: 1
+    material_type: skull_hash
+    material: 9fc0192e790897704667c7241d35cb64e255d2a933462cfe85e7d5c0134f4bea
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_PTTJLJ
+  recipe:
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+  placeable: false
+  script: yurenjie/du
+WT_SHUBING:
+  item:
+    name: §e§l薯饼
+    lore: 
+      - ""
+      - "§7秒赤！"
+    amount: 1
+    material_type: skull_hash
+    material: 641b3cc9f5f45d6a74826b81a39db930fde855bc1417aa8ab59e73784913e362
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_ZHAGUO
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_MALINGSHUPI
+  placeable: false
+  script: 4
+WT_ZHADMLSP:
+  item:
+    name: §6§l炸毒马铃薯片
+    lore: 
+      - ""
+      - "§7豪赤！"
+    amount: 1
+    material_type: skull_hash
+    material: c7b37af8bb14617b8fc4f61b8988d6577f99aa33cf9456e72a35e09a3add1d90
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_ZHAGUO
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SDMLSP
+  placeable: false
+  script: 4
+WT_ZHADMLST:
+  item:
+    name: §6§l炸毒马铃薯条
+    lore: 
+      - ""
+      - "§7太豪赤了！"
+      - "§7this is true food！"
+    amount: 1
+    material_type: skull_hash
+    material: 1d25dd541bb8b8efdc6d355287e06a4b4bdd4ee98e6f60b2f35a214586c1eba6
+  item_group: ws_yurenjie
+  recipe_type: WUWEI_ZHAGUO
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_SDMLST
+  placeable: false
+  script: 6
+WT_JINDUPUTUITOU:
+  item:
+    name: §e§l金毒普忒头
+    lore: 
+      - ""
+      - "§7这是生金"
+      - "§7你才是生金!"
+    amount: 1
+    material_type: mc
+    material: RAW_GOLD
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '2':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '3':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '4':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '6':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '7':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '8':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+    '9':
+      amount: 1
+      material_type: mc
+      material: GOLD_INGOT
+  placeable: false
+  script: yurenjie/jindmls
+WT_FUMOJINDUPUTUITOU:
+  item:
+    name: §d§l附魔金毒普忒头
+    lore: 
+      - ""
+      - "§7这是附魔生金"
+      - "§7byd"
+    amount: 1
+    material_type: mc
+    material: RAW_GOLD
+    glow: true
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '2':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '3':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '4':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '6':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '7':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '8':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+    '9':
+      amount: 1
+      material_type: mc
+      material: GOLD_BLOCK
+  placeable: false
+  script: yurenjie/fumojinmls
+WT_TANGSHOUYANGYU:
+  item:
+    name: §4§l烫手洋芋
+    lore: 
+      - ""
+      - "§7谢谢你不是把TNT递给我"
+      - "§7他还谢谢咱呢"
+    amount: 1
+    material_type: skull_hash
+    material: 9c21c051112c84734a5e3fa47328c25450088971012a01442072c99a262a8957
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: mc
+      material: LAVA_BUCKET
+  placeable: false
+  script: yurenjie/zhaohuo
+WT_BUTANGSHOUYANGYU:
+  item:
+    name: §b§l汤手洋芋
+    lore: 
+      - ""
+      - "§7你给我的是啥？"
+      - "§7你看你后面呢"
+    amount: 1
+    material_type: skull_hash
+    material: 82da68bbc9bd4ccbc6dac39dfde5db5b0bca8358224b4df3fbf0fb6f37bf7499
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: mc
+      material: POWDER_SNOW_BUCKET
+  placeable: false
+  script: yurenjie/bingdong
+WT_NSPTTKFY:
+  item:
+    name: §8§l浓缩普忒头口服液
+    lore: 
+      - ""
+      - "§7这药不苦"
+    amount: 1
+    material_type: skull_hash
+    material: 2c3b211b7bc6fb69b2df9ebd30503916657c0623d64e2eee27b661a777ef47eb
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_MALINGSHUYOU
+  placeable: false
+  script: yurenjie/du2
+WT_DUKUN:
+  item:
+    name: §a§l毒坤
+    lore: 
+      - ""
+      - "§7你干嘛~"
+    amount: 1
+    material_type: skull_hash
+    material: 23a434c73877d0ff90b7dcd7cf07525cba9cb6271a66cd68506ffc311ed901f6
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: CHICKEN
+  placeable: false
+  script: yurenjie/du
+WT_DUSHI:
+  item:
+    name: §a§l毒尸
+    lore: 
+      - ""
+      - "§7给人家脸都气绿了"
+    amount: 1
+    material_type: skull_hash
+    material: a0a625857cad41ffe6ca2451f00687d85bf885dbfed550a9f2dbd1bb14b9fd0c
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: ROTTEN_FLESH
+  placeable: false
+  script: yurenjie/du2
+WT_DUMOU:
+  item:
+    name: §a§l毒哞
+    lore: 
+      - ""
+      - "§7可以挤出来毒马铃薯吗？"
+    amount: 1
+    material_type: skull_hash
+    material: c9b0aedc4c1d7267f9fa247b25d8d3a40888a1cc8e48d59b6ee58a2511f0583
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: BEEF
+  placeable: false
+  script: yurenjie/du2
+WT_DUBEE:
+  item:
+    name: §a§l毒Bee
+    lore: 
+      - ""
+      - "§7使用马铃薯芽蛰你"
+    amount: 1
+    material_type: skull_hash
+    material: c8fd5e723d4b013ed2ea08e8b9cd7f03e046a97e412f60c86cb53f393ee2912f
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: HONEYCOMB
+  placeable: false
+  script: yurenjie/du2
+WT_DUSBD:
+  item:
+    name: §a§l毒失败的
+    lore: 
+      - ""
+      - "§7我不吃毒马铃薯"
+    amount: 1
+    material_type: skull_hash
+    material: ca980d20b79cd2b13775df1ff998a42df946ed31050f31677ffa5f8aa3df3f7b
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: SPIDER_EYE
+  placeable: false
+  script: yurenjie/du2
+WT_DUJJB:
+  item:
+    name: §a§l毒JJ怪
+    lore: 
+      - ""
+      - "§7跟你爆了"
+    amount: 1
+    material_type: skull_hash
+    material: ac7cf8dc18a3ba00c32bb0b520d34a78ceb3f5efcba2aeccc2d2609b4d5660f8
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: GUNPOWDER
+  placeable: false
+  script: yurenjie/du2
+WT_DUJIANGJUN:
+  item:
+    name: §a§l毒将军
+    lore: 
+      - ""
+      - "§7相思了"
+    amount: 1
+    material_type: skull_hash
+    material: 91940400907371ee64e02e34c49a33584fe2f2141911b5c3ad15beff64b8257e
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: PORKCHOP
+  placeable: false
+  script: yurenjie/du2
+WT_DUDUYYD:
+  item:
+    name: §a§l毒毒羊羊的
+    lore: 
+      - ""
+      - "§7谢谢，我肚子不痒"
+    amount: 1
+    material_type: skull_hash
+    material: 2a00aee5922551a77bd2979cbb8ab42bcd236447dabe4909e7dbd4496968d553
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: MUTTON
+  placeable: false
+  script: yurenjie/du2
+WT_DUSHUREN:
+  item:
+    name: §a§l毒薯人
+    lore: 
+      - ""
+      - "§7满腹经纶"
+    amount: 1
+    material_type: skull_hash
+    material: 3456e462e2edc7af86adeec9f60a2c0366c1727eb9f7ba3fde4c7e541e6cdc63
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: EMERALD
+  placeable: false
+  script: yurenjie/du2
+WT_DUKULOU:
+  item:
+    name: §a§l毒普忒“头”
+    lore: 
+      - ""
+      - "§7狗子爱吃"
+    amount: 1
+    material_type: skull_hash
+    material: 95895a7b6fbc293b126c313503af763a24b83a292f44eec7afefbbe0c2fc10ba
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: BONE
+  placeable: false
+  script: yurenjie/du2
+WT_BDPTT:
+  item:
+    name: §a§l不毒普忒头
+    lore: 
+      - ""
+      - "§7放心食用"
+      - "§7“不在同一图层”"
+    amount: 1
+    material_type: skull_hash
+    material: 4fa20eb4b232de08e2d5e6515382ff84b6f5cb58d956dbba9c70b1b62e4d9551
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+  placeable: false
+  script: yurenjie/du
+WT_DPTTZ:
+  item:
+    name: §d§l毒普忒头汁
+    lore: 
+      - ""
+      - "§7请不要把它涂抹在苹果上"
+    amount: 1
+    material_type: skull_hash
+    material: 15ade9271587e9fcf65f0e08b333f25fb9df99fb4f42ad0f86fb355116e98b3e
+  item_group: ws_yurenjie
+  recipe_type: JUICER
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+  placeable: false
+  script: yurenjie/du
+WT_DUZHIXIN:
+  item:
+    name: §4§l毒之心
+    lore: 
+      - ""
+      - "§7无毒说是"
+    amount: 1
+    material_type: skull_hash
+    material: 43d2d21c5e1d169eb6f2b1fba9fe20935a13ff83f9c183dbccd26cde43d32f88
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+  placeable: false
+  script: yurenjie/du114514
+WT_CKJLTR:
+  item:
+    name: §c§l“纯科技0天然”
+    lore: 
+      - ""
+      - "§7妈妈眼中的外卖"
+    amount: 1
+    material_type: skull_hash
+    material: 92575bc947648b7fe68f1b623feb7f77286f96a179895d72d2718f94b89c63
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '5':
+      amount: 1
+      material_type: mc
+      material: POISONOUS_POTATO
+    '7':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '8':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '9':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+  placeable: false
+  script: yurenjie/du3
+WT_TUDOUREN:
+  item:
+    name: §a§l这是植“务”吗？
+    lore: 
+      - ""
+      - "§7致敬传奇2024年愚人节版本"
+    amount: 1
+    material_type: skull_hash
+    material: d5e0717fcf9efc09b168d52454255379853c060b470f5e44384dd6abffd1a793
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '4':
+      amount: 1
+      material_type: slimefun
+      material: WT_MALINGSHUYOU
+    '5':
+      amount: 1
+      material_type: slimefun
+      material: WT_SHELINGSHU
+    '6':
+      amount: 1
+      material_type: slimefun
+      material: WT_MALINGSHUYOU
+    '7':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '8':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+    '9':
+      amount: 1
+      material_type: slimefun
+      material: WT_JUDUGUO
+  placeable: false
+  script: 15
+WT_DUQI:
+  item:
+    name: §a§l毒鳍
+    lore: 
+      - ""
+      - "§7这是个台阶"
+    amount: 1
+    material_type: skull_hash
+    material: d34ae9b9d643665d4e203e92c1e20f20857d3051d7f0a6e2176b6625b05ca911
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: COD
+  placeable: false
+  script: yurenjie/du
+WT_WENYIJING:
+  item:
+    name: §a§l瘟疫鲸
+    lore: 
+      - ""
+      - "§7这是个大台阶"
+    amount: 1
+    material_type: skull_hash
+    material: 64f88a6665774abebdb50a2311b7112a66822baaf8ec59a7e1e295eb99e28514
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: SPONGE
+  placeable: false
+  script: yurenjie/du2
+WT_DUMALSSLM:
+  item:
+    name: §4§l毒马铃薯史莱姆
+    lore: 
+      - ""
+      - "§7最终BOSS"
+    amount: 1
+    material_type: skull_hash
+    material: 95d07e68f04667740bb6ebb979adc82321bcbae5cd45869769037c3654d6b6d7
+  item_group: ws_yurenjie
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '3':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '5':
+      amount: 1
+      material_type: mc
+      material: SLIME_BLOCK
+    '7':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '8':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+    '9':
+      amount: 1
+      material_type: slimefun
+      material: WT_DUPUTUITOU
+  placeable: false
+  script: yurenjie/du2

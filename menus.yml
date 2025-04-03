@@ -4,38 +4,47 @@ WT_BWWYL:
     '6':
       amount: 1
       material_type: mc
+      name: '&a'
       material: ORANGE_STAINED_GLASS_PANE
     '7':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '8':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '15':
       amount: 1
       material_type: mc
+      name: '&a'
       material: ORANGE_STAINED_GLASS_PANE
     '16':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '17':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '24':
       amount: 1
       material_type: mc
+      name: '&a'
       material: ORANGE_STAINED_GLASS_PANE
     '26':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '33':
       amount: 1
       material_type: mc
+      name: '&a'
       material: ORANGE_STAINED_GLASS_PANE
     '34':
       name: §6§l单击合成
@@ -50,30 +59,37 @@ WT_BWWYL:
     '35':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '42':
       amount: 1
       material_type: mc
+      name: '&a'
       material: ORANGE_STAINED_GLASS_PANE
     '43':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '44':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '51':
       amount: 1
       material_type: mc
+      name: '&a'
       material: ORANGE_STAINED_GLASS_PANE
     '52':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
     '53':
       amount: 1
       material_type: mc
+      name: '&a'
       material: MAGENTA_STAINED_GLASS_PANE
 WT_ZHONGZIJDY:
   title: §e§l种子分析仪
@@ -81,63 +97,78 @@ WT_ZHONGZIJDY:
     '37':
       amount: 1
       material_type: mc
+      name: '&a'
       material: SPYGLASS
       progressbar: true
     0-2:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '3':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     '9':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '11':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '12':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     18-20:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '21':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     27-29:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '30':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     '36':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '38':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '39':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     45-47:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '48':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
 WT_NGZHONGZIJDY:
   title: §a§l农耕种子分析仪
@@ -145,61 +176,426 @@ WT_NGZHONGZIJDY:
     '37':
       amount: 1
       material_type: mc
+      name: '&a'
       material: SPYGLASS
       progressbar: true
     0-2:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '3':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     '9':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '11':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '12':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     18-20:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '21':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     27-29:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '30':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     '36':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '38':
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '39':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
     45-47:
       amount: 1
       material_type: mc
+      name: '&a'
       material: LIME_STAINED_GLASS_PANE
     '48':
       amount: 1
       material_type: mc
+      name: '&a'
       material: YELLOW_STAINED_GLASS_PANE
+WT_QIEDPTTJ:
+  title: §a§l切毒普忒头机
+  slots:
+    '31':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+      progressbar: true
+    0-1:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '2':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    3-4:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '5':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    6-7:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POTATO
+    '8':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    9-10:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '11':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    12-13:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    14-17:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    '18':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '19':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    '21':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    '22':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '23':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    '26':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    '27':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '28':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '29':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    '30':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '32':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    '35':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    '36':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '37':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    '39':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    '40':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    41-44:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    '45':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '46':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '47':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: CYAN_STAINED_GLASS_PANE
+    '48':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '49':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: YELLOW_STAINED_GLASS_PANE
+    '50':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+    51-52:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POTATO
+    '53':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: ORANGE_STAINED_GLASS_PANE
+WT_PTTJLJ:
+  title: §2§l普忒头精炼机
+  slots:
+    '31':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: BROWN_STAINED_GLASS_PANE
+      progressbar: true
+    0-3:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '4':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: BROWN_STAINED_GLASS_PANE
+    5-8:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GLASS_BOTTLE
+    9-11:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '12':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: LIME_STAINED_GLASS_PANE
+    '13':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: BROWN_STAINED_GLASS_PANE
+    '14':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: MAGENTA_STAINED_GLASS_PANE
+    15-17:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GLASS_BOTTLE
+    18-19:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: POISONOUS_POTATO
+    '20':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: LIME_STAINED_GLASS_PANE
+    '21':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: RED_STAINED_GLASS_PANE
+    '22':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: BROWN_STAINED_GLASS_PANE
+    '23':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: WHITE_STAINED_GLASS_PANE
+    '24':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: MAGENTA_STAINED_GLASS_PANE
+    25-26:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GLASS_BOTTLE
+    27-29:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GREEN_STAINED_GLASS_PANE
+    '30':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: RED_STAINED_GLASS_PANE
+    '32':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: WHITE_STAINED_GLASS_PANE
+    33-35:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: PINK_STAINED_GLASS_PANE
+    '36':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GREEN_STAINED_GLASS_PANE
+    '38':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GREEN_STAINED_GLASS_PANE
+    '39':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: RED_STAINED_GLASS_PANE
+    '40':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: BROWN_STAINED_GLASS_PANE
+    '41':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: WHITE_STAINED_GLASS_PANE
+    '42':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: PINK_STAINED_GLASS_PANE
+    '44':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: PINK_STAINED_GLASS_PANE
+    45-47:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: GREEN_STAINED_GLASS_PANE
+    '48':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: RED_STAINED_GLASS_PANE
+    '49':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: BROWN_STAINED_GLASS_PANE
+    '50':
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: WHITE_STAINED_GLASS_PANE
+    51-53:
+      amount: 1
+      material_type: mc
+      name: '&a'
+      material: PINK_STAINED_GLASS_PANE
+
+
