@@ -11,15 +11,15 @@ let giftif = new java.util.HashMap(); // 存储植物成熟状态
 // 配置参数
 var SpawnEntitytick = 2;
 var GrowTimems_INFINITE = 240000; // 无尽植物生长周期间隔，单位毫秒
-var steps = [1/3, 2/3, 1, 4/3, 5/3, 2, 7/3]; // 生长阶段
+var steps = [1/3, 2/3, 1, 4/3, 5/3, 5/3, 2]; // 生长阶段
 var smallSteps = [1/10, 1/6, 1/3, 1/2, 2/3, 5/6, 1, 7/6]; // 小生长阶段
 
 // 生长阶段映射
 var growthStages = {
-    "WT_SEED_NAMITUDOU": {
+    "WT_SEED_NANGUA3": {
         stages: smallSteps,
-        material: Material.POTATOES,
-        maxAge: 7
+        material: Material.MELON_STEM,
+        maxAge: 6
     }
 };
 
@@ -55,8 +55,8 @@ function tick(info) {
     let lastUseTime = lastUseTimes.get(location);
 
     // 处理无尽植物生长逻辑
-    if (machinesf === "WT_SEED_NAMITUDOU") {
-        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_NAMITUDOU");
+    if (machinesf === "WT_SEED_NANGUA3") {
+        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_NANGUA3");
     }
 }
 
@@ -125,18 +125,51 @@ function onBreak(event, itemStack, drops) {
 // 处理成熟植物掉落
 function handleHarvest(world, location) {
     let sfItem = StorageCacheUtils.getSfItem(location);
-    if (sfItem.getId() === "WT_SEED_NAMITUDOU") {
-        let dropItem = (itemId) => {
-            let slimefunItem = getSfItemById(itemId);
-            let itemStack = new ItemStack(slimefunItem.getItem().getType());
-            itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
-            world.dropItemNaturally(location, itemStack);
-        };
+    if (sfItem.getId() === "WT_SEED_NANGUA3") {
+        // 定义所有可能掉落的物品及其掉落概率
+        let drops = [
+            { itemId: "WT_FUHUANANGUA", probability: 0.35 },
+            { itemId: "WT_NANGUA4", probability: 0.2 },
+            { itemId: "WT_FUGUA", probability: 0.01 },
+            { itemId: "WT_CANGBAINANGUA", probability: 0.05 },
+            { itemId: "WT_LANGUA2", probability: 0.15 },
+            { itemId: "WT_HONGLINANGUA", probability: 0.52 },
+        ];
 
-        let Infinite_Yes_1 = Math.random();
-        if (Infinite_Yes_1 < 1) { // 100%概率掉落
-            dropItem("WT_NAMITUDOU");
-            dropItem("WT_SEED_NAMITUDOU");
+        // 随机选择一种物品进行掉落
+        let randomItem = selectRandomDrop(drops);
+        if (randomItem) {
+            dropItem(world, location, randomItem.itemId);
         }
+    }
+}
+
+// 随机选择一种物品进行掉落
+function selectRandomDrop(drops) {
+    // 计算总概率
+    let totalProbability = drops.reduce((sum, drop) => sum + drop.probability, 0);
+
+    // 生成一个随机数
+    let random = Math.random() * totalProbability;
+
+    // 遍历掉落列表，选择一种物品
+    for (let drop of drops) {
+        random -= drop.probability;
+        if (random <= 0) {
+            return drop;
+        }
+    }
+
+    // 如果没有选中任何物品（理论上不会发生），返回 null
+    return null;
+}
+
+// 掉落物品
+function dropItem(world, location, itemId) {
+    let slimefunItem = getSfItemById(itemId);
+    if (slimefunItem) {
+        let itemStack = new ItemStack(slimefunItem.getItem().getType());
+        itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
+        world.dropItemNaturally(location, itemStack);
     }
 }

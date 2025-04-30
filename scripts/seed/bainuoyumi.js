@@ -10,16 +10,16 @@ let giftif = new java.util.HashMap(); // 存储植物成熟状态
 
 // 配置参数
 var SpawnEntitytick = 2;
-var GrowTimems_INFINITE = 240000; // 无尽植物生长周期间隔，单位毫秒
-var steps = [1/3, 2/3, 1, 4/3, 5/3, 2, 7/3]; // 生长阶段
+var GrowTimems_INFINITE = 120000; // 无尽植物生长周期间隔，单位毫秒
+var steps = [0, 0, 0, 0, 0, 0, 1/3]; // 生长阶段
 var smallSteps = [1/10, 1/6, 1/3, 1/2, 2/3, 5/6, 1, 7/6]; // 小生长阶段
 
 // 生长阶段映射
 var growthStages = {
-    "WT_SEED_NAMITUDOU": {
+    "WT_SEED_BAINUOYUMI": {
         stages: smallSteps,
-        material: Material.POTATOES,
-        maxAge: 7
+        material: Material.TORCHFLOWER_CROP, 
+        maxAge: 1
     }
 };
 
@@ -55,8 +55,8 @@ function tick(info) {
     let lastUseTime = lastUseTimes.get(location);
 
     // 处理无尽植物生长逻辑
-    if (machinesf === "WT_SEED_NAMITUDOU") {
-        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_NAMITUDOU");
+    if (machinesf === "WT_SEED_BAINUOYUMI") {
+        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_BAINUOYUMI");
     }
 }
 
@@ -125,7 +125,7 @@ function onBreak(event, itemStack, drops) {
 // 处理成熟植物掉落
 function handleHarvest(world, location) {
     let sfItem = StorageCacheUtils.getSfItem(location);
-    if (sfItem.getId() === "WT_SEED_NAMITUDOU") {
+    if (sfItem.getId() === "WT_SEED_BAINUOYUMI") {
         let dropItem = (itemId) => {
             let slimefunItem = getSfItemById(itemId);
             let itemStack = new ItemStack(slimefunItem.getItem().getType());
@@ -135,8 +135,8 @@ function handleHarvest(world, location) {
 
         let Infinite_Yes_1 = Math.random();
         if (Infinite_Yes_1 < 1) { // 100%概率掉落
-            dropItem("WT_NAMITUDOU");
-            dropItem("WT_SEED_NAMITUDOU");
+            dropItem("WT_BAINUOYUMI");
+            dropItem("WT_SEED_BAINUOYUMI");
         }
     }
 }

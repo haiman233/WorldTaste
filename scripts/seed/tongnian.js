@@ -126,35 +126,49 @@ function onBreak(event, itemStack, drops) {
 function handleHarvest(world, location) {
     let sfItem = StorageCacheUtils.getSfItem(location);
     if (sfItem.getId() === "WT_SEED_TONGNIAN") {
-        let dropItem = (itemId) => {
-            let slimefunItem = getSfItemById(itemId);
-            let itemStack = new ItemStack(slimefunItem.getItem().getType());
-            itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
-            world.dropItemNaturally(location, itemStack);
-        };
+        // 定义所有可能掉落的物品及其掉落概率
+        let drops = [
+            { itemId: "WT_WANDOUSHESHOU", probability: 0.2 },
+            { itemId: "WT_DAZUIHUA", probability: 0.12 },
+            { itemId: "WT_HUIMIE", probability: 0.1 },
+            { itemId: "WT_XIANGRIKUI", probability: 0.5 },
+            { itemId: "WT_MALIAOMOGU", probability: 0.08 }
+        ];
 
-        let Infinite_Yes_1 = Math.random();
-        if (Infinite_Yes_1 < 0.2) { // 100%概率掉落
-            dropItem("WT_SEED_TONGNIAN");
+        // 随机选择一种物品进行掉落
+        let randomItem = selectRandomDrop(drops);
+        if (randomItem) {
+            dropItem(world, location, randomItem.itemId);
         }
-        let Infinite_Yes_2 = Math.random();
-        if (Infinite_Yes_2 < 0.2) { // 100%概率掉落
-            dropItem("WT_WANDOUSHESHOU");
+    }
+}
+
+// 随机选择一种物品进行掉落
+function selectRandomDrop(drops) {
+    // 计算总概率
+    let totalProbability = drops.reduce((sum, drop) => sum + drop.probability, 0);
+
+    // 生成一个随机数
+    let random = Math.random() * totalProbability;
+
+    // 遍历掉落列表，选择一种物品
+    for (let drop of drops) {
+        random -= drop.probability;
+        if (random <= 0) {
+            return drop;
         }
-        let Infinite_Yes_3 = Math.random();
-        if (Infinite_Yes_3 < 0.12) { // 100%概率掉落
-            dropItem("WT_DAZUIHUA");
-        }
-        let Infinite_Yes_4 = Math.random();
-        if (Infinite_Yes_4 < 0.1) { // 100%概率掉落
-            dropItem("WT_HUIMIE");
-        }
-        if (Infinite_Yes_4 < 0.5) { // 100%概率掉落
-            dropItem("WT_XIANGRIKUI");
-        }
-        let Infinite_Yes_5 = Math.random();
-        if (Infinite_Yes_5 < 0.08) { // 100%概率掉落
-            dropItem("WT_MALIAOMOGU");
-        }
+    }
+
+    // 如果没有选中任何物品（理论上不会发生），返回 null
+    return null;
+}
+
+// 掉落物品
+function dropItem(world, location, itemId) {
+    let slimefunItem = getSfItemById(itemId);
+    if (slimefunItem) {
+        let itemStack = new ItemStack(slimefunItem.getItem().getType());
+        itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
+        world.dropItemNaturally(location, itemStack);
     }
 }

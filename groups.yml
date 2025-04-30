@@ -55,7 +55,7 @@ ws_zhishi:
   item:
     material_type: skull_hash
     material: cbaf68a657d3dac6209018f0671947aefc473d07bdf89cf6fe586efe34e4cdfc
-    name: '&e&l芝士'
+    name: '&e&l发酵食品'
   parent: worldtaste
 ws_yan:
   lateInit: false
@@ -146,7 +146,7 @@ ws_tang:
   item:
     material_type: skull_hash
     material: 6e1c7ac436c0e4972d093a8f63306409e3fa5321db4bf106f4ef1d80cc360774
-    name: '&b&l汤'
+    name: '&b&l汤类'
   parent: worldtaste
 ws_kaorou:
   lateInit: false
@@ -248,24 +248,22 @@ ws_zwf_14:
   parent: worldtaste
   actions:
    'none'
-ws_zwf_15:
+ws_gongju:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: pink_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: d235388f091b7fd13397151fca580fdf9a41c2a0a297f887838710f629aa3fd6
+    name: '&f&l工具'
   parent: worldtaste
-  actions:
-   'none'
-ws_zwf_16:
+ws_dongwu:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: pink_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: fe68647011ff22479fa83a38c247e95abff6de212a317603b8915dc8403a954a
+    name: '&a&l动物与卵'
   parent: worldtaste
-  actions:
-   'none'
 ws_zwf_17:
   lateInit: false
   type: button
@@ -308,3 +306,11 @@ ws_zwf_18:
   parent: worldtaste
   actions:
    'none'
+# 愚人节
+ws_yurenjie:
+  type: seasonal
+  month: 4
+  item:
+    name: "&6&k&ld&a&l“毒薯管理员”&6&k&ld"
+    material: POISONOUS_POTATO
+    glow: true

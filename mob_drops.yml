@@ -847,7 +847,7 @@ WT_DONGXUEZHIZHUROU:
   chance: 20
 WT_ZHIZHUDAN:
   lateInit: false
-  item_group: ws_roulei
+  item_group: ws_dongwu
   item:
     name: '&f&l蜘蛛蛋'
     material_type: skull_hash
@@ -985,3 +985,14 @@ WT_GAZHIROU_V:
   register:
     conditions:
       - version >= 1.21.3
+# 蛋
+WT_MUSEEHUNDAN:
+  lateInit: false
+  item_group: ws_dongwu
+  item:
+    name: '&f&l暮色恶魂蛋'
+    material_type: skull_hash
+    material: a13b3cca3fdc6b9777edf3678bad3ec290eb48b8d2b4fb59b527ac1737d53f8b
+    amount: 1
+  entity: GHAST
+  chance: 1
