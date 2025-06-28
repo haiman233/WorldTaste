@@ -10,15 +10,15 @@ let giftif = new java.util.HashMap(); // 存储植物成熟状态
 
 // 配置参数
 var SpawnEntitytick = 2;
-var GrowTimems_INFINITE = 240000; // 无尽植物生长周期间隔，单位毫秒
+var GrowTimems_INFINITE = 120000; // 无尽植物生长周期间隔，单位毫秒
 var steps = [1/3, 2/3, 1, 4/3, 5/3, 2, 7/3]; // 生长阶段
 var smallSteps = [1/10, 1/6, 1/3, 1/2, 2/3, 5/6, 1, 7/6]; // 小生长阶段
 
 // 生长阶段映射
 var growthStages = {
-    "WT_SEED_RENSHEN": {
+    "WT_SEED_SHIRUN": {
         stages: smallSteps,
-        material: Material.POTATOES,
+        material: Material.WHEAT,
         maxAge: 7
     }
 };
@@ -55,8 +55,8 @@ function tick(info) {
     let lastUseTime = lastUseTimes.get(location);
 
     // 处理无尽植物生长逻辑
-    if (machinesf === "WT_SEED_RENSHEN") {
-        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_RENSHEN");
+    if (machinesf === "WT_SEED_SHIRUN") {
+        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_SHIRUN");
     }
 }
 
@@ -125,11 +125,15 @@ function onBreak(event, itemStack, drops) {
 // 处理成熟植物掉落
 function handleHarvest(world, location) {
     let sfItem = StorageCacheUtils.getSfItem(location);
-    if (sfItem.getId() === "WT_SEED_RENSHEN") {
+    if (sfItem.getId() === "WT_SEED_SHIRUN") {
         // 定义所有可能掉落的物品及其掉落概率
         let drops = [
-            { itemId: "WT_RENSHEN", probability: 0.95 },
-            { itemId: "WT_XIANRENSHEN", probability: 0.05 }
+            { itemId: "WT_XIANGPUTOU", probability: 0.5 },
+            { itemId: "WT_YUMAOLUWEICAO", probability: 0.5 },
+            { itemId: "WT_BUYINGCAO", probability: 0.3 },
+            { itemId: "WT_YUNMEI", probability: 0.2 },
+            { itemId: "WT_TIANMEI", probability: 0.1 },
+            { itemId: "WT_SEED_SHIRUN", probability: 0.3 }
         ];
 
         // 随机选择一种物品进行掉落

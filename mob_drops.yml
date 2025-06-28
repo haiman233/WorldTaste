@@ -202,18 +202,6 @@ WT_QIANYINGBEIROU:
     amount: 1
   entity: SHULKER
   chance: 40
-WT_NAOZI:
-  lateInit: false
-  item_group: ws_roulei
-  item:
-    name: '&4&l猪脑'
-    lore:
-    - '&7吃啥补啥'
-    material_type: skull_hash
-    material: 2dd3b01ec32f3f5ea26ad4e23305401f73d13f3c16b3facefe70d92176b311
-    amount: 1
-  entity: PIG
-  chance: 1
 WT_SHOUWEIZHEYAN:
   lateInit: false
   item_group: ws_roulei
@@ -996,3 +984,112 @@ WT_MUSEEHUNDAN:
     amount: 1
   entity: GHAST
   chance: 1
+WT_LONGJIROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&d&l龙脊肉'
+    lore:
+    - '&7大块又鲜美'
+    material_type: skull_hash
+    material: 38ef330682918978813fc17ef3f39dbbbb9997619aba9a0d3c212bd261385139
+    amount: 1
+  entity: ENDER_DRAGON
+  chance: 20
+WT_LONGXIN:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&4&l龙心'
+    lore:
+    - '&7一种及其珍贵的食材'
+    material_type: skull_hash
+    material: 11c51b946cb484b9c76b2c5bf5eab0c74c9ced95f35aa81e699bd5d9b57e20f
+    amount: 1
+  entity: ENDER_DRAGON
+  chance: 10
+WT_JIANSHOUZHEPI:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&b&l坚守者皮'
+    lore:
+    - '&7具有极高的韧性'
+    material_type: skull_hash
+    material: bb132ecdcfc91e5b20e3ac43ff31bff4fd5b9fea8f7300e2cb0bed4b39a92632
+    amount: 1
+  entity: WARDEN
+  chance: 10
+# 屠宰
+WT_ZHENGZHIZHU:
+  lateInit: false
+  item_group: ws_tuzai
+  item:
+    name: '&f&l整只猪'
+    lore:
+    - '&7需要放入屠宰机中屠宰'
+    material_type: skull_hash
+    material: b6a0249a78a999037ff7806338bc0b3c8dbac6793dc312c376d7e9ddf46bc614
+    amount: 1
+  entity: PIG
+  chance: 30
+WT_ZHENGZHIJI:
+  lateInit: false
+  item_group: ws_tuzai
+  item:
+    name: '&f&l整只鸡'
+    lore:
+    - '&7需要放入屠宰机中屠宰'
+    material_type: skull_hash
+    material: 13ca80781f6f2e73464a7e53bbb51609b2f5db51894431c39293cd51af33c19b
+    amount: 1
+  entity: CHICKEN
+  chance: 30
+WT_ZHENGZHIYANG:
+  lateInit: false
+  item_group: ws_tuzai
+  item:
+    name: '&f&l整只羊'
+    lore:
+    - '&7需要放入屠宰机中屠宰'
+    material_type: skull_hash
+    material: f9719ec9ee6f53c17b1f6f747866b3121401d35f77a39859f122d472863e48e
+    amount: 1
+  entity: SHEEP
+  chance: 30
+WT_ZHENGZHINIU:
+  lateInit: false
+  item_group: ws_tuzai
+  item:
+    name: '&f&l整只牛'
+    lore:
+    - '&7需要放入屠宰机中屠宰'
+    material_type: skull_hash
+    material: c3a61df5441afdd4fb247c4463d538ddcecfa529cab200f849ed28b682a538c6
+    amount: 1
+  entity: COW
+  chance: 30
+WT_ZHENGZHIWANJIA:
+  lateInit: false
+  item_group: ws_tuzai
+  item:
+    name: '&f&l整只玩家'
+    lore:
+    - '&7需要放入屠宰机中屠宰'
+    material_type: skull_hash
+    material: 40397c36325545802db52057a107dc7806d6d2d0c3d2db36fb421aba3e044489
+    amount: 1
+  entity: PLAYER
+  chance: 30
+WT_ZHENGZHICUNMING:
+  lateInit: false
+  item_group: ws_tuzai
+  item:
+    name: '&f&l整只村民'
+    lore:
+    - '&7需要放入屠宰机中屠宰'
+    material_type: skull_hash
+    material: 80bb6eff6863a4598bee9c2bd496a08da938d0ff3f54075d31da267c3f223baf
+    amount: 1
+  entity: VILLAGER
+  chance: 30

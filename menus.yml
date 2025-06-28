@@ -600,12 +600,6 @@ WT_PTTJLJ:
 WT_CHANLUANSHI:
   title: §c§l产卵室
   slots:
-    '18':
-      name: §6此处放入动物
-      amount: 1
-      material_type: mc
-      material: PINK_STAINED_GLASS_PANE
-      progressbar: true
     0-1:
       name: ' '
       amount: 1
@@ -646,6 +640,7 @@ WT_CHANLUANSHI:
       amount: 1
       material_type: mc
       material: LIME_STAINED_GLASS_PANE
+      progressbar: true
     36-37:
       name: ' '
       amount: 1
@@ -835,6 +830,219 @@ WT_HWSCPCLJ:
       material: LIGHT_BLUE_STAINED_GLASS_PANE
     '47':
       name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+WT_TUZAIJI:
+  title: §4§l屠宰机
+  slots:
+    '28':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+      progressbar: true
+    '0':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '1':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '9':
+      name: §6§l请在下方放入需要屠宰的整只生物/生物头颅
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+    '10':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '19':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '27':
+      name: §6§l请在下方放入放血刀/砍刀
+      amount: 1
+      material_type: mc
+      material: RED_STAINED_GLASS_PANE
+    '37':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '45':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '46':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+WT_XIELONG:
+  title: §6§l蟹笼
+  slots:
+    '28':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+      progressbar: true
+    '0':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    '1':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '9':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    '10':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '18':
+      name: §b§l在下方放入诱饵
+      amount: 1
+      material_type: mc
+      material: BLUE_STAINED_GLASS_PANE
+    '19':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '36':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    '37':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '45':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    '46':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+WT_DIANDONGBUSHUJIA:
+  title: §e§l电动捕鼠夹
+  slots:
+    '22':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+      progressbar: true
+    0-3:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '4':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    5-8:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    9-12:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '13':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    '14':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '17':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '18':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '21':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '23':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '26':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '27':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '30':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '31':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    '32':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '35':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    36-39:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '40':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    '41':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '44':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    45-48:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '49':
+      amount: 1
+      material_type: mc
+      material: GRAY_STAINED_GLASS_PANE
+    50-53:
       amount: 1
       material_type: mc
       material: ORANGE_STAINED_GLASS_PANE

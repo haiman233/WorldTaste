@@ -160,3 +160,24 @@ WUWEI_HWSCPCLJ:
     - '&7需要在恒温水产品处理机中处理相应材料'
   material_type: skull_hash
   material: e2da8d6aff4ba2eef5df16209b6f74bde67a8e57f23dc13b4c017eabb78c4ece
+WUWEI_TUZAIFANGXUE:
+  lateInit: false
+  name: '&f&l在屠宰机中使用放血刀处理'
+  lore:
+    - '&7需要在屠宰机中使用放血刀处理'
+  material_type: mc
+  material: IRON_SWORD
+WUWEI_TUZAIKANDAO:
+  lateInit: false
+  name: '&f&l在屠宰机中使用砍刀处理'
+  lore:
+    - '&7需要在屠宰机中使用砍刀处理'
+  material_type: mc
+  material: IRON_AXE
+WUWEI_BUSHUJIA:
+  lateInit: false
+  name: '&f&l电动捕鼠夹'
+  lore:
+    - '&7需要用电动捕鼠夹捕鼠'
+  material_type: skull_hash
+  material: 615df199737203cd5ac6b8794eae60a6b6906389570c09e70997203af09247be

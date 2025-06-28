@@ -133,7 +133,7 @@ function handleHarvest(world, location) {
             { itemId: "WT_FUGUA", probability: 0.01 },
             { itemId: "WT_CANGBAINANGUA", probability: 0.05 },
             { itemId: "WT_LANGUA2", probability: 0.15 },
-            { itemId: "WT_HONGLINANGUA", probability: 0.52 },
+            { itemId: "WT_HONGLINANGUA", probability: 0.52 }
         ];
 
         // 随机选择一种物品进行掉落

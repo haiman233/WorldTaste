@@ -139,6 +139,7 @@ function handleHarvest(world, location) {
             { itemId: "WT_KAIXINGUO", probability: 0.1 },
             { itemId: "WT_MALI", probability: 0.4 },
             { itemId: "WT_CONGLINMUJIA", probability: 0.1 },
+            { itemId: "WT_DALISHISONGGUO", probability: 0.08 },
             { itemId: "WT_JIANGUOQIANG", probability: 0.06 }
         ];
 

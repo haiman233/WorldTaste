@@ -5420,7 +5420,7 @@ WUWEI_WAGUO:
           amount: 1
         '5':
           material_type: slimefun
-          material: WT_NAOZI
+          material: WT_TUZAI_ZHUNAOZI
           amount: 1
         '6':
           material_type: slimefun
@@ -7378,7 +7378,7 @@ WUWEI_ZHAGUO:
           amount: 1
         '5':
           material_type: slimefun
-          material: WT_NAOZI
+          material: WT_TUZAI_ZHUNAOZI
           amount: 1
         '6':
           material_type: slimefun

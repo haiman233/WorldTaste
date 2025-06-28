@@ -1892,12 +1892,12 @@ WT_BWWYL:
           slot: 10
         '8':
           material_type: slimefun
-          material: WT_NAOZI
+          material: WT_TUZAI_ZHUNAOZI
           amount: 1
           slot: 11
         '9':
           material_type: slimefun
-          material: WT_NAOZI
+          material: WT_TUZAI_ZHUNAOZI
           amount: 1
           slot: 12
         '10':
@@ -1982,12 +1982,12 @@ WT_BWWYL:
           slot: 37
         '26':
           material_type: slimefun
-          material: WT_NAOZI
+          material: WT_TUZAI_ZHUNAOZI
           amount: 1
           slot: 38
         '27':
           material_type: slimefun
-          material: WT_NAOZI
+          material: WT_TUZAI_ZHUNAOZI
           amount: 1
           slot: 39
         '28':

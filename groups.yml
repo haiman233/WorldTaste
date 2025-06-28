@@ -38,7 +38,7 @@ ws_zhongzi:
   item:
     material_type: skull_hash
     material: 7aadb37dd556f9eefbb8ea54943e1f657fac45409e34cd99c810d4dd461bc633
-    name: '&a&l种子'
+    name: '&a&l作物种子'
   parent: worldtaste
 ws_zwf_5:
   lateInit: false
@@ -73,15 +73,14 @@ ws_hongbei:
     material: fe9bce86196a857bf095333136a9630ececf61894b6a5c5853e593af53dad60
     name: '&f&l烘焙'
   parent: worldtaste
-ws_zwf_6:
+ws_tuzai:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: lime_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: b6a0249a78a999037ff7806338bc0b3c8dbac6793dc312c376d7e9ddf46bc614
+    name: '&f&l屠宰食材'
   parent: worldtaste
-  actions:
-   'none'
 ws_info:
   lateInit: false
   type: sub
@@ -297,15 +296,14 @@ ws_wanzi:
     material: 87b972f008d9eceb034bd664ff9e993e142e6e163fa2b12573852059e9bf2e9c
     name: '&6&l功能丸子'
   parent: worldtaste
-ws_zwf_18:
+ws_jiu:
   lateInit: false
-  type: button
+  type: sub
   item:
-    material: lime_stained_glass_pane
-    name: '&a'
+    material_type: skull_hash
+    material: f6fbc7fcbc773a99e49a3e8c2526c2da6cbf20ac65aa65780af9f01dc6ba24af
+    name: '&6&l酿酒与制药'
   parent: worldtaste
-  actions:
-   'none'
 # 愚人节
 ws_yurenjie:
   type: seasonal

@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.4'
+      - '&bRelease-1.5'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -163,9 +163,26 @@ WORLDTASTE_ZWF2:
     material: BARRIER
   placeable: false
   recipe_type: 'NULL'
-
+WORLDTASTE_RYZZDW:
+  item_group: ws_tieshi
+  item:
+    name: "&f&l任意整只动物"
+    lore:
+      - '&7除了暮色恶魂'
+    material_type: skull_hash
+    material: d53f0c9a652897eecabc21a45ddda77464f2a62509b481a6a3b53120ad0e7815
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_RYZZDWTL:
+  item_group: ws_tieshi
+  item:
+    name: "&f&l任意动物的头颅"
+    lore:
+    material_type: skull_hash
+    material: d53f0c9a652897eecabc21a45ddda77464f2a62509b481a6a3b53120ad0e7815
+  placeable: false
+  recipe_type: 'NULL'
 # 分类占位符
-
 WORLDTASTE_ZWF3:
   item_group: ws_zwf_1
   item:
@@ -193,6 +210,15 @@ WORLDTASTE_ZWF5:
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
+WORLDTASTE_ZWFJIU:
+  item_group: ws_jiu
+  item:
+    name: "&f&l敬请期待"
+    lore:
+      - '&6&l敬请期待'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
 WORLDTASTE_ZWF7:
   item_group: ws_zwf_5
   item:
@@ -202,15 +228,7 @@ WORLDTASTE_ZWF7:
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
-WORLDTASTE_ZWF8:
-  item_group: ws_zwf_6
-  item: 
-    name: "&f&l这就是一个占位符而已"
-    lore:
-      - '&6&l这就是一个占位符而已'
-    material: PAPER
-  placeable: false
-  recipe_type: 'NULL'
+
 WORLDTASTE_ZWF9:
   item_group: ws_zwf_7
   item:
@@ -275,16 +293,89 @@ WORLDTASTE_ZWF19:
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
-WORLDTASTE_ZWF20:
-  item_group: ws_zwf_18
-  item:
-    name: "&f&l这就是一个占位符而已"
-    lore:
-      - '&6&l这就是一个占位符而已'
-    material: PAPER
-  placeable: false
-  recipe_type: 'NULL'
 #工具
+WT_FANGXUEDAO:
+  item_group: ws_gongju
+  item:
+    name: "&f&l放血刀"
+    lore:
+      - ''
+      - '&7可在屠宰机中给头颅放血'
+      - '&7并获取与头颅有关的食材'
+    material_type: mc
+    material: IRON_SWORD
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '3':
+      material_type: mc
+      material: FLINT
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: IRON_INGOT
+    '7':
+      material_type: mc
+      material: STICK
+      amount: 1
+WT_KANDAO:
+  item_group: ws_gongju
+  item:
+    name: "&f&l砍刀"
+    lore:
+      - ''
+      - '&7可在屠宰机中屠宰整只的动物'
+    material_type: mc
+    material: IRON_AXE
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: IRON_INGOT
+    '2':
+      amount: 1
+      material_type: mc
+      material: IRON_INGOT
+    '3':
+      material_type: mc
+      material: FLINT
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: STICK
+    '6':
+      material_type: mc
+      material: IRON_INGOT
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: STICK
+WT_TYSILIOA:
+  item_group: ws_gongju
+  item:
+    name: "&f&l通用饲料"
+    lore:
+      - ''
+      - '&7可用于在产卵机中饲养动物'
+    material_type: skull_hash
+    material: 1f5874436b28c5646a9f3c8aeba9aed24aeed2ab82883315e6af19dc216fa536
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WHEAT_FLOUR
+    '2':
+      amount: 1
+      material_type: mc
+      material: WHEAT_SEEDS
+
 WT_BAIWEIDIAOGAN:
   item_group: ws_gongju
   item:
@@ -430,6 +521,147 @@ WT_SHUIGUOYUER:
       amount: 1
       material_type: mc
       material: SWEET_BERRIES
+# 诱饵
+WT_PANGXIEYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l螃蟹诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取螃蟹'
+    material_type: skull_hash
+    material: ae009a4b0e51490399e3c56f07eb2ec3759f51897a5c50dee927442da6c6942
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: GN_CRAB
+      amount: 1
+WT_XIAYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l虾诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取虾类'
+    material_type: skull_hash
+    material: 27fa762974272457b4ba43a73a376f2ada01f21283ed66219e9b8c69b1484543
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: WT_HEXIA
+      amount: 1
+WT_LONGXIAYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l龙虾诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取龙虾'
+    material_type: skull_hash
+    material: daf6f86f413dfbb00693305c51e72d5e024257c2d971a6a25d11c11e3972cc5d
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: WT_LONGXIA
+      amount: 1
+WT_HAIXINGYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l海星诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取海星'
+    material_type: skull_hash
+    material: abaa5557d804ed514418380d20e64209cd9501ed05e697354c73c2fd726934f8
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: WT_HAIXING
+      amount: 1
+WT_XIANGPUYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l香蒲诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取鱼类'
+    material_type: skull_hash
+    material: d8ea813fbbd0fbe1a3a3f6dd5eae74069c5e6bc523c94596dc55276cb4296cf5
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: WT_XIANGPUTOU
+      amount: 1
+WT_BEIKEYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l贝壳诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取贝类'
+    material_type: skull_hash
+    material: d3ec8450f2c32d008f6843e00df38f5e401691e1957b02c8fb6338ef881ba772
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: WT_BEIKE
+      amount: 1
+WT_YINGWULUOYOUER:
+  item_group: ws_gongju
+  item:
+    name: "&f&l鹦鹉螺诱饵"
+    lore:
+      - ''
+      - '&7可放入蟹笼中获取鹦鹉螺'
+    material_type: skull_hash
+    material: 7a9ba3f16b7d1f144c6a71b1be113b17ef3a19056f7e3afe5eaefd8b4974d6fe
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '2':
+      material_type: slimefun
+      material: WT_YINGWULUO
+      amount: 1
 # 未鉴定的种子
 WT_SCZZ:
   item_group: ws_zhongzi
@@ -934,20 +1166,6 @@ WT_YANGJI:
       material_type: slimefun
       material: WT_SEED_YANGJI
       amount: 1
-WT_XIANGGU:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l香菇"
-    material_type: skull_hash
-    material: e811ff5eb6c813d3b792fe32dcb67370c8bcb8f614c9cfc6da74239e6414145a
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_XIANGGU
-      amount: 1
 WT_YUTOU:
   item_group: ws_zuowu
   item:
@@ -1074,6 +1292,162 @@ WT_RIBENNANGUA:
       material_type: slimefun
       material: WT_SEED_RIBENNANGUA
       amount: 1
+# 蔬菜
+WT_SHANYAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l山药"
+    material_type: skull_hash
+    material: f9baef4a1efcd4a689675727af320280e883c2aa0458dc2bd164b35cf6747d78
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHANYAO
+      amount: 1
+WT_DATOUCAI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l大头菜"
+    material_type: skull_hash
+    material: 2969d3149333e1e658f5da69dc6131a87fa6817cda2ba6387d5f5f31e0ef73
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DATOUCAI
+      amount: 1
+WT_XIANGYU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l香芋"
+    material_type: skull_hash
+    material: b4a01eb60510ea7ffaf9b61eb0a21c5d5b1affbb92e37a8e9b64b155535ad6a4
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XIANGYU
+      amount: 1
+WT_MACAI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l麻菜"
+    material_type: skull_hash
+    material: 23a8cb7f04da0cf228e15ec32f710b5646c04ac5d8efa4221cc433d92fe7e613
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_MACAI
+      amount: 1
+WT_DONGGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l冬瓜"
+    material_type: skull_hash
+    material: 36ae076649ef22f60e8511831c68fd2b6ea63c32164dab33a8aebc18ff2a54c8
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DONGGUA
+      amount: 1
+WT_XILANHUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l西蓝花"
+    material_type: skull_hash
+    material: 65106f0cc4c12dcfe7736a1ffc92772f41b66e1b7682b1f47537787720567262
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XILANHUA
+      amount: 1
+WT_LVDOUJIA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l毛豆荚"
+    material_type: skull_hash
+    material: 1ab4af75112437363815f4924c222e08858d83af337c7d1ad52496b79af8ecad
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_LVDOUJIA
+      amount: 1
+WT_HONGYUANLUOBO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l红圆萝卜"
+    material_type: skull_hash
+    material: ec9e171877a310738fa3775c8039a77ab141417f56d276a73189c974920e24d2
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_HONGYUANLUOBO
+      amount: 1
+WT_SHUIGUOLUOBO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l水果萝卜"
+    material_type: skull_hash
+    material: 6cb0c35f17a1d3e3479de73b11e2263ef2bd0dfd6f60dbbc3977c55d2f99bcbd
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHUIGUOLUOBO
+      amount: 1
+# 1.5 蔬菜
+WT_JIUCAI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l韭菜"
+    material_type: skull_hash
+    material: beb21597c302a98382719e77dbb9df46960d9253246283bc2d4a031c1dbd9f41
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_JIUCAI
+      amount: 1
+WT_QINGCAI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l青菜"
+    material_type: skull_hash
+    material: 58e59dc722e419fe064f0c7992a7897b73cc7c5205e19d067a174bcb018e9429
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QINGCAI
+      amount: 1
 # 玉米
 WT_YMHFJ:
   item_group: ws_zuowu
@@ -1145,6 +1519,48 @@ WT_QYM:
       material_type: slimefun
       material: WT_SEED_QYM
       amount: 1
+WT_HEIYUMI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l黑玉米"
+    material_type: skull_hash
+    material: 8c1e784e99bb563e3e3f9b866ca5c51d389184668063aeeb02f55d1df68b0f1a
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_HEIYUMI
+      amount: 1
+WT_BIANBIANYUMI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l便便玉米"
+    material_type: skull_hash
+    material: 396a61406db1b485d6660f0933ee775431e9141acde1b1c4563357a3760679ba
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_BIANBIANYUMI
+      amount: 1
+WT_BAINUOYUMI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l白糯玉米"
+    material_type: skull_hash
+    material: f0e1a5aadf3fa756724c2f916ea9c52ac79f8b13a2cffe9148521ee3cbbfa
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_BAINUOYUMI
+      amount: 1
 # 辣椒
 WT_QINGJIAO:
   item_group: ws_zuowu
@@ -1152,6 +1568,20 @@ WT_QINGJIAO:
     name: "&f&l青椒"
     material_type: skull_hash
     material: f859c8df1109c08a756275f1d2887c2748049fe33877769a7b415d56eda469d8
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QINGJIAO
+      amount: 1
+WT_XIAOMILA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l小米辣"
+    material_type: skull_hash
+    material: 2ca989bffe38c2b3ffa53ee230c260b5725d257269fcf6cfc7a85562c2ef753c
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -1357,6 +1787,34 @@ WT_CULI:
       material_type: slimefun
       material: WT_SEED_CULI
       amount: 1
+WT_LANCULI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l蓝醋栗"
+    material_type: skull_hash
+    material: a0269b84bed938ec49b723813918ece8d2c4acd427bf728e2437f365bd1
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_CULI
+      amount: 1
+WT_HEICULI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l黑醋栗"
+    material_type: skull_hash
+    material: f88610bfcafb0fc70509324a135d643ac83a6aec57c18285713205b729c28c6f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_CULI
+      amount: 1
 WT_QINGTI:
   item_group: ws_zuowu
   item:
@@ -1388,7 +1846,7 @@ WT_GANXIA:
 WT_SHILIU:
   item_group: ws_zuowu
   item:
-    name: "&f&l石榴"
+    name: "&f&l软籽石榴"
     material_type: skull_hash
     material: 89b003b33f37a6f1326c62dc03ff47861923cc03c231f71f688386577b2bf3e
   placeable: false
@@ -1416,7 +1874,7 @@ WT_PIPA:
 WT_WENBOGUO:
   item_group: ws_zuowu
   item:
-    name: "&f&l榅桲果"
+    name: "&f&l榅桲"
     material_type: skull_hash
     material: 5c519a6b13e36fe9be2f3a5dd725f9ff1b31858c8caf5d638b884e3dc718bfd1
   placeable: false
@@ -1511,6 +1969,483 @@ WT_SHIZI:
       material_type: slimefun
       material: WT_SEED_SHIZI
       amount: 1
+WT_YAOCAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l药草"
+    material_type: skull_hash
+    material: f096652b67e15626f0f46fd39e40a23a7278d84b0ebcac3e6ff57b198439a2b5
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YAOCAO
+      amount: 1
+WT_XIAOMI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l小米"
+    material_type: skull_hash
+    material: f86badb0d913b391fb48d7776c378ca3f4b2dbe724534034f350ccd38f904473
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XIAOMI
+      amount: 1
+WT_PANTAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l蟠桃"
+    material_type: skull_hash
+    material: 253f7cebd1b0ab730268334ff2dc5bff327b83f6555483bbc022ded6f4bfc0ff
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_PANTAO
+      amount: 1
+WT_ZONGYE:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l粽叶"
+    material_type: skull_hash
+    material: efaf9ab70ad407148e2ae0b4af81ed817a0bf99ce6a087b69286ec6caa03a39d
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_ZONGYE
+      amount: 1
+WT_AICAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l艾草"
+    material_type: skull_hash
+    material: 16e298af0687a69413aacb1e9726f2708f499159e4ce7d16d3a6729e0a534a25
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_AICAO
+      amount: 1
+# 1.5 温带
+WT_XUEJIAYANYE:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l雪茄烟叶"
+    material_type: skull_hash
+    material: 9f2d14692d8b0e3526a6faf4266727bd02aaa7b0527b185acf7f0aa66793ffdc
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XUEJIAYANYE
+      amount: 1
+WT_KUGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l苦瓜"
+    material_type: skull_hash
+    material: b5c30e2c59f567a5a264c8e5cf4ba2e23b1ffe37a975460f97489caeec627c03
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_KUGUA
+      amount: 1
+WT_SIGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l丝瓜"
+    material_type: skull_hash
+    material: c11b505542dfd3cf875ccca3bdee68a897356e410fe8105a63a7589364c82bfe
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SIGUA
+      amount: 1
+WT_DIEDOUHUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l蝶豆花"
+    material_type: skull_hash
+    material: 6bb660a4e244c360b1f24fe102d7dae01ced20d1997f4e1398141a03dabb2082
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DIEDOUHUA
+      amount: 1
+WT_DONGQINGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l冬青果"
+    material_type: skull_hash
+    material: 5fe1dd98448f8497a25c5529fda847533279862375cf28066c299c82b5d12f82
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_YEYINGMEI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l野樱莓"
+    material_type: skull_hash
+    material: 3bc607e215d0557fce4141c3b5242a8a5ac62ca53842e845ba6e36c39a3d1edd
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_HEIXINGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l黑心果"
+    material_type: skull_hash
+    material: c0f7f76a8f3a05887cff58f996dad3001fbe1f22531d62dcd7d4f634a07b2ca1
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_SHANZHA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l山楂"
+    material_type: skull_hash
+    material: 1e71bfa0f4b6c8e9cb64309e3425334a50bc20ef95b8edcd10a91a81ee17f872
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_BOLUOMEI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l菠萝莓"
+    material_type: skull_hash
+    material: 996f978de062b5fc18abd9ed8878890f4f4924bfd12f9c45833552dea27a55ce
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_BAITAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l白桃"
+    material_type: skull_hash
+    material: 3f7a45177f5f3cba1a8d8d4d84baa620c7b2d8f411eece20cd70249fffdb40af
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_DENGLONGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l灯笼果"
+    material_type: skull_hash
+    material: e7c9b26d0a4b26e97a47cca48eb264577a047f7dfe5c6b4d81a659135eebf97
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_TIANSHIGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l天使果"
+    material_type: skull_hash
+    material: c6f05bcf5966af705265fc8b64819bef512a068683e6bc698916f4ea99793863
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_KUCHENG:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l苦橙"
+    material_type: skull_hash
+    material: 8b919d3042ed262ddbdf8f9080e401c7e1c356b976d3693f1bda3c09faa23cca
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_SHATANGJU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l砂糖橘"
+    material_type: skull_hash
+    material: ae1d69169873bfd9ef64df1d808df6ede697a51ef6258a55e968a424ddc83a75
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUO
+      amount: 1
+WT_QINGPITIANGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l青皮甜瓜"
+    material_type: skull_hash
+    material: fab99235e527c4ce35d33ccc1a144d2812888aa84f0d69aa19e5428e507a01a3
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUA
+      amount: 1
+WT_JINSIGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l金丝瓜"
+    material_type: skull_hash
+    material: d7591b41aa75bac6391af378d4c24aa28e60a8ae88a085213c812d1c9ee667d0
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUA
+      amount: 1
+WT_XINGHONGTIANGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l猩红甜瓜"
+    material_type: skull_hash
+    material: 265f5a3651f254701b3c571bd84f3d6f9df453cd3117e0a7a6f1f7211227c796
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUA
+      amount: 1
+WT_MABOGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l马瓟瓜"
+    material_type: skull_hash
+    material: 6db1ec5d0bfbbc6f175afa590ea6a24a377a7fcb12caa1bf7cb05d43ce7a9a88
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUA
+      amount: 1
+WT_YINGGUANGLVGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l荧光绿瓜"
+    material_type: skull_hash
+    material: eeb8a3367a9eaa467cd4fe9c5a3c30fb79335d2faa24b88a4aa1bd3355bfb247
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YEGUA
+      amount: 1
+WT_HONGDOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l红豆"
+    material_type: skull_hash
+    material: 275246c506851bc7af627b1cd5f7d98236cb5a112d78154686f35e60c367e3d1
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DOUJIA
+      amount: 1
+WT_LVDOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l绿豆"
+    material_type: skull_hash
+    material: 416bfab4410089a6dc6e2dfcf9a98674352e61bac9f0295fc5d51e6842f11e49
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DOUJIA
+      amount: 1
+WT_HEIDOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l黑豆"
+    material_type: skull_hash
+    material: dcb8b819931c95aae34072dfe14c39b433b49e9a32267663765e59abc89fedbc
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DOUJIA
+      amount: 1
+WT_HUANGDOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l黄豆"
+    material_type: skull_hash
+    material: 157e114e608988bd65821f23a4502bf3954107c15a4d6f019d6799952045f0b5
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DOUJIA
+      amount: 1
+WT_LANDOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l蓝豆"
+    material_type: skull_hash
+    material: f44a7438a595a28e66c533f6039b3f9db5f95e30f2f5f21c23e9e8902903fdb
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DOUJIA
+      amount: 1
+WT_XIANGPUTOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l香蒲头"
+    material_type: skull_hash
+    material: bf8ed7fb1d42824a843e2f9fcac679947dfc2643b917cf8a6b4a4731bd1b27
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHIRUN
+      amount: 1
+WT_YUMAOLUWEICAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l羽毛芦苇草"
+    material_type: skull_hash
+    material: 2b7eaef329dd934e67cf3d4813c9b89bffd794cfa5ef8b4e158f25bd5dd3e393
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHIRUN
+      amount: 1
+WT_BUYINGCAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l捕蝇草"
+    material_type: skull_hash
+    material: d923007952b32fe985b8cd7d9ed0299e352022d50958ff1d759862e6a352a709
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHIRUN
+      amount: 1
+WT_YUNMEI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l云莓"
+    material_type: skull_hash
+    material: e2b712b84586703ad92e4d901f5248c4399196f9455cbe055f6e4dcaa541700e
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHIRUN
+      amount: 1
+WT_TIANMEI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l天莓"
+    material_type: skull_hash
+    material: 719ae4166ed3711c6b114ef35cc22219080c994ab724362c01b24c6cc21f79fe
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHIRUN
+      amount: 1
 # 热带植物
 WT_HUANGJINGGUO:
   item_group: ws_zuowu
@@ -1532,6 +2467,20 @@ WT_YANGTAO:
     name: "&f&l杨桃"
     material_type: skull_hash
     material: 4d76b9a248e97f777b775e613a65cd8eb2a641a5caac99cebbe86e2f84cef1e3
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YANGTAO
+      amount: 1
+WT_QINGYANGTAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l青杨桃"
+    material_type: skull_hash
+    material: d9e6c180b2b330771ed3d407056260298d3341f320526efbe05b56d65ae1619d
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -1666,6 +2615,20 @@ WT_LIULIAN:
       material_type: slimefun
       material: WT_SEED_LIULIAN
       amount: 1
+WT_QINGNILIULIAN:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l青尼榴莲"
+    material_type: skull_hash
+    material: f80492ee6e93772fb8db3c64af089c3a36c6afd776a4cde2dc285fecd1ae39a
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_LIULIAN
+      amount: 1
 WT_MIYOU:
   item_group: ws_zuowu
   item:
@@ -1783,7 +2746,7 @@ WT_HAMIGUA:
   item:
     name: "&f&l哈密瓜"
     material_type: skull_hash
-    material: fb14cba0f42a2d138ed243b3bff99cb1ea8cbdcd94fb5fb1e3a307f8e21ab1c
+    material: a8bcba199ece0c58982a99c652fc609e3ea95f52f4ddb58bcc678726827c74bf
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -1847,6 +2810,203 @@ WT_FENGGUNCAO:
     5:
       material_type: slimefun
       material: WT_SEED_FENGGUNCAO
+      amount: 1
+WT_QINGGANLAN:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l青橄榄"
+    material_type: skull_hash
+    material: 4242d524d9286e443b8c88b41b396c9f9245209a63bfca9e5718c769bf4f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QINGGANLAN
+      amount: 1
+WT_HUANGLONGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l黄龙果"
+    material_type: skull_hash
+    material: f232d5ee3cc3b37644e55be64a71543b29ba1f5a95a38ce151c00d4b8dbb058b
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_HUANGLONGGUO
+      amount: 1
+WT_XIAOXIGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l小西瓜"
+    material_type: skull_hash
+    material: 9636dee806ba47a2c40e95b57a12f37de6c2e677f2160132a07e24eeffa6
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XIAOXIGUA
+      amount: 1
+# 1.5 热带作物
+WT_TIANGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l甜瓜"
+    material_type: skull_hash
+    material: fb14cba0f42a2d138ed243b3bff99cb1ea8cbdcd94fb5fb1e3a307f8e21ab1c
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_TIANGUA
+      amount: 1
+WT_ROUGUI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l肉桂"
+    material_type: skull_hash
+    material: ec9a5b403ee970b180a0938d2ef40a07c6dbcd6da287bfcbee2cfe3d37cca751
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_ROUGUI
+      amount: 1
+WT_ROUDOUKOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l肉豆蔻"
+    material_type: skull_hash
+    material: 19c00ede584bc96707703f007a8e9b0a8e156b23ce3e829119adb51202d33055
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_ROUDOUKOU
+      amount: 1
+WT_SHENGBINGLANG:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l生槟榔"
+    material_type: skull_hash
+    material: e1c65e7f2ea74b1847c5086cdb38d5bb27d73b51ef1dddf0a19ef8b9c5f7a24e
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_BINGLANG
+      amount: 1
+WT_DUOROUZHIWU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l多肉植物"
+    material_type: skull_hash
+    material: 4cb9018452e19fd295c1df1613e655e40779a9bd73eaf243f62847bc0608d33a
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
+      amount: 1
+WT_DWANGHUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l大王花"
+    material_type: skull_hash
+    material: 5eefa5821df0bcfd4041e865626494d669ab1413e76e218687f5e71a6e4f7
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
+      amount: 1
+WT_HUOBANGXRZ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l火棒仙人掌"
+    material_type: skull_hash
+    material: ba08e4372713340b4a7a1afce5025e3aab436d4100df67ff82c38378cd73d033
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
+      amount: 1
+WT_BAIHUAXRZ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l白化仙人掌"
+    material_type: skull_hash
+    material: e332a6a1323543ae3288fdf33f45189b819dfe57b47eaef2d6da3bc4aab149a0
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
+      amount: 1
+WT_YOUNIXRZ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l幽匿仙人掌"
+    material_type: skull_hash
+    material: 1871754a2602be522582e54e85b8fb0722011fbe7439af86670282a68c847c
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
+      amount: 1
+WT_ZUANSHIXRZ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l钻石仙人掌"
+    material_type: skull_hash
+    material: e80e315cbbc2a0ca75e468ab9cd8674b6ebf8c63da96ff4cd37597cb0a3d9433
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
+      amount: 1
+WT_TLRYXRZ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l泰拉瑞亚仙人掌"
+    material_type: skull_hash
+    material: 48f652b32016eef1b0b06c8d91de6d57436ff2622546919b20af0ec0c86c614
+  placeable: true
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GANHAN
       amount: 1
 # 坚果
 WT_SONGGUO:
@@ -2017,6 +3177,20 @@ WT_JIANGUOQIANG:
       material_type: slimefun
       material: WT_SEED_JIANGUO
       amount: 1
+WT_DALISHISONGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l大理石松果"
+    material_type: skull_hash
+    material: cf247ed3861f4744edc627bac195189b8e322a42dd5b13cacda82fd46ed7665b
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_JIANGUO
+      amount: 1
 # 下界作物
 WT_EMOGUOSHI:
   item_group: ws_zuowu
@@ -2060,7 +3234,118 @@ WT_GUIYIGUO:
       material_type: slimefun
       material: WT_SEED_GUIYIGUO
       amount: 1
-
+WT_SHANGGUSHUIGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l上古水果"
+    material_type: skull_hash
+    material: af072bcf2be6f3c5ffb52d2875e41294f21dd57cee3f428c7986a189714ad79f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHANGGUSHUIGUO
+      amount: 1
+WT_GUIYIYOU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l诡异疣"
+    material_type: skull_hash
+    material: 22ab4aa9e5d2d97acd1e4b7cdea320bd6851c5e6d47abd501a4a6afc970ab35f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_GUIYIYOU
+      amount: 1
+WT_LONGSHELAN:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l龙舌兰"
+    material_type: skull_hash
+    material: 3525db972cefca7d71976c1287fc7da3e1951323563dc342a6c4e0f702e8ffb
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_LONGSHELAN
+      amount: 1
+WT_DIAOLINGGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l凋灵瓜"
+    material_type: skull_hash
+    material: 93fd9c63061738db2d83dd180b8b50f7e9f22e3e784c4676782020c54c07e692
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DIAOLINGGUA
+      amount: 1
+WT_FEIHONGMOGUIJIAO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l绯红魔鬼椒"
+    material_type: skull_hash
+    material: c562a073255fd90b1234ee752cde8cd24aac39b44c664ddd24edb9fad6f7f63d
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_FEIHONGMOGUIJIAO
+      amount: 1
+WT_NAOXINCAI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l脑心菜"
+    material_type: skull_hash
+    material: faf9a624a8f88954dcf0ed8cdbc96b103fb8ba2cb16c93a37e6f51d9515b49b8
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XINGHONG
+      amount: 1
+WT_XUETENG:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l血藤"
+    material_type: skull_hash
+    material: 25be50fe686aed20ce5de71c164608b8d3d260ac4d39ed704c827ede1991faee
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XINGHONG
+      amount: 1
+WT_SADANGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l撒旦果"
+    material_type: skull_hash
+    material: 6a974bcd9ea2d14b434e8ce93322673365445643ff78e08ef8d51930017f001b
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XINGHONG
+      amount: 1
 # 末地作物
 WT_ZISONGYE:
   item_group: ws_zuowu
@@ -2117,6 +3402,90 @@ WT_RENSHEN:
     5:
       material_type: slimefun
       material: WT_SEED_RENSHEN
+      amount: 1
+WT_XIANRENSHEN:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l仙人参"
+    material_type: skull_hash
+    material: 880ac4ff488a6f422f6992f77ddd567ec13987f6a7dcf30c9c302d2aaf0f9b8d
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_RENSHEN
+      amount: 1
+WT_MOFAGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l魔法果"
+    material_type: skull_hash
+    material: 91d002d550b3b3b51a8c2130651fe985b62a00fce693ded30efe1d5a9eecffe4
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QIYI
+      amount: 1
+WT_MOYINGLONGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l末影龙果"
+    material_type: skull_hash
+    material: 1028ded8e389808d935712821d9490b581c9e858111c363c1d329e7a8c9c410f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QIYI
+      amount: 1
+WT_AIQINGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l爱琴果"
+    material_type: skull_hash
+    material: 9e5023c39333d8baa2991e53804979ce54b83052dfc6458f12f2000b3db9f506
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QIYI
+      amount: 1
+WT_MONENGPINGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l魔能苹果"
+    material_type: skull_hash
+    material: a133a946b65f4651c967929f5f41bc6da70cd75ab892f307247a9db18c012e1e
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QIYI
+      amount: 1
+WT_ZHANHUAJIANGGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l绽花浆果"
+    material_type: skull_hash
+    material: e0a919dd1fab1ae68f7c35d0b9090d6c8ef46cd9cd9a6083b4b4fb557e45fb48
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_QIYI
       amount: 1
 # 奇怪作物
 WT_ZSHULUOBO:
@@ -2275,90 +3644,6 @@ WT_MALIAOMOGU:
       material_type: slimefun
       material: WT_SEED_TONGNIAN
       amount: 1
-WT_ZONGYE:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l粽叶"
-    material_type: skull_hash
-    material: efaf9ab70ad407148e2ae0b4af81ed817a0bf99ce6a087b69286ec6caa03a39d
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_ZONGYE
-      amount: 1
-WT_AICAO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l艾草"
-    material_type: skull_hash
-    material: 16e298af0687a69413aacb1e9726f2708f499159e4ce7d16d3a6729e0a534a25
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_AICAO
-      amount: 1
-WT_GUIYIYOU:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l诡异疣"
-    material_type: skull_hash
-    material: 22ab4aa9e5d2d97acd1e4b7cdea320bd6851c5e6d47abd501a4a6afc970ab35f
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_GUIYIYOU
-      amount: 1
-WT_LONGSHELAN:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l龙舌兰"
-    material_type: skull_hash
-    material: 3525db972cefca7d71976c1287fc7da3e1951323563dc342a6c4e0f702e8ffb
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_LONGSHELAN
-      amount: 1
-WT_BIANBIANYUMI:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l便便玉米"
-    material_type: skull_hash
-    material: 396a61406db1b485d6660f0933ee775431e9141acde1b1c4563357a3760679ba
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_BIANBIANYUMI
-      amount: 1
-WT_HEIYUMI:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l黑玉米"
-    material_type: skull_hash
-    material: 8c1e784e99bb563e3e3f9b866ca5c51d389184668063aeeb02f55d1df68b0f1a
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_HEIYUMI
-      amount: 1
 WT_JINBI:
   item_group: ws_zuowu
   item:
@@ -2372,6 +3657,21 @@ WT_JINBI:
     5:
       material_type: slimefun
       material: WT_SEED_YAOQIANSHU
+      amount: 1
+# 蘑菇
+WT_XIANGGU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l香菇"
+    material_type: skull_hash
+    material: e811ff5eb6c813d3b792fe32dcb67370c8bcb8f614c9cfc6da74239e6414145a
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_XIANGGU
       amount: 1
 WT_SHUGU:
   item_group: ws_zuowu
@@ -2415,250 +3715,21 @@ WT_SHUIJINGGU:
       material_type: slimefun
       material: WT_SEED_SHUIJINGGU
       amount: 1
+WT_LINGZHI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l灵芝"
+    material_type: skull_hash
+    material: 8a982f4309850fafc58234b1c2199eadf3da308f6b05e9cf1a18a4429417037d
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_LINGZHI
+      amount: 1
 # 1.4补充作物
-# 玉米
-WT_BAINUOYUMI:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l白糯玉米"
-    material_type: skull_hash
-    material: f0e1a5aadf3fa756724c2f916ea9c52ac79f8b13a2cffe9148521ee3cbbfa
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_BAINUOYUMI
-      amount: 1
-# 热带
-WT_QINGGANLAN:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l青橄榄"
-    material_type: skull_hash
-    material: 4242d524d9286e443b8c88b41b396c9f9245209a63bfca9e5718c769bf4f
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_QINGGANLAN
-      amount: 1
-WT_HUANGLONGGUO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l黄龙果"
-    material_type: skull_hash
-    material: f232d5ee3cc3b37644e55be64a71543b29ba1f5a95a38ce151c00d4b8dbb058b
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_HUANGLONGGUO
-      amount: 1
-WT_XIAOXIGUA:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l小西瓜"
-    material_type: skull_hash
-    material: 9636dee806ba47a2c40e95b57a12f37de6c2e677f2160132a07e24eeffa6
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_XIAOXIGUA
-      amount: 1
-# 下界
-WT_SHANGGUSHUIGUO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l上古水果"
-    material_type: skull_hash
-    material: af072bcf2be6f3c5ffb52d2875e41294f21dd57cee3f428c7986a189714ad79f
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_SHANGGUSHUIGUO
-      amount: 1
-# 蔬菜
-WT_SHANYAO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l山药"
-    material_type: skull_hash
-    material: f9baef4a1efcd4a689675727af320280e883c2aa0458dc2bd164b35cf6747d78
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_SHANYAO
-      amount: 1
-WT_DATOUCAI:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l大头菜"
-    material_type: skull_hash
-    material: 2969d3149333e1e658f5da69dc6131a87fa6817cda2ba6387d5f5f31e0ef73
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_DATOUCAI
-      amount: 1
-WT_XIANGYU:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l香芋"
-    material_type: skull_hash
-    material: b4a01eb60510ea7ffaf9b61eb0a21c5d5b1affbb92e37a8e9b64b155535ad6a4
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_XIANGYU
-      amount: 1
-WT_MACAI:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l麻菜"
-    material_type: skull_hash
-    material: 23a8cb7f04da0cf228e15ec32f710b5646c04ac5d8efa4221cc433d92fe7e613
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_MACAI
-      amount: 1
-WT_DONGGUA:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l冬瓜"
-    material_type: skull_hash
-    material: 36ae076649ef22f60e8511831c68fd2b6ea63c32164dab33a8aebc18ff2a54c8
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_DONGGUA
-      amount: 1
-WT_XILANHUA:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l西蓝花"
-    material_type: skull_hash
-    material: 65106f0cc4c12dcfe7736a1ffc92772f41b66e1b7682b1f47537787720567262
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_XILANHUA
-      amount: 1
-WT_LVDOUJIA:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l绿豆荚"
-    material_type: skull_hash
-    material: 1ab4af75112437363815f4924c222e08858d83af337c7d1ad52496b79af8ecad
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_LVDOUJIA
-      amount: 1
-WT_HONGYUANLUOBO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l红圆萝卜"
-    material_type: skull_hash
-    material: ec9e171877a310738fa3775c8039a77ab141417f56d276a73189c974920e24d2
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_HONGYUANLUOBO
-      amount: 1
-WT_SHUIGUOLUOBO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l水果萝卜"
-    material_type: skull_hash
-    material: 6cb0c35f17a1d3e3479de73b11e2263ef2bd0dfd6f60dbbc3977c55d2f99bcbd
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_SHUIGUOLUOBO
-      amount: 1
-# 温带
-WT_YAOCAO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l药草"
-    material_type: skull_hash
-    material: f096652b67e15626f0f46fd39e40a23a7278d84b0ebcac3e6ff57b198439a2b5
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_YAOCAO
-      amount: 1
-WT_XIAOMI:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l小米"
-    material_type: skull_hash
-    material: f86badb0d913b391fb48d7776c378ca3f4b2dbe724534034f350ccd38f904473
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_XIAOMI
-      amount: 1
-WT_PANTAO:
-  item_group: ws_zuowu
-  item:
-    name: "&f&l蟠桃"
-    material_type: skull_hash
-    material: 253f7cebd1b0ab730268334ff2dc5bff327b83f6555483bbc022ded6f4bfc0ff
-  placeable: false
-  script: 1
-  recipe_type: WUWEI_SHOUHUOZUOWU
-  recipe:
-    5:
-      material_type: slimefun
-      material: WT_SEED_PANTAO
-      amount: 1
 # 稀有南瓜
 WT_SHENGNANGUA:
   item_group: ws_zuowu
@@ -2736,6 +3807,20 @@ WT_KEAINANGUA:
     name: "&f&l可爱南瓜"
     material_type: skull_hash
     material: 57d84b974c5ed53004f4772992703d6e0965968faf13d4aac5abd5a70637ceb7
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_NANGUA1
+      amount: 1
+WT_XIANGZINANGUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l橡子南瓜"
+    material_type: skull_hash
+    material: bde904b116304c3e816b1b8c75c2184260f20591077f63be871bc71675092aa8
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -2866,6 +3951,7 @@ WT_FUGUA:
     material: eb83610f367832ce0280007f816d864dd5a43a2f928107a7fac22b124cd84c11
   placeable: false
   script: 1
+  radiation: VERY_HIGH
   recipe_type: WUWEI_SHOUHUOZUOWU
   recipe:
     5:
@@ -2914,6 +4000,7 @@ WT_HONGLINANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA3
       amount: 1
+
 # 方块掉落作物
 WT_XIANRENZHANG:
   item_group: ws_zuowu
@@ -3011,7 +4098,54 @@ WT_LANPINGGUO:
   drop_from: OAK_LEAVES
   drop_chance: 1
   drop_amount: 1
-
+WT_LIANHUA:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l莲花"
+    material_type: skull_hash
+    material: 7ce51fd853c0c2a11c252dddeccc2e75c8c19181ea48017b51f56e027ef7bae1
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_WAJUE
+  recipe:
+    5:
+      material: LILY_PAD
+      amount: 1
+  drop_from: LILY_PAD
+  drop_chance: 15
+  drop_amount: 1
+WT_LUHUI:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l芦荟"
+    material_type: skull_hash
+    material: 2e3c538caa4d6e3089ee36f69c958e1ab31859a27221e0cd6173030589f03473
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_WAJUE
+  recipe:
+    5:
+      material: CACTUS
+      amount: 1
+  drop_from: CACTUS
+  drop_chance: 10
+  drop_amount: 1
+WT_GUISUGUO:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l归宿果"
+    material_type: skull_hash
+    material: ea081774aad77ba158894f3e78246edac8cdaed9474b839bb1e76660ccae18c5
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_WAJUE
+  recipe:
+    5:
+      material: REINFORCED_DEEPSLATE
+      amount: 1
+  drop_from: REINFORCED_DEEPSLATE
+  drop_chance: 10
+  drop_amount: 1
 # 海鲜
 
 # 淡水
@@ -3464,6 +4598,20 @@ WT_POJIUDEYUWANG:
     5:
       material_type: slimefun
       material: WT_XIANSHUIYUER
+      amount: 1
+WT_NIUPIXUE:
+  item_group: ws_gongju
+  item:
+    name: "&f&l牛皮靴"
+    lore: ['', §7通过拆解破旧的渔网获得]
+    material_type: skull_hash
+    material: a42329a9c4104084197bd688615853984d37e17c2dd23e3e412dd42d78b98eb
+  placeable: false
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_POJIUDEYUWANG
       amount: 1
 WT_PIPAYU:
   item_group: ws_roulei
@@ -4003,6 +5151,34 @@ WT_CAN:
   drop_amount: 1
   vanilla: true
 # 动物
+WT_WONIU:
+  item_group: ws_dongwu
+  item:
+    name: "&f&l蜗牛"
+    material_type: skull_hash
+    material: 15e2e59ba678ade0a80b1d42a212b7cf4ec963b494f8eaeab9f643e2caaa91
+  placeable: true
+  recipe_type: WUWEI_WAJUE
+  recipe:
+    5:
+      material: VINE
+      amount: 1
+  drop_from: VINE
+  drop_chance: 5
+  drop_amount: 1
+WT_LAOSHU:
+  item_group: ws_dongwu
+  item:
+    name: "&f&l老鼠"
+    material_type: skull_hash
+    material: 85f80778b32ecf76de990921cc2e239793eb6b8ef2cb2cbb073ecb54b3e53e6b
+  placeable: true
+  recipe_type: WUWEI_BUSHUJIA
+  recipe:
+    5:
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
 WT_YAZI:
   item_group: ws_dongwu
   item:
@@ -4022,7 +5198,7 @@ WT_WUGUI:
     name: "&a&l乌龟"
     material_type: skull_hash
     material: f9babab72b682437f9deae1391a33701398a9b3cc6546b063e93808e03a4074
-  placeable: false
+  placeable: true
   recipe_type: WUWEI_DIAOYU
   recipe:
     5:
@@ -4035,7 +5211,7 @@ WT_HAIOU:
     name: "&f&l海鸥"
     material_type: skull_hash
     material: c3bde43111f69a7fda6ec6faf2263c827961f390d7c6163ed1231035d1b0b9
-  placeable: false
+  placeable: true
   recipe_type: WUWEI_DIAOYU
   recipe:
     5:
@@ -4320,8 +5496,622 @@ WT_MUSEEHUN:
       material_type: slimefun
       material: WT_MUSEEHUNDAN
       amount: 1
-
-#食材
+# 屠宰
+WT_TUZAI_XUE:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l血"
+    material_type: skull_hash
+    material: 41b97679a6616971c58c7c840fea78df5574469eda91b53ef8058cacde0e020a
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDWTL
+      amount: 1
+WT_TUZAI_FEI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l肺"
+    material_type: skull_hash
+    material: 296b8cac02f16a2cf425dba5895ae0e8387a492d7eefad3b567404aa13263f18
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_GAN:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l肝"
+    material_type: skull_hash
+    material: 58ac3d610b9f99cd55bfb8973fdbdfa681dc625aa22e2e678adeec4f7f94c
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_WEI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l胃"
+    material_type: skull_hash
+    material: 6dcff01b32de20d34d104d6e99304e0c45712c37062f9daca36393fab08f92b4
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_SHE:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l舌"
+    material_type: skull_hash
+    material: 419ec38a52626662ab58c799aa99ac71cce641c5cc11d2db902e4a7fe217b7bb
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDWTL
+      amount: 1
+WT_TUZAI_SHEN:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l肾"
+    material_type: skull_hash
+    material: d8e3b53bc8fab19c6fd0f8abf13bf2303581d81691141f15973b4777e039f73
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_DACHANG:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l大肠"
+    material_type: skull_hash
+    material: 3963706d71abcc781b5861789b1fb5c603dcdfb07cf26df61e91e6fef14e4adb
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_ZASUI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l杂碎"
+    material_type: skull_hash
+    material: 150a0d84e47cf7a1a736788c58cea4e423a63d2f43dbf2361b0c7305014b3895
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_YOUZHI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l动物油脂"
+    material_type: skull_hash
+    material: 89f8c36eda5b592175dec98a3d5527db1127a7d2fb212a2597d9fdc6edd41a4b
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_DAGU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l大骨"
+    material_type: skull_hash
+    material: 6cb5727b986c36e07582148b886102cf8070b0ee3aa3771b2464393f588a832d
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDW
+      amount: 1
+WT_TUZAI_YANJING:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l眼睛"
+    material_type: skull_hash
+    material: 95ecc6532e551fcb4e02f63379d8ee9f555262747d451541fac060b5c8ab104f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDWTL
+      amount: 1
+WT_TUZAI_YACHUANG:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l牙床"
+    material_type: skull_hash
+    material: be5642db810e689e0b4a4555bf31093e5c479e31aea5992a4efed3ab4197a92e
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDWTL
+      amount: 1
+WT_TUZAI_NAOZI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l脑子"
+    material_type: skull_hash
+    material: d55bc9205028f4f0ed3ac5e2ddb233711e931fc9ce06eeec074d95a3f5c1048f
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_RYZZDWTL
+      amount: 1
+# 屠宰 放血刀 非通用
+WT_TUZAI_JIAOZHI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l脚趾"
+    material_type: skull_hash
+    material: e9c2b1fd6e8df0528c78e87861ea35e5eb1721076bfb069ad48d75d00878e3ef
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_RENTI
+      amount: 1
+WT_TUZAI_YACHI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l牙齿"
+    material_type: skull_hash
+    material: f0c84320f4b0fcd8391b8a20f53bd41612ca6a50e758309525971f77ace2d
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_YACHUANG
+      amount: 1
+WT_TUZAI_QUCHI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l龋齿"
+    material_type: skull_hash
+    material: 4105b97e06f161421a8d2caf309803339fc04ef84eb3cdb1e5474b0192fc50a8
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_YACHUANG
+      amount: 1
+WT_TUZAI_JINYA:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l金牙"
+    material_type: skull_hash
+    material: 42024901024636f1c074e6562285f4cc9fd3da2885d4010cee52cc0696d2f96a
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_YACHUANG
+      amount: 1
+WT_TUZAI_ZUANSHIYA:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l钻石牙"
+    material_type: skull_hash
+    material: a2680a28962e9ad2d4872d06fba2cc60824fbb2d0824e42d958575b7563884aa
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_YACHUANG
+      amount: 1
+WT_TUZAI_JIANGSHINAO:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l僵尸脑"
+    material_type: skull_hash
+    material: 9ef66446dca2dfd23c8f1d75f5bc1919ea65b4e83827d0378be64a21785529
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: mc
+      material: ZOMBIE_HEAD
+      amount: 1
+# 屠宰 猪
+WT_TUZAI_ZHUTOU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l猪头"
+    material_type: skull_hash
+    material: 643d474093d2f54ad220e7efe7c01b1efbdb0bb5922d4d0dbd3924881f7174c
+  placeable: true
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIZHU
+      amount: 1
+WT_TUZAI_ZHUNAOZI:
+  item_group: ws_tuzai
+  item:
+    name: '&f&l猪脑'
+    lore:
+    - '&7吃啥补啥'
+    material_type: skull_hash
+    material: 2dd3b01ec32f3f5ea26ad4e23305401f73d13f3c16b3facefe70d92176b311
+  placeable: false
+  script: 3
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_ZHUTOU
+      amount: 1
+WT_TUZAI_ZHUGONGZUI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l猪拱嘴"
+    material_type: skull_hash
+    material: 6bd2dc6145b3d107b6ce5d13024db84f5a8fb71cec3935ea68e552d598755dc7
+  placeable: false
+  script: 3
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_ZHUTOU
+      amount: 1
+WT_TUZAI_ZHUWUHUA:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l猪五花"
+    material_type: skull_hash
+    material: 715b3e04a5bf41c9f1d8f580965d0e4241cd1dff4a1e18d0d45c10d3d5529475
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIZHU
+      amount: 1
+WT_TUZAI_ZHUBANYOU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l猪板油"
+    material_type: skull_hash
+    material: d3dfe45b5c2097a476c72a739f6d522475fd888bd7a3b1172b91376223d21bb
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIZHU
+      amount: 1
+# 鸡
+WT_TUZAI_JITOU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l鸡头"
+    material_type: skull_hash
+    material: 4e8f3ea46735ad0c106c549ccb6cd489c97a41e73d092497ee424becd9dfd29c
+  placeable: true
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIJI
+      amount: 1
+WT_TUZAI_JIGUAN:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l鸡冠"
+    material_type: skull_hash
+    material: 24f8ff71942d55ea953fb532377d83844291c0a6af20d61a3fee2a283a5be249
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_JITOU
+      amount: 1
+WT_TUZAI_HUOZHUZI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l活珠子"
+    material_type: skull_hash
+    material: bc8b15e85ed225c21c32367da7be244779e36afe7f7563a6a570a717cb5be1b1
+  placeable: false
+  script: 3
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIJI
+      amount: 1
+# 屠宰 羊
+WT_TUZAI_YANGTOU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l羊头"
+    material_type: skull_hash
+    material: 30f50394c6d7dbc03ea59fdf504020dc5d6548f9d3bc9dcac896bb5ca08587a
+  placeable: true
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIYANG
+      amount: 1
+WT_TUZAI_YANGDAN:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l羊蛋"
+    material_type: skull_hash
+    material: f1348358c5cbd6d887aa54365282e3adeb4e54c38250387faf6a079d26c0e19c
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIYANG
+      amount: 1
+# 屠宰 牛
+WT_TUZAI_NIUTOU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l牛头"
+    material_type: skull_hash
+    material: 5cc04c81f781b46db142a15eb23b06e21b8a3c5627d0e8e70e61fe09ee372f54
+  placeable: true
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHINIU
+      amount: 1
+WT_TUZAI_NIUPI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l牛皮"
+    material_type: skull_hash
+    material: 731f3279fc112b7f18bd0a2229934fcb5605c62823ce698b8b503ecccf0a3ac4
+  placeable: true
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHINIU
+      amount: 1
+WT_TUZAI_NIULIJI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l牛里脊"
+    material_type: skull_hash
+    material: 658ccecacd5c72938483857ea0b7139311bf9395f65a3698158a9175628cfe86
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHINIU
+      amount: 1
+# 屠宰 玩家
+WT_TUZAI_WANJIASHOUBI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l玩家手臂"
+    material_type: skull_hash
+    material: b7580fc29716a857d57e580dfd5b14a5d163d914c85a95ded593fd5ec7faef27
+  placeable: false
+  script: 3
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIWANJIA
+      amount: 1
+WT_TUZAI_WANJIATUI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l玩家腿"
+    material_type: skull_hash
+    material: 9a74adbef74aaddfe6e66fe8011b148f62383c33aa8448674528bf4ebf097de5
+  placeable: false
+  script: 3
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIWANJIA
+      amount: 1
+WT_TUZAI_RENLIJI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l人里脊"
+    material_type: skull_hash
+    material: 4d007ce8f32466b4f0ae55129b47ec8b5f3447c1515c2254a24ac1e291f4d088
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHIWANJIA
+      amount: 1
+WT_TUZAI_ZUIBA:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l嘴巴"
+    material_type: skull_hash
+    material: 4523ceb41882e951eddeb4d71deb736010eab8ca43c1f44daf94da0bf320a8e5
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: mc
+      material: PLAYER_HEAD
+      amount: 1
+# 屠宰 村民
+WT_TUZAI_CUNMINGTOU:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l村民头"
+    material_type: skull_hash
+    material: 40cc0a12577898e7167c43cf9fe8cb289563921b70946012a60893cab76e549
+  placeable: true
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHENGZHICUNMING
+      amount: 1
+WT_TUZAI_CUNMINGBIZI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l村民鼻子"
+    material_type: skull_hash
+    material: 2385009e90e6fcdf27ea1e89bcf598788581223644dfce0220b033a94027b788
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUZAI_CUNMINGTOU
+      amount: 1
+# 屠宰 暮色恶魂
+WT_TUZAI_EHUNPI:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l恶魂皮"
+    material_type: skull_hash
+    material: 77ebb263dbca5b71c0af640d0838c69cfc1ae833d2b1d11f5faecbb0be664c19
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_MUSEEHUN
+      amount: 1
+WT_TUZAI_LAB113:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l试验物品 113"
+    material_type: skull_hash
+    material: 199c3470ba4317913717ab36b626aec0b563266e28b3a517d71e9a0af0c90f96
+  placeable: false
+  script: 6
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_MUSEEHUN
+      amount: 1
+WT_TUZAI_LAB115:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l试验物品 115"
+    material_type: skull_hash
+    material: 7da95ad02269c24663d7a34789e84342a6905c0d81c790e6313b73871ba870b9
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_MUSEEHUN
+      amount: 1
+WT_TUZAI_LAB110:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l试验物品 110"
+    material_type: skull_hash
+    material: 92f25a8ef5d3df6b0b4747f74485261f13e2f661fd6c3d4d7e56d6e4bed634e
+  placeable: false
+  script: 12
+  recipe_type: WUWEI_TUZAIKANDAO
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_MUSEEHUN
+      amount: 1
+# 屠宰 末影龙
+WT_TUZAI_LONGJIAO:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l末影龙角"
+    material_type: skull_hash
+    material: 36c548bb52ceb036563efce89d02e4a3724496e80836759ed0b27ea52272daed
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: mc
+      material: DRAGON_HEAD
+      amount: 1
+# 屠宰 凋灵骷髅
+WT_TUZAI_DLFBCX:
+  item_group: ws_tuzai
+  item:
+    name: "&f&l凋灵风暴残像"
+    material_type: skull_hash
+    material: f43511e1be2afc5c897caf62b7fc2bf8f11a7fcd6a104da0d6d1cd67a1f31365
+  placeable: true
+  recipe_type: WUWEI_TUZAIFANGXUE
+  recipe:
+    5:
+      material_type: mc
+      material: WITHER_SKELETON_SKULL
+      amount: 64
+# 食材
 WT_ZHIWUYOU:
   lateInit: false
   item_group: ws_shicai
@@ -5510,6 +7300,119 @@ WT_JIANGUOJIANG:
     9:
       material_type: slimefun
       material: MOLASSES
+      amount: 1
+WT_GUAMIAN:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&f&l挂面'
+    material_type: skull_hash
+    material: f0a510db84c018d8d250ab1ee564418529e88d3af3aec16fc1bdef408d1d4ec8
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    2:
+      material_type: mc
+      material: WATER_BUCKET
+      amount: 1
+    3:
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    4:
+      material_type: slimefun
+      material: WHEAT_FLOUR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WHEAT_FLOUR
+      amount: 1
+    6:
+      material_type: slimefun
+      material: WHEAT_FLOUR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    8:
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    9:
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+WT_FENSI:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&f&l粉丝'
+    material_type: skull_hash
+    material: 59731d54734bb5305d4b6966bc4fb7ec5b45df599c91480a3de8867ffe6371c5
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_LVDOU
+      amount: 1
+    2:
+      material_type: mc
+      material: WATER_BUCKET
+      amount: 1
+    3:
+      material_type: slimefun
+      material: WT_LVDOU
+      amount: 1
+    4:
+      material_type: slimefun
+      material: GN_TAPIOCA_STARCH
+      amount: 1
+    5:
+      material_type: slimefun
+      material: GN_TAPIOCA_STARCH
+      amount: 1
+    6:
+      material_type: slimefun
+      material: GN_TAPIOCA_STARCH
+      amount: 1
+    7:
+      material_type: slimefun
+      material: WT_LVDOU
+      amount: 1
+    8:
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    9:
+      material_type: slimefun
+      material: WT_LVDOU
+      amount: 1
+WT_NINGGUDEXUEKUAI:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&f&l凝固的血块'
+    material_type: skull_hash
+    material: 9f8e41d4ba659b25dc392a0792fe5f471e1f533e1e5ac92146ecdfe790cccf98
+    amount: 1
+  placeable: true
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_TUZAI_XUE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SALT
       amount: 1
 WT_GUANZHUANGYUPAI:
   lateInit: false
@@ -10320,7 +12223,7 @@ WT_KAONAOHUA:
     '5':
       amount: 1
       material_type: slimefun
-      material: WT_NAOZI
+      material: WT_TUZAI_ZHUNAOZI
     '6':
       amount: 1
       material_type: slimefun
@@ -10358,7 +12261,7 @@ WT_ZHENNAOHUA:
     '5':
       amount: 1
       material_type: slimefun
-      material: WT_NAOZI
+      material: WT_TUZAI_ZHUNAOZI
     '6':
       amount: 1
       material_type: slimefun
@@ -26504,6 +28407,66 @@ WT_GUO:
       amount: 1
       material_type: mc
       material: BLACK_TERRACOTTA
+    '9':
+      amount: 1
+      material_type: mc
+      material: NETHER_BRICK
+  placeable: true
+WT_TAOWAGUO:
+  item:
+    name: §f§l陶瓦锅
+    amount: 1
+    material_type: skull_hash
+    material: bfdc74e4a41aac5b5429392567d63aa87e1c3e3f8172c7741f21c9676753704b
+  item_group: ws_cfzs
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '4':
+      amount: 1
+      material_type: mc
+      material: TERRACOTTA
+    '6':
+      amount: 1
+      material_type: mc
+      material: TERRACOTTA
+    '7':
+      amount: 1
+      material_type: mc
+      material: NETHER_BRICK
+    '8':
+      amount: 1
+      material_type: mc
+      material: TERRACOTTA
+    '9':
+      amount: 1
+      material_type: mc
+      material: NETHER_BRICK
+  placeable: true
+WT_TONGGUO:
+  item:
+    name: §f§l大铜锅
+    amount: 1
+    material_type: skull_hash
+    material: 3f295b1d6c9f35eab742b76023609958ce6bacfa02414a01ba57aa4218a80a0d
+  item_group: ws_cfzs
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '4':
+      amount: 1
+      material_type: mc
+      material: COPPER_INGOT
+    '6':
+      amount: 1
+      material_type: mc
+      material: COPPER_INGOT
+    '7':
+      amount: 1
+      material_type: mc
+      material: NETHER_BRICK
+    '8':
+      amount: 1
+      material_type: mc
+      material: COPPER_BLOCK
     '9':
       amount: 1
       material_type: mc
