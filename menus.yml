@@ -1049,6 +1049,12 @@ WT_DIANDONGBUSHUJIA:
 WT_ZYCHUGUO:
   title: §7§l§kd§f§l终焉厨锅§7§l§kd
   slots:
+    '24':
+      name: ' '
+      amount: 1
+      material_type: mc
+      material: MAGENTA_STAINED_GLASS_PANE
+      progressbar: true
     '6':
       name: ' '
       amount: 1
@@ -1069,12 +1075,6 @@ WT_ZYCHUGUO:
       amount: 1
       material_type: mc
       material: BLACK_STAINED_GLASS_PANE
-    '24':
-      name: ' '
-      amount: 1
-      material_type: mc
-      material: MAGENTA_STAINED_GLASS_PANE
-      progressbar: true
     '33':
       name: ' '
       amount: 1

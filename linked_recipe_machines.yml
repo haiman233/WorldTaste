@@ -548,7 +548,7 @@ WT_ZYCHUGUO:
           material_type: slimefun
           material: WT_ZZSMT
           amount: 1
-          slot: 24
+          slot: 25
       chooseOne: false
       forDisplay: false
       hide: false
