@@ -2566,3 +2566,29 @@ WT_SEED_QIYI:
       amount: 1
   recipe_type: WUWEI_ZZJDY
   script: seed/new/qiyi
+# 肝帝月
+WT_SEED_WUJIN:
+  item_group: ws_gandi
+  item:
+    name: "&f&l纠缠种子"
+    material_type: skull_hash
+    material: d657eb4405d3088a4e807882d49bbb736fd86c3af8eadbf2be9803ab2752d519
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约5分钟"
+    glow: false
+  recipe: 
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  recipe_type: WUWEI_ZYCHUGUO
+  script: gandi/wujinzuowu
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"

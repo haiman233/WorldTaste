@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.5'
+      - '&bRelease-1.5.1'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -159,7 +159,6 @@ WORLDTASTE_ZWF2:
   item:
     name: "&f&l不完整的配方"
     lore:
-      - '&6&l请在百味万用炉中查看'
     material: BARRIER
   placeable: false
   recipe_type: 'NULL'
@@ -1180,6 +1179,20 @@ WT_YUTOU:
       material_type: slimefun
       material: WT_SEED_YUTOU
       amount: 1
+WT_MOYU:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l魔芋"
+    material_type: skull_hash
+    material: 49b5eb3db72d27ef78a87f8d26b22d4d1af8c870bbc1ddeb7cd4d141bd910b2
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_YUTOU
+      amount: 1
 WT_DASUAN:
   item_group: ws_zuowu
   item:
@@ -1677,9 +1690,37 @@ WT_TGLJ:
 WT_DLJ:
   item_group: ws_zuowu
   item:
-    name: "&f&l灯笼椒"
+    name: "&f&l黄灯笼椒"
     material_type: skull_hash
     material: 7e5e8293c158eb23885a474f3a79c70491390b76fddc46b251c8dbad600155f4
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DLJ
+      amount: 1
+WT_CDLJ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l橙灯笼椒"
+    material_type: skull_hash
+    material: 883f28088f47df302246cde05949af65c45f4e72a4231f886cc32fd31fb7b12c
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DLJ
+      amount: 1
+WT_LDLJ:
+  item_group: ws_zuowu
+  item:
+    name: "&f&l绿灯笼椒"
+    material_type: skull_hash
+    material: ea3abd33d1e233f35b503bfe3f6b408b9a18abb3e2650bbaa6ca38f49b7ad221
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -31407,3 +31448,303 @@ WT_DUMALSSLM:
       material: WT_DUPUTUITOU
   placeable: false
   script: yurenjie/du2
+# 肝帝月
+WT_WJYDG:
+  item_group: ws_gandi
+  item:
+    name: "&f&l无尽伊甸果"
+    material_type: skull_hash
+    material: b4b78cb8f8322e743424269a86ed74372cbc252c6333abb95f68496435aa1e69
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_WUJIN
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_ZZTSXM:
+  item_group: ws_gandi
+  item:
+    name: "&f&l中子态素小麦"
+    material_type: skull_hash
+    material: 6a3d644f1800f1ac302d3c558a9cb6bb930920bea8cc914cf2f729f4620eecc8
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_WUJIN
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_JZJXC:
+  item_group: ws_gandi
+  item:
+    name: "&f&l矩阵卷心菜"
+    material_type: skull_hash
+    material: 753d01b60f3b76ea5212bc54e01deb422eee6363f3ab44da09760d3c877d68a4
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_WUJIN
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_LHFQ:
+  item_group: ws_gandi
+  item:
+    name: "&f&l烈火番茄"
+    material_type: skull_hash
+    material: 3223908b1d8501cdad2d4f8275b360a93a5a6725c8b46fc8e1ba33de2f3a228
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_WUJIN
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_ZZSMT:
+  item_group: ws_gandi
+  item:
+    name: "&7&l中子素面团"
+    material_type: skull_hash
+    material: d4c008f78a71da686321b23cbb27726b2e1db8bd01c20ec08df22bfbb394e487
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_TSJWB:
+  item_group: ws_gandi
+  item:
+    name: "&7&l坍缩巨无霸"
+    material_type: skull_hash
+    material: 2d3eb91ec65585b4491f72ea52b72623a64967cdba1265579390dbc7fe689ddc
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_JJZJ:
+  item_group: ws_gandi
+  item:
+    name: "&f&l绝净之酱"
+    material_type: skull_hash
+    material: a56ebc6c12e3c0fb81b11e43ffc989a0138adec23913e2f0d6a38d8901478c43
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_ZYHHW:
+  item_group: ws_gandi
+  item:
+    name: "&d&l终焉混合物"
+    material_type: skull_hash
+    material: 99a2205554f4fd8431cca34da9f4d9862058488bbc4b0d6719432d110c53a07d
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_SHESHIRJ:
+  item_group: ws_gandi
+  item:
+    name: "&a&l蛇噬肉卷"
+    material_type: skull_hash
+    material: bfd8c7b729dbad43b4edc78c4e91d28cb7fa2f1ca89db73490ebe12542ba
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_TANLANDANGAO:
+  item_group: ws_gandi
+  item:
+    name: "&8&l贪婪蛋糕"
+    material_type: skull_hash
+    material: efd8bed2dfe4c32168c972154eea335a8042e9d64b850767c6ea04ce8f85f12a
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_CHAOJIBAO:
+  item_group: ws_gandi
+  item:
+    name: "&d&l超级煲"
+    material_type: skull_hash
+    material: a7fffbb233361106f8cdafdd75800e53310e2b4e9ac447a9a54315c714b17055
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_JYYDSL:
+  item_group: ws_gandi
+  item:
+    name: "&a&l净域伊甸沙拉"
+    material_type: skull_hash
+    material: 88986351357774ccf86c58445c65168496bd7dbbd3cdada27bde88b3cc1
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_KMQUQI:
+  item_group: ws_gandi
+  item:
+    name: "&b&l旷渺曲奇"
+    material_type: skull_hash
+    material: dd88f8c7c679e445c3a0a985da6f124165b379ba8b8463b9b1c578432f45bc
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_JINGNENGYL:
+  item_group: ws_gandi
+  item:
+    name: "&c&l晶能饮料"
+    material_type: skull_hash
+    material: 845bad4439abb693b77384487eecc9f204eab7b2d9b6179de47d9579c60d7979
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_XINGHUANZX:
+  item_group: ws_gandi
+  item:
+    name: "&8&l星寰之心"
+    material_type: skull_hash
+    material: e3a306763add990b66cfe2b5eefa4ca45be98a84fe62c12e6175da6b7b31c0c3
+  placeable: false
+  script: gandi/wujin
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"

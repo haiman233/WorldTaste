@@ -181,3 +181,10 @@ WUWEI_BUSHUJIA:
     - '&7需要用电动捕鼠夹捕鼠'
   material_type: skull_hash
   material: 615df199737203cd5ac6b8794eae60a6b6906389570c09e70997203af09247be
+WUWEI_ZYCHUGUO:
+  lateInit: false
+  name: '&f&l终焉厨锅'
+  lore:
+    - '&7需要在终焉厨锅中烹饪'
+  material_type: skull_hash
+  material: 1f5701da4d50dd447e683dd90077ca22d6b4612e5da10803e3c486c52987feef

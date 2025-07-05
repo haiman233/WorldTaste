@@ -312,3 +312,11 @@ ws_yurenjie:
     name: "&6&k&ld&a&l“毒薯管理员”&6&k&ld"
     material: POISONOUS_POTATO
     glow: true
+# 肝帝月
+ws_gandi:
+  type: seasonal
+  month: 7
+  item:
+    name: "&7&k&ld&d&l肝帝的晚宴&7&k&ld"
+    material_type: skull_hash
+    material: 2d3eb91ec65585b4491f72ea52b72623a64967cdba1265579390dbc7fe689ddc

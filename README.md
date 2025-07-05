@@ -29,6 +29,7 @@
 
 软前置：
 - Cultivation（农耕工艺）
+- InfinityExpansion（无尽贪婪）
 
 ## 游戏内展示
 
