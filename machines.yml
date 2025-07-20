@@ -964,7 +964,7 @@ WT_SEED_MAMEIGUO:
 WT_SEED_QINGXIANGJIAO:
   item_group: ws_zhongzi
   item:
-    name: "&f&l青香蕉种子"
+    name: "&f&l芭蕉种子"
     material_type: skull_hash
     material: d21fada7c2bb37578d7fd4e07175030efe6353b2d9454a5dab86593fce79b1e
     lore: 

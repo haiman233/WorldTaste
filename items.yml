@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.5.1'
+      - '&bRelease-1.5.2'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -1053,7 +1053,7 @@ WT_NGSMZZ:
     conditions:
        - "hasplugin Cultivation"
 # 蔬菜
-WT_XHLB:
+WT_XHLB: #rgb(110,20,79)
   item_group: ws_zuowu
   item:
     name: "&f&l小红萝卜"
@@ -1067,7 +1067,7 @@ WT_XHLB:
       material_type: slimefun
       material: WT_SEED_XHLB
       amount: 1
-WT_TQ:
+WT_TQ: #rgb(241,207,43)
   item_group: ws_zuowu
   item:
     name: "&f&l田菁"
@@ -1081,7 +1081,7 @@ WT_TQ:
       material_type: slimefun
       material: WT_SEED_TQ
       amount: 1
-WT_JC:
+WT_JC: #rgb(18,86,43)
   item_group: ws_zuowu
   item:
     name: "&f&l苋菜"
@@ -1095,7 +1095,7 @@ WT_JC:
       material_type: slimefun
       material: WT_SEED_JC
       amount: 1
-WT_XHL:
+WT_XHL: #rgb(214,244,161)
   item_group: ws_zuowu
   item:
     name: "&f&l西葫芦"
@@ -1109,7 +1109,7 @@ WT_XHL:
       material_type: slimefun
       material: WT_SEED_XHL
       amount: 1
-WT_BLB:
+WT_BLB: #rgb(244,244,244)
   item_group: ws_zuowu
   item:
     name: "&f&l白萝卜"
@@ -1123,7 +1123,7 @@ WT_BLB:
       material_type: slimefun
       material: WT_SEED_BLB
       amount: 1
-WT_SHENGJIANG:
+WT_SHENGJIANG: #rgb(203,161,101)
   item_group: ws_zuowu
   item:
     name: "&f&l生姜"
@@ -1137,7 +1137,7 @@ WT_SHENGJIANG:
       material_type: slimefun
       material: WT_SEED_SHENGJIANG
       amount: 1
-WT_DOUYA:
+WT_DOUYA: #rgb(235,227,110)
   item_group: ws_zuowu
   item:
     name: "&f&l豆芽"
@@ -1151,7 +1151,7 @@ WT_DOUYA:
       material_type: slimefun
       material: WT_SEED_DOUYA
       amount: 1
-WT_YANGJI:
+WT_YANGJI: #rgb(110,134,43)
   item_group: ws_zuowu
   item:
     name: "&f&l洋蓟"
@@ -1165,7 +1165,7 @@ WT_YANGJI:
       material_type: slimefun
       material: WT_SEED_YANGJI
       amount: 1
-WT_YUTOU:
+WT_YUTOU: #rgb(130,100,87)
   item_group: ws_zuowu
   item:
     name: "&f&l芋头"
@@ -1179,7 +1179,7 @@ WT_YUTOU:
       material_type: slimefun
       material: WT_SEED_YUTOU
       amount: 1
-WT_MOYU:
+WT_MOYU: #rgb(116,81,46)
   item_group: ws_zuowu
   item:
     name: "&f&l魔芋"
@@ -1193,7 +1193,7 @@ WT_MOYU:
       material_type: slimefun
       material: WT_SEED_YUTOU
       amount: 1
-WT_DASUAN:
+WT_DASUAN: #rgb(205,186,166)
   item_group: ws_zuowu
   item:
     name: "&f&l大蒜"
@@ -1207,7 +1207,7 @@ WT_DASUAN:
       material_type: slimefun
       material: WT_SEED_DASUAN
       amount: 1
-WT_ZIGANLAN:
+WT_ZIGANLAN: #rgb(72,29,47)
   item_group: ws_zuowu
   item:
     name: "&f&l紫甘蓝"
@@ -1221,7 +1221,7 @@ WT_ZIGANLAN:
       material_type: slimefun
       material: WT_SEED_ZIGANLAN
       amount: 1
-WT_QIEZI:
+WT_QIEZI: #rgb(41,13,41)
   item_group: ws_zuowu
   item:
     name: "&f&l茄子"
@@ -1235,7 +1235,7 @@ WT_QIEZI:
       material_type: slimefun
       material: WT_SEED_QIEZI
       amount: 1
-WT_CAIGOU:
+WT_CAIGOU: #rgb(139,188,94)
   item_group: ws_zuowu
   item:
     name: "&f&l菜狗"
@@ -1249,7 +1249,7 @@ WT_CAIGOU:
       material_type: slimefun
       material: WT_SEED_CAIGOU
       amount: 1
-WT_JIEQIUSHENGCAI:
+WT_JIEQIUSHENGCAI: #rgb(143,192,79)
   item_group: ws_zuowu
   item:
     name: "&f&l结球生菜"
@@ -1263,7 +1263,7 @@ WT_JIEQIUSHENGCAI:
       material_type: slimefun
       material: WT_SEED_SHENGCAI
       amount: 1
-WT_XIHONGSHI:
+WT_XIHONGSHI: #rgb(144,69,8)
   item_group: ws_zuowu
   item:
     name: "&f&l西红柿"
@@ -1277,7 +1277,7 @@ WT_XIHONGSHI:
       material_type: slimefun
       material: WT_SEED_XIHONGSHI
       amount: 1
-WT_HUANGPIYANGCONG:
+WT_HUANGPIYANGCONG: #rgb(151,107,96)
   item_group: ws_zuowu
   item:
     name: "&f&l黄皮洋葱"
@@ -1291,7 +1291,7 @@ WT_HUANGPIYANGCONG:
       material_type: slimefun
       material: WT_SEED_YANGCONG
       amount: 1
-WT_RIBENNANGUA:
+WT_RIBENNANGUA: #rgb(29,49,4)
   item_group: ws_zuowu
   item:
     name: "&f&l日本南瓜"
@@ -1306,7 +1306,7 @@ WT_RIBENNANGUA:
       material: WT_SEED_RIBENNANGUA
       amount: 1
 # 蔬菜
-WT_SHANYAO:
+WT_SHANYAO: #rgb(117,92,54)
   item_group: ws_zuowu
   item:
     name: "&f&l山药"
@@ -1320,7 +1320,7 @@ WT_SHANYAO:
       material_type: slimefun
       material: WT_SEED_SHANYAO
       amount: 1
-WT_DATOUCAI:
+WT_DATOUCAI: #rgb(202,233,155)
   item_group: ws_zuowu
   item:
     name: "&f&l大头菜"
@@ -1334,7 +1334,7 @@ WT_DATOUCAI:
       material_type: slimefun
       material: WT_SEED_DATOUCAI
       amount: 1
-WT_XIANGYU:
+WT_XIANGYU: #rgb(227,219,230)
   item_group: ws_zuowu
   item:
     name: "&f&l香芋"
@@ -1348,7 +1348,7 @@ WT_XIANGYU:
       material_type: slimefun
       material: WT_SEED_XIANGYU
       amount: 1
-WT_MACAI:
+WT_MACAI: #rgb(128,155,13)
   item_group: ws_zuowu
   item:
     name: "&f&l麻菜"
@@ -1362,7 +1362,7 @@ WT_MACAI:
       material_type: slimefun
       material: WT_SEED_MACAI
       amount: 1
-WT_DONGGUA:
+WT_DONGGUA: #rgb(32,117,46)
   item_group: ws_zuowu
   item:
     name: "&f&l冬瓜"
@@ -1376,7 +1376,7 @@ WT_DONGGUA:
       material_type: slimefun
       material: WT_SEED_DONGGUA
       amount: 1
-WT_XILANHUA:
+WT_XILANHUA: #rgb(35,69,17)
   item_group: ws_zuowu
   item:
     name: "&f&l西蓝花"
@@ -1390,7 +1390,7 @@ WT_XILANHUA:
       material_type: slimefun
       material: WT_SEED_XILANHUA
       amount: 1
-WT_LVDOUJIA:
+WT_LVDOUJIA: #rgb(115,146,72)
   item_group: ws_zuowu
   item:
     name: "&f&l毛豆荚"
@@ -1404,7 +1404,7 @@ WT_LVDOUJIA:
       material_type: slimefun
       material: WT_SEED_LVDOUJIA
       amount: 1
-WT_HONGYUANLUOBO:
+WT_HONGYUANLUOBO: #rgb(92,29,30)
   item_group: ws_zuowu
   item:
     name: "&f&l红圆萝卜"
@@ -1418,7 +1418,7 @@ WT_HONGYUANLUOBO:
       material_type: slimefun
       material: WT_SEED_HONGYUANLUOBO
       amount: 1
-WT_SHUIGUOLUOBO:
+WT_SHUIGUOLUOBO: #rgb(141,115,85)
   item_group: ws_zuowu
   item:
     name: "&f&l水果萝卜"
@@ -1433,7 +1433,7 @@ WT_SHUIGUOLUOBO:
       material: WT_SEED_SHUIGUOLUOBO
       amount: 1
 # 1.5 蔬菜
-WT_JIUCAI:
+WT_JIUCAI: #rgb(67,133,54)
   item_group: ws_zuowu
   item:
     name: "&f&l韭菜"
@@ -1447,7 +1447,7 @@ WT_JIUCAI:
       material_type: slimefun
       material: WT_SEED_JIUCAI
       amount: 1
-WT_QINGCAI:
+WT_QINGCAI: #rgb(140,196,110)
   item_group: ws_zuowu
   item:
     name: "&f&l青菜"
@@ -1462,7 +1462,7 @@ WT_QINGCAI:
       material: WT_SEED_QINGCAI
       amount: 1
 # 玉米
-WT_YMHFJ:
+WT_YMHFJ: #rgb(165,165,168)
   item_group: ws_zuowu
   item:
     name: "&f&l玉米黑粉菌"
@@ -1476,7 +1476,7 @@ WT_YMHFJ:
       material_type: slimefun
       material: WT_SEED_YMHFJ
       amount: 1
-WT_YZYM:
+WT_YZYM: #rgb(212,142,55)
   item_group: ws_zuowu
   item:
     name: "&f&l硬质玉米"
@@ -1490,7 +1490,7 @@ WT_YZYM:
       material_type: slimefun
       material: WT_SEED_YZYM
       amount: 1
-WT_LYM:
+WT_LYM: #rgb(74,73,112)
   item_group: ws_zuowu
   item:
     name: "&f&l蓝玉米"
@@ -1504,7 +1504,7 @@ WT_LYM:
       material_type: slimefun
       material: WT_SEED_LYM
       amount: 1
-WT_HYM:
+WT_HYM: #rgb(130,14,35)
   item_group: ws_zuowu
   item:
     name: "&f&l红玉米"
@@ -1518,7 +1518,7 @@ WT_HYM:
       material_type: slimefun
       material: WT_SEED_HYM
       amount: 1
-WT_QYM:
+WT_QYM: #rgb(117,194,89)
   item_group: ws_zuowu
   item:
     name: "&f&l青玉米"
@@ -1532,7 +1532,7 @@ WT_QYM:
       material_type: slimefun
       material: WT_SEED_QYM
       amount: 1
-WT_HEIYUMI:
+WT_HEIYUMI: #rgb(37,39,42)
   item_group: ws_zuowu
   item:
     name: "&f&l黑玉米"
@@ -1546,7 +1546,7 @@ WT_HEIYUMI:
       material_type: slimefun
       material: WT_SEED_HEIYUMI
       amount: 1
-WT_BIANBIANYUMI:
+WT_BIANBIANYUMI: #rgb(130,69,3)
   item_group: ws_zuowu
   item:
     name: "&f&l便便玉米"
@@ -1560,7 +1560,7 @@ WT_BIANBIANYUMI:
       material_type: slimefun
       material: WT_SEED_BIANBIANYUMI
       amount: 1
-WT_BAINUOYUMI:
+WT_BAINUOYUMI: #rgb(212,198,110)
   item_group: ws_zuowu
   item:
     name: "&f&l白糯玉米"
@@ -1575,7 +1575,7 @@ WT_BAINUOYUMI:
       material: WT_SEED_BAINUOYUMI
       amount: 1
 # 辣椒
-WT_QINGJIAO:
+WT_QINGJIAO: #rgb(167,190,0)
   item_group: ws_zuowu
   item:
     name: "&f&l青椒"
@@ -1589,7 +1589,7 @@ WT_QINGJIAO:
       material_type: slimefun
       material: WT_SEED_QINGJIAO
       amount: 1
-WT_XIAOMILA:
+WT_XIAOMILA: #rgb(252,50,27)
   item_group: ws_zuowu
   item:
     name: "&f&l小米辣"
@@ -1603,7 +1603,7 @@ WT_XIAOMILA:
       material_type: slimefun
       material: WT_SEED_QINGJIAO
       amount: 1
-WT_HWNLJ:
+WT_HWNLJ: #rgb(144,58,3)
   item_group: ws_zuowu
   item:
     name: "&f&l哈瓦那辣椒"
@@ -1617,7 +1617,7 @@ WT_HWNLJ:
       material_type: slimefun
       material: WT_SEED_HWNLJ
       amount: 1
-WT_KLLNSSLJ:
+WT_KLLNSSLJ: #rgb(153,26,4)
   item_group: ws_zuowu
   item:
     name: "&f&l卡罗来纳死神辣椒"
@@ -1631,7 +1631,7 @@ WT_KLLNSSLJ:
       material_type: slimefun
       material: WT_SEED_KLLNSSLJ
       amount: 1
-WT_QJJ:
+WT_QJJ: #rgb(21,139,9)
   item_group: ws_zuowu
   item:
     name: "&f&l青尖椒"
@@ -1645,7 +1645,7 @@ WT_QJJ:
       material_type: slimefun
       material: WT_SEED_QJJ
       amount: 1
-WT_MXGLJ:
+WT_MXGLJ: #rgb(61,20,21)
   item_group: ws_zuowu
   item:
     name: "&f&l墨西哥辣椒"
@@ -1659,7 +1659,7 @@ WT_MXGLJ:
       material_type: slimefun
       material: WT_SEED_MXGLJ
       amount: 1
-WT_HLPNALJ:
+WT_HLPNALJ: #rgb(20,66,0)
   item_group: ws_zuowu
   item:
     name: "&f&l哈拉佩尼奥辣椒"
@@ -1673,7 +1673,7 @@ WT_HLPNALJ:
       material_type: slimefun
       material: WT_SEED_HLPNALJ
       amount: 1
-WT_TGLJ:
+WT_TGLJ: #rgb(198,24,13)
   item_group: ws_zuowu
   item:
     name: "&f&l泰国辣椒"
@@ -1687,7 +1687,7 @@ WT_TGLJ:
       material_type: slimefun
       material: WT_SEED_TGLJ
       amount: 1
-WT_DLJ:
+WT_DLJ: #rgb(252,201,9)
   item_group: ws_zuowu
   item:
     name: "&f&l黄灯笼椒"
@@ -1701,7 +1701,7 @@ WT_DLJ:
       material_type: slimefun
       material: WT_SEED_DLJ
       amount: 1
-WT_CDLJ:
+WT_CDLJ: #rgb(250,141,0)
   item_group: ws_zuowu
   item:
     name: "&f&l橙灯笼椒"
@@ -1715,7 +1715,7 @@ WT_CDLJ:
       material_type: slimefun
       material: WT_SEED_DLJ
       amount: 1
-WT_LDLJ:
+WT_LDLJ: #rgb(21,51,8)
   item_group: ws_zuowu
   item:
     name: "&f&l绿灯笼椒"
@@ -1730,7 +1730,7 @@ WT_LDLJ:
       material: WT_SEED_DLJ
       amount: 1
 # 温带作物
-WT_CZL:
+WT_CZL: #rgb(112,21,12)
   item_group: ws_zuowu
   item:
     name: "&f&l车厘子"
@@ -1744,7 +1744,7 @@ WT_CZL:
       material_type: slimefun
       material: WT_SEED_CLZ
       amount: 1
-WT_MGL:
+WT_MGL: #rgb(252,128,98)
   item_group: ws_zuowu
   item:
     name: "&f&l玫瑰梨"
@@ -1758,7 +1758,7 @@ WT_MGL:
       material_type: slimefun
       material: WT_SEED_MGL
       amount: 1
-WT_MHT:
+WT_MHT: #rgb(74,65,0)
   item_group: ws_zuowu
   item:
     name: "&f&l猕猴桃"
@@ -1772,7 +1772,7 @@ WT_MHT:
       material_type: slimefun
       material: WT_SEED_MHT
       amount: 1
-WT_MEIZI:
+WT_MEIZI: #rgb(71,6,26)
   item_group: ws_zuowu
   item:
     name: "&f&l梅子"
@@ -1786,7 +1786,7 @@ WT_MEIZI:
       material_type: slimefun
       material: WT_SEED_MEIZI
       amount: 1
-WT_HONGZAO:
+WT_HONGZAO: #rgb(166,61,0)
   item_group: ws_zuowu
   item:
     name: "&f&l红枣"
@@ -1800,7 +1800,7 @@ WT_HONGZAO:
       material_type: slimefun
       material: WT_SEED_HONGZAO
       amount: 1
-WT_SANGSHEN:
+WT_SANGSHEN: #rgb(29,27,58)
   item_group: ws_zuowu
   item:
     name: "&f&l桑葚"
@@ -1814,7 +1814,7 @@ WT_SANGSHEN:
       material_type: slimefun
       material: WT_SEED_SANGSHEN
       amount: 1
-WT_CULI:
+WT_CULI: #rgb(108,120,36)
   item_group: ws_zuowu
   item:
     name: "&f&l醋栗"
@@ -1828,7 +1828,7 @@ WT_CULI:
       material_type: slimefun
       material: WT_SEED_CULI
       amount: 1
-WT_LANCULI:
+WT_LANCULI: #rgb(15,23,51)
   item_group: ws_zuowu
   item:
     name: "&f&l蓝醋栗"
@@ -1842,7 +1842,7 @@ WT_LANCULI:
       material_type: slimefun
       material: WT_SEED_CULI
       amount: 1
-WT_HEICULI:
+WT_HEICULI: #rgb(41,33,49)
   item_group: ws_zuowu
   item:
     name: "&f&l黑醋栗"
@@ -1856,7 +1856,7 @@ WT_HEICULI:
       material_type: slimefun
       material: WT_SEED_CULI
       amount: 1
-WT_QINGTI:
+WT_QINGTI: #rgb(211,230,123)
   item_group: ws_zuowu
   item:
     name: "&f&l青提"
@@ -1870,7 +1870,7 @@ WT_QINGTI:
       material_type: slimefun
       material: WT_SEED_QINGTI
       amount: 1
-WT_GANXIA:
+WT_GANXIA: #rgb(252,165,2)
   item_group: ws_zuowu
   item:
     name: "&f&l甘夏"
@@ -1884,7 +1884,7 @@ WT_GANXIA:
       material_type: slimefun
       material: WT_SEED_GANXIA
       amount: 1
-WT_SHILIU:
+WT_SHILIU: #rgb(121,28,40)
   item_group: ws_zuowu
   item:
     name: "&f&l软籽石榴"
@@ -1898,7 +1898,7 @@ WT_SHILIU:
       material_type: slimefun
       material: WT_SEED_SHILIU
       amount: 1
-WT_PIPA:
+WT_PIPA: #rgb(252,185,1)
   item_group: ws_zuowu
   item:
     name: "&f&l枇杷"
@@ -1912,7 +1912,7 @@ WT_PIPA:
       material_type: slimefun
       material: WT_SEED_PIPA
       amount: 1
-WT_WENBOGUO:
+WT_WENBOGUO: #rgb(234,205,0)
   item_group: ws_zuowu
   item:
     name: "&f&l榅桲"
@@ -1926,7 +1926,7 @@ WT_WENBOGUO:
       material_type: slimefun
       material: WT_SEED_WENBOGUO
       amount: 1
-WT_XSCZ:
+WT_XSCZ: #rgb(206,67,21)
   item_group: ws_zuowu
   item:
     name: "&f&l像素橙子"
@@ -1940,7 +1940,7 @@ WT_XSCZ:
       material_type: slimefun
       material: WT_SEED_XIANGSU
       amount: 1
-WT_MIANHUA:
+WT_MIANHUA: 
   item_group: ws_zuowu
   item:
     name: "&f&l棉花"
@@ -1996,7 +1996,7 @@ WT_YANCAO:
       material_type: slimefun
       material: WT_SEED_YANCAO
       amount: 1
-WT_SHIZI:
+WT_SHIZI: #rgb(159,60,19)
   item_group: ws_zuowu
   item:
     name: "&f&l柿子"
@@ -2038,7 +2038,7 @@ WT_XIAOMI:
       material_type: slimefun
       material: WT_SEED_XIAOMI
       amount: 1
-WT_PANTAO:
+WT_PANTAO: #rgb(215,195,145)
   item_group: ws_zuowu
   item:
     name: "&f&l蟠桃"
@@ -2095,7 +2095,7 @@ WT_XUEJIAYANYE:
       material_type: slimefun
       material: WT_SEED_XUEJIAYANYE
       amount: 1
-WT_KUGUA:
+WT_KUGUA: #rgb(115,190,4)
   item_group: ws_zuowu
   item:
     name: "&f&l苦瓜"
@@ -2109,7 +2109,7 @@ WT_KUGUA:
       material_type: slimefun
       material: WT_SEED_KUGUA
       amount: 1
-WT_SIGUA:
+WT_SIGUA: #rgb(134,173,36)
   item_group: ws_zuowu
   item:
     name: "&f&l丝瓜"
@@ -2123,7 +2123,7 @@ WT_SIGUA:
       material_type: slimefun
       material: WT_SEED_SIGUA
       amount: 1
-WT_DIEDOUHUA:
+WT_DIEDOUHUA: #rgb(74,96,252)
   item_group: ws_zuowu
   item:
     name: "&f&l蝶豆花"
@@ -2137,7 +2137,7 @@ WT_DIEDOUHUA:
       material_type: slimefun
       material: WT_SEED_DIEDOUHUA
       amount: 1
-WT_DONGQINGGUO:
+WT_DONGQINGGUO: #rgb(230,31,31)
   item_group: ws_zuowu
   item:
     name: "&f&l冬青果"
@@ -2151,7 +2151,7 @@ WT_DONGQINGGUO:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_YEYINGMEI:
+WT_YEYINGMEI: #rgb(40,30,55)
   item_group: ws_zuowu
   item:
     name: "&f&l野樱莓"
@@ -2165,7 +2165,7 @@ WT_YEYINGMEI:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_HEIXINGUO:
+WT_HEIXINGUO: #rgb(9,22,8)
   item_group: ws_zuowu
   item:
     name: "&f&l黑心果"
@@ -2179,7 +2179,7 @@ WT_HEIXINGUO:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_SHANZHA:
+WT_SHANZHA: #rgb(192,27,23)
   item_group: ws_zuowu
   item:
     name: "&f&l山楂"
@@ -2193,7 +2193,7 @@ WT_SHANZHA:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_BOLUOMEI:
+WT_BOLUOMEI: #rgb(243,219,221)
   item_group: ws_zuowu
   item:
     name: "&f&l菠萝莓"
@@ -2207,7 +2207,7 @@ WT_BOLUOMEI:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_BAITAO:
+WT_BAITAO: #rgb(251,205,184)
   item_group: ws_zuowu
   item:
     name: "&f&l白桃"
@@ -2221,7 +2221,7 @@ WT_BAITAO:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_DENGLONGGUO:
+WT_DENGLONGGUO: #rgb(252,252,158)
   item_group: ws_zuowu
   item:
     name: "&f&l灯笼果"
@@ -2235,7 +2235,7 @@ WT_DENGLONGGUO:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_TIANSHIGUO:
+WT_TIANSHIGUO: #rgb(252,252,252)
   item_group: ws_zuowu
   item:
     name: "&f&l天使果"
@@ -2249,7 +2249,7 @@ WT_TIANSHIGUO:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_KUCHENG:
+WT_KUCHENG: #rgb(234,225,55)
   item_group: ws_zuowu
   item:
     name: "&f&l苦橙"
@@ -2263,7 +2263,7 @@ WT_KUCHENG:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_SHATANGJU:
+WT_SHATANGJU: #rgb(252,158,100)
   item_group: ws_zuowu
   item:
     name: "&f&l砂糖橘"
@@ -2277,7 +2277,7 @@ WT_SHATANGJU:
       material_type: slimefun
       material: WT_SEED_YEGUO
       amount: 1
-WT_QINGPITIANGUA:
+WT_QINGPITIANGUA: #rgb(190,212,133)
   item_group: ws_zuowu
   item:
     name: "&f&l青皮甜瓜"
@@ -2291,7 +2291,7 @@ WT_QINGPITIANGUA:
       material_type: slimefun
       material: WT_SEED_YEGUA
       amount: 1
-WT_JINSIGUA:
+WT_JINSIGUA: #rgb(251,212,0)
   item_group: ws_zuowu
   item:
     name: "&f&l金丝瓜"
@@ -2305,7 +2305,7 @@ WT_JINSIGUA:
       material_type: slimefun
       material: WT_SEED_YEGUA
       amount: 1
-WT_XINGHONGTIANGUA:
+WT_XINGHONGTIANGUA: #rgb(227,134,123)
   item_group: ws_zuowu
   item:
     name: "&f&l猩红甜瓜"
@@ -2319,7 +2319,7 @@ WT_XINGHONGTIANGUA:
       material_type: slimefun
       material: WT_SEED_YEGUA
       amount: 1
-WT_MABOGUA:
+WT_MABOGUA: #rgb(231,198,55)
   item_group: ws_zuowu
   item:
     name: "&f&l马瓟瓜"
@@ -2333,7 +2333,7 @@ WT_MABOGUA:
       material_type: slimefun
       material: WT_SEED_YEGUA
       amount: 1
-WT_YINGGUANGLVGUA:
+WT_YINGGUANGLVGUA: #rgb(168,230,142)
   item_group: ws_zuowu
   item:
     name: "&f&l荧光绿瓜"
@@ -2347,7 +2347,7 @@ WT_YINGGUANGLVGUA:
       material_type: slimefun
       material: WT_SEED_YEGUA
       amount: 1
-WT_HONGDOU:
+WT_HONGDOU: #rgb(207,42,49) 豆浆
   item_group: ws_zuowu
   item:
     name: "&f&l红豆"
@@ -2361,7 +2361,7 @@ WT_HONGDOU:
       material_type: slimefun
       material: WT_SEED_DOUJIA
       amount: 1
-WT_LVDOU:
+WT_LVDOU: #rgb(110,110,0) 豆浆
   item_group: ws_zuowu
   item:
     name: "&f&l绿豆"
@@ -2375,7 +2375,7 @@ WT_LVDOU:
       material_type: slimefun
       material: WT_SEED_DOUJIA
       amount: 1
-WT_HEIDOU:
+WT_HEIDOU: #rgb(70,66,63) 豆浆
   item_group: ws_zuowu
   item:
     name: "&f&l黑豆"
@@ -2389,7 +2389,7 @@ WT_HEIDOU:
       material_type: slimefun
       material: WT_SEED_DOUJIA
       amount: 1
-WT_HUANGDOU:
+WT_HUANGDOU: #rgb(241,228,182) 豆浆
   item_group: ws_zuowu
   item:
     name: "&f&l黄豆"
@@ -2403,7 +2403,7 @@ WT_HUANGDOU:
       material_type: slimefun
       material: WT_SEED_DOUJIA
       amount: 1
-WT_LANDOU:
+WT_LANDOU: #rgb(67,129,195) 豆浆
   item_group: ws_zuowu
   item:
     name: "&f&l蓝豆"
@@ -2459,7 +2459,7 @@ WT_BUYINGCAO:
       material_type: slimefun
       material: WT_SEED_SHIRUN
       amount: 1
-WT_YUNMEI:
+WT_YUNMEI: #rgb(241,187,41)
   item_group: ws_zuowu
   item:
     name: "&f&l云莓"
@@ -2473,7 +2473,7 @@ WT_YUNMEI:
       material_type: slimefun
       material: WT_SEED_SHIRUN
       amount: 1
-WT_TIANMEI:
+WT_TIANMEI: #rgb(211,228,252)
   item_group: ws_zuowu
   item:
     name: "&f&l天莓"
@@ -2488,7 +2488,7 @@ WT_TIANMEI:
       material: WT_SEED_SHIRUN
       amount: 1
 # 热带植物
-WT_HUANGJINGGUO:
+WT_HUANGJINGGUO: #rgb(252,224,14)
   item_group: ws_zuowu
   item:
     name: "&f&l黄晶果"
@@ -2502,7 +2502,7 @@ WT_HUANGJINGGUO:
       material_type: slimefun
       material: WT_SEED_HUANGJINGGUO
       amount: 1
-WT_YANGTAO:
+WT_YANGTAO: #rgb(218,136,34)
   item_group: ws_zuowu
   item:
     name: "&f&l杨桃"
@@ -2516,7 +2516,7 @@ WT_YANGTAO:
       material_type: slimefun
       material: WT_SEED_YANGTAO
       amount: 1
-WT_QINGYANGTAO:
+WT_QINGYANGTAO: #rgb(151,217,57)
   item_group: ws_zuowu
   item:
     name: "&f&l青杨桃"
@@ -2530,7 +2530,7 @@ WT_QINGYANGTAO:
       material_type: slimefun
       material: WT_SEED_YANGTAO
       amount: 1
-WT_QINGNING:
+WT_QINGNING: #rgb(101,173,62)
   item_group: ws_zuowu
   item:
     name: "&f&l青柠"
@@ -2544,7 +2544,7 @@ WT_QINGNING:
       material_type: slimefun
       material: WT_SEED_QINGNING
       amount: 1
-WT_MAMEIGUO:
+WT_MAMEIGUO: #rgb(217,93,48)
   item_group: ws_zuowu
   item:
     name: "&f&l马梅果"
@@ -2558,10 +2558,10 @@ WT_MAMEIGUO:
       material_type: slimefun
       material: WT_SEED_MAMEIGUO
       amount: 1
-WT_QINGXIANGJIAO:
+WT_QINGXIANGJIAO: #rgb(67,178,41)
   item_group: ws_zuowu
   item:
-    name: "&f&l青香蕉"
+    name: "&f&l芭蕉"
     material_type: skull_hash
     material: 4a7129ff89cfd2513bd7c897c3d6a4b2c1b2d99ccf9266aed5af646f7d963ee8
   placeable: false
@@ -2572,7 +2572,7 @@ WT_QINGXIANGJIAO:
       material_type: slimefun
       material: WT_SEED_QINGXIANGJIAO
       amount: 1
-WT_KEKEGUO:
+WT_KEKEGUO: #rgb(201,140,82)
   item_group: ws_zuowu
   item:
     name: "&f&l可可果"
@@ -2586,7 +2586,7 @@ WT_KEKEGUO:
       material_type: slimefun
       material: WT_SEED_KEKEGUO
       amount: 1
-WT_SHEPIGUO:
+WT_SHEPIGUO: #rgb(115,67,28)
   item_group: ws_zuowu
   item:
     name: "&f&l蛇皮果"
@@ -2600,7 +2600,7 @@ WT_SHEPIGUO:
       material_type: slimefun
       material: WT_SEED_SHEPIGUO
       amount: 1
-WT_FEIZHOULI:
+WT_FEIZHOULI: #rgb(111,66,109)
   item_group: ws_zuowu
   item:
     name: "&f&l非洲梨"
@@ -2614,7 +2614,7 @@ WT_FEIZHOULI:
       material_type: slimefun
       material: WT_SEED_FEIZHOULI
       amount: 1
-WT_MANGGUO:
+WT_MANGGUO: #rgb(216,143,25)
   item_group: ws_zuowu
   item:
     name: "&f&l芒果"
@@ -2628,7 +2628,7 @@ WT_MANGGUO:
       material_type: slimefun
       material: WT_SEED_MANGGUO
       amount: 1
-WT_SUANJIAO:
+WT_SUANJIAO: #rgb(116,160,57)
   item_group: ws_zuowu
   item:
     name: "&f&l酸角"
@@ -2642,7 +2642,7 @@ WT_SUANJIAO:
       material_type: slimefun
       material: WT_SEED_SUANJIAO
       amount: 1
-WT_LIULIAN:
+WT_LIULIAN: #rgb(172,147,0)
   item_group: ws_zuowu
   item:
     name: "&f&l榴莲"
@@ -2656,7 +2656,7 @@ WT_LIULIAN:
       material_type: slimefun
       material: WT_SEED_LIULIAN
       amount: 1
-WT_QINGNILIULIAN:
+WT_QINGNILIULIAN: #rgb(98,148,43)
   item_group: ws_zuowu
   item:
     name: "&f&l青尼榴莲"
@@ -2670,7 +2670,7 @@ WT_QINGNILIULIAN:
       material_type: slimefun
       material: WT_SEED_LIULIAN
       amount: 1
-WT_MIYOU:
+WT_MIYOU: #rgb(180,200,66)
   item_group: ws_zuowu
   item:
     name: "&f&l蜜柚"
@@ -2698,7 +2698,7 @@ WT_HEIGANLAN:
       material_type: slimefun
       material: WT_SEED_HEIGANLAN
       amount: 1
-WT_FANSHILIU:
+WT_FANSHILIU: #rgb(172,199,56)
   item_group: ws_zuowu
   item:
     name: "&f&l番石榴"
@@ -2712,7 +2712,7 @@ WT_FANSHILIU:
       material_type: slimefun
       material: WT_SEED_FANSHILIU
       amount: 1
-WT_XUECHENG:
+WT_XUECHENG: #rgb(241,109,54)
   item_group: ws_zuowu
   item:
     name: "&f&l血橙"
@@ -2726,7 +2726,7 @@ WT_XUECHENG:
       material_type: slimefun
       material: WT_SEED_XUECHENG
       amount: 1
-WT_WUHUAGUO:
+WT_WUHUAGUO: #rgb(58,38,89)
   item_group: ws_zuowu
   item:
     name: "&f&l无花果"
@@ -2768,7 +2768,7 @@ WT_MIANBAOGUO:
       material_type: slimefun
       material: WT_SEED_MIANBAOGUO
       amount: 1
-WT_BOLUOMI:
+WT_BOLUOMI: #rgb(130,126,4)
   item_group: ws_zuowu
   item:
     name: "&f&l菠萝蜜"
@@ -2782,7 +2782,7 @@ WT_BOLUOMI:
       material_type: slimefun
       material: WT_SEED_BOLUOMI
       amount: 1
-WT_HAMIGUA:
+WT_HAMIGUA: #rgb(223,230,183)
   item_group: ws_zuowu
   item:
     name: "&f&l哈密瓜"
@@ -2796,7 +2796,7 @@ WT_HAMIGUA:
       material_type: slimefun
       material: WT_SEED_HAMIGUA
       amount: 1
-WT_MUGUA:
+WT_MUGUA: #rgb(139,93,3)
   item_group: ws_zuowu
   item:
     name: "&f&l木瓜"
@@ -2810,7 +2810,7 @@ WT_MUGUA:
       material_type: slimefun
       material: WT_SEED_MUGUA
       amount: 1
-WT_RENXINGUO:
+WT_RENXINGUO: #rgb(115,86,48)
   item_group: ws_zuowu
   item:
     name: "&f&l人心果"
@@ -2824,7 +2824,7 @@ WT_RENXINGUO:
       material_type: slimefun
       material: WT_SEED_RENXINGUO
       amount: 1
-WT_SHUFANQIE:
+WT_SHUFANQIE: #rgb(159,96,31)
   item_group: ws_zuowu
   item:
     name: "&f&l树番茄"
@@ -2866,7 +2866,7 @@ WT_QINGGANLAN:
       material_type: slimefun
       material: WT_SEED_QINGGANLAN
       amount: 1
-WT_HUANGLONGGUO:
+WT_HUANGLONGGUO: #rgb(219,173,9)
   item_group: ws_zuowu
   item:
     name: "&f&l黄龙果"
@@ -2880,7 +2880,7 @@ WT_HUANGLONGGUO:
       material_type: slimefun
       material: WT_SEED_HUANGLONGGUO
       amount: 1
-WT_XIAOXIGUA:
+WT_XIAOXIGUA: #rgb(158,31,26)
   item_group: ws_zuowu
   item:
     name: "&f&l小西瓜"
@@ -2895,7 +2895,7 @@ WT_XIAOXIGUA:
       material: WT_SEED_XIAOXIGUA
       amount: 1
 # 1.5 热带作物
-WT_TIANGUA:
+WT_TIANGUA: #rgb(182,131,80)
   item_group: ws_zuowu
   item:
     name: "&f&l甜瓜"
@@ -3233,7 +3233,7 @@ WT_DALISHISONGGUO:
       material: WT_SEED_JIANGUO
       amount: 1
 # 下界作物
-WT_EMOGUOSHI:
+WT_EMOGUOSHI: #rgb(133,13,39)
   item_group: ws_zuowu
   item:
     name: "&f&l恶魔果实"
@@ -3261,7 +3261,7 @@ WT_GUIJIAO:
       material_type: slimefun
       material: WT_SEED_GUIJIAO
       amount: 1
-WT_GUIYIGUO:
+WT_GUIYIGUO: #rgb(250,138,190)
   item_group: ws_zuowu
   item:
     name: "&f&l诡异果"
@@ -3275,7 +3275,7 @@ WT_GUIYIGUO:
       material_type: slimefun
       material: WT_SEED_GUIYIGUO
       amount: 1
-WT_SHANGGUSHUIGUO:
+WT_SHANGGUSHUIGUO: #rgb(4,137,141)
   item_group: ws_zuowu
   item:
     name: "&f&l上古水果"
@@ -3303,7 +3303,7 @@ WT_GUIYIYOU:
       material_type: slimefun
       material: WT_SEED_GUIYIYOU
       amount: 1
-WT_LONGSHELAN:
+WT_LONGSHELAN: #rgb(47,164,130)
   item_group: ws_zuowu
   item:
     name: "&f&l龙舌兰"
@@ -3317,7 +3317,7 @@ WT_LONGSHELAN:
       material_type: slimefun
       material: WT_SEED_LONGSHELAN
       amount: 1
-WT_DIAOLINGGUA:
+WT_DIAOLINGGUA: #rgb(53,53,53)
   item_group: ws_zuowu
   item:
     name: "&f&l凋灵瓜"
@@ -3373,7 +3373,7 @@ WT_XUETENG:
       material_type: slimefun
       material: WT_SEED_XINGHONG
       amount: 1
-WT_SADANGUO:
+WT_SADANGUO: #rgb(87,20,20)
   item_group: ws_zuowu
   item:
     name: "&f&l撒旦果"
@@ -3388,7 +3388,7 @@ WT_SADANGUO:
       material: WT_SEED_XINGHONG
       amount: 1
 # 末地作物
-WT_ZISONGYE:
+WT_ZISONGYE: #rgb(188,159,183)
   item_group: ws_zuowu
   item:
     name: "&f&l紫颂椰"
@@ -3402,7 +3402,7 @@ WT_ZISONGYE:
       material_type: slimefun
       material: WT_SEED_ZISONGYE
       amount: 1
-WT_MODIGUO:
+WT_MODIGUO: #rgb(118,54,96)
   item_group: ws_zuowu
   item:
     name: "&f&l末地果"
@@ -3458,7 +3458,7 @@ WT_XIANRENSHEN:
       material_type: slimefun
       material: WT_SEED_RENSHEN
       amount: 1
-WT_MOFAGUO:
+WT_MOFAGUO: #rgb(68,114,163)
   item_group: ws_zuowu
   item:
     name: "&f&l魔法果"
@@ -3472,7 +3472,7 @@ WT_MOFAGUO:
       material_type: slimefun
       material: WT_SEED_QIYI
       amount: 1
-WT_MOYINGLONGGUO:
+WT_MOYINGLONGGUO: #rgb(107,71,134)
   item_group: ws_zuowu
   item:
     name: "&f&l末影龙果"
@@ -3486,7 +3486,7 @@ WT_MOYINGLONGGUO:
       material_type: slimefun
       material: WT_SEED_QIYI
       amount: 1
-WT_AIQINGUO:
+WT_AIQINGUO: #rgb(133,60,99)
   item_group: ws_zuowu
   item:
     name: "&f&l爱琴果"
@@ -3500,7 +3500,7 @@ WT_AIQINGUO:
       material_type: slimefun
       material: WT_SEED_QIYI
       amount: 1
-WT_MONENGPINGGUO:
+WT_MONENGPINGGUO: #rgb(230,26,245)
   item_group: ws_zuowu
   item:
     name: "&f&l魔能苹果"
@@ -3514,7 +3514,7 @@ WT_MONENGPINGGUO:
       material_type: slimefun
       material: WT_SEED_QIYI
       amount: 1
-WT_ZHANHUAJIANGGUO:
+WT_ZHANHUAJIANGGUO: #rgb(252,101,111)
   item_group: ws_zuowu
   item:
     name: "&f&l绽花浆果"
@@ -3529,28 +3529,28 @@ WT_ZHANHUAJIANGGUO:
       material: WT_SEED_QIYI
       amount: 1
 # 奇怪作物
-WT_ZSHULUOBO:
+WT_ZSHULUOBO: #rgb(6,164,162)
   item_group: ws_zuowu
   item:
     name: "&b&l钻石胡萝卜"
     material_type: skull_hash
     material: e4210b6f00c858a84a22f5c184711174bf7d4672e2b7ffa723a6bc64923d7f5b
   placeable: false
-  script: 7
+  script: 4
   recipe_type: WUWEI_SHOUHUOZUOWU
   recipe:
     5:
       material_type: slimefun
       material: WT_SEED_ZUANSHIHULUOBO
       amount: 1
-WT_TIEHULUOBO:
+WT_TIEHULUOBO: #rgb(159,159,159)
   item_group: ws_zuowu
   item:
     name: "&f&l铁胡萝卜"
     material_type: skull_hash
     material: 85b71dbd9b31c9426a99d27d61dd08e30b9c0307ee3fded34254992562d1b865
   placeable: false
-  script: 5
+  script: 3
   recipe_type: WUWEI_SHOUHUOZUOWU
   recipe:
     5:
@@ -3571,21 +3571,21 @@ WT_NAMITUDOU:
       material_type: slimefun
       material: WT_SEED_NAMITUDOU
       amount: 1
-WT_ZUANSHINANGUA:
+WT_ZUANSHINANGUA: #rgb(48,121,164)
   item_group: ws_zuowu
   item:
     name: "&b&l钻石南瓜"
     material_type: skull_hash
     material: dd3384c4d34a8f986e26802ba3587a2aab1f4d2346dd8eb318ce8b7bd194cad2
   placeable: false
-  script: 1
+  script: 4
   recipe_type: WUWEI_SHOUHUOZUOWU
   recipe:
     5:
       material_type: slimefun
       material: WT_SEED_ZUANSHINANGUA
       amount: 1
-WT_QJSXJ:
+WT_QJSXJ: #rgb(24,37,158)
   item_group: ws_zuowu
   item:
     name: "&f&l青金石香蕉"
@@ -3601,7 +3601,7 @@ WT_QJSXJ:
       amount: 1
 
 # 1.3.1
-WT_MATONG:
+WT_MATONG: #rgb(252,252,252)
   item_group: ws_zuowu
   item:
     name: "&f&l马桶"
@@ -3772,7 +3772,7 @@ WT_LINGZHI:
       amount: 1
 # 1.4补充作物
 # 稀有南瓜
-WT_SHENGNANGUA:
+WT_SHENGNANGUA: #rgb(192,205,21)
   item_group: ws_zuowu
   item:
     name: "&f&l生南瓜"
@@ -3786,7 +3786,7 @@ WT_SHENGNANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA1
       amount: 1
-WT_HAIMIANGUA:
+WT_HAIMIANGUA: #rgb(0,252,234)
   item_group: ws_zuowu
   item:
     name: "&f&l海绵瓜"
@@ -3800,7 +3800,7 @@ WT_HAIMIANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA1
       amount: 1
-WT_BINGNANGUA:
+WT_BINGNANGUA: #rgb(158,163,176)
   item_group: ws_zuowu
   item:
     name: "&f&l冰南瓜"
@@ -3814,7 +3814,7 @@ WT_BINGNANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA1
       amount: 1
-WT_NAIYOUNANGUA:
+WT_NAIYOUNANGUA: #rgb(221,194,143)
   item_group: ws_zuowu
   item:
     name: "&f&l奶油南瓜"
@@ -3828,12 +3828,12 @@ WT_NAIYOUNANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA1
       amount: 1
-WT_HUANGNANGUA:
+WT_HUANGNANGUA: #rgb(255,237,85)
   item_group: ws_zuowu
   item:
     name: "&f&l黄南瓜"
     material_type: skull_hash
-    material: 86db3794aa6e4eb25cf8e1fd3acad74c09750849cc360fe6a0417173b2fee216
+    material: 4d5b0910283a1a9631596757f20d8a6109c42f23af457a93bd4a9befbeaf2b79
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -3842,7 +3842,7 @@ WT_HUANGNANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA1
       amount: 1
-WT_KEAINANGUA:
+WT_KEAINANGUA: #rgb(232,143,73)
   item_group: ws_zuowu
   item:
     name: "&f&l可爱南瓜"
@@ -3856,7 +3856,7 @@ WT_KEAINANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA1
       amount: 1
-WT_XIANGZINANGUA:
+WT_XIANGZINANGUA: #rgb(60,65,50)
   item_group: ws_zuowu
   item:
     name: "&f&l橡子南瓜"
@@ -3871,7 +3871,7 @@ WT_XIANGZINANGUA:
       material: WT_SEED_NANGUA1
       amount: 1
 # 史诗南瓜
-WT_NANGUA2:
+WT_NANGUA2: #rgb(237,232,223)
   item_group: ws_zuowu
   item:
     name: "&f&l难瓜"
@@ -3885,7 +3885,7 @@ WT_NANGUA2:
       material_type: slimefun
       material: WT_SEED_NANGUA2
       amount: 1
-WT_LANGUA:
+WT_LANGUA: #rgb(164,182,176)
   item_group: ws_zuowu
   item:
     name: "&f&l蓝瓜"
@@ -3899,7 +3899,7 @@ WT_LANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA2
       amount: 1
-WT_JINNANGUA:
+WT_JINNANGUA: #rgb(247,198,0)
   item_group: ws_zuowu
   item:
     name: "&f&l金南瓜"
@@ -3913,7 +3913,7 @@ WT_JINNANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA2
       amount: 1
-WT_NANGUA3:
+WT_NANGUA3: #rgb(243,166,143)
   item_group: ws_zuowu
   item:
     name: "&f&l萳瓜"
@@ -3927,7 +3927,7 @@ WT_NANGUA3:
       material_type: slimefun
       material: WT_SEED_NANGUA2
       amount: 1
-WT_XIANGJIAONANGUA:
+WT_XIANGJIAONANGUA: #rgb(233,206,183)
   item_group: ws_zuowu
   item:
     name: "&f&l香蕉南瓜"
@@ -3941,7 +3941,7 @@ WT_XIANGJIAONANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA2
       amount: 1
-WT_HABODENANGUA:
+WT_HABODENANGUA: #rgb(202,202,202)
   item_group: ws_zuowu
   item:
     name: "&f&l哈伯德南瓜"
@@ -3956,7 +3956,7 @@ WT_HABODENANGUA:
       material: WT_SEED_NANGUA2
       amount: 1
 # 传奇南瓜
-WT_FUHUANANGUA:
+WT_FUHUANANGUA: #rgb(105,80,116)
   item_group: ws_zuowu
   item:
     name: "&f&l腐化南瓜"
@@ -3970,7 +3970,7 @@ WT_FUHUANANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA3
       amount: 1
-WT_NANGUA4:
+WT_NANGUA4: #rgb(84,46,119)
   item_group: ws_zuowu
   item:
     name: "&f&l喃瓜"
@@ -3984,7 +3984,7 @@ WT_NANGUA4:
       material_type: slimefun
       material: WT_SEED_NANGUA3
       amount: 1
-WT_FUGUA:
+WT_FUGUA: #rgb(90,100,66)
   item_group: ws_zuowu
   item:
     name: "&f&l辐瓜"
@@ -3999,7 +3999,7 @@ WT_FUGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA3
       amount: 1
-WT_CANGBAINANGUA:
+WT_CANGBAINANGUA: #rgb(155,136,125)
   item_group: ws_zuowu
   item:
     name: "&f&l苍白南瓜"
@@ -4013,7 +4013,7 @@ WT_CANGBAINANGUA:
       material_type: slimefun
       material: WT_SEED_NANGUA3
       amount: 1
-WT_LANGUA2:
+WT_LANGUA2: #rgb(214,137,36)
   item_group: ws_zuowu
   item:
     name: "&f&l烂瓜"
@@ -4027,7 +4027,7 @@ WT_LANGUA2:
       material_type: slimefun
       material: WT_SEED_NANGUA3
       amount: 1
-WT_HONGLINANGUA:
+WT_HONGLINANGUA: #rgb(239,96,0)
   item_group: ws_zuowu
   item:
     name: "&f&l红栗南瓜"
@@ -4043,7 +4043,7 @@ WT_HONGLINANGUA:
       amount: 1
 
 # 方块掉落作物
-WT_XIANRENZHANG:
+WT_XIANRENZHANG: #rgb(224,46,81)
   item_group: ws_zuowu
   item:
     name: "&f&l仙人掌果"
@@ -4059,7 +4059,7 @@ WT_XIANRENZHANG:
   drop_from: CACTUS
   drop_chance: 12
   drop_amount: 1
-WT_SHANZHU:
+WT_SHANZHU: #rgb(71,44,64)
   item_group: ws_zuowu
   item:
     name: "&f&l山竹"
@@ -4075,7 +4075,7 @@ WT_SHANZHU:
   drop_from: DARK_OAK_LEAVES
   drop_chance: 10
   drop_amount: 1
-WT_YOUNIGUO:
+WT_YOUNIGUO: #rgb(8,109,103)
   item_group: ws_zuowu
   item:
     name: "&f&l幽匿果"
@@ -4107,7 +4107,7 @@ WT_ZUSUN:
   drop_from: BAMBOO_SAPLING
   drop_chance: 85
   drop_amount: 1
-WT_XIASHUIDAOGUO:
+WT_XIASHUIDAOGUO: #rgb(18,65,8)
   item_group: ws_zuowu
   item:
     name: "&f&l下水道果"
@@ -4123,7 +4123,7 @@ WT_XIASHUIDAOGUO:
   drop_from: INFESTED_STONE
   drop_chance: 15
   drop_amount: 1
-WT_LANPINGGUO:
+WT_LANPINGGUO: #rgb(132,48,27)
   item_group: ws_zuowu
   item:
     name: "&f&l烂苹果"
@@ -4139,7 +4139,7 @@ WT_LANPINGGUO:
   drop_from: OAK_LEAVES
   drop_chance: 1
   drop_amount: 1
-WT_LIANHUA:
+WT_LIANHUA: #rgb(252,250,197)
   item_group: ws_zuowu
   item:
     name: "&f&l莲花"
@@ -4155,7 +4155,7 @@ WT_LIANHUA:
   drop_from: LILY_PAD
   drop_chance: 15
   drop_amount: 1
-WT_LUHUI:
+WT_LUHUI: #rgb(0,218,0)
   item_group: ws_zuowu
   item:
     name: "&f&l芦荟"
@@ -4166,12 +4166,12 @@ WT_LUHUI:
   recipe_type: WUWEI_WAJUE
   recipe:
     5:
-      material: CACTUS
+      material: DEAD_BUSH
       amount: 1
-  drop_from: CACTUS
+  drop_from: DEAD_BUSH
   drop_chance: 10
   drop_amount: 1
-WT_GUISUGUO:
+WT_GUISUGUO: #rgb(167,219,207)
   item_group: ws_zuowu
   item:
     name: "&f&l归宿果"
@@ -20720,7 +20720,7 @@ WT_ZHENZHUNAICHA:
     name: §c§l珍珠奶茶
     amount: 1
     material_type: skull_hash
-    material: dd4df404d2e91bcb1b96cb85f5c5e72cfc20fe20d5f49dec97d3b8e60f6abbee
+    material: 5c29360e8c77e5b1d0920e2c5ff318220703d40144126f361e819adbb2433223
   item_group: ws_yingliao
   recipe_type: WUWEI_YINGLIAOJI
   recipe:

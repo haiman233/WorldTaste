@@ -308,3 +308,2988 @@ WT_FMDPTT:
     3:
       material_type: mc
       material: LAPIS_BLOCK
+# 果汁
+WT_JIANGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l生姜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "203,161,101"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHENGJIANG
+      amount: 1
+WT_YUNI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l芋泥'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "130,100,87"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_YUTOU
+      amount: 1
+WT_MOYUNI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l魔芋泥'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "116,81,46"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MOYU
+      amount: 1
+WT_SUANNI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蒜泥'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "205,186,166"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_DASUAN
+      amount: 1
+WT_ZIGANLANZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l紫甘蓝汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "72,29,47"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZIGANLAN
+      amount: 1
+WT_XIHONGSHIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l西红柿汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "144,69,8"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIHONGSHI
+      amount: 1
+WT_HPYANGCONGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黄皮洋葱汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "151,107,96"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HUANGPIYANGCONG
+      amount: 1
+WT_RIBENNANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l日本南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "29,49,4"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_RIBENNANGUA
+      amount: 1
+WT_SGLUOBOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l水果萝卜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "141,115,85"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHUIGUOLUOBO
+      amount: 1
+WT_CHELIZIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l车厘子汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "112,21,12"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_CZL
+      amount: 1
+WT_MGLZ:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l玫瑰梨汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,128,98"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MGL
+      amount: 1
+WT_MHTZ:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l猕猴桃汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "74,65,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MHT
+      amount: 1
+WT_MEIZIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l梅子汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "71,6,26"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MEIZI
+      amount: 1
+WT_HONGZAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l红枣汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "166,61,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HONGZAO
+      amount: 1
+WT_SANGSHENZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l桑葚汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "29,27,58"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SANGSHEN
+      amount: 1
+WT_CULIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l醋栗汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "108,120,36"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_CULI
+      amount: 1
+WT_LANCULIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蓝醋栗汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "15,23,51"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LANCULI
+      amount: 1
+WT_HEICULIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黑醋栗汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "41,33,49"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HEICULI
+      amount: 1
+WT_QINGTIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青提汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "211,230,123"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGTI
+      amount: 1
+WT_GANXIAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l甘夏汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,165,2"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_GANXIA
+      amount: 1
+WT_SHILIUZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l软籽石榴汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "121,28,40"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHILIU
+      amount: 1
+WT_PIPAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l枇杷汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,185,1"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_PIPA
+      amount: 1
+WT_WENBOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l榅桲汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "234,205,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_WENBOGUO
+      amount: 1
+WT_XSCZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l像素橙汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "206,67,21"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XSCZ
+      amount: 1
+WT_SHIZIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l柿子汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "159,60,19"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHIZI
+      amount: 1
+WT_PANTAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蟠桃汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "215,195,145"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_PANTAO
+      amount: 1
+WT_KUGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l苦瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "115,190,4"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_KUGUA
+      amount: 1
+WT_SIGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l丝瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "134,173,36"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SIGUA
+      amount: 1
+WT_DIEDOUHUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蝶豆花汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "74,96,252"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_DIEDOUHUA
+      amount: 1
+WT_DONGQINGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l冬青果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "230,31,31"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_DONGQINGGUO
+      amount: 1
+WT_YEYINGMEIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l野樱莓汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "40,30,55"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_YEYINGMEI
+      amount: 1
+WT_HEIXINMEIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黑心果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "9,22,8"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HEIXINGUO
+      amount: 1
+WT_SHANZHAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l山楂汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "192,27,23"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHANZHA
+      amount: 1
+WT_BOLUOMEIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l菠萝莓汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "243,219,221"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BOLUOMEI
+      amount: 1
+WT_BAITAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l白桃汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "251,205,184"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BAITAO
+      amount: 1
+WT_DENGLONGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l灯笼果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,252,158"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_DENGLONGGUO
+      amount: 1
+WT_TIANSHIGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l天使果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,252,252"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TIANSHIGUO
+      amount: 1
+WT_KUCHENGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l苦橙汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "234,225,55"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_KUCHENG
+      amount: 1
+WT_SHATANGJUZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l砂糖橘汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,158,100"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHATANGJU
+      amount: 1
+WT_QPTGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青皮甜瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "190,212,133"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGPITIANGUA
+      amount: 1
+WT_JINSIGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l金丝瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "251,212,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_JINSIGUA
+      amount: 1
+WT_XINGHONGTIANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l猩红甜瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "227,134,123"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XINGHONGTIANGUA
+      amount: 1
+WT_MABOGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l马瓟瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "231,198,55"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MABOGUA
+      amount: 1
+WT_YGLGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l荧光绿瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "168,230,142"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_YINGGUANGLVGUA
+      amount: 1
+WT_HONGDOUJIANG:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l红豆浆'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "207,42,49"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HONGDOU
+      amount: 1
+WT_LVDOUJIANG:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l绿豆浆'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "110,110,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LVDOU
+      amount: 1
+WT_HEIDOUJIANG:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黑豆浆'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "70,66,63"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HEIDOU
+      amount: 1
+WT_HUANGDOUJIANG:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l豆浆'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "241,228,182"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HUANGDOU
+      amount: 1
+WT_LANDOUJIANG:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蓝豆浆'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "67,129,195"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LANDOU
+      amount: 1
+WT_YUNMEIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l云莓汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "241,187,41"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_YUNMEI
+      amount: 1
+WT_TIANMEIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l天莓汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "211,228,252"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TIANMEI
+      amount: 1
+WT_HUANGJINGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黄晶果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,224,14"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HUANGJINGGUO
+      amount: 1
+WT_YANGTAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l杨桃汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "218,136,34"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_YANGTAO
+      amount: 1
+WT_QINGYANGTAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青杨桃汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "151,217,57"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGYANGTAO
+      amount: 1
+WT_QINGNINGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青柠汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "101,173,62"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGNING
+      amount: 1
+WT_MAMEIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l马梅果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "217,93,48"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MAMEIGUO
+      amount: 1
+WT_BAJIAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l芭蕉汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "67,178,41"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGXIANGJIAO
+      amount: 1
+WT_KEKEGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l可可果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "201,140,82"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+WT_SHEPIGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蛇皮果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "115,67,28"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHEPIGUO
+      amount: 1
+WT_FEIZHOULIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l非洲梨汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "111,66,109"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_FEIZHOULI
+      amount: 1
+WT_MANGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l芒果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "216,143,25"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MANGGUO
+      amount: 1
+WT_SUANJIAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l酸角汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "116,160,57"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SUANJIAO
+      amount: 1
+WT_LIULIANZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l榴莲汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "172,147,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LIULIAN
+      amount: 1
+WT_QNLIULIANZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青尼榴莲汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "98,148,43"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGNILIULIAN
+      amount: 1
+WT_MIYOUZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蜜柚汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "180,200,66"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MIYOU
+      amount: 1
+WT_FANSHILIUZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l番石榴汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "172,199,56"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_FANSHILIU
+      amount: 1
+WT_XUECHENGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l血橙汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "241,109,54"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XUECHENG
+      amount: 1
+WT_WUHUAGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l无花果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "58,38,89"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_WUHUAGUO
+      amount: 1
+WT_BOLUOMIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l菠萝蜜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "130,126,4"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BOLUOMI
+      amount: 1
+WT_HAIMIGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l哈密瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "223,230,183"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HAMIGUA
+      amount: 1
+WT_MUGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l木瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "139,93,3"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MUGUA
+      amount: 1
+WT_RENXINGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l人心果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "115,86,48"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_RENXINGUO
+      amount: 1
+WT_SHUFANQIEZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l树番茄汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "159,96,31"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHUFANQIE
+      amount: 1
+WT_HUANGLONGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黄龙果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "219,173,9"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HUANGLONGGUO
+      amount: 1
+WT_XIAOXIGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l小西瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "158,31,26"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIAOXIGUA
+      amount: 1
+WT_TIANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l甜瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "182,131,80"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TIANGUA
+      amount: 1
+WT_EMOGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l恶魔果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "133,13,39"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_EMOGUOSHI
+      amount: 1
+WT_GUIYIGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l诡异果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "250,138,190"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_GUIYIGUO
+      amount: 1
+WT_SGSGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l上古水果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "4,137,141"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHANGGUSHUIGUO
+      amount: 1
+WT_LONGSHELANZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l龙舌兰汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "47,164,130"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LONGSHELAN
+      amount: 1
+WT_DIAOLINGGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l凋灵瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "53,53,53"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_DIAOLINGGUA
+      amount: 1
+WT_SADANGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l撒旦果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "87,20,20"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SADANGUO
+      amount: 1
+WT_ZISONGYEZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l紫颂椰汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "188,159,183"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZISONGYE
+      amount: 1
+WT_MODIGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l末地果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "118,54,96"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MODIGUO
+      amount: 1
+WT_MOFAGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l魔法果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "68,114,163"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MOFAGUO
+      amount: 1
+WT_MOYINGLONGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l末影龙果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "107,71,134"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MOYINGLONGGUO
+      amount: 1
+WT_AIQINGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l爱琴果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "133,60,99"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_AIQINGUO
+      amount: 1
+WT_MONENGPINGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l魔能苹果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "230,26,245"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MONENGPINGGUO
+      amount: 1
+WT_ZHANHUAJIANGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l绽花浆果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,101,111"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZHANHUAJIANGGUO
+      amount: 1
+WT_ZSHLBZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l钻石胡萝卜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "6,164,162"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZSHULUOBO
+      amount: 1
+WT_TIEHLBZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l铁胡萝卜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "159,159,159"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TIEHULUOBO
+      amount: 1
+WT_ZSNGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l钻石南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "48,121,164"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZUANSHINANGUA
+      amount: 1
+WT_QJSXJZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青金石香蕉汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "24,37,158"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QJSXJ
+      amount: 1
+WT_MATONGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l马桶汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,252,252"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MATONG
+      amount: 1
+WT_SHENGNANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l生南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "192,205,21"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHENGNANGUA
+      amount: 1
+WT_HAIMIANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l海绵瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "0,252,234"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HAIMIANGUA
+      amount: 1
+WT_BINGNANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l冰南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "158,163,176"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BINGNANGUA
+      amount: 1
+WT_NAIYOUNANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l奶油南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "221,194,143"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_NAIYOUNANGUA
+      amount: 1
+WT_HUANGNANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l黄南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "255,237,85"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HUANGNANGUA
+      amount: 1
+WT_KEAINANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l可爱南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "232,143,73"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_KEAINANGUA
+      amount: 1
+WT_XIANGZINANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l橡子南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "60,65,50"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIANGZINANGUA
+      amount: 1
+WT_NANGUA2ZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l难瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "237,232,223"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_NANGUA2
+      amount: 1
+WT_LANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蓝瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "164,182,176"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LANGUA
+      amount: 1
+WT_JINANNAGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l金南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "247,198,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_JINNANGUA
+      amount: 1
+WT_NANGUA3ZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l萳瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "243,166,143"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_NANGUA3
+      amount: 1
+WT_XIANGJIAONANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l香蕉南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "233,206,183"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIANGJIAONANGUA
+      amount: 1
+WT_HABODENANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l哈伯德南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "202,202,202"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HABODENANGUA
+      amount: 1
+WT_FUHUANANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l腐化南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "105,80,116"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_FUHUANANGUA
+      amount: 1
+WT_NANGUA4ZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l喃瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "84,46,119"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_NANGUA4
+      amount: 1
+WT_FUGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l辐瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "90,100,66"
+    amount: 1
+  script: gz2
+  radiation: HIGH
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_FUGUA
+      amount: 1
+WT_CANGBAINANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l苍白南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "155,136,125"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_CANGBAINANGUA
+      amount: 1
+WT_LANGUA2ZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l烂瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "214,137,36"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LANGUA2
+      amount: 1
+WT_HONGLINANGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l红栗南瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "239,96,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HONGLINANGUA
+      amount: 1
+WT_XIANRENZHANGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l仙人掌果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "224,46,81"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIANRENZHANG
+      amount: 1
+WT_SHANZHUZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l山竹汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "71,44,64"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHANZHU
+      amount: 1
+WT_YOUNIGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l幽匿果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "8,109,103"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_YOUNIGUO
+      amount: 1
+WT_XIASHUIDAOGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l下水道果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "18,65,8"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIASHUIDAOGUO
+      amount: 1
+WT_LANPINGGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l烂苹果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "132,48,27"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LANPINGGUO
+      amount: 1
+WT_LIANHUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l莲花汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "252,250,197"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LIANHUA
+      amount: 1
+WT_LUHUIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l芦荟汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "0,218,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+WT_GUISUGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l归宿果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "167,219,207"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_GUISUGUO
+      amount: 1
+# 原版果汁
+WT_ZISONGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l紫颂果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "119,88,119"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: CHORUS_FRUIT
+      amount: 1
+WT_TIANCAIGENZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l甜菜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "180,71,75"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: BEETROOT
+      amount: 1
+WT_JINHULUOBOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l金胡萝卜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "231,235,86"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: GOLDEN_CARROT
+      amount: 1
+WT_FUMOJINPINGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l附魔金苹果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+      - §7§o饮用后可获得强力药水效果
+    material_type: mc
+    material: POTION
+    color: "254,206,122"
+    amount: 1
+    glow: true
+  script: fmjpgz
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: ENCHANTED_GOLDEN_APPLE
+      amount: 1
+WT_NIBAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l泥巴汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o1.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "69,63,61"
+    amount: 1
+  script: gz1
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: MUD
+      amount: 1
+WT_QINGCAOHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青草汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o1.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "77,117,66"
+    amount: 1
+  script: gz1
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: SHORT_GRASS
+      amount: 1
+WT_HAICAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l海草汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o1.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "79,147,40"
+    amount: 1
+  script: gz1
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: SEAGRASS
+      amount: 1
+WT_JUEZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蕨汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o1.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "51,81,44"
+    amount: 1
+  script: gz1
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: FERN
+      amount: 1
+# 美食家和异域果汁
+WT_NIUYOUGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l牛油果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "207,215,109"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_AVOCADO
+      amount: 1
+WT_JIANGHUANGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l姜黄汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "184,99,48"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_TURMERIC
+      amount: 1
+WT_GNHAMIGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l美食家哈密瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "242,178,58"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CANTALOUPE
+      amount: 1
+WT_GNXIANGGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l美食家香瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "225,182,91"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_HONEYDEW_MELON
+      amount: 1
+WT_XIANGCAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l香草汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "24,121,33"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+WT_LIZHIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l荔枝汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "248,230,223"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_LYCHEE
+      amount: 1
+WT_XIANGJIAOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l香蕉汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "232,198,9"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_BANANA
+      amount: 1
+WT_JUECAIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l蕨菜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "62,147,2"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_FIDDLEHEADS
+      amount: 1
+WT_WOGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l倭瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "205,168,144"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_SQUASH
+      amount: 1
+WT_XIANGCAIZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l香菜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "110,203,2"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CILANTRO
+      amount: 1
+# 农耕
+WT_NGXJZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕香蕉汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "247,205,64"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_BANANA
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGNMZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕柠檬汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "250,212,13"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_LEMON
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGJZZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕橘子汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "230,138,42"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_ORANGE
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGQPGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕青苹果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "68,168,8"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_GREEN_APPLE
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGBLZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕菠萝汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "247,150,48"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_PINEAPPLE
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGMGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕芒果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "243,177,0"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_MANGO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGTZZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕桃子汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "229,191,96"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_PEACH
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGXZZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕杏子汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "233,145,30"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_APRICOT
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGLZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕梨汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "175,238,25"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_PEAR
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGYTZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕樱桃汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "169,6,29"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_CHERRY
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGQYGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕奇异果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "126,184,72"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_KIWI
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+WT_NGSCZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l农耕酸橙汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "141,188,62"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CLT_LIME
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin Cultivation"
+# 奶
+WT_LUOTUONAI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l骆驼奶'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: MILK_BUCKET
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TUOROU
+      amount: 1
+WT_MANAI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l马奶'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: MILK_BUCKET
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MAROU
+      amount: 1
+WT_YANGNAI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l羊奶'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: MILK_BUCKET
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: MUTTON
+      amount: 1
+WT_LVNAI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l驴奶'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: MILK_BUCKET
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LVROU
+      amount: 1
