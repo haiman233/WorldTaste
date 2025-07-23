@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.5.2'
+      - '&bRelease-1.5.3'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -711,14 +711,12 @@ WT_LJZZ:
     material: TORCHFLOWER_SEEDS
     glow: true
   placeable: false
-  recipe_type: WUWEI_WAJUE
+  recipe_type: BARTER_DROP
   recipe:
     5:
-      material: WEEPING_VINES
+      material: GOLD_INGOT
       amount: 1
-  drop_from: WEEPING_VINES
-  drop_chance: 5
-  drop_amount: 1
+  piglin_trade_chance: 3
 WT_WDZWZZ:
   item_group: ws_zhongzi
   item:
@@ -787,14 +785,12 @@ WT_XJZZ:
     material: NETHER_WART
     glow: true
   placeable: false
-  recipe_type: WUWEI_WAJUE
+  recipe_type: BARTER_DROP
   recipe:
     5:
-      material: CRIMSON_ROOTS
+      material: GOLD_INGOT
       amount: 1
-  drop_from: CRIMSON_ROOTS
-  drop_chance: 5
-  drop_amount: 1
+  piglin_trade_chance: 10
 WT_MDZZ:
   item_group: ws_zhongzi
   item:
@@ -31748,3 +31744,214 @@ WT_XINGHUANZX:
   register:
     conditions:
        - "hasplugin InfinityExpansion"
+# 生日蛋糕
+# WT_CHSRDG:
+#   item:
+#     lore: ['', §7蛋糕上的蜡烛会循环变换颜色, §7§o可以不停地吃]
+#     name: §d§l彩虹生日蛋糕
+#     amount: 1
+#     material_type: mc
+#     material: CAKE
+#   item_group: ws_shengri
+#   recipe_type: WUWEI_DANGAO
+#   recipe:
+#     '1':
+#       material_type: slimefun
+#       material: RAINBOW_WOOL
+#       amount: 1
+#     '2':
+#       material_type: slimefun
+#       material: RAINBOW_WOOL
+#       amount: 1
+#     '3':
+#       material_type: slimefun
+#       material: RAINBOW_WOOL
+#       amount: 1
+#     '4':
+#       material_type: slimefun
+#       material: RAINBOW_CLAY
+#       amount: 1
+#     '5':
+#       amount: 1
+#       material_type: mc
+#       material: CAKE
+#     '6':
+#       amount: 1
+#       material_type: slimefun
+#       material: RAINBOW_CLAY
+#     '7':
+#       amount: 1
+#       material_type: slimefun
+#       material: RAINBOW_CONCRETE
+#     '8':
+#       material_type: slimefun
+#       material: RAINBOW_CONCRETE
+#       amount: 1
+#     '9':
+#       amount: 1
+#       material_type: slimefun
+#       material: RAINBOW_CONCRETE
+#   placeable: true
+#   rainbow: CUSTOM
+#   rainbow_materials:
+#     - CANDLE_CAKE
+#     - WHITE_CANDLE_CAKE
+#     - ORANGE_CANDLE_CAKE
+#     - MAGENTA_CANDLE_CAKE
+#     - LIGHT_BLUE_CANDLE_CAKE
+#     - YELLOW_CANDLE_CAKE
+#     - LIME_CANDLE_CAKE
+#     - PINK_CANDLE_CAKE
+#     - GRAY_CANDLE_CAKE
+#     - LIGHT_GRAY_CANDLE_CAKE
+#     - CYAN_CANDLE_CAKE
+#     - PURPLE_CANDLE_CAKE
+#     - BLUE_CANDLE_CAKE
+#     - BROWN_CANDLE_CAKE
+#     - GREEN_CANDLE_CAKE
+#     - RED_CANDLE_CAKE
+#     - BLACK_CANDLE_CAKE
+WT_FDLSRDG:
+  item:
+    lore: ['', §7无法被凋灵破坏的蛋糕]
+    name: §b§l防凋灵生日蛋糕
+    amount: 1
+    material_type: mc
+    material: CAKE
+  item_group: ws_shengri
+  recipe_type: WUWEI_DANGAO
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CAKE
+    '6':
+      amount: 1
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+    '7':
+      amount: 1
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+    '8':
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+      amount: 1
+    '9':
+      amount: 1
+      material_type: slimefun
+      material: WITHER_PROOF_GLASS
+  placeable: true
+  anti_wither: true
+WT_LHBDSRDG:
+  item:
+    lore: ['', §7一蛋糕传三代]
+    name: §8§l灵魂绑定生日蛋糕
+    amount: 1
+    material_type: mc
+    material: CAKE
+  item_group: ws_shengri
+  recipe_type: WUWEI_DANGAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: ESSENCE_OF_AFTERLIFE
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CAKE
+    '8':
+      material_type: slimefun
+      material: ESSENCE_OF_AFTERLIFE
+      amount: 1
+  placeable: true
+  soulbound: true
+WT_FUSHESRDG:
+  item:
+    lore: ['', §7需穿着防化服出炉]
+    name: §a§l辐射生日蛋糕
+    amount: 1
+    material_type: mc
+    material: CAKE
+  item_group: ws_shengri
+  recipe_type: WUWEI_DANGAO
+  recipe:
+    '1':
+      material_type: slimefun
+      material: URANIUM
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: URANIUM
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: URANIUM
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: URANIUM
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CAKE
+    '6':
+      amount: 1
+      material_type: slimefun
+      material: URANIUM
+    '7':
+      amount: 1
+      material_type: slimefun
+      material: URANIUM
+    '8':
+      material_type: slimefun
+      material: URANIUM
+      amount: 1
+    '9':
+      amount: 1
+      material_type: slimefun
+      material: URANIUM
+  placeable: true
+  radiation: VERY_DEADLY
+WT_DIANCHISRDG:
+  item:
+    lore: ['', §7可以消耗你的电量, §7吃起来酥酥麻麻的]
+    name: §e§l生日蛋糕电池
+    amount: 1
+    material_type: mc
+    material: CAKE
+  item_group: ws_shengri
+  recipe_type: WUWEI_DANGAO
+  script: 12
+  energy_capacity: 10000
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CAKE
+    '8':
+      material_type: slimefun
+      material: SMALL_CAPACITOR
+      amount: 1

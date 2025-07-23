@@ -320,3 +320,11 @@ ws_gandi:
     name: "&7&k&ld&d&l肝帝的晚宴&7&k&ld"
     material_type: skull_hash
     material: 2d3eb91ec65585b4491f72ea52b72623a64967cdba1265579390dbc7fe689ddc
+# 生日蛋糕
+ws_shengri:
+  type: seasonal
+  month: 12
+  item:
+    name: "&7&k&ld&6&l生日快乐&7&k&ld"
+    material_type: skull_hash
+    material: 185484498537f510f17da60558b0cff50e671a7d239b816bab63e82706736ea8
