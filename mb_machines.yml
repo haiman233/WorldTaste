@@ -18280,3 +18280,73 @@ WUWEI_JUANYAN:
         material_type: slimefun
         material: WT_XINGANG
         amount: 1
+WUWEI_GZJ:
+  item_group: ws_jiqi
+  item:
+    name: "&f&l罐装机"
+    lore:
+    - '&7可以将原版的蘑菇煲等汤类食品'
+    - '&7压缩成罐装'
+    material: TINTED_GLASS
+  recipe:
+    2:
+      material: ANVIL
+    5:
+      material: TINTED_GLASS
+    8:
+      material: DISPENSER
+  work: 5
+  sound: COMPRESSOR_CRAFT_EXTEND_SOUND
+  recipes:
+    WT_MOGUBAOGT:
+      input:
+        '1':
+          amount: 1
+          material: MUSHROOM_STEW
+        '2':
+          amount: 1
+          material_type: slimefun
+          material: CAN
+      output:
+        material_type: slimefun
+        material: WT_MOGUBAOGT
+        amount: 1
+    WT_TIANCAITANGGT:
+      input:
+        '1':
+          amount: 1
+          material: BEETROOT_SOUP
+        '2':
+          amount: 1
+          material_type: slimefun
+          material: CAN
+      output:
+        material_type: slimefun
+        material: WT_TIANCAITANGGT
+        amount: 1
+    WT_TUROUBAOGT:
+      input:
+        '1':
+          amount: 1
+          material: RABBIT_STEW
+        '2':
+          amount: 1
+          material_type: slimefun
+          material: CAN
+      output:
+        material_type: slimefun
+        material: WT_TUROUBAOGT
+        amount: 1
+    WT_KYDCGT:
+      input:
+        '1':
+          amount: 1
+          material: SUSPICIOUS_STEW
+        '2':
+          amount: 1
+          material_type: slimefun
+          material: CAN
+      output:
+        material_type: slimefun
+        material: WT_KYDCGT
+        amount: 1

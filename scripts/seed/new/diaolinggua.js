@@ -1,20 +1,20 @@
 const SlimefunItem = Java.type('io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem');
-const Material = Java.type('org.bukkit.Material');
-const ItemStack = Java.type('org.bukkit.inventory.ItemStack');
-const Ageable = Java.type('org.bukkit.block.data.Ageable');
+const Material     = Java.type('org.bukkit.Material');
+const ItemStack    = Java.type('org.bukkit.inventory.ItemStack');
+const Ageable      = Java.type('org.bukkit.block.data.Ageable');
 
-// 创建存储结构
-let lastUseTimes = new java.util.HashMap(); // 存储每个机器的最后使用时间
-let machineTickCounters = new java.util.HashMap(); // 存储每个机器的独立计数器
-let giftif = new java.util.HashMap(); // 存储植物成熟状态
+/* ---------- 存储结构 ---------- */
+let lastUseTimes         = new java.util.HashMap(); // 每个机器的最后使用时间
+let machineTickCounters  = new java.util.HashMap(); // 每个机器的独立 tick 计数
+let giftif               = new java.util.HashMap(); // 植物是否已成熟
 
-// 配置参数
-var SpawnEntitytick = 2;
-var GrowTimems_INFINITE = 120000; // 无尽植物生长周期间隔，单位毫秒
-var steps = [1/3, 2/3, 1, 4/3, 5/3, 5/3, 2]; // 生长阶段
-var smallSteps = [1/10, 1/6, 1/3, 1/2, 2/3, 5/6, 1, 7/6]; // 小生长阶段
+/* ---------- 配置参数 ---------- */
+var SpawnEntitytick      = 2;
+var GrowTimems_INFINITE  = 120000; // ms
+var steps                = [1/3,2/3,1,4/3,5/3,5/3,2];
+var smallSteps           = [1/10,1/6,1/3,1/2,2/3,5/6,1,7/6];
 
-// 生长阶段映射
+/* ---------- 生长阶段映射 ---------- */
 var growthStages = {
     "WT_SEED_DIAOLINGGUA": {
         stages: smallSteps,
@@ -23,73 +23,59 @@ var growthStages = {
     }
 };
 
-// 主循环逻辑
+/* ---------- 主循环 ---------- */
 function tick(info) {
-    var machine = info.machine();
-    var location = info.block().getLocation();
-    var world = location.getWorld();
-    var machinesf = machine.getId();
-    var block = info.block();
+    const machine   = info.machine();
+    const location  = info.block().getLocation();
+    const world     = location.getWorld();
+    const machinesf = machine.getId();
+    const block     = info.block();
 
-    // 检查植物是否已经成熟，如果成熟则跳过处理
-    if (giftif.get(location) === true) {
-        return;
-    }
+    if (giftif.get(location) === true) return; // 已成熟则跳过
 
-    // 获取计数器，如果不存在则初始化为0
     let tickCounter = machineTickCounters.getOrDefault(location, 0);
-
     if (tickCounter < SpawnEntitytick) {
         machineTickCounters.put(location, tickCounter + 1);
         return;
     }
 
     const currentTime = new Date().getTime();
-
-    // 初始化最后使用时间
     if (!lastUseTimes.containsKey(location)) {
         lastUseTimes.put(location, currentTime);
         return;
     }
 
-    let lastUseTime = lastUseTimes.get(location);
-
-    // 处理无尽植物生长逻辑
+    const lastUseTime = lastUseTimes.get(location);
     if (machinesf === "WT_SEED_DIAOLINGGUA") {
         handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_DIAOLINGGUA");
     }
 }
 
-// 处理生长逻辑
+/* ---------- 生长处理 ---------- */
 function handleGrowth(world, location, lastUseTime, currentTime, plantId) {
-    var config = growthStages[plantId];
-    var block = world.getBlockAt(location);
+    const cfg   = growthStages[plantId];
+    const block = world.getBlockAt(location);
 
-    for (let i = 0; i < config.stages.length; i++) {
-        let timeLimit = GrowTimems_INFINITE * config.stages[i];
+    for (let i = 0; i < cfg.stages.length; i++) {
+        const timeLimit = GrowTimems_INFINITE * cfg.stages[i];
         if (currentTime - lastUseTime < timeLimit) {
-            if (i > 0) {
-                setGrowthStage(block, config.material, config.maxAge * (i / config.stages.length));
-            }
+            if (i > 0) setGrowthStage(block, cfg.material, cfg.maxAge * (i / cfg.stages.length));
             return;
         }
     }
 
-    // 成熟处理
-    setGrowthStage(block, config.material, config.maxAge);
+    // 成熟
+    setGrowthStage(block, cfg.material, cfg.maxAge);
     giftif.put(location, true);
-
-    // 移除相关记录，避免后续继续更新
     lastUseTimes.remove(location);
     machineTickCounters.remove(location);
 }
 
-// 设置方块生长阶段
+/* ---------- 设置阶段 ---------- */
 function setGrowthStage(block, material, age) {
     block.setType(material);
-    let blockState = block.getState();
-    let blockData = blockState.getBlockData();
-
+    const blockState = block.getState();
+    const blockData  = blockState.getBlockData();
     if (blockData instanceof Ageable) {
         blockData.setAge(Math.floor(age));
         blockState.setBlockData(blockData);
@@ -97,46 +83,56 @@ function setGrowthStage(block, material, age) {
     }
 }
 
-// 方块放置事件
+/* ---------- 放置事件 ---------- */
 function onPlace(event) {
-    let location = event.getBlock().getLocation();
-    lastUseTimes.remove(location);
-    machineTickCounters.remove(location);
-    giftif.put(location, false);
+    const loc = event.getBlock().getLocation();
+    lastUseTimes.remove(loc);
+    machineTickCounters.remove(loc);
+    giftif.put(loc, false);
 }
 
-// 方块破坏事件
+/* ---------- 破坏事件 ---------- */
 function onBreak(event, itemStack, drops) {
-    let player = event.getPlayer();
-    let location = event.getBlock().getLocation();
-    let world = player.getWorld();
+    const player = event.getPlayer();
+    const loc    = event.getBlock().getLocation();
+    const world  = player.getWorld();
 
-    // 清理记录
-    lastUseTimes.remove(location);
-    machineTickCounters.remove(location);
+    lastUseTimes.remove(loc);
+    machineTickCounters.remove(loc);
 
-    if (giftif.get(location) === true) {
-        handleHarvest(world, location);
-    }
-
-    giftif.put(location, false);
+    if (giftif.get(loc) === true) handleHarvest(world, loc);
+    giftif.put(loc, false);
 }
 
-// 处理成熟植物掉落
+/* ---------- 成熟掉落 ---------- */
 function handleHarvest(world, location) {
-    let sfItem = StorageCacheUtils.getSfItem(location);
-    if (sfItem.getId() === "WT_SEED_DIAOLINGGUA") {
-        let dropItem = (itemId) => {
-            let slimefunItem = getSfItemById(itemId);
-            let itemStack = new ItemStack(slimefunItem.getItem().getType());
-            itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
-            world.dropItemNaturally(location, itemStack);
-        };
-
-        let Infinite_Yes_1 = Math.random();
-        if (Infinite_Yes_1 < 1) { // 100%概率掉落
-            dropItem("WT_DIAOLINGGUA");
-            dropItem("WT_SEED_DIAOLINGGUA");
-        }
+    const sfItem = StorageCacheUtils.getSfItem(location);
+    if (sfItem && sfItem.getId() === "WT_SEED_DIAOLINGGUA") {
+        const drops = [
+            { itemId: "WT_DIAOLINGGUA",        probability: 0.7 },
+            { itemId: "WT_EMOGUA",        probability: 0.3 },
+            { itemId: "WT_SEED_DIAOLINGGUA",   probability: 0.4 }
+        ];
+        const chosen = selectRandomDrop(drops);
+        if (chosen) dropItem(world, location, chosen.itemId);
     }
+}
+
+/* ---------- 随机掉落工具 ---------- */
+function selectRandomDrop(drops) {
+    const total = drops.reduce((s, d) => s + d.probability, 0);
+    let rand = Math.random() * total;
+    for (const d of drops) {
+        rand -= d.probability;
+        if (rand <= 0) return d;
+    }
+    return null;
+}
+
+function dropItem(world, location, itemId) {
+    const sf = getSfItemById(itemId);
+    if (!sf) return;
+    const stack = new ItemStack(sf.getItem().getType());
+    stack.setItemMeta(sf.getItem().getItemMeta());
+    world.dropItemNaturally(location, stack);
 }

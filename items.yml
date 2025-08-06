@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.5.3'
+      - '&bRelease-1.5.4'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -1759,7 +1759,7 @@ WT_MHT: #rgb(74,65,0)
   item:
     name: "&f&l猕猴桃"
     material_type: skull_hash
-    material: ca45df4e09ac67ce8471f4d9d369fb0f067db7e7daa2d9541b3369f070c1aa8c
+    material: 4cc18ec4649f07d5a38a583d9271fd83a6f37318758e46ea87fc2b2d1afc2d9
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -3229,6 +3229,20 @@ WT_DALISHISONGGUO:
       material: WT_SEED_JIANGUO
       amount: 1
 # 下界作物
+WT_WASIMAI: #rgb(133,13,39)
+  item_group: ws_zuowu
+  item:
+    name: "&f&l瓦斯麦"
+    material_type: skull_hash
+    material: 2049d55ab1ce85f48de4506f3c4e495d68f63c6236ddeee40a8431f0989632cb
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_WASIMAI
+      amount: 1
 WT_EMOGUOSHI: #rgb(133,13,39)
   item_group: ws_zuowu
   item:
@@ -3321,6 +3335,20 @@ WT_DIAOLINGGUA: #rgb(53,53,53)
     material: 93fd9c63061738db2d83dd180b8b50f7e9f22e3e784c4676782020c54c07e692
   placeable: false
   script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_DIAOLINGGUA
+      amount: 1
+WT_EMOGUA: 
+  item_group: ws_zuowu
+  item:
+    name: "&f&l恶魔瓜"
+    material_type: skull_hash
+    material: fc4182685eeb2ef49221d744d8b64fd5e8f8ef5d92452f27daaaffbaad770e14 
+  placeable: false
+  script: 2
   recipe_type: WUWEI_SHOUHUOZUOWU
   recipe:
     5:
@@ -6257,6 +6285,29 @@ WT_HANBAOMIANBAO:
     6:
       material_type: slimefun
       material: GN_DOUGH
+      amount: 1
+WT_XIANBINGSUPI:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&e&l馅饼酥皮'
+    material_type: skull_hash
+    material: 6d958a7f5a2231f061b7ebc87071badebe28fca2b4eb40fbf8381d5e07a097c
+    amount: 1
+  placeable: true
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    4:
+      material: WHEAT
+      amount: 1
+    5:
+      material: MILK_BUCKET
+      amount: 1
+    6:
+      material: WHEAT
+      amount: 1
+    8:
+      material: WHEAT
       amount: 1
 WT_PISAMIANTUAN:
   lateInit: false
@@ -10188,7 +10239,91 @@ WT_MAFEN:
       material: GN_DOUGH
   placeable: false
   script: '7'
-
+# 原版食物罐头 快餐
+WT_MOGUBAOGT:
+  item:
+    lore:
+    - ''
+    - §7§o恢复 §b§o3 §7§o点饥饿值和饱和度
+    name: §f§l蘑菇煲罐头
+    amount: 1
+    material_type: skull_hash
+    material: 5a01c7dc18ec1868218bdd78363dc81428ae01dab5644bf0fc01b08c5a8a474c
+  item_group: ws_kuaican
+  recipe_type: WUWEI_GTYSJ
+  recipe:
+    '1':
+      amount: 1
+      material: MUSHROOM_STEW
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: CAN
+  placeable: false
+  script: '6'
+WT_TIANCAITANGGT:
+  item:
+    lore:
+    - ''
+    - §7§o恢复 §b§o3 §7§o点饥饿值和饱和度
+    name: §f§l甜菜汤罐头
+    amount: 1
+    material_type: skull_hash
+    material: b5f1be575f13a6b0bf0c5335900adc8c40903d946443d6f1fe56bd73c3306a8e
+  item_group: ws_kuaican
+  recipe_type: WUWEI_GTYSJ
+  recipe:
+    '1':
+      amount: 1
+      material: BEETROOT_SOUP
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: CAN
+  placeable: false
+  script: '6'
+WT_TUROUBAOGT:
+  item:
+    lore:
+    - ''
+    - §7§o恢复 §b§o5 §7§o点饥饿值和饱和度
+    name: §f§l兔肉煲罐头
+    amount: 1
+    material_type: skull_hash
+    material: 59e3b453450cd2e2ae7360992e0dc0f60faca7ecf9a35303f77671e5e205aea5
+  item_group: ws_kuaican
+  recipe_type: WUWEI_GTYSJ
+  recipe:
+    '1':
+      amount: 1
+      material: RABBIT_STEW
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: CAN
+  placeable: false
+  script: '10'
+WT_KYDCGT:
+  item:
+    lore:
+    - ''
+    - §7§o恢复 §b§o3 §7§o点饥饿值和饱和度
+    name: §f§l谜之炖菜罐头
+    amount: 1
+    material_type: skull_hash
+    material: 9bb7f362696f22c42de53dbdcd0f5216118dd1a7b85dfe0a3edd8c4d985912ad
+  item_group: ws_kuaican
+  recipe_type: WUWEI_GTYSJ
+  recipe:
+    '1':
+      amount: 1
+      material: SUSPICIOUS_STEW
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: CAN
+  placeable: false
+  script: '6'
 # 快餐
 WT_FQZSHB:
   item:

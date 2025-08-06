@@ -1343,6 +1343,24 @@ WT_SEED_JIANGUO:
   script: seed/jianguo
 
 # 下界
+WT_SEED_WASIMAI:
+  item_group: ws_zhongzi
+  item:
+    name: "&f&l瓦斯麦种子"
+    material_type: skull_hash
+    material: db249e88afa30fc837b82173a30483458d4e9a33c7ec25e551387e8e54a018ae
+    lore: 
+      - ""
+      - "&7需种植在耕地上"
+      - "&6生长时间: &7约2分钟"
+    glow: false
+  recipe: 
+    5:
+      material_type: slimefun
+      material: WT_XJZZ
+      amount: 1
+  recipe_type: WUWEI_ZZJDY
+  script: seed/wasimai
 WT_SEED_EMOGUOSHI:
   item_group: ws_zhongzi
   item:

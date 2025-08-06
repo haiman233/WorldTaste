@@ -778,6 +778,11 @@ WT_ZHONGZIJDY:
           material: WT_SEED_XINGHONG
           amount: 1
           chance: 14
+        '19':
+          material_type: slimefun
+          material: WT_SEED_WASIMAI
+          amount: 1
+          chance: 20
       chooseOne: true
       forDisplay: false
       hide: false

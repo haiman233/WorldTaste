@@ -1848,6 +1848,25 @@ WT_DIAOLINGGUAZHI:
       material_type: slimefun
       material: WT_DIAOLINGGUA
       amount: 1
+WT_EMOGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l恶魔瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "65,39,94"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_EMOGUA
+      amount: 1
 WT_SADANGUOZHI:
   lateInit: false
   item_group: ws_yingliao
