@@ -1472,7 +1472,7 @@ WT_SUANJIAOZHI:
   lateInit: false
   item_group: ws_yingliao
   item:
-    name: '&f&l酸角汁'
+    name: '&f&l刺果番荔枝汁'
     lore:
       - ''
       - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
@@ -2018,6 +2018,25 @@ WT_ZHANHUAJIANGGUOZHI:
     '1':
       material_type: slimefun
       material: WT_ZHANHUAJIANGGUO
+      amount: 1
+WT_ZISONGGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l紫颂瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "235,167,235"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZISONGGUA
       amount: 1
 WT_ZSHLBZHI:
   lateInit: false
@@ -2671,7 +2690,7 @@ WT_JINHULUOBOZHI:
   lateInit: false
   item_group: ws_yingliao
   item:
-    name: '&f&l金胡萝卜汁'
+    name: '&e&l金胡萝卜汁'
     lore:
       - ''
       - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
@@ -2686,11 +2705,30 @@ WT_JINHULUOBOZHI:
       material_type: mc
       material: GOLDEN_CARROT
       amount: 1
+WT_SSDXGZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&e&l闪烁的西瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "241,202,1"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: GLISTERING_MELON_SLICE
+      amount: 1
 WT_FUMOJINPINGGUOZHI:
   lateInit: false
   item_group: ws_yingliao
   item:
-    name: '&f&l附魔金苹果汁'
+    name: '&e&l附魔金苹果汁'
     lore:
       - ''
       - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
@@ -2706,6 +2744,25 @@ WT_FUMOJINPINGGUOZHI:
     '1':
       material_type: mc
       material: ENCHANTED_GOLDEN_APPLE
+      amount: 1
+WT_BAIHUASHUZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l白桦树汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o1.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "234,231,228"
+    amount: 1
+  script: gz1
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: BIRCH_WOOD
       amount: 1
 WT_NIBAZHI:
   lateInit: false

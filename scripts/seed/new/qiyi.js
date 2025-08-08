@@ -133,7 +133,8 @@ function handleHarvest(world, location) {
             { itemId: "WT_AIQINGUO", probability: 0.2 },
             { itemId: "WT_MONENGPINGGUO", probability: 0.4 },
             { itemId: "WT_ZHANHUAJIANGGUO", probability: 0.35 },
-            { itemId: "WT_SEED_QIYI", probability: 0.2 }
+            { itemId: "WT_ZISONGGUA", probability: 0.2 },
+            { itemId: "WT_SEED_QIYI", probability: 0.32 }
         ];
 
         // 随机选择一种物品进行掉落

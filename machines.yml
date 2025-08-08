@@ -1054,7 +1054,7 @@ WT_SEED_MANGGUO:
 WT_SEED_SUANJIAO:
   item_group: ws_zhongzi
   item:
-    name: "&f&l酸角种子"
+    name: "&f&l刺果番荔枝种子"
     material_type: skull_hash
     material: dfb42f85b4830f26f5bab3296b54fba4f4782a3a218d9be3ebea77b4c1f880a2
     lore: 

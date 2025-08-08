@@ -129,6 +129,7 @@ function handleHarvest(world, location) {
         // 定义所有可能掉落的物品及其掉落概率
         let drops = [
             { itemId: "WT_QINGJIAO", probability: 0.6 },
+            { itemId: "WT_LVBAOSHIJIAO", probability: 0.1 },
             { itemId: "WT_XIAOMILA", probability: 0.4 }
         ];
 
