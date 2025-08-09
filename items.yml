@@ -33014,7 +33014,7 @@ WT_CPBINGLANG:
       material: CHARCOAL
   placeable: false
   script: '8'
-# 怪味餐 蒸蛋
+# 中餐 蒸蛋
 WT_ZHENZSJD:
   item:
     lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值和饱和度]
@@ -33022,8 +33022,8 @@ WT_ZHENZSJD:
     amount: 1
     material_type: skull_hash
     material: ec06564bca30be6b6b8a2e517d0d455a798ebb62a1dca73ea8d846c4f4ae349c
-  item_group: ws_dacan
-  recipe_type: WUWEI_LIEQI
+  item_group: ws_zhongcan
+  recipe_type: WUWEI_WAGUO
   recipe:
     '2':
       material_type: slimefun
@@ -33046,8 +33046,8 @@ WT_ZHENLSJD:
     amount: 1
     material_type: skull_hash
     material: cb11de4b6f8f60f65f571f7ea62003407a4fb7a0a3d81af1485c0c24ae73ea45
-  item_group: ws_dacan
-  recipe_type: WUWEI_LIEQI
+  item_group: ws_zhongcan
+  recipe_type: WUWEI_WAGUO
   recipe:
     '2':
       material_type: slimefun
@@ -33070,8 +33070,8 @@ WT_ZHENLONGDAN:
     amount: 1
     material_type: skull_hash
     material: 3f04299ab0a991aa5def47fff6a9750ae30df9e7306122a4db1a43dea815cf7d
-  item_group: ws_dacan
-  recipe_type: WUWEI_LIEQI
+  item_group: ws_zhongcan
+  recipe_type: WUWEI_WAGUO
   recipe:
     '2':
       material_type: slimefun
@@ -33094,8 +33094,8 @@ WT_ZHENHGD:
     amount: 1
     material_type: skull_hash
     material: 870b613894b2b85cb56d5766b9ff105ba8ba78567ee68b14848ebee6f71dce33
-  item_group: ws_dacan
-  recipe_type: WUWEI_LIEQI
+  item_group: ws_zhongcan
+  recipe_type: WUWEI_WAGUO
   recipe:
     '2':
       material_type: slimefun
@@ -33118,8 +33118,8 @@ WT_ZHENXTSD:
     amount: 1
     material_type: skull_hash
     material: 9de4e2c73b4a363e27ddd44a563febaeeb79819e79a81ecb027188b0894966f7
-  item_group: ws_dacan
-  recipe_type: WUWEI_LIEQI
+  item_group: ws_zhongcan
+  recipe_type: WUWEI_WAGUO
   recipe:
     '2':
       material_type: slimefun
