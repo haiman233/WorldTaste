@@ -145,7 +145,7 @@ ws_tang:
   item:
     material_type: skull_hash
     material: 6e1c7ac436c0e4972d093a8f63306409e3fa5321db4bf106f4ef1d80cc360774
-    name: '&b&l汤类'
+    name: '&b&l汤与炖菜'
   parent: worldtaste
 ws_kaorou:
   lateInit: false
@@ -296,13 +296,13 @@ ws_wanzi:
     material: 87b972f008d9eceb034bd664ff9e993e142e6e163fa2b12573852059e9bf2e9c
     name: '&6&l功能丸子'
   parent: worldtaste
-ws_jiu:
+ws_guoqie:
   lateInit: false
   type: sub
   item:
     material_type: skull_hash
-    material: f6fbc7fcbc773a99e49a3e8c2526c2da6cbf20ac65aa65780af9f01dc6ba24af
-    name: '&6&l酿酒与制药'
+    material: 393f34d6ed944fe40924d22313c37e1bc19c9773bbcb4ec68b96c96f149a130
+    name: '&6&l果切'
   parent: worldtaste
 # 愚人节
 ws_yurenjie:

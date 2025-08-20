@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.5.4'
+      - '&bRelease-1.6'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -210,7 +210,7 @@ WORLDTASTE_ZWF5:
   placeable: false
   recipe_type: 'NULL'
 WORLDTASTE_ZWFJIU:
-  item_group: ws_jiu
+  item_group: ws_guoqie
   item:
     name: "&f&l敬请期待"
     lore:
@@ -2890,6 +2890,34 @@ WT_HUANGLONGGUO: #rgb(219,173,9)
       material_type: slimefun
       material: WT_SEED_HUANGLONGGUO
       amount: 1
+WT_QINGLONGGUO: #rgb(169,176,75)
+  item_group: ws_zuowu
+  item:
+    name: "&f&l青龙果"
+    material_type: skull_hash
+    material: fc179cfeb0e06532dd66316083375ddb5e467841e9a6719cf5e1c115ac0f4586
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_HUANGLONGGUO
+      amount: 1
+WT_TIANLONGGUO: #rgb(144,232,211)
+  item_group: ws_zuowu
+  item:
+    name: "&f&l天龙果"
+    material_type: skull_hash
+    material: 293966d7bbaa549b2f4f1cb6988167072ae1c5d7a066e6f1b08bca5ea0b7bca7
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_HUANGLONGGUO
+      amount: 1
 WT_XIAOXIGUA: #rgb(158,31,26)
   item_group: ws_zuowu
   item:
@@ -2911,6 +2939,20 @@ WT_TIANGUA: #rgb(182,131,80)
     name: "&f&l甜瓜"
     material_type: skull_hash
     material: fb14cba0f42a2d138ed243b3bff99cb1ea8cbdcd94fb5fb1e3a307f8e21ab1c
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_TIANGUA
+      amount: 1
+WT_QIGUA: #rgb(44,67,234)
+  item_group: ws_zuowu
+  item:
+    name: "&f&l齐瓜"
+    material_type: skull_hash
+    material: a711b0ae28b164ece5c0762b8aa36eda5bbbf16706d72cfcd866c73e7b93086
   placeable: false
   script: 1
   recipe_type: WUWEI_SHOUHUOZUOWU
@@ -3855,7 +3897,7 @@ WT_HAIMIANGUA: #rgb(0,252,234)
 WT_BINGNANGUA: #rgb(158,163,176)
   item_group: ws_zuowu
   item:
-    name: "&f&l冰南瓜"
+    name: "&f&l霜瓜"
     material_type: skull_hash
     material: 8458981f86ce90c2ebc10313b2d599f0ec2a3dbc36e6f12e8a30c51920c15dbc
   placeable: false
@@ -4109,7 +4151,7 @@ WT_XIANRENZHANG: #rgb(224,46,81)
       material: CACTUS
       amount: 1
   drop_from: CACTUS
-  drop_chance: 12
+  drop_chance: 4
   drop_amount: 1
 WT_SHANZHU: #rgb(71,44,64)
   item_group: ws_zuowu
@@ -4125,7 +4167,23 @@ WT_SHANZHU: #rgb(71,44,64)
       material: DARK_OAK_LEAVES
       amount: 1
   drop_from: DARK_OAK_LEAVES
-  drop_chance: 10
+  drop_chance: 1
+  drop_amount: 1
+WT_BAIXIANGGUO: #rgb(229,189,40)
+  item_group: ws_zuowu
+  item:
+    name: "&f&l百香果"
+    material_type: skull_hash
+    material: 61609954bdf7d4715e15af2d28c718e91f25ca39fcb8343951bf14706e9966
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_WAJUE
+  recipe:
+    5:
+      material: JUNGLE_LEAVES
+      amount: 1
+  drop_from: JUNGLE_LEAVES
+  drop_chance: 1
   drop_amount: 1
 WT_YOUNIGUO: #rgb(8,109,103)
   item_group: ws_zuowu
@@ -4173,7 +4231,7 @@ WT_XIASHUIDAOGUO: #rgb(18,65,8)
       material: INFESTED_STONE
       amount: 1
   drop_from: INFESTED_STONE
-  drop_chance: 15
+  drop_chance: 5
   drop_amount: 1
 WT_LANPINGGUO: #rgb(132,48,27)
   item_group: ws_zuowu
@@ -4221,7 +4279,7 @@ WT_LUHUI: #rgb(0,218,0)
       material: DEAD_BUSH
       amount: 1
   drop_from: DEAD_BUSH
-  drop_chance: 10
+  drop_chance: 5
   drop_amount: 1
 WT_GUISUGUO: #rgb(167,219,207)
   item_group: ws_zuowu
@@ -4237,7 +4295,7 @@ WT_GUISUGUO: #rgb(167,219,207)
       material: REINFORCED_DEEPSLATE
       amount: 1
   drop_from: REINFORCED_DEEPSLATE
-  drop_chance: 10
+  drop_chance: 5
   drop_amount: 1
 # 海鲜
 

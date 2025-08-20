@@ -138,5 +138,9 @@ function handleHarvest(world, location) {
             dropItem("WT_TIANGUA");
             dropItem("WT_SEED_TIANGUA");
         }
+        let Infinite_Yes_2 = Math.random();
+        if (Infinite_Yes_2 < 0.06) { // 0.6%概率掉落
+            dropItem("WT_QIGUA");
+        }
     }
 }

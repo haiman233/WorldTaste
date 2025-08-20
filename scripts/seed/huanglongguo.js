@@ -126,17 +126,48 @@ function onBreak(event, itemStack, drops) {
 function handleHarvest(world, location) {
     let sfItem = StorageCacheUtils.getSfItem(location);
     if (sfItem.getId() === "WT_SEED_HUANGLONGGUO") {
-        let dropItem = (itemId) => {
-            let slimefunItem = getSfItemById(itemId);
-            let itemStack = new ItemStack(slimefunItem.getItem().getType());
-            itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
-            world.dropItemNaturally(location, itemStack);
-        };
+        // 定义所有可能掉落的物品及其掉落概率
+        let drops = [
+            { itemId: "WT_HUANGLONGGUO", probability: 0.8 },
+            { itemId: "WT_TIANLONGGUO", probability: 0.1 },
+            { itemId: "WT_SEED_HUANGLONGGUO", probability: 0.5 },
+            { itemId: "WT_QINGLONGGUO", probability: 0.3 }
+        ];
 
-        let Infinite_Yes_1 = Math.random();
-        if (Infinite_Yes_1 < 1) { // 100%概率掉落
-            dropItem("WT_HUANGLONGGUO");
-            dropItem("WT_SEED_HUANGLONGGUO");
+        // 随机选择一种物品进行掉落
+        let randomItem = selectRandomDrop(drops);
+        if (randomItem) {
+            dropItem(world, location, randomItem.itemId);
         }
+    }
+}
+
+// 随机选择一种物品进行掉落
+function selectRandomDrop(drops) {
+    // 计算总概率
+    let totalProbability = drops.reduce((sum, drop) => sum + drop.probability, 0);
+
+    // 生成一个随机数
+    let random = Math.random() * totalProbability;
+
+    // 遍历掉落列表，选择一种物品
+    for (let drop of drops) {
+        random -= drop.probability;
+        if (random <= 0) {
+            return drop;
+        }
+    }
+
+    // 如果没有选中任何物品（理论上不会发生），返回 null
+    return null;
+}
+
+// 掉落物品
+function dropItem(world, location, itemId) {
+    let slimefunItem = getSfItemById(itemId);
+    if (slimefunItem) {
+        let itemStack = new ItemStack(slimefunItem.getItem().getType());
+        itemStack.setItemMeta(slimefunItem.getItem().getItemMeta());
+        world.dropItemNaturally(location, itemStack);
     }
 }

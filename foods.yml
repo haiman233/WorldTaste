@@ -1715,6 +1715,44 @@ WT_HUANGLONGGUOZHI:
       material_type: slimefun
       material: WT_HUANGLONGGUO
       amount: 1
+WT_QINGLONGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l青龙果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "169,176,75"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGLONGGUO
+      amount: 1
+WT_TIANLONGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l天龙果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "144,232,211"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TIANLONGGUO
+      amount: 1
 WT_XIAOXIGUAZHI:
   lateInit: false
   item_group: ws_yingliao
@@ -1752,6 +1790,44 @@ WT_TIANGUAZHI:
     '1':
       material_type: slimefun
       material: WT_TIANGUA
+      amount: 1
+WT_QIGUAZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l齐瓜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "44,67,234"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QIGUA
+      amount: 1
+WT_BAIXIANGGUOZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l百香果汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "229,189,40"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BAIXIANGGUO
       amount: 1
 WT_EMOGUOZHI:
   lateInit: false
@@ -2175,7 +2251,7 @@ WT_BINGNANGUAZHI:
   lateInit: false
   item_group: ws_yingliao
   item:
-    name: '&f&l冰南瓜汁'
+    name: '&f&l霜瓜汁'
     lore:
       - ''
       - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
