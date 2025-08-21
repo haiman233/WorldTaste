@@ -182,7 +182,7 @@ WT_JIANSHOUZHEXINZANG:
   lateInit: false
   item_group: ws_roulei
   item:
-    name: '&b&l坚守者心脏'
+    name: '&b&l监守者心脏'
     lore:
     - '&7这是个错误的决定'
     material_type: skull_hash
@@ -694,7 +694,7 @@ WT_JIANSHOUZHEROU:
   lateInit: false
   item_group: ws_roulei
   item:
-    name: '&f&l生坚守者肉排'
+    name: '&f&l生监守者肉排'
     material_type: skull_hash
     material: c8db78046198114d6d87cb0afc5ad6f85caa76b80bece795a8bbae753e5d61d9
     amount: 1
@@ -1012,7 +1012,7 @@ WT_JIANSHOUZHEPI:
   lateInit: false
   item_group: ws_roulei
   item:
-    name: '&b&l坚守者皮'
+    name: '&b&l监守者皮'
     lore:
     - '&7具有极高的韧性'
     material_type: skull_hash

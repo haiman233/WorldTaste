@@ -20784,16 +20784,16 @@ WT_NATIE:
       material: SUGAR
     '4':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '5':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '6':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '7':
       amount: 1
       material_type: mc
@@ -20820,16 +20820,16 @@ WT_XIANGCAOKAFEI:
   recipe:
     '1':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '2':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '3':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '4':
       amount: 1
       material_type: mc
@@ -21768,16 +21768,16 @@ WT_XINGBAKEKF:
       material: SUGAR
     '4':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '5':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '6':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '7':
       material_type: slimefun
       material: GN_MINT
@@ -22036,8 +22036,8 @@ WT_JIAOTANGNT:
       amount: 1
     '3':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '4':
       amount: 1
       material_type: mc
@@ -22048,8 +22048,8 @@ WT_JIAOTANGNT:
       amount: 1
     '6':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '8':
       material_type: slimefun
       material: CAN
@@ -22084,8 +22084,8 @@ WT_XJNYLCKF:
       amount: 1
     '5':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '6':
       amount: 1
       material_type: mc
@@ -22276,16 +22276,16 @@ WT_PINGGANSUINATIE:
       material: SUGAR
     '4':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '5':
       material_type: slimefun
       material: CHOCOLATE_BAR
       amount: 1
     '6':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '7':
       amount: 1
       material_type: mc
@@ -22328,8 +22328,8 @@ WT_LONGNATIE:
       amount: 1
     '5':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '6':
       amount: 1
       material_type: mc
@@ -22536,40 +22536,40 @@ WT_NONGSUOKAFEI:
   recipe:
     '1':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '2':
       material_type: slimefun
       material: CHOCOLATE_BAR
       amount: 1
     '3':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '4':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '5':
       material_type: slimefun
       material: CHOCOLATE_BAR
       amount: 1
     '6':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '7':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '8':
       amount: 1
       material_type: mc
       material: GLASS_BOTTLE
     '9':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
   placeable: false
   script: yl5
 WT_YOUNIMOKA:
@@ -22696,16 +22696,16 @@ WT_DANQILENGCUIKAFEI:
       material: ICE
     '7':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '8':
       material_type: slimefun
       material: CAN
       amount: 1
     '9':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
   placeable: false
   script: yl6
 WT_ZISEXINQING:
@@ -23136,16 +23136,16 @@ WT_NANGUANATIE:
   recipe:
     '1':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '2':
       amount: 1
       material_type: mc
       material: PUMPKIN
     '3':
       amount: 1
-      material_type: mc
-      material: COCOA_BEANS
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
     '4':
       amount: 1
       material_type: mc
@@ -30426,7 +30426,7 @@ WT_KLLZLG:
   script: 4
 WT_KJSZR:
   item:
-    name: §f§l烤坚守者肉排
+    name: §f§l烤监守者肉排
     amount: 1
     material_type: skull_hash
     material: d289a9aae012c03b5bd1a9afe79c84e0ccc6286a12b0bb91b4a7c22ee9f86c4f
@@ -33335,3 +33335,1295 @@ WT_XUEJIA:
       material: SPRUCE_WOOD
   placeable: false
   script: xuejia
+# 怪味餐
+WT_KAOLONGXIN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §4§l烤龙心
+    amount: 1
+    material_type: skull_hash
+    material: 5ef539b165125cfa46b06ffb9659e7cf89084bbd3ede1b314edc8f443343d61c
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: WT_LAOGANMA
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LONGXIN
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_TIAOWEIFEN
+      amount: 1
+  placeable: false
+  script: '16'
+WT_JIANRENPAI:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §6§l煎人排
+    amount: 1
+    material_type: skull_hash
+    material: 3b12e0a5acc1c563fb530ac385610f7aba85419fbcb342bc16c1c9c5efb7acd3
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TUZAI_RENLIJI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_YADAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_RENLIJI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '12'
+WT_KAORENTUI:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §d§l烤人腿
+    amount: 1
+    material_type: skull_hash
+    material: 87f1e8ba1d90d2d4768d375be3b60b5e4f5c7ea55f739b78086daf063d5a9
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_QINGCAI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIATUI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_JIUCAI
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '14'
+WT_QUANRENYAN:
+  item:
+    lore: ['', §7§o恢复 §b§o9.5 §7§o点饥饿值和饱和度]
+    name: §c§l全人宴
+    amount: 1
+    material_type: skull_hash
+    material: 1e9e40f2d8fce5f98a6a049723a40302665513fe7e1041efdfeffed82277c77a
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TUZAI_RENLIJI
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_KWANJIAROU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_TUZAI_CUNMINGBIZI
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_ZUIBA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+    '9':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+  placeable: false
+  script: '19'
+WT_TIANXIANSDF:
+  item:
+    lore: ['', §7§o恢复 §b§o9 §7§o点饥饿值和饱和度]
+    name: §6§l填馅史蒂夫
+    amount: 1
+    material_type: skull_hash
+    material: ad46a68da8e8c79716034dbb5338b261a341991d6a2550323ca2d8bac129ab8a
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QIEZI
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ZHENGZHIWANJIA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_QIEZI
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_TUZAI_GAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIASHOUBI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_TUZAI_ZASUI
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+    '9':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+  placeable: false
+  script: '18'
+WT_JIANSHOUZHEJB:
+  item:
+    lore: ['', §7§o恢复 §b§o8.5 §7§o点饥饿值和饱和度]
+    name: §b§l监守者卷饼
+    amount: 1
+    material_type: skull_hash
+    material: 83e7f711b7cd4ef4829792ba89c20a8c21bd05498544888147738ba3a296b8c2
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QINGJIAO
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_JIANSHOUZHEXINZANG
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_XILANHUA
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KJSZR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_JIANSHOUZHEPI
+      amount: 1
+  placeable: false
+  script: '17'
+WT_SHIDIFUYAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §6§l史蒂夫宴
+    amount: 1
+    material_type: skull_hash
+    material: acea1f348dab0104bb61c997d0da12e81b4504a58c84af90f31d775f83a0239f
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HONGYUANLUOBO
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_XIAOMILA
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIATUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_DOUYA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIASHOUBI
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '16'
+WT_ALEXYAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §d§l艾利克斯宴
+    amount: 1
+    material_type: skull_hash
+    material: 765226a78e7d622040ef074fd7b522e44b05e99b51c104a17fcf76b5bf5e8f87
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LVDOUJIA
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_HUANGPIYANGCONG
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_RIBENNANGUA
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIASHOUBI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YZYM
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIATUI
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '16'
+WT_XUANFENGJUAN:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §f§l旋风卷
+    amount: 1
+    material_type: skull_hash
+    material: 9202e0880849c23ff6c90bd939fdbeeed2c62b741c9ade4d730a682507f57129
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: WIND_CHARGE
+    '3':
+      material_type: slimefun
+      material: WT_LYM
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XUANFENGROU
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BREEZE_ROD
+  placeable: false
+  script: '14'
+  register:
+    conditions:
+      - version >= 1.21
+WT_QIQUDAN:
+  item:
+    lore: ['', §7§o恢复 §b§o10 §7§o点饥饿值和饱和度]
+    name: §6§l奇趣蛋
+    amount: 1
+    material_type: skull_hash
+    material: c9ec6942b682de42acbbb130505ad1aeb0bb179b094afcfd7b9f714d4e63f1c2
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_LANSEYINGWUDAN
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_SHEDAN
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_YINGWUDAN
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_DUDUNIAODAN
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XIAJIEJIDAN
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KULIPADAN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: WT_KONGQUEDAN
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+    '9':
+      material_type: slimefun
+      material: WT_MODIJIDAN
+      amount: 1
+  placeable: false
+  script: '20'
+WT_DUNSHE:
+  item:
+    lore: ['', §7§o恢复 §b§o7.5 §7§o点饥饿值和饱和度]
+    name: §4§l炖蛇
+    amount: 1
+    material_type: skull_hash
+    material: 808f5099dd1e0137daf806c8747254b9baa6aff821961896ecb32883894b3273
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_QYM
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_SHE
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_DATOUCAI
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_MISO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHEDAN
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '15'
+WT_SHENHAIZYS:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §6§l深海章鱼烧
+    amount: 1
+    material_type: skull_hash
+    material: 286676de7885b6a11f5d1d5f1f38b11b55d720697a527993f32a99f067a0169b
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: DRIED_KELP
+    '3':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: MAYO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZHANGYUXU
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_MACAI
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '14'
+WT_YANQIUBUDING:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §4§l眼球布丁
+    amount: 1
+    material_type: skull_hash
+    material: 7d7dc242a316f190761bcf0d1254730ad04373fc8e94ac7820c38fb596141b9c
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: WT_TUZAI_YANJING
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      amount: 1
+      material_type: mc
+      material: MILK_BUCKET
+    '5':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: MILK_BUCKET
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '12'
+WT_GANSHUI:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §e§l泔水
+    amount: 1
+    material_type: skull_hash
+    material: 5d38ff5842745a204c7ea06c2364656c53bcb45dcf8353a8531c851cc183162a
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MATONG
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_LANGUA2
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_LANPINGGUO
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: FERMENTED_SPIDER_EYE
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_ZASUI
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: ROTTEN_FLESH
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '13'
+WT_ZHENMEIXIYUAN:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §d§l蒸美西螈
+    amount: 1
+    material_type: skull_hash
+    material: 31a8bcdefa80cae7377dd425288f289818ea61c77349bfaae0db137045cd8b71
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_SHENGJIANG
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_DASUAN
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: AXOLOTL_BUCKET
+  placeable: false
+  script: '12'
+WT_ZHUMOLONGGUO:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §d§l注魔龙果
+    amount: 1
+    material_type: skull_hash
+    material: 56d8847949ebafea1ac213c4d9a9947a3118c7eb4ed694ed06ed43e691579cf2
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: WT_QJSXJ
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      amount: 1
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+    '5':
+      material_type: slimefun
+      material: WT_MOYINGLONGGUO
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: EXPERIENCE_BOTTLE
+    '7':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '8':
+      material_type: slimefun
+      material: WT_LINGZHI
+      amount: 1
+    '9':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+  placeable: false
+  script: '14'
+WT_DONGLONGGUO:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §b§l冻龙果
+    amount: 1
+    material_type: skull_hash
+    material: 950cb356f578a1bd3cc4284e4ed50231aca22d4975a3f0f22f986bf0c6d38356
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_QINGLONGGUO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: BLUE_ICE
+    '5':
+      material_type: slimefun
+      material: WT_TIANLONGGUO
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: BLUE_ICE
+    '7':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '8':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '9':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+  placeable: false
+  script: '12'
+WT_HANNIBASHENYAN:
+  item:
+    lore: ['', §7§o恢复 §b§o9 §7§o点饥饿值和饱和度]
+    name: §6§l汉尼拔盛宴
+    amount: 1
+    material_type: skull_hash
+    material: d09dacd9207fa30b1a90e1a04c67bd88cebcbdd43b107fb1fa292932e44851cc
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XHL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TUZAI_YOUZHI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_XHL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_TUZAI_SHE
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_WANJIATUI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_TUZAI_SHEN
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: WUWEI_GEOYAN
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+    '9':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+  placeable: false
+  script: '18'
+WT_HULUOBOCWLS:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
+    name: §6§l胡萝卜宠物零食
+    amount: 1
+    material_type: skull_hash
+    material: d7dc926f0a1d834d1821707cd6f2174f8b1b5d0197563222e34e8e6281248441
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '2':
+      amount: 1
+      material_type: mc
+      material: CYAN_DYE
+    '3':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '4':
+      material_type: slimefun
+      material: WT_SHUIGUOLUOBO
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CARROT
+    '6':
+      material_type: slimefun
+      material: WT_SONGGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '8':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '9':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+  placeable: false
+  script: '10'
+WT_MATONGDB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §6§l马桶大便
+    amount: 1
+    material_type: skull_hash
+    material: 9ab0a5aa72f5ce270a87160a51268ffcfc795c069fd813ece93610846b382ab2
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_YUMAOLUWEICAO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_BIANBIANYUMI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_YUMAOLUWEICAO
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_MATONG
+      amount: 1
+  placeable: false
+  script: '12'
+WT_MATL114:
+  item:
+    lore: ['', §7§o恢复 §b§o9 §7§o点饥饿值和饱和度]
+    name: §d§l马桶乐
+    amount: 1
+    material_type: skull_hash
+    material: 7620caf4a5c4d1aaee04a3ce253cd4e0bb2c61de381b99af9fc8a2d0559365f5
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_QIGUA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_AICAO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: LOGITECH_MATL114
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_AICAO
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_MATONG
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+  placeable: false
+  script: '18'
+  register:
+    conditions:
+       - "hasplugin LogiTech"
+WT_HIMLIAOLI:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §4§lHim料理
+    amount: 1
+    material_type: skull_hash
+    material: 7a3051842c20dafb114cbd22063da1d1d9c8045ab7334f27977a356577aa7305
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TIANMEI
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ZHIWUYOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_TIANMEI
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_ROUGUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZHENGZHIWANJIA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '16'
+WT_MINIPIKA:
+  item:
+    lore: ['', §7§o恢复 §b§o9 §7§o点饥饿值和饱和度]
+    name: §e§l戴着煎饼的迷你皮卡
+    amount: 1
+    material_type: skull_hash
+    material: a6b100165fadcb718d5f6bc0d1a82d6e25c41b7903042435334b2a361091f2a5
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: PANCAKES
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_DIANLANGU
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: IRON_HELMET
+    '6':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+  placeable: false
+  script: '19'
+WT_NIANYEFAN:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §a§l粘液饭
+    amount: 1
+    material_type: skull_hash
+    material: 931b6c35a8ac8366a4db51b042a8728dd2e8e5f2fe44aff08fcf5af3b921c6dd
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: WT_CULI
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      amount: 1
+      material_type: mc
+      material: SLIME_BLOCK
+    '6':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '12'
+WT_GUIYIKAOYUWEI:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §2§l诡异的烤鱼尾
+    amount: 1
+    material_type: skull_hash
+    material: dfdc1eed684dd805eae96d132e3da53d64267d7361388d5e2c67f5969871e71d
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_SHANGGUSHUIGUO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_NIANYU
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '12'
+WT_HUIYIMANGHE:
+  item:
+    lore: ['', §7§o恢复 §b§o10 §7§o点饥饿值和饱和度]
+    name: §a§l回忆盲盒
+    amount: 1
+    material_type: skull_hash
+    material: b03f5a9bc719cd1127be0954c73cd5714ecd478dad880ef2b9979c481097e6be
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_WANDOUSHESHOU
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_DAZUIHUA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_HUIMIE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_XIANGRIKUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_CAIGOU
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_JIANGUOQIANG
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: WT_MALIAOMOGU
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_NIANYUWANG
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: WT_HAIZEIWANGYU
+      amount: 1
+  placeable: false
+  script: '20'
+WT_DIDIWEI:
+  item:
+    lore: ['', §7§o恢复 §b§o9 §7§o点饥饿值和饱和度]
+    name: §4§l敌敌畏(伪)
+    amount: 1
+    material_type: skull_hash
+    material: 164045b4bebb6b726c633184e58f1aa4431d99bc5c8cbe50d24a01af53386139
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_KUCHENG
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      material_type: slimefun
+      material: WT_YAOCAO
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_SADANGUO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_FEIHONGMOGUIJIAO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_XUETENG
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+    '9':
+      material_type: slimefun
+      material: GN_CUMIN_SEEDS
+      amount: 1
+  placeable: false
+  script: '18'
+WT_SHENGTIE:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §d§l生铁
+    amount: 1
+    material_type: skull_hash
+    material: f73032379996793d0c38dccc0e68608926510d60dfa39ffb6274a50ac93108c1
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: RAW_IRON
+    '5':
+      amount: 1
+      material_type: mc
+      material: PORKCHOP
+    '6':
+      amount: 1
+      material_type: mc
+      material: RAW_IRON
+    '8':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+  placeable: false
+  script: '13'
+WT_YANQIUDUN:
+  item:
+    lore: ['', §7§o恢复 §b§o10 §7§o点饥饿值和饱和度]
+    name: §c§l眼球炖
+    amount: 1
+    material_type: skull_hash
+    material: 6a17bf44478dcc528cd8391d789fa3848c9d11978aafbb96df484a07c7ba2135
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: ENDER_EYE
+    '2':
+      material_type: slimefun
+      material: WT_TUZAI_YANJING
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+    '4':
+      amount: 1
+      material_type: mc
+      material: SPIDER_EYE
+    '5':
+      material_type: slimefun
+      material: WT_SHOUWEIZHEYAN
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: FERMENTED_SPIDER_EYE
+    '7':
+      material_type: slimefun
+      material: WT_BUYINGCAO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+    '9':
+      material_type: slimefun
+      material: WT_BUYINGCAO
+      amount: 1
+  placeable: false
+  script: '20'
+WT_KESHIYONGBINGDU:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §2§l可食用病毒(模型)
+    amount: 1
+    material_type: skull_hash
+    material: c2518a455c84241afcc56c808f67b30463ced18f787b1cc3d696322133e507c5
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MIYOU
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_QINGNING
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_MIYOU
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_QINGPITIANGUA
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '8':
+      amount: 1
+      material_type: mc
+      material: SHEARS
+  placeable: false
+  script: '14'
+WT_JIJITUITUI:
+  item:
+    lore: ['', §7§o恢复 §b§o8.5 §7§o点饥饿值和饱和度]
+    name: §6§l“鸡腿”
+    amount: 1
+    material_type: skull_hash
+    material: 8148ebf756abd12d2cb37fba1442565b28a0dc85e6f8fa8581d86141c403f51f
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: GREEN_DYE
+    '2':
+      material_type: slimefun
+      material: WT_EMOGUA
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: GREEN_DYE
+    '4':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUZAI_LAB113
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: GREEN_DYE
+    '8':
+      material_type: slimefun
+      material: WT_EMOGUA
+      amount: 1
+    '9':
+      amount: 1
+      material_type: mc
+      material: GREEN_DYE
+  placeable: false
+  script: '17'
+
