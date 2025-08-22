@@ -182,7 +182,7 @@ WT_SEED_YUTOU:
 WT_SEED_DASUAN:
   item_group: ws_zhongzi
   item:
-    name: "&f&l大蒜种子"
+    name: "&f&l软梗蒜种子"
     material_type: skull_hash
     material: c3fbb92ebb82bcc6d019e9d7623869efbc3a2bf40ff67cb07904d58759302f96
     lore: 
