@@ -34679,6 +34679,34 @@ WT_GAOLIANGFAN:
       material: BOWL
   placeable: false
   script: '7'
+WT_XIAOMIFAN:
+  item:
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    name: §f§l小米饭
+    amount: 1
+    material_type: skull_hash
+    material: 99ddf909f090667c29f0f5afc6eebe03ba528a06b6880e57cbf286f48d30e948
+  item_group: ws_zhongcan
+  recipe_type: WUWEI_WAGUO
+  recipe:
+    '4':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XIAOMI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_XIAOMI
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: BOWL
+  placeable: false
+  script: '7'
 WT_WANGJIDAN:
   item:
     lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]

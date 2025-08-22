@@ -10060,6 +10060,28 @@ WUWEI_WAGUO:
         material_type: slimefun
         material: WT_QIANGSHUCAI
         amount: 1
+    wt_xiaomifan:
+      input:
+        '4':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_XIAOMI
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: WT_XIAOMI
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: BOWL
+      output:
+        material_type: slimefun
+        material: WT_XIAOMIFAN
+        amount: 1
 
 WUWEI_ZHAGUO:
   item_group: ws_jiqi
