@@ -278,7 +278,7 @@ ws_yingliao:
   item:
     material_type: skull_hash
     material: 94ae151e73602882b250dedcde5df6a9d5ff16470e39f9118b42f250f937f52b
-    name: '&6&l饮料'
+    name: '&6&l饮品'
   parent: worldtaste
 ws_dacan:
   lateInit: false
