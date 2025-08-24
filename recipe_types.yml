@@ -36,9 +36,9 @@ WUWEI_YINGLIAOJI:
   material: BREWING_STAND
 WUWEI_DANGAO:
   lateInit: false
-  name: '&c&l蛋糕炉'
+  name: '&c&l平炉'
   lore:
-    - '&7该物品需要在蛋糕炉里制作'
+    - '&7该物品需要在平炉里制作'
   material: CAKE
 WUWEI_BINGZHEN:
   lateInit: false
