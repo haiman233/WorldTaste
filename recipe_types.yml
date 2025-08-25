@@ -2,75 +2,87 @@ WUWEI_CHUFANG:
   lateInit: false
   name: '&#2afb49&l五&#34c376&l味&#3e8aa3&l厨&#4752d0&l房'
   lore:
-    - '&7该物品需要在五味厨房里制作'
+    - '&7该物品需要在五味厨房中制作'
   material: BLAST_FURNACE
 WUWEI_FAJIAO:
   lateInit: false
   name: '&a&l发酵箱'
   lore:
-    - '&7该物品需要在发酵箱里制作'
+    - '&7该物品需要在发酵箱中制作'
   material: COMPOSTER
 WUWEI_MIANBAO:
   lateInit: false
   name: '&6&l面包窖'
   lore:
-    - '&7该物品需要在面包窖里制作'
+    - '&7该物品需要在面包窖中制作'
   material: SMOKER
 WUWEI_WAGUO:
   lateInit: false
   name: '&b&l瓦锅'
   lore:
-    - '&7该物品需要在瓦锅里制作'
+    - '&7该物品需要在瓦锅中制作'
   material: CAULDRON
 WUWEI_ZHAGUO:
   lateInit: false
   name: '&6&l炸锅'
   lore:
-    - '&7该物品需要在炸锅里制作'
+    - '&7该物品需要在炸锅中制作'
   material: CAMPFIRE
 WUWEI_YINGLIAOJI:
   lateInit: false
   name: '&f&l饮料机'
   lore:
-    - '&7该物品需要在饮料机里制作'
+    - '&7该物品需要在饮料机中制作'
   material: BREWING_STAND
 WUWEI_DANGAO:
   lateInit: false
   name: '&c&l平炉'
   lore:
-    - '&7该物品需要在平炉里制作'
+    - '&7该物品需要在平炉中制作'
   material: CAKE
 WUWEI_BINGZHEN:
   lateInit: false
   name: '&b&l冰镇柜'
   lore:
-    - '&7该物品需要在冰镇柜里制作'
+    - '&7该物品需要在冰镇柜中制作'
   material: BLUE_ICE
 WUWEI_LIEQI:
   lateInit: false
   name: '&d&l猎奇厨房'
   lore:
-    - '&7该物品需要在猎奇厨房里制作'
+    - '&7该物品需要在猎奇厨房中制作'
   material: SCULK_SENSOR
 WUWEI_JUANYAN:
   lateInit: false
   name: '&6&l卷烟台'
   lore:
-    - '&7该物品需要在卷烟台里制作'
+    - '&7该物品需要在卷烟台中制作'
   material: BARREL
 WUWEI_JYKRL:
   lateInit: false
   name: '&f&l简易烤肉炉'
   lore:
-    - '&7该物品需要在简易烤肉炉里制作'
+    - '&7该物品需要在简易烤肉炉中制作'
     - '&7可以烤原版食物'
   material: FURNACE
 WUWEI_GTYSJ:
   lateInit: false
   name: '&6&l罐装机'
   lore:
-    - '&7该物品需要在罐装机里制作'
+    - '&7该物品需要在罐装机中制作'
   material: TINTED_GLASS
+WUWEI_CHUFANGGUITAI:
+  lateInit: false
+  name: '&f&l厨房柜台'
+  lore:
+    - '&7该物品需要在厨房柜台中制作'
+  material: QUARTZ_BRICKS
+WUWEI_ZHENKONGYASUOJI:
+  lateInit: false
+  name: '&6&l真空压缩机'
+  lore:
+    - '&7该物品需要在真空压缩机中制作'
+  material: PISTON
 WUWEI_WAJUE:
   lateInit: false
   name: '&f&l挖掘方块'

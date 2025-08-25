@@ -31903,6 +31903,32 @@ WUWEI_LIEQI:
         material_type: slimefun
         material: WT_JIJITUITUI
         amount: 1
+    wt_fumohaixing:
+      input:
+        '2':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAIXING
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_FUMOHAIXING
+        amount: 1
 
 WUWEI_JUANYAN:
   item_group: ws_jiqi
@@ -32380,3 +32406,600 @@ WUWEI_GZJ:
         material_type: slimefun
         material: WT_KYDCGT
         amount: 1
+WT_CHUFANGGUITAI:
+  item:
+    name: §f§l厨房柜台
+    amount: 1
+    material_type: mc
+    material: QUARTZ_BRICKS
+  item_group: ws_jiqi
+  recipe:
+    '5':
+      amount: 1
+      material_type: mc
+      material: OAK_PRESSURE_PLATE
+    '7':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_BRICKS
+    '8':
+      amount: 1
+      material_type: mc
+      material: DISPENSER
+    '9':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_BRICKS
+  work: 5
+  sound: GRIND_STONE_INTERACT_SOUND
+  recipes:
+    wt_tianshiguogq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_TIANSHIGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_TIANSHIGUOGQ
+        amount: 1
+    wt_guolan:
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BAITAO
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: WT_SHATANGJU
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_JINSIGUA
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: ORANGE
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: PEAR
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: WT_SHANZHA
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: GN_BANANA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: LEATHER
+        '9':
+          material_type: slimefun
+          material: WT_LIULIAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_GUOLAN
+        amount: 1
+    wt_qupishanzhu:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_SHANZHU
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_QUPISHANZHU
+        amount: 1
+    wt_huangjingguogq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_HUANGJINGGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_HUANGJINGGUOGQ
+        amount: 1
+    wt_huanglggq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_HUANGLONGGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_HUANGLGGQ
+        amount: 1
+    wt_huolongguogq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: DRAGON_FRUIT
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_HUOLONGGUOGQ
+        amount: 1
+    wt_mameiguoguoqie:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_MAMEIGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_MAMEIGUOGUOQIE
+        amount: 1
+    wt_hamiguaguoqie:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_HAMIGUA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_HAMIGUAGUOQIE
+        amount: 1
+    wt_diaolingguagq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_DIAOLINGGUA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_DIAOLINGGUAGQ
+        amount: 1
+    wt_youniguoguoqie:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_YOUNIGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_YOUNIGUOGUOQIE
+        amount: 1
+    wt_mihoutgq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_MHT
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_MIHOUTGQ
+        amount: 1
+    wt_xiaoxiguagq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_XIAOXIGUA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_XIAOXIGUAGQ
+        amount: 1
+    wt_suanchenggq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: LIME
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_SUANCHENGGQ
+        amount: 1
+    wt_ningmengqie:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_NINGMENGQIE
+        amount: 1
+    wt_fanshiliuguoqie:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_FANSHILIU
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_FANSHILIUGUOQIE
+        amount: 1
+    wt_tianguaguoqie:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_TIANGUA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_TIANGUAGUOQIE
+        amount: 1
+    wt_chengzigq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: ORANGE
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_CHENGZIGQ
+        amount: 1
+    wt_muguagq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_MUGUA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_MUGUAGQ
+        amount: 1
+    wt_baixianggq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_BAIXIANGGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_BAIXIANGGQ
+        amount: 1
+    wt_xuechenggq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_XUECHENG
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_XUECHENGGQ
+        amount: 1
+    wt_emoguagq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_EMOGUA
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_EMOGUAGQ
+        amount: 1
+    wt_xiashuidaoggq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: WT_XIASHUIDAOGUO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_XIASHUIDAOGGQ
+        amount: 1
+    wt_niuyouggq:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: GN_AVOCADO
+          amount: 1
+        '8':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_NIUYOUGGQ
+        amount: 1
+    wt_fumoboluo:
+      input:
+        '1':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: PINEAPPLE
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_FUMOBOLUO
+        amount: 1
+    wt_fumomangguo:
+      input:
+        '1':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_MANGGUO
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: GOLD_DUST
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_FUMOMANGGUO
+        amount: 1
+
+WT_ZHENKONGYASUOJI:
+  item:
+    name: §6§l真空压缩机
+    amount: 1
+    material_type: mc
+    material: PISTON
+  item_group: ws_jiqi
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_STAIRS
+    '2':
+      amount: 1
+      material_type: mc
+      material: PISTON
+    '3':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_STAIRS
+    '4':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_STAIRS
+    '5':
+      amount: 1
+      material_type: mc
+      material: WHITE_STAINED_GLASS
+    '6':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_STAIRS
+    '7':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_BRICKS
+    '8':
+      amount: 1
+      material_type: mc
+      material: DISPENSER
+    '9':
+      amount: 1
+      material_type: mc
+      material: QUARTZ_BRICKS
+  work: 5
+  sound: COMPRESSOR_CRAFT_EXTEND_SOUND
+

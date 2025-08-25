@@ -208,16 +208,7 @@ WORLDTASTE_ZWF5:
       - '&6&l敬请期待'
     material: PAPER
   placeable: false
-  recipe_type: 'NULL'
-WORLDTASTE_ZWFJIU:
-  item_group: ws_guoqie
-  item:
-    name: "&f&l敬请期待"
-    lore:
-      - '&6&l敬请期待'
-    material: PAPER
-  placeable: false
-  recipe_type: 'NULL'
+  recipe_type: WUWEI_ZHENKONGYASUOJI
 WORLDTASTE_ZWF7:
   item_group: ws_zwf_5
   item:
@@ -33336,7 +33327,7 @@ WT_XUEJIA:
       material: SPRUCE_WOOD
   placeable: false
   script: xuejia
-# 怪味餐
+# 怪味餐 part-2
 WT_KAOLONGXIN:
   item:
     lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
@@ -34044,6 +34035,38 @@ WT_DONGLONGGUO:
       material: SUGAR
   placeable: false
   script: '12'
+WT_FUMOHAIXING:
+  item:
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
+    name: §b§l附魔海星
+    amount: 1
+    material_type: skull_hash
+    material: 88bd2e63533a143bb2c8c8e118b33f02565b8e7e0a2bcb5d9b32dce2f3276f79
+  item_group: ws_dacan
+  recipe_type: WUWEI_LIEQI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIXING
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+  placeable: false
+  script: '9'
 WT_HANNIBASHENYAN:
   item:
     lore: ['', §7§o恢复 §b§o9 §7§o点饥饿值和饱和度]
@@ -48594,6 +48617,680 @@ WT_WNSCHDG:
       amount: 1
   placeable: false
   script: '14'
+# 果切
+WT_TIANSHIGUOGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §f§l天使果果切
+    amount: 1
+    material_type: skull_hash
+    material: f0521b881de362e4b5d5b63736e5f560879493f5635083842b865bb03a52c9e5
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_TIANSHIGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_GUOLAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8.5 §7§o点饥饿值和饱和度]
+    name: §6§l果篮
+    amount: 1
+    material_type: skull_hash
+    material: 393f34d6ed944fe40924d22313c37e1bc19c9773bbcb4ec68b96c96f149a130
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BAITAO
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_SHATANGJU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_JINSIGUA
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ORANGE
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: PEAR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_SHANZHA
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GN_BANANA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: LEATHER
+    '9':
+      material_type: slimefun
+      material: WT_LIULIAN
+      amount: 1
+  placeable: false
+  script: '17'
+WT_QUPISHANZHU:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §c§l去皮山竹
+    amount: 1
+    material_type: skull_hash
+    material: b45b4d778db4d83e327f26975a058de3b75d62d2dfe7514762d6f0b837dd491d
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_SHANZHU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_HUANGJINGGUOGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §e§l黄晶果果切
+    amount: 1
+    material_type: skull_hash
+    material: 68961a215ddaf464564b04adc5259caf38f9b3551496af0d4c2c059f3f7ae818
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_HUANGJINGGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_HUANGLGGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §e§l黄龙果果切
+    amount: 1
+    material_type: skull_hash
+    material: d1514c926a992a007bdaef00143912fae07ef82319ae3ae775e943a8711f1ee0
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_HUANGLONGGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_HUOLONGGUOGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §d§l火龙果果切
+    amount: 1
+    material_type: skull_hash
+    material: 582e99278c8b767c6d47e2c4178abba5370994d39fe7d03dbfd42852939054
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: DRAGON_FRUIT
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_MAMEIGUOGUOQIE:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §6§l马梅果果切
+    amount: 1
+    material_type: skull_hash
+    material: 51a59d6532f9893816cddd55d97231fd86861e5906a01559ddeb56797c1c2241
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_MAMEIGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_HAMIGUAGUOQIE:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §a§l哈密瓜果切
+    amount: 1
+    material_type: skull_hash
+    material: 1035f49a00ad06b826973e41a31d10f76a82e97d2deb0fc8aac6bc630419047
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_HAMIGUA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_DIAOLINGGUAGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §6§l凋灵瓜果切
+    amount: 1
+    material_type: skull_hash
+    material: 7a2bb9252941dfc0a5bd413c53d404785868ac7b946f45e161cd3d370372e3a3
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_DIAOLINGGUA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_YOUNIGUOGUOQIE:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §b§l幽匿果果切
+    amount: 1
+    material_type: skull_hash
+    material: d884ed1950bb8b198ada8191684400bd6640e03710481c8122b780b9ed1bd98c
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_YOUNIGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_MIHOUTGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §a§l猕猴桃果切
+    amount: 1
+    material_type: skull_hash
+    material: ca45df4e09ac67ce8471f4d9d369fb0f067db7e7daa2d9541b3369f070c1aa8c
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_MHT
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_XIAOXIGUAGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §2§l小西瓜果切
+    amount: 1
+    material_type: skull_hash
+    material: 351883d6b7fa42dd0cf0d9cd999615a8540bc07c6fcd5be5dbea5617fd139fd4
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_XIAOXIGUA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_SUANCHENGGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §a§l酸橙果切
+    amount: 1
+    material_type: skull_hash
+    material: 526163a059348938eff749ef34fa71e26ba995549b92295b5f275793661f1
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: LIME
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_NINGMENGQIE:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §e§l柠檬果切
+    amount: 1
+    material_type: skull_hash
+    material: e66fc58a6296c440c4a278acf84aa6f9e2121551bf8ac69bfaad7ec6ac9c1f8
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: LEMON
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_FANSHILIUGUOQIE:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §6§l番石榴果切
+    amount: 1
+    material_type: skull_hash
+    material: 62e9688cf583e387ce0dac61ac18534122eb6b8a55e2d7668631b270a5db15
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_FANSHILIU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_TIANGUAGUOQIE:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §c§l甜瓜果切
+    amount: 1
+    material_type: skull_hash
+    material: a232b43b398032d0d88571ea11bded18cb2677f3e786f4f109fcab9fa8
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_TIANGUA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_CHENGZIGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §6§l橙子果切
+    amount: 1
+    material_type: skull_hash
+    material: 3315973110d583df47af0a8aea5eac931a86aa62e3ca0878a96da44d63dbf8
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: ORANGE
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_MUGUAGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §c§l木瓜果切
+    amount: 1
+    material_type: skull_hash
+    material: 6653d09dcfb35b1db52637e155f157d812ff85ea8967b2bf474136a384dba
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_MUGUA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_BAIXIANGGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §f§l百香果果切
+    amount: 1
+    material_type: skull_hash
+    material: 992e4cb3c6999342fea5ab988c8477cc29939875d130628d95bbcb7e3544678c
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_BAIXIANGGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_xUECHENGGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §4§l血橙果切
+    amount: 1
+    material_type: skull_hash
+    material: edccf4a9d91ed211dc17334da85b9f26d886ad2be7ca884ef18f425a271eee
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_XUECHENG
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_EMOGUAGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §d§l恶魔瓜果切
+    amount: 1
+    material_type: skull_hash
+    material: 371e9f7ecbe9baf5d15cf3e599a60a39462a5d1a8c0b36e66585f7ef67e2d792
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_EMOGUA
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_XIASHUIDAOGGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §2§l下水道果果切
+    amount: 1
+    material_type: skull_hash
+    material: 3ff87c87950e01300ab1e1b78de4532a19e3ff91fb5af8ee900fe9fe5a212dc5
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_XIASHUIDAOGUO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_NIUYOUGGQ:
+  item:
+    lore: ['', §7§o恢复 §b§o2 §7§o点饥饿值和饱和度]
+    name: §a§l牛油果果切
+    amount: 1
+    material_type: skull_hash
+    material: ffb9b92efedfe28e449b5a2ded2e7836812d231aa7416dd9d52974ab84694b63
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: GN_AVOCADO
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+  placeable: false
+  script: '4'
+WT_FUMOBOLUO:
+  item:
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
+    name: §6§l附魔菠萝
+    amount: 1
+    material_type: skull_hash
+    material: 9e28a0064a04ccfb4306ac44e594d14495877f20e86346ec6d51cb78cc6ece2c
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: PINEAPPLE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+  placeable: false
+  script: '8'
+WT_FUMOMANGGUO:
+  item:
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
+    name: §d§l附魔芒果
+    amount: 1
+    material_type: skull_hash
+    material: 7b3b317f9fe632f0d72541b40174c63881a8dcf73e8fc299c2728eb96534347c
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MANGGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: GOLD_DUST
+      amount: 1
+  placeable: false
+  script: '8'
+
 
 
 
