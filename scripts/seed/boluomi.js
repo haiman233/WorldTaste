@@ -16,7 +16,7 @@ var smallSteps = [1/10, 1/6, 1/3, 1/2, 2/3, 5/6, 1, 7/6]; // 小生长阶段
 
 // 生长阶段映射
 var growthStages = {
-    "WT_SEED_MIANBAOGUO": {
+    "WT_SEED_BOLUOMI": {
         stages: smallSteps,
         material: Material.MELON_STEM,
         maxAge: 6
@@ -55,8 +55,8 @@ function tick(info) {
     let lastUseTime = lastUseTimes.get(location);
 
     // 处理无尽植物生长逻辑
-    if (machinesf === "WT_SEED_MIANBAOGUO") {
-        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_MIANBAOGUO");
+    if (machinesf === "WT_SEED_BOLUOMI") {
+        handleGrowth(world, location, lastUseTime, currentTime, "WT_SEED_BOLUOMI");
     }
 }
 
@@ -125,7 +125,7 @@ function onBreak(event, itemStack, drops) {
 // 处理成熟植物掉落
 function handleHarvest(world, location) {
     let sfItem = StorageCacheUtils.getSfItem(location);
-    if (sfItem.getId() === "WT_SEED_MIANBAOGUO") {
+    if (sfItem.getId() === "WT_SEED_BOLUOMI") {
         let dropItem = (itemId) => {
             let slimefunItem = getSfItemById(itemId);
             let itemStack = new ItemStack(slimefunItem.getItem().getType());
@@ -136,7 +136,7 @@ function handleHarvest(world, location) {
         let Infinite_Yes_1 = Math.random();
         if (Infinite_Yes_1 < 1) { // 100%概率掉落
             dropItem("WT_BOLUOMI");
-            dropItem("WT_SEED_MIANBAOGUO");
+            dropItem("WT_SEED_BOLUOMI");
         }
     }
 }
