@@ -200,15 +200,6 @@ WORLDTASTE_ZWF4:
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
-WORLDTASTE_ZWF5:
-  item_group: ws_lingshi
-  item:
-    name: "&f&l敬请期待"
-    lore:
-      - '&6&l敬请期待'
-    material: PAPER
-  placeable: false
-  recipe_type: WUWEI_ZHENKONGYASUOJI
 WORLDTASTE_ZWF7:
   item_group: ws_zwf_5
   item:
@@ -49290,6 +49281,3059 @@ WT_FUMOMANGGUO:
       amount: 1
   placeable: false
   script: '8'
+# 零食
+WT_ROUGUIKMBCP:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §6§l肉桂烤面包脆片
+    amount: 1
+    material_type: skull_hash
+    material: f105d0635f07fbb84c818d5c3822331e6bd13a1ede6a5b508e9ff6299e12093f
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_SHANHETAO
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_TOAST
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_SHANHETAO
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_ROUGUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_TOAST
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_ROUGUI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_JLSTSYMP:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §b§l家乐氏糖霜玉米片
+    amount: 1
+    material_type: skull_hash
+    material: 7717c79bdffa6fe6ee4aef4ab17d86c5024cb85982a8f32c04c14a18d3bfe492
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_LYM
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_MISO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_LYM
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_PINGGJK:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §a§l苹果杰克
+    amount: 1
+    material_type: skull_hash
+    material: 9e3d603768d5dd32f5efc2f73fe1e3bce1938cf1ade74e360ae79e5fe3877ac1
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: APPLE
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_TOAST
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIMIANGUA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_TOAST
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_XINGYUNFU:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §e§l幸运符
+    amount: 1
+    material_type: skull_hash
+    material: 5d323c79086084514a31a88530092dc0a73cdbfd41efaa14bd7f0de055747c57
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_YANGTAO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: MUSTARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHATANGJU
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: MUSTARD
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_RUIZIMAIPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §c§l锐滋麦片
+    amount: 1
+    material_type: skull_hash
+    material: 5a1b235d532cea2ca30f977799ac8832d250285edc59e1d377f66a1b444db079
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MAYO
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      material_type: slimefun
+      material: MAYO
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '13'
+WT_TLKSMP:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §4§l特丽克斯麦片
+    amount: 1
+    material_type: skull_hash
+    material: 1d798a435469ceb2225c3d09067c1e86255d237533e58debf4ce8b8f95d2eb1c
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XHLB
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_GUIGEYANMAI:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §e§l桂格燕麦
+    amount: 1
+    material_type: skull_hash
+    material: 6deb1311a2d86a2b38012a3afd3158e2f9de29cecf4e4edd0622f6324aab71be
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TQ
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_TOAST
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_MODENGYSRETZJWSS:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §f§l摩登原始人儿童咀嚼维生素
+    amount: 1
+    material_type: skull_hash
+    material: 18ba1fc48839d1bc3d7e8ff2f9d4d0b36fe8feb0f3c178dbb0fab568fe12f9fa
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: ORANGE
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ORANGE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_SHUIGUOMAIPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §a§l水果麦片
+    amount: 1
+    material_type: skull_hash
+    material: 40af60c79d1a3e72d4fa943848fb4ad9dc34683fbb53415c4d11000b92e63f62
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: WT_MEIZI
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHIZI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_QIAOKELIMP:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §c§l巧克力麦片
+    amount: 1
+    material_type: skull_hash
+    material: e7d084e59236f2ad790dedfc20cc3fc027dc9462fbcdeca2d4d2f222c58ae8c4
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_GUIWEICP:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §e§l果味脆片
+    amount: 1
+    material_type: skull_hash
+    material: 5fa1462fe3665534415776bba1f5cc9dbf218036e3ae4f0c78943957f707db47
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_GANXIA
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_BAITAO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_GANXIA
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '13'
+WT_NINGMENGLSB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §e§l柠檬零食棒
+    amount: 1
+    material_type: skull_hash
+    material: b2e797b8b4733e1711aa17cbd8b4c51b537809af2df6727f0a61465387d3020a
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: LEMON
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_TOAST
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: LEMON
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_PUTAOLSB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §d§l葡萄零食棒
+    amount: 1
+    material_type: skull_hash
+    material: 83e689ea0bc2f94d10448c13dd788712653234fb228c195b050ea25d43092423
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GRAPE
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YZYM
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GRAPE
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_QIAOKELILSB:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §c§l巧克力零食棒
+    amount: 1
+    material_type: skull_hash
+    material: 253d7a165ab2915f65158e3d073227e8e0e95a70e404b19039f676b4c8e2e5ed
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '13'
+WT_PINGGUOLSB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §4§l苹果零食棒
+    amount: 1
+    material_type: skull_hash
+    material: c8ca8a8ae5428ebb49ade2d4fdfc2465a857814115295920c3e6b1be9b9cdfa9
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: APPLE
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+/sf cheat:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §c§l酒香零食棒
+    amount: 1
+    material_type: skull_hash
+    material: d0fa8276554481bbae62e1f31f63d5b4eb29627c2ebf344a143f0780c8429350
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_PIJIUHUA
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_PIJIUHUA
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_NAILAOLSB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §e§l芝士零食棒
+    amount: 1
+    material_type: skull_hash
+    material: 5b014507e14ada3ca7e57836777b33d22045b3829744bc47ca34b8b22d792204
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_BAINUOYUMI
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_BAINUOYUMI
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_LANMEILSB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §b§l蓝莓零食棒
+    amount: 1
+    material_type: skull_hash
+    material: 11f8b635de1b48e565d975dab0dcea5480dda28912b2ec66698585fabaa8b8be
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: BLUEBERRY
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BLUEBERRY
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_NIUROULSB:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §6§l牛肉零食棒
+    amount: 1
+    material_type: skull_hash
+    material: 7a641d57302f0af6b5d6530cb7cf7f2a429d219e542b8aeb6225a00e42461369
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TUZAI_NIULIJI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_TUZAI_YOUZHI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_TUZAI_YOUZHI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_LAWEISHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §4§l辣味薯片
+    amount: 1
+    material_type: skull_hash
+    material: 9aaf6573743804f00c80c81b1c76d19b1489e860940e5a142c4da696c0550c9e
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_MXGLJ
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TUZAI_YOUZHI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_MXGLJ
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '5':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_MOYINGSP:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §d§l末影薯片
+    amount: 1
+    material_type: skull_hash
+    material: d9df7672a82abf3b1c4ea6542c91ebbb6bf5516a3bd9e44d788f784f1d353217
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ZHANHUAJIANGGUO
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_MODIGUO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_ZHANHUAJIANGGUO
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: POPPED_CHORUS_FRUIT
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: POPPED_CHORUS_FRUIT
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_XIAJIESHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §4§l下界薯片
+    amount: 1
+    material_type: skull_hash
+    material: a3673dd062e0ddfab1c833a59188c9bdea29f3641fcaa68a6be1bdbc35e8f99a
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_FEIHONGMOGUIJIAO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_NAOXINCAI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XUETENG
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_NAOXINCAI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_TIANYUSHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §f§l天域薯片
+    amount: 1
+    material_type: skull_hash
+    material: d5819044029d8624ae3d985e475f2d3c9368846fb985dec00ae7e58f1dcdd76b
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TIANMEI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_TIANSHIGUO
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: WT_TIANSHIGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_RIGUANGSHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §6§l日光薯片
+    amount: 1
+    material_type: skull_hash
+    material: aaeb77b466c47142861d11878f7936ddcc464b500fee06bbad36be27880af7e4
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_HONGLINANGUA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_DENGLONGGUO
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: WT_DENGLONGGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_YUEGUANGSHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §f§l月光薯片
+    amount: 1
+    material_type: skull_hash
+    material: dae893fef19f92c52a288f622678a14a8f83873a43fcb0252413c9f07e3b2ee2
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_XIANGJIAONANGUA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_AIQINGSP:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §d§l爱情薯片
+    amount: 1
+    material_type: skull_hash
+    material: 170fc647d871514919c432235cfe1ac8fe3c5a97f3b588907817142af44c1914
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_HABODENANGUA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_AIQINGUO
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: WT_AIQINGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_MEIRENYUSHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §b§l美人鱼薯片
+    amount: 1
+    material_type: skull_hash
+    material: a4d0d42b3c96804d786d559911b2f3d777b0fe60ecbe89635c999b3be48d93d6
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_SHUIJINGYU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_DIEDOUHUA
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: WT_DIEDOUHUA
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_HAIDAOSHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o8.5 §7§o点饥饿值和饱和度]
+    name: §c§l海盗薯片
+    amount: 1
+    material_type: skull_hash
+    material: d936a66b2a1aa6cdc0224adaf9188ad25861ae34b340878e2f9eb75758d0e7c6
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_HAIZEIWANGYU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_HAIDAN
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: WT_HAIDAN
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '17'
+WT_DAIZHUANGMOYABANG:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §6§l袋装磨牙棒
+    amount: 1
+    material_type: skull_hash
+    material: 8f490d2e4647a6d71b0a28667e9f493afaa3d62857883bc86440d1a792573b1d
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_ROUGUI
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_ROUGUI
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '5':
+      material_type: slimefun
+      material: WT_FENGGUNCAO
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_DAIZHUANGGWRT:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §4§l袋装果味软糖
+    amount: 1
+    material_type: skull_hash
+    material: 9c20e7aaba3bbeac99ce8586800a27e0ec4f0009b1c783beeded615648da7b33
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_SHIZI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHANZHA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_SHIZI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_WANGKAQKLB:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §c§l旺卡巧克力棒
+    amount: 1
+    material_type: skull_hash
+    material: 42fa2646345308663c43608d7e1f0a3763f9806c98b3b6347cfb681459e5a696
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: CHOCOLATE_BAR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PURPLE_DYE
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PURPLE_DYE
+  placeable: false
+  script: '12'
+WT_JIANGUOQKLB:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §c§l坚果巧克力棒
+    amount: 1
+    material_type: skull_hash
+    material: 2870ca6d1d455dd809571e3a3e6ccc9af49963213fe5945fd325edc456a41a9b
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: WT_JIANGUOJIANG
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: CHOCOLATE_BAR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: ORANGE_DYE
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: ORANGE_DYE
+  placeable: false
+  script: '16'
+WT_JGJTNLB:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §6§l坚果焦糖能量棒
+    amount: 1
+    material_type: skull_hash
+    material: 20d05b633e36a7d743a149f46e33add5c0497ce3e94b2c706b7620d222ab28e2
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_SHANHETAO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MALI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_SHANHETAO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_KAFEIPAOFU:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §c§l咖啡泡芙
+    amount: 1
+    material_type: skull_hash
+    material: 9d2d0666bee7745175e7ca729dac8ecc12659cd33d199550045ec626f440c8eb
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUGUI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_BINGGANCUIPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §b§l饼干脆片
+    amount: 1
+    material_type: skull_hash
+    material: f49ea48791ac1af366940ac6ad740e7b163271acf9300e54d69ba7f28fb26127
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_YZYM
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '6':
+      material_type: slimefun
+      material: WT_YZYM
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_SHUIGUORUANTANG:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §a§l水果软糖
+    amount: 1
+    material_type: skull_hash
+    material: 70550e1961e213173a0e4b65792e864c6c09a447af91f5d3725ba765abecef75
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_RYE_FLOUR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_RYE_FLOUR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_QINGTI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_CULI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_QINGTI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_SHUIGUOCHONGJI:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §e§l水果冲剂
+    amount: 1
+    material_type: skull_hash
+    material: dfc7877192bf6c7890e54647c23fab884fc426ab40164790dfe5e9ba26bed8fd
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_PANTAO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WHEAT_FLOUR
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: SWEET_BERRIES
+    '6':
+      material_type: slimefun
+      material: WHEAT_FLOUR
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_DAIZHUANGHMDG:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §b§l袋装海绵蛋糕
+    amount: 1
+    material_type: skull_hash
+    material: de2e6caa5bb4148e7a0168863c4e864e3dbbf2800dcabb889d2f001fe166a3f2
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_YUNMEI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_YUNMEI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_GUIYIFWBG:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §3§l诡异风味饼干
+    amount: 1
+    material_type: skull_hash
+    material: 3539ff35fb0bbba0e107f20f34d1d57b5f7bbdb8b04a51a3a259043e31aeb990
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHANGGUSHUIGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_GUIYIYOU
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_MOXIGEYUMIPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §a§l墨西哥玉米片
+    amount: 1
+    material_type: skull_hash
+    material: 7a4223dddf895d24ce10c21a319fd7f02791723bf6629979092543f388b70726
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_MXGLJ
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_QYM
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_MXGLJ
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_HONGYUMIPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §4§l红玉米片
+    amount: 1
+    material_type: skull_hash
+    material: af9f55a1b1ebb192a72b5092753a5bd97163a7ba5168c26f56eac8cd6c6dab56
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_HYM
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_HYM
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_SHUCAIYUMIPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §a§l蔬菜玉米片
+    amount: 1
+    material_type: skull_hash
+    material: a7e5ae3bf7ba910623bbc787604ebfc48d132392379b874364e107f1fdc42110
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_GREEN_ONION
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_YANGJI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YZYM
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_YANGJI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_BAIWEIJIANGUO:
+  item:
+    lore: ['', §7§o恢复 §b§o8.5 §7§o点饥饿值和饱和度]
+    name: §6§l百味坚果
+    amount: 1
+    material_type: skull_hash
+    material: 3187d68686809aeda09a7fd06af750343b7f17a43606d2fe9887eee3ff98a301
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XIANGZI
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_YAOGUO
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_CONGLINMUJIA
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MALI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_HETAO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+  placeable: false
+  script: '17'
+WT_YUANWEISHUPIAN:
+  item:
+    lore: ['', §7§o恢复 §b§o4.5 §7§o点饥饿值和饱和度]
+    name: §e§l原味薯片
+    amount: 1
+    material_type: skull_hash
+    material: d38b27d860c72d0f2c0999614d64b38a9d75f399a35366b9efee7e68f2163125
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '9'
+WT_SHAOKAOWEISP:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §c§l烧烤味薯片
+    amount: 1
+    material_type: skull_hash
+    material: 5c74c342c361d9df7fe0ff009a9b9675b25f4bf7bcf2f194c664b125ce009a54
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_TUZAI_ZHUBANYOU
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '3':
+      material_type: slimefun
+      material: WT_TUZAI_ZHUBANYOU
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BBQ_SAUCE
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: BBQ_SAUCE
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '13'
+WT_SNYHGSP:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §a§l酸奶油洋葱味薯片
+    amount: 1
+    material_type: skull_hash
+    material: c5041d9c4c7cc5c4ee7b4471f615c6e97f6b003153321ed74eb996213b30362
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_HUANGPIYANGCONG
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '3':
+      material_type: slimefun
+      material: WT_HUANGPIYANGCONG
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEAVY_CREAM
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: LEMON
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_GANGUOSUPIPAIN:
+  item:
+    lore: ['', §7§o恢复 §b§o7.5 §7§o点饥饿值和饱和度]
+    name: §c§l干果酥片
+    amount: 1
+    material_type: skull_hash
+    material: c5e19259e5f27c949aea527e9aedfe3686ee5cbd88db0a2e711cd2f295352f33
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_SHIZI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SUANJIAO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_WENBOGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '15'
+WT_MANGGUOKXT:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §6§l芒果味口香糖
+    amount: 1
+    material_type: skull_hash
+    material: 6ccfd79bd51ee114ab0233aff5966aa30428ddcf68f2fd0d819fa2e926927a89
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MANGGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_XIANGJIAOKXT:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §e§l香蕉味口香糖
+    amount: 1
+    material_type: skull_hash
+    material: a5fd9ac5bed757790e95b9718c3383030258c821504a8ab66390aaaf28f0df4a
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_BANANA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_MIHOUTAOKXT:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §a§l猕猴桃味口香糖
+    amount: 1
+    material_type: skull_hash
+    material: 52abc2add4378d43dbfec809138d39fa86aa8c96bd64944ffd3fda94e54d27c2
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MHT
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_PUTAOKXT:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §d§l葡萄味口香糖
+    amount: 1
+    material_type: skull_hash
+    material: c214bda3a8f4968c6f4d72f6319eb31d2a969d0eae121edfb661b168729e53a6
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GRAPE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_DZCLZGD:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §c§l袋装车厘子果冻
+    amount: 1
+    material_type: skull_hash
+    material: 7a6fdabf09fb994aba993f0f2d9d0afd30f72af88eba2822aabe40d89fdc1bb9
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_CZL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_CZL
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '13'
+WT_DZLMGD:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §b§l袋装蓝莓果冻
+    amount: 1
+    material_type: skull_hash
+    material: 5dc139b0845b5de939d494a237efcf14fb9b1a140a4436074d804a7876359648
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: BLUEBERRY
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BLUEBERRY
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_DZCMGD:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §d§l袋装草莓果冻
+    amount: 1
+    material_type: skull_hash
+    material: a4f2fb8207312c453904499783fc924a0717bcf760ebd25f1dd2195bb8e53a0a
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: STRAWBERRY
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LUHUI
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: STRAWBERRY
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_TSFMSKWJL:
+  item:
+    lore: ['', §7§o恢复 §b§o7.5 §7§o点饥饿值和饱和度]
+    name: §4§l泰森蜂蜜烧烤味鸡柳
+    amount: 1
+    material_type: skull_hash
+    material: c1bed5fe8bcba404a6ee34b91844fc00527a6f4da667f7efc9c90a39e8b82449
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BBQ_SAUCE
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CHICKEN
+    '6':
+      amount: 1
+      material_type: mc
+      material: HONEY_BOTTLE
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '15'
+WT_QDSYDLNLWKBG:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §e§l奇士多意大利奶酪味烤饼干
+    amount: 1
+    material_type: skull_hash
+    material: 62d7d09f0dd9ea0a1ac81eb2618529edc773ef76e85a1f565a3cc3d07fc37e63
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '5':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_QDSYDLLWKBG:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §c§l奇士多意大利辣味烤饼干
+    amount: 1
+    material_type: skull_hash
+    material: 1088c03d049345f1411bdf49ff126afd65de1009a408827871140c011775ae60
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '4':
+      material_type: slimefun
+      material: WT_HWNLJ
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_HWNLJ
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_RKDRWMSLL:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §6§l热口袋肉丸马苏里拉
+    amount: 1
+    material_type: skull_hash
+    material: b92f3cf089b6869b61f9e72f0107d7dee38ef4971a540fd90490adbba614f521
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: ROSE_BUSH
+    '5':
+      material_type: slimefun
+      material: GN_PULLED_PORK
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: ROSE_BUSH
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_XIANGCAOYLPCP:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §b§l香草月亮派脆片
+    amount: 1
+    material_type: skull_hash
+    material: 9ad91450eb091d653232d9068ec4ba20c63a8a49d4fa3d5d3e4d1497f5176c5
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_TIANSHIGUO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_HJQKLYGJGLNLMP:
+  item:
+    lore: ['', §7§o恢复 §b§o8 §7§o点饥饿值和饱和度]
+    name: §c§l好聚巧克力腰果酱格兰诺拉麦片
+    amount: 1
+    material_type: skull_hash
+    material: 75bc5440bc6c4d8fc8dceca48094e1799382c7dc50442fddf0608d7e938768f5
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_ROUDOUKOU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_YAOGUO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '16'
+WT_LAOBINGHFF:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值和饱和度]
+    name: §b§l烙饼华夫粉
+    amount: 1
+    material_type: skull_hash
+    material: ef64b10fdd1c8ac398ef4772c798e0e92f37f57400c449baa32ad02f23ff6d7c
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_PEANUT_BUTTER
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_MISO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_PEANUT_BUTTER
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_RYE_FLOUR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_TURMERIC_POWDER
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_RYE_FLOUR
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '10'
+WT_LENGDONGJRXB:
+  item:
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    name: §a§l冷冻鸡肉馅饼
+    amount: 1
+    material_type: skull_hash
+    material: a5441d58202ed9909159061d3b35be097fde34ceb817f0556a87f0f773dbb16e
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: BBQ_SAUCE
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CHICKEN
+    '6':
+      material_type: slimefun
+      material: GN_DOUGH
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '14'
+WT_DAIZHUANGWHBG:
+  item:
+    lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
+    name: §f§l袋装威化饼干
+    amount: 1
+    material_type: skull_hash
+    material: 962ef883541d210972c0b00889ffd7424405c02fd80cbbb477adb18bf030ed74
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '2':
+      material_type: slimefun
+      material: VEGETABLE_OIL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '4':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '12'
+WT_DAIZHUANGMGG:
+  item:
+    lore: ['', §7§o恢复 §b§o6.5 §7§o点饥饿值和饱和度]
+    name: §e§l袋装芒果干
+    amount: 1
+    material_type: skull_hash
+    material: fc52508e57a87b18cb21a7b3662a111af738fcebf5c9c5bd3b06a76d36e1be47
+  item_group: ws_lingshi
+  recipe_type: WUWEI_ZHENKONGYASUOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: GN_CARAMEL
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_MANGGUO
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: CHEESE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_MANGGUO
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '8':
+      amount: 1
+      material_type: mc
+      material: PAPER
+    '9':
+      amount: 1
+      material_type: mc
+      material: PAPER
+  placeable: false
+  script: '13'
 
 
 
