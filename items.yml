@@ -145,15 +145,6 @@ WORLDTASTE_GAILV3:
   recipe_type: 'NULL'
 
 # 说明占位符
-WORLDTASTE_ZWF114:
-  item_group: ws_tieshi
-  item:
-    name: "&f&l这就是一个占位符而已"
-    lore:
-      - '&6&l这就是一个占位符而已'
-    material: PAPER
-  placeable: false
-  recipe_type: WUWEI_CHENNIANGMIN
 WORLDTASTE_ZWF2:
   item_group: ws_tieshi
   item:
@@ -267,6 +258,312 @@ WORLDTASTE_ZWF16:
   recipe_type: 'NULL'
 WORLDTASTE_ZWF19:
   item_group: ws_zwf_17
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_1:
+  item_group: ws_zwf_2_1
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_2:
+  item_group: ws_zwf_2_2
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_3:
+  item_group: ws_zwf_2_3
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_4:
+  item_group: ws_zwf_2_4
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_5:
+  item_group: ws_zwf_2_5
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_6:
+  item_group: ws_zwf_2_6
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_7:
+  item_group: ws_zwf_2_7
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_8:
+  item_group: ws_zwf_2_8
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_9:
+  item_group: ws_zwf_2_9
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_10:
+  item_group: ws_zwf_2_10
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_11:
+  item_group: ws_zwf_2_11
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_12:
+  item_group: ws_zwf_2_12
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_13:
+  item_group: ws_zwf_2_13
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_14:
+  item_group: ws_zwf_2_14
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_15:
+  item_group: ws_zwf_2_15
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_16:
+  item_group: ws_zwf_2_16
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_17:
+  item_group: ws_zwf_2_17
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_18:
+  item_group: ws_zwf_2_18
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_19:
+  item_group: ws_zwf_2_19
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_20:
+  item_group: ws_zwf_2_20
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_21:
+  item_group: ws_zwf_2_21
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_22:
+  item_group: ws_zwf_2_22
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_23:
+  item_group: ws_zwf_2_23
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_24:
+  item_group: ws_zwf_2_24
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_25:
+  item_group: ws_zwf_2_25
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_26:
+  item_group: ws_zwf_2_26
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_27:
+  item_group: ws_zwf_2_27
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_28:
+  item_group: ws_zwf_2_28
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_29:
+  item_group: ws_zwf_2_29
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_30:
+  item_group: ws_zwf_2_30
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_31:
+  item_group: ws_zwf_2_31
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_32:
+  item_group: ws_zwf_2_32
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_33:
+  item_group: ws_zwf_2_33
+  item:
+    name: "&f&l这就是一个占位符而已"
+    lore:
+      - '&6&l这就是一个占位符而已'
+    material: PAPER
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_ZWF_2_34:
+  item_group: ws_zwf_2_34
   item:
     name: "&f&l这就是一个占位符而已"
     lore:
@@ -30803,6 +31100,16 @@ WT_KZSZZ:
   placeable: false
   script: 6
 # 愚人节
+WT_YURENJIEFENGEBAN:
+  item:
+    lore: [§7此分类拓展了有关愚人节更新的食物]
+    name: §f§l说明
+    amount: 1
+    material_type: mc
+    material: OAK_SIGN
+  item_group: ws_yurenjie
+  recipe_type: 'NULL'
+  placeable: false
 WT_DUPUTUITOU:
   item:
     name: §a§l毒普忒头
@@ -31753,6 +32060,16 @@ WT_DUMALSSLM:
   placeable: false
   script: yurenjie/du2
 # 肝帝月
+WT_GANDIFENGEBAN:
+  item:
+    lore: [§7此分类拓展了有关无尽贪婪附属的食物]
+    name: §f§l说明
+    amount: 1
+    material_type: mc
+    material: OAK_SIGN
+  item_group: ws_gandi
+  recipe_type: 'NULL'
+  placeable: false
 WT_WJYDG:
   item_group: ws_gandi
   item:

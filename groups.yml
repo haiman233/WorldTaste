@@ -304,23 +304,331 @@ ws_guoqie:
     material: 393f34d6ed944fe40924d22313c37e1bc19c9773bbcb4ec68b96c96f149a130
     name: '&6&l果切'
   parent: worldtaste
+# 尘世百味第二页 主题餐饮
+ws_zwf_2_1:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_2:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_3:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_4:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_5:
+  lateInit: false
+  type: button
+  item:
+    material_type: skull_hash
+    material: d01afe973c5482fdc71e6aa10698833c79c437f21308ea9a1a095746ec274a0f
+    name: '&6&l主题餐饮'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_6:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_7:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_8:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_9:
+  lateInit: false
+  type: button
+  item:
+    material: yellow_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_10:
+  lateInit: false
+  type: button
+  item:
+    material: pink_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
 # 愚人节
 ws_yurenjie:
-  type: seasonal
-  month: 4
+  type: sub
+  parent: worldtaste
   item:
     name: "&6&k&ld&a&l“毒薯管理员”&6&k&ld"
     material: POISONOUS_POTATO
     glow: true
 # 肝帝月
 ws_gandi:
-  type: seasonal
-  month: 7
+  type: sub
+  parent: worldtaste
   item:
     name: "&7&k&ld&d&l肝帝的晚宴&7&k&ld"
     material_type: skull_hash
     material: 2d3eb91ec65585b4491f72ea52b72623a64967cdba1265579390dbc7fe689ddc
-# 生日蛋糕
+ws_zwf_2_11:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_12:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_13:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_14:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_15:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_16:
+  lateInit: false
+  type: button
+  item:
+    material: pink_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_17:
+  lateInit: false
+  type: button
+  item:
+    material: pink_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_18:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_19:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_20:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_21:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_22:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_23:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_24:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_25:
+  lateInit: false
+  type: button
+  item:
+    material: pink_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_26:
+  lateInit: false
+  type: button
+  item:
+    material: pink_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_27:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_28:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_29:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_30:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_31:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_32:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_33:
+  lateInit: false
+  type: button
+  item:
+    material: white_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+ws_zwf_2_34:
+  lateInit: false
+  type: button
+  item:
+    material: pink_stained_glass_pane
+    name: '&a'
+  parent: worldtaste
+  actions:
+   'none'
+# 生日蛋糕 季节性分类
 ws_shengri:
   type: seasonal
   month: 12
