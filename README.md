@@ -1,7 +1,7 @@
 # 尘世百味 WorldTaste
 
 
-<img width="1536" height="1152" alt="worldtaste" src="https://github.com/user-attachments/assets/e6553015-db43-4f64-bcde-28a8d9007331" />
+<img width="580" height="580" alt="worldtaste" src="https://github.com/user-attachments/assets/e6553015-db43-4f64-bcde-28a8d9007331" />
 
 
 尘世百味是用RykenSlimefunCustomizer插件写成的一份配置文件，旨在向粘液科技中加入上千种来自世界各地的美食（绝对是上千种）
@@ -50,8 +50,8 @@
 
 ## 游戏内展示
 
-<img width="100" height="100" alt="74bb99b8868ad29f91af381108bc1a38" src="https://github.com/user-attachments/assets/c674dcd3-d308-43db-a639-230b9c9e72da" />
-<img width="100" height="100" alt="d794707fd52c5ecefc2988ae4938b681" src="https://github.com/user-attachments/assets/068c3c29-6566-40bc-9f02-0ab2e61e9dfb" />
+<img width="300" height="300" alt="74bb99b8868ad29f91af381108bc1a38" src="https://github.com/user-attachments/assets/c674dcd3-d308-43db-a639-230b9c9e72da" />
+<img width="300" height="300" alt="d794707fd52c5ecefc2988ae4938b681" src="https://github.com/user-attachments/assets/068c3c29-6566-40bc-9f02-0ab2e61e9dfb" />
 
 
 # 致开发者
