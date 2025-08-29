@@ -1,8 +1,6 @@
 # 尘世百味 WorldTaste
 
-
-<img width="580" height="580" alt="worldtaste" src="https://github.com/user-attachments/assets/e6553015-db43-4f64-bcde-28a8d9007331" />
-
+<img width="580" height="580" alt="worldtaste" src="https://github.com/user-attachments/assets/89593566-830a-466a-b8f2-6cd2b2459d0b" />
 
 尘世百味是用RykenSlimefunCustomizer插件写成的一份配置文件，旨在向粘液科技中加入上千种来自世界各地的美食（绝对是上千种）
 
@@ -18,11 +16,13 @@
 
 1、安装尘世百味需要服务器安装RykenSlimefunCustomizer，简称rsc，在此[下载RykenSlimefunCustomizer](https://builds.guizhanss.com/SlimefunReloadingProject/RykenSlimeCustomizer/main)
 
-2、[点此下载尘世百味](https://github.com/haiman233/WorldTaste/releases) ，并将下载的文件解压，将整个文件夹拖入server\plugins\RykenSlimefunCustomizer\addons目录下即可
+2、将下载好的rsc拖入plugins文件，重启服务器，让rsc生成RykenSlimefunCustomizer文件夹
 
-3、检查尘世百味需要的前置有没有装齐
+3、[点此下载尘世百味](https://github.com/haiman233/WorldTaste/releases) ，并将下载的文件解压，将整个文件夹拖入server\plugins\RykenSlimefunCustomizer\addons目录下即可
 
-4、重启服务器！！！ 切勿使用热重载！！
+4、检查尘世百味需要的前置有没有装齐
+
+5、重启服务器！！！ 切勿使用热重载！！
 
 
 ![当前版本](https://img.shields.io/github/v/release/haiman233/WorldTaste?include_prereleases)
