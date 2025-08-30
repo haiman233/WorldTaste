@@ -11031,7 +11031,7 @@ WT_CZSB:
     name: §4§l炽足兽堡
     amount: 1
     material_type: skull_hash
-    material: 24a882cc26733d9da2b5fb62118d7e37d03c3d6af7eb5373bb0b197f9979b9b8
+    material: 49527c86e12ad202d0fd1a73fe76ca0f477e2fef6c4eed90afd356de191fb0dc
   item_group: ws_kuaican
   recipe_type: WUWEI_CHUFANG
   recipe:
@@ -11125,7 +11125,7 @@ WT_GUIYUBAO:
     name: §f§l鲑鱼堡
     amount: 1
     material_type: skull_hash
-    material: af90959eac3fed74a376d7074b356cba7a2635e52ad02f43999ff2bca4d3998c
+    material: de48039e196d03ceff62fe97684e712f8d31b6e7b1a6cb1c955a86755b847b17
   item_group: ws_kuaican
   recipe_type: WUWEI_CHUFANG
   recipe:
