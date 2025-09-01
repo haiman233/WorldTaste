@@ -1093,3 +1093,24 @@ WT_ZHENGZHICUNMING:
     amount: 1
   entity: VILLAGER
   chance: 30
+# 鱼籽
+WT_SHOUWEIZHE_ROE:
+  lateInit: false
+  item_group: ws_xinglugubuchong
+  item:
+    name: '&f&l守卫者鱼籽'
+    material_type: mc
+    material: CYAN_DYE
+    amount: 1
+  entity: GUARDIAN
+  chance: 3
+WT_YUANGUSHOUWEIZHE_ROE:
+  lateInit: false
+  item_group: ws_xinglugubuchong
+  item:
+    name: '&f&l远古守卫者鱼籽'
+    material_type: mc
+    material: GRAY_DYE
+    amount: 1
+  entity: ELDER_GUARDIAN
+  chance: 3

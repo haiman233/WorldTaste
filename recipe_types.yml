@@ -90,6 +90,12 @@ WUWEI_ZHENKONGYASUOJI:
   lore:
     - '&7该物品需要在真空压缩机中制作'
   material: PISTON
+WUWEI_DANHUANGJIANGJI:
+  lateInit: false
+  name: '&e&l蛋黄酱机'
+  lore:
+    - '&7该物品需要在蛋黄酱机中制作'
+  material: EGG
 WUWEI_WAJUE:
   lateInit: false
   name: '&f&l挖掘方块'
@@ -153,6 +159,13 @@ WUWEI_DIAOYU:
     - '&7通过百味钓竿钓鱼获得'
   material_type: mc
   material: FISHING_ROD
+WUWEI_SHUIZUXIANG:
+  lateInit: false
+  name: '&f&l水族箱获取'
+  lore:
+    - '&7通过水族箱饲养鱼类获得'
+  material_type: skull_hash
+  material: c03563c9259bdc86b44d1a02fee3853dea696770a28c4724d13f713f6c5ec54f
 WUWEI_JIYIN:
   lateInit: false
   name: '&f&l基因分析/动物产卵'

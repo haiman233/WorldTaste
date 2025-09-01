@@ -412,15 +412,14 @@ ws_gandi:
     name: "&7&k&ld&d&l肝帝的晚宴&7&k&ld"
     material_type: skull_hash
     material: 2d3eb91ec65585b4491f72ea52b72623a64967cdba1265579390dbc7fe689ddc
-ws_zwf_2_11:
-  lateInit: false
-  type: button
-  item:
-    material: white_stained_glass_pane
-    name: '&a'
+# 星露谷
+ws_xinglugubuchong:
+  type: sub
   parent: worldtaste
-  actions:
-   'none'
+  item:
+    name: "&7&k&ld&e&l星露谷拓展&7&k&ld"
+    material_type: skull_hash
+    material: ff4265dbf47af6a6dd09a54cb981238e375c53510fb1f2da0692328a9c0f0330
 ws_zwf_2_12:
   lateInit: false
   type: button

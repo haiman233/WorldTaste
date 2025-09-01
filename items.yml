@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.6'
+      - '&bRelease-1.6.1'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -348,15 +348,6 @@ WORLDTASTE_ZWF_2_9:
   recipe_type: 'NULL'
 WORLDTASTE_ZWF_2_10:
   item_group: ws_zwf_2_10
-  item:
-    name: "&f&l这就是一个占位符而已"
-    lore:
-      - '&6&l这就是一个占位符而已'
-    material: PAPER
-  placeable: false
-  recipe_type: 'NULL'
-WORLDTASTE_ZWF_2_11:
-  item_group: ws_zwf_2_11
   item:
     name: "&f&l这就是一个占位符而已"
     lore:
@@ -67586,6 +67577,2706 @@ WT_JIUFENGEBAN:
   recipe_type: 'NULL'
   placeable: false
 
+# 星露谷补充
+WT_XINGLUGUTISHI:
+  item:
+    lore: [§7此分类补充了符合星露谷物语的产品 ,§7你问我为什么不添加腌菜，果酒和熏鱼, §7想累死我直说，而且没找到好的材质, §7来位佬画些相关星露谷物语的头颅材质ovo]
+    name: §f§l说明
+    amount: 1
+    material_type: mc
+    material: OAK_SIGN
+  item_group: ws_xinglugubuchong
+  recipe_type: 'NULL'
+  placeable: false
+# 鱼籽
+# 原版鱼鱼籽
+WT_COD_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鳕鱼鱼籽"
+    material_type: mc
+    material: WHITE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: mc
+      material: COD_BUCKET
+      amount: 1
 
+WT_COD_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鳕鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_COD_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_PUFFERFISH_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l河豚鱼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: mc
+      material: PUFFERFISH_BUCKET
+      amount: 1
+
+WT_PUFFERFISH_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l河豚鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_PUFFERFISH_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_REDAIYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l热带鱼鱼籽"
+    material_type: mc
+    material: ORANGE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: mc
+      material: TROPICAL_FISH_BUCKET
+      amount: 1
+
+WT_REDAIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l热带鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 95f2efbb3ac9b08e0426bac283afa333cf4ce1eb39fd2bdf7eb56e35daf27578
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_REDAIYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_MEIXIYUAN_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l美西螈鱼籽"
+    material_type: mc
+    material: PINK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: mc
+      material: AXOLOTL_BUCKET
+      amount: 1
+
+WT_MEIXIYUAN_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l美西螈鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MEIXIYUAN_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YOUYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鱿鱼籽"
+    material_type: mc
+    material: BLACK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: mc
+      material: INK_SAC
+      amount: 1
+
+WT_YOUYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鱿鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YOUYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_FAGUANGYOUYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l发光鱿鱼籽"
+    material_type: mc
+    material: LIGHT_BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: mc
+      material: GLOW_INK_SAC
+      amount: 1
+
+WT_FAGUANGYOUYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l发光鱿鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_FAGUANGYOUYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_GUIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲑鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: e95393bbf39df23ef45155f5128f2cde811400a775d33cab0590feea99323735
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: GN_SALMON_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHOUWEIZHE_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l守卫者鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHOUWEIZHE_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YUANGUSHOUWEIZHE_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l远古守卫者鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YUANGUSHOUWEIZHE_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+
+# 淡水鱼鱼籽
+
+WT_SHUIZHI_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l水蛭籽"
+    material_type: mc
+    material: GRAY_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHUIZHI
+      amount: 1
+
+WT_SHUIZHI_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l水蛭籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHUIZHI_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_OUZHOULUYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l欧洲鲈鱼鱼籽"
+    material_type: mc
+    material: WHITE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_OUZHOULUYU
+      amount: 1
+
+WT_OUZHOULUYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l欧洲鲈鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_OUZHOULUYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_NIANYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲶鱼鱼籽"
+    material_type: mc
+    material: BLACK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_NIANYU
+      amount: 1
+
+WT_NIANYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲶鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_NIANYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_BINGYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&b&l冰鱼鱼籽"
+    material_type: mc
+    material: LIGHT_BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_BINGYU
+      amount: 1
+
+WT_BINGYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l冰鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_BINGYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_ZHANYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&b&l鲇鱼鱼籽"
+    material_type: mc
+    material: PURPLE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHANYU
+      amount: 1
+
+WT_ZHANYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲇鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZHANYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_JINYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&e&l金鱼鱼籽"
+    material_type: mc
+    material: ORANGE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_JINYU
+      amount: 1
+
+WT_JINYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l金鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 95f2efbb3ac9b08e0426bac283afa333cf4ce1eb39fd2bdf7eb56e35daf27578
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_JINYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHILAIMUYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&a&l史莱姆鱼鱼籽"
+    material_type: mc
+    material: LIME_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHILAIMUYU
+      amount: 1
+
+WT_SHILAIMUYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l史莱姆鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 5e778812239f86cfb5ed848014f461c0e14e2187e00bd3d55c3b07b37382c2aa
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHILAIMUYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_LONGXIA_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&4&l龙虾鱼籽"
+    material_type: mc
+    material: RED_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_LONGXIA
+      amount: 1
+
+WT_LONGXIA_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l龙虾鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: e95393bbf39df23ef45155f5128f2cde811400a775d33cab0590feea99323735
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LONGXIA_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_LANLONGXIA_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&b&l蓝龙虾鱼籽"
+    material_type: mc
+    material: BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_LANLONGXIA
+      amount: 1
+
+WT_LANLONGXIA_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l蓝龙虾鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 72b6607e69f7e036dcb300f94a51724c24598a5bf04e7f86c777c1d9a3df02ba
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LANLONGXIA_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YNSHUIMU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&9&l幽匿水母幼籽"
+    material_type: mc
+    material: CYAN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_YNSHUIMU
+      amount: 1
+
+WT_YNSHUIMU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l幽匿水母幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YNSHUIMU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HEXIA_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l河虾籽"
+    material_type: mc
+    material: PINK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HEXIA
+      amount: 1
+
+WT_HEXIA_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l河虾籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HEXIA_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHIDIFUYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l史蒂夫鱼鱼籽"
+    material_type: mc
+    material: BROWN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHIDIFUYU
+      amount: 1
+
+WT_SHIDIFUYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l史蒂夫鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHIDIFUYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_JINGDIANYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l经典鱼鱼籽"
+    material_type: mc
+    material: GRAY_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_JINGDIANYU
+      amount: 1
+
+WT_JINGDIANYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l经典鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_JINGDIANYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHUIJINGYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&d&l水晶鱼鱼籽"
+    material_type: mc
+    material: MAGENTA_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHUIJINGYU
+      amount: 1
+
+WT_SHUIJINGYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l水晶鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHUIJINGYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YOUNIYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&9&l幽匿鱼鱼籽"
+    material_type: mc
+    material: BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_YOUNIYU
+      amount: 1
+
+WT_YOUNIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l幽匿鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 72b6607e69f7e036dcb300f94a51724c24598a5bf04e7f86c777c1d9a3df02ba
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YOUNIYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_ZUANSHIHETUN_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&b&l钻石河豚鱼籽"
+    material_type: mc
+    material: LIGHT_BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZUANSHIHETUN
+      amount: 1
+
+WT_ZUANSHIHETUN_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l钻石河豚鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZUANSHIHETUN_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+# 咸水鱼鱼籽 (排除鲸鱼和蓝鲸)
+WT_SHAYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲨鱼鱼籽"
+    material_type: mc
+    material: LIGHT_GRAY_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHAYU
+      amount: 1
+
+WT_SHAYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲨鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHAYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_NIANYUWANG_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲶鱼王鱼籽"
+    material_type: mc
+    material: BLACK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_NIANYUWANG
+      amount: 1
+
+WT_NIANYUWANG_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鲶鱼王鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_NIANYUWANG_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HUANGQIJINQIANGYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&e&l黄鳍金枪鱼鱼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HUANGQIJINQIANGYU
+      amount: 1
+
+WT_HUANGQIJINQIANGYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l黄鳍金枪鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HUANGQIJINQIANGYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_JINXUEYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&e&l金鳕鱼鱼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_JINXUEYU
+      amount: 1
+
+WT_JINXUEYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l金鳕鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_JINXUEYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHUIDIYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l水滴鱼鱼籽"
+    material_type: mc
+    material: PINK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHUIDIYU
+      amount: 1
+
+WT_SHUIDIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l水滴鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHUIDIYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_ZHANGYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&c&l章鱼鱼籽"
+    material_type: mc
+    material: RED_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_ZHANGYU
+      amount: 1
+
+WT_ZHANGYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l章鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: e95393bbf39df23ef45155f5128f2cde811400a775d33cab0590feea99323735
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZHANGYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_JUSHI_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l菊石幼籽"
+    material_type: mc
+    material: WHITE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_JUSHI
+      amount: 1
+
+WT_JUSHI_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l菊石幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_JUSHI_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HAIXING_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海星鱼籽"
+    material_type: mc
+    material: ORANGE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAIXING
+      amount: 1
+
+WT_HAIXING_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海星鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 95f2efbb3ac9b08e0426bac283afa333cf4ce1eb39fd2bdf7eb56e35daf27578
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIXING_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_RUANTIDONGWU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l软体动物鱼籽"
+    material_type: mc
+    material: BROWN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_RUANTIDONGWU
+      amount: 1
+
+WT_RUANTIDONGWU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l软体动物鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_RUANTIDONGWU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_BEIKE_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l贝壳幼籽"
+    material_type: mc
+    material: WHITE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_BEIKE
+      amount: 1
+
+WT_BEIKE_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l贝壳幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_BEIKE_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YINGWULUO_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鹦鹉螺幼籽"
+    material_type: mc
+    material: WHITE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_YINGWULUO
+      amount: 1
+
+WT_YINGWULUO_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鹦鹉螺幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YINGWULUO_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_PIPAYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l琵琶鱼鱼籽"
+    material_type: mc
+    material: BROWN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_PIPAYU
+      amount: 1
+
+WT_PIPAYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l琵琶鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_PIPAYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HAIDAN_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&8&l海胆幼籽"
+    material_type: mc
+    material: BLACK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAIDAN
+      amount: 1
+
+WT_HAIDAN_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海胆幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIDAN_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_TENGFHU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&b&l藤壶幼籽"
+    material_type: mc
+    material: LIGHT_BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TENGFHU
+      amount: 1
+
+WT_TENGFHU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l藤壶幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TENGFHU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HAIKUI_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&e&l海葵幼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAIKUI
+      amount: 1
+
+WT_HAIKUI_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海葵幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIKUI_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_JIJUXIE_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&d&l寄居蟹幼籽"
+    material_type: mc
+    material: MAGENTA_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_JIJUXIE
+      amount: 1
+
+WT_JIJUXIE_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l寄居蟹幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_JIJUXIE_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HAIZHE_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&e&l海蜇幼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAIZHE
+      amount: 1
+
+WT_HAIZHE_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海蜇幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIZHE_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHSHUIMU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&b&l深海水母幼籽"
+    material_type: mc
+    material: LIGHT_BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHSHUIMU
+      amount: 1
+
+WT_SHSHUIMU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l深海水母幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 1569f03132b4ba7118b4a817c8556a00f9d28bf82f400355128d8cf5ec41b83c
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHSHUIMU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HAILUO_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&6&l海螺幼籽"
+    material_type: mc
+    material: ORANGE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAILUO
+      amount: 1
+
+WT_HAILUO_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海螺幼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 95f2efbb3ac9b08e0426bac283afa333cf4ce1eb39fd2bdf7eb56e35daf27578
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAILUO_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+# 水果鱼鱼籽
+WT_YINGTAOYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l樱桃鱼鱼籽"
+    material_type: mc
+    material: RED_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_YINGTAOYU
+      amount: 1
+
+WT_YINGTAOYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l樱桃鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: e95393bbf39df23ef45155f5128f2cde811400a775d33cab0590feea99323735
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YINGTAOYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_BOLUOYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l菠萝鱼鱼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_BOLUOYU
+      amount: 1
+
+WT_BOLUOYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l菠萝鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_BOLUOYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_LANMEIYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l蓝莓鱼鱼籽"
+    material_type: mc
+    material: BLUE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_LANMEIYU
+      amount: 1
+
+WT_LANMEIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l蓝莓鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 72b6607e69f7e036dcb300f94a51724c24598a5bf04e7f86c777c1d9a3df02ba
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LANMEIYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_PUTAOYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l葡萄鱼鱼籽"
+    material_type: mc
+    material: PURPLE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_PUTAOYU
+      amount: 1
+
+WT_PUTAOYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l葡萄鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: a48b29caa7d626974f2236deeb36eabe75f6d714d12d6b7c79588bf59164eee7
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_PUTAOYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HUANGGUAYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l黄瓜鱼鱼籽"
+    material_type: mc
+    material: GREEN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HUANGGUAYU
+      amount: 1
+
+WT_HUANGGUAYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l黄瓜鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 5e778812239f86cfb5ed848014f461c0e14e2187e00bd3d55c3b07b37382c2aa
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HUANGGUAYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HULUOBOYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l胡萝卜鱼鱼籽"
+    material_type: mc
+    material: ORANGE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HULUOBOYU
+      amount: 1
+
+WT_HULUOBOYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l胡萝卜鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 95f2efbb3ac9b08e0426bac283afa333cf4ce1eb39fd2bdf7eb56e35daf27578
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HULUOBOYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_TIANCAIYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l甜菜鱼鱼籽"
+    material_type: mc
+    material: RED_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TIANCAIYU
+      amount: 1
+
+WT_TIANCAIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l甜菜鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: e95393bbf39df23ef45155f5128f2cde811400a775d33cab0590feea99323735
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TIANCAIYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_XIAOMAIYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l小麦鱼鱼籽"
+    material_type: mc
+    material: YELLOW_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_XIAOMAIYU
+      amount: 1
+
+WT_XIAOMAIYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l小麦鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 8769ddb1dff6f36d06029b43782927cbc2e1ea46113db9b24bce3e22fe68bb92
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XIAOMAIYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_XIGUAYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l西瓜鱼鱼籽"
+    material_type: mc
+    material: GREEN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_XIGUAYU
+      amount: 1
+
+WT_XIGUAYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l西瓜鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 5e778812239f86cfb5ed848014f461c0e14e2187e00bd3d55c3b07b37382c2aa
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XIGUAYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_TUDOUYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l土豆鱼鱼籽"
+    material_type: mc
+    material: BROWN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_TUDOUYU
+      amount: 1
+
+WT_TUDOUYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l土豆鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_TUDOUYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YUNDUOYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l云朵鱼鱼籽"
+    material_type: mc
+    material: WHITE_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_YUNDUOYU
+      amount: 1
+
+WT_YUNDUOYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l云朵鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YUNDUOYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HAIZEIWANGYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海贼王鱼鱼籽"
+    material_type: mc
+    material: BLACK_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAIZEIWANGYU
+      amount: 1
+
+WT_HAIZEIWANGYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海贼王鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 53e506c70c2cc4fa94c63fffe257fbaa9459009a1f9699c3ce171282fe4499b1
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HAIZEIWANGYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_XIGUASHAYU_ROE:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l西瓜鲨鱼鱼籽"
+    material_type: mc
+    material: GREEN_DYE
+  placeable: false
+  script: 1
+  recipe_type: WUWEI_SHUIZUXIANG
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_XIGUASHAYU
+      amount: 1
+
+WT_XIGUASHAYU_CAVIAR:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l西瓜鲨鱼鱼籽酱"
+    lore: ['', '§7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度']
+    material_type: skull_hash
+    material: 5e778812239f86cfb5ed848014f461c0e14e2187e00bd3d55c3b07b37382c2aa
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_FAJIAO
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XIGUASHAYU_ROE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+# 蛋黄酱
+# 原版蛋(1.21.5新加入的除外)
+WT_EGG_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鸡蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: mc
+      material: EGG
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_TURTLE_EGG_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l海龟蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: mc
+      material: TURTLE_EGG
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SNIFFER_EGG_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l嗅探兽蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: mc
+      material: SNIFFER_EGG
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_FROGSPAWN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l青蛙卵蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: mc
+      material: FROGSPAWN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_DRAGON_EGG_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l龙蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 14
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: mc
+      material: DRAGON_EGG
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+# 其它蛋
+WT_YADAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鸭蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YADAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_ZSJD_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l棕色鸡蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZSJD
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_LSJD_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l蓝色鸡蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LSJD
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_JINDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l金蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_JINDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_BINGDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l冰蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_BINGDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_HANDISILADAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l撼地斯拉蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o7 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 14
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_HANDISILADAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHILUOBUDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l史罗布蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHILUOBUDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YAOXIDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l耀西蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YAOXIDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_DUDUNIAODAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l渡渡鸟蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_DUDUNIAODAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_YINGWUDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l鹦鹉蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_YINGWUDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_LANSEYINGWUDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l蓝色鹦鹉蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_LANSEYINGWUDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_KONGQUEDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l孔雀蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KONGQUEDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_SHEDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l蛇蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_SHEDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_XIAJIEJIDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l下界鸡蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_XIAJIEJIDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_MODIJIDAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l末地鸡蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MODIJIDAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
+
+WT_KULIPADAN_DANHUANGJIANG:
+  item_group: ws_xinglugubuchong
+  item:
+    name: "&f&l苦力怕蛋蛋黄酱"
+    lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
+    material_type: skull_hash
+    material: 8530f0db7f3927dba96ce8bee454aaeb343547778731200cbc4f7fac8ea00847
+  placeable: false
+  script: 7
+  recipe_type: WUWEI_DANHUANGJIANGJI
+  recipe:
+    '2':
+      material_type: slimefun
+      material: SALT
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KULIPADAN
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: CAN
+      amount: 1
 
 
