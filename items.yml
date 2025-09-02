@@ -70639,6 +70639,7 @@ WT_HETUNYUER:
       - '&7一种只吸引河豚的鱼饵'
     material_type: mc
     material: PUFFERFISH
+    glow: true
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
