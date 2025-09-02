@@ -1100,3 +1100,96 @@ WT_ZYCHUGUO:
       amount: 1
       material_type: mc
       material: BLACK_STAINED_GLASS_PANE
+WT_SHUIZUXIANG:
+  title: §f§l水族箱
+  slots:
+    '22':
+      amount: 1
+      material_type: mc
+      material: BLUE_STAINED_GLASS_PANE
+      progressbar: true
+    0-12:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    14-21:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    23-26:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    27-39:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    41-53:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+WT_HETUNGZT:
+  title: §6§l河豚工作台
+  slots:
+    '5':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    6-8:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '14':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '15':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '16':
+      name: §6单击合成
+      amount: 1
+      material_type: mc
+      material: CRAFTING_TABLE
+    '17':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '23':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    24-26:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '32':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    33-35:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '41':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '42':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '44':
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    '50':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    51-53:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+

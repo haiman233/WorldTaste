@@ -7,7 +7,7 @@ WT_BWWYL:
       - ''
       - '&7用于制作复杂的食品'
       - ''
-      - '&b工作台'
+      - '&d工作台'
       - '&8⇨ &e⚡&7 36000 J 可存储'
       - '&8⇨ &e⚡&7 18000 J/物品'
     material_type: skull_hash
@@ -2042,3 +2042,381 @@ WT_BWWYL:
   input: [0, 1, 2, 3, 4, 5, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 22, 23, 27, 28,
     29, 30, 31, 32, 36, 37, 38, 39, 40, 41, 45, 46, 47, 48, 49, 50]
   output: [25]
+WT_HETUNGZT:
+  item:
+    lore: ['', §7用于合成与河豚有关的物品, '', §d工作台, §8⇨ §e⚡§7 10000 J 可存储, §8⇨ §e⚡§7 5000 J/物品]
+    name: §6§l河豚工作台
+    amount: 1
+    material_type: skull_hash
+    material: 861b00d0541724c15ce4382ad2edd3b4a9fd436037c599f624455a39fcea08bf
+  item_group: ws_hetun
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: PUFFERFISH_BUCKET
+    '2':
+      material_type: slimefun
+      material: CORINTHIAN_BRONZE_INGOT
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: PUFFERFISH_BUCKET
+    '4':
+      material_type: slimefun
+      material: CORINTHIAN_BRONZE_INGOT
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: CRAFTING_TABLE
+    '6':
+      material_type: slimefun
+      material: CORINTHIAN_BRONZE_INGOT
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: PUFFERFISH_BUCKET
+    '8':
+      material_type: slimefun
+      material: CARGO_MOTOR
+      amount: 1
+    '9':
+      amount: 1
+      material_type: mc
+      material: PUFFERFISH_BUCKET
+  capacity: 10000
+  energyPerCraft: 5000
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PUFFERFISH_NORMAL
+          amount: 1
+          slot: 0
+        '2':
+          material_type: slimefun
+          material: WT_PUFFERFISH_MECHANICAL
+          amount: 1
+          slot: 1
+        '3':
+          material_type: slimefun
+          material: WT_PUFFERFISH_BEE
+          amount: 1
+          slot: 2
+        '4':
+          material_type: slimefun
+          material: WT_PUFFERFISH_SLIME
+          amount: 1
+          slot: 3
+        '5':
+          material_type: slimefun
+          material: WT_PUFFERFISH_HIM
+          amount: 1
+          slot: 4
+        '6':
+          material_type: slimefun
+          material: WT_PUFFERFISH_MR
+          amount: 1
+          slot: 9
+        '7':
+          material_type: slimefun
+          material: WT_PUFFERFISH_LAVA
+          amount: 1
+          slot: 10
+        '8':
+          material_type: slimefun
+          material: WT_PUFFERFISH_RADIATION
+          amount: 1
+          slot: 11
+        '9':
+          material_type: slimefun
+          material: WT_PUFFERFISH_EMBER
+          amount: 1
+          slot: 12
+        '10':
+          material_type: slimefun
+          material: WT_PUFFERFISH_BIOHAZARD
+          amount: 1
+          slot: 13
+        '11':
+          material_type: slimefun
+          material: WT_PUFFERFISH_GLOW
+          amount: 1
+          slot: 18
+        '12':
+          material_type: slimefun
+          material: WT_PUFFERFISH_NEEDLEFISH
+          amount: 1
+          slot: 19
+        '13':
+          material_type: slimefun
+          material: WT_PUFFERFISH_GRASS_BLOCK
+          amount: 1
+          slot: 20
+        '14':
+          material_type: slimefun
+          material: WT_PUFFERFISH_SACRIFICE
+          amount: 1
+          slot: 21
+        '15':
+          material_type: slimefun
+          material: WT_PUFFERFISH_WHITE
+          amount: 1
+          slot: 22
+        '16':
+          material_type: slimefun
+          material: WT_PUFFERFISH_PINK
+          amount: 1
+          slot: 27
+        '17':
+          material_type: slimefun
+          material: WT_PUFFERFISH_RED
+          amount: 1
+          slot: 28
+        '18':
+          material_type: slimefun
+          material: WT_PUFFERFISH_ORANGE
+          amount: 1
+          slot: 29
+        '19':
+          material_type: slimefun
+          material: WT_PUFFERFISH_YELLOW
+          amount: 1
+          slot: 30
+        '20':
+          material_type: slimefun
+          material: WT_PUFFERFISH_YELLOW_GREEN
+          amount: 1
+          slot: 31
+        '21':
+          material_type: slimefun
+          material: WT_PUFFERFISH_CYAN
+          amount: 1
+          slot: 36
+        '22':
+          material_type: slimefun
+          material: WT_PUFFERFISH_LIGHT_BLUE
+          amount: 1
+          slot: 37
+        '23':
+          material_type: slimefun
+          material: WT_PUFFERFISH_PURPLE
+          amount: 1
+          slot: 38
+        '24':
+          material_type: slimefun
+          material: WT_PUFFERFISH_MAGENTA
+          amount: 1
+          slot: 39
+        '25':
+          material_type: slimefun
+          material: WT_PUFFERFISH_BROWN
+          amount: 1
+          slot: 40
+        '26':
+          material_type: slimefun
+          material: WT_PUFFERFISH_CARROT
+          amount: 1
+          slot: 45
+        '27':
+          material_type: slimefun
+          material: WT_PUFFERFISH_AMETHYST
+          amount: 1
+          slot: 46
+        '28':
+          material_type: slimefun
+          material: WT_PUFFERFISH_EMERALD
+          amount: 1
+          slot: 47
+        '29':
+          material_type: slimefun
+          material: WT_PUFFERFISH_GOLD
+          amount: 1
+          slot: 48
+        '30':
+          material_type: slimefun
+          material: WT_ZUANSHIHETUN
+          amount: 1
+          slot: 49
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HETUNJIANGBEI
+          amount: 1
+          slot: 43
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 1
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 0
+        '2':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 2
+        '4':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 3
+        '5':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 4
+        '6':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 9
+        '7':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 10
+        '8':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 11
+        '9':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 12
+        '10':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 13
+        '11':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 18
+        '12':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 19
+        '13':
+          material_type: slimefun
+          material: WT_HETUNJIANGBEI
+          amount: 1
+          slot: 20
+        '14':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 21
+        '15':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 22
+        '16':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 27
+        '17':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 28
+        '18':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH_BUCKET
+          slot: 29
+        '19':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 30
+        '20':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 31
+        '21':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 36
+        '22':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 37
+        '23':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 38
+        '24':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 39
+        '25':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 40
+        '26':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 45
+        '27':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 46
+        '28':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 47
+        '29':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 48
+        '30':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH
+          slot: 49
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HETUNJINGYOU
+          amount: 1
+          slot: 43
+      chooseOne: true
+      forDisplay: false
+      hide: false
+  click: 16
+  input: [0, 1, 2, 3, 4, 9, 10, 11, 12, 13, 18, 19, 20, 21, 22, 27, 28, 29, 30, 31,
+    36, 37, 38, 39, 40, 45, 46, 47, 48, 49]
+  output: [43]

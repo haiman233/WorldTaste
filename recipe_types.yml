@@ -152,6 +152,13 @@ WUWEI_PTTJLJ:
     - '&7该物品需要在&6普忒头精炼机&7中制作'
   material_type: mc
   material: FURNACE
+WUWEI_HETUNGZT:
+  lateInit: false
+  name: '&e&l河豚工作台'
+  lore:
+    - '&7该物品需要在&6河豚工作台&7中制作'
+  material_type: skull_hash
+  material: 861b00d0541724c15ce4382ad2edd3b4a9fd436037c599f624455a39fcea08bf
 WUWEI_DIAOYU:
   lateInit: false
   name: '&f&l百味钓竿钓鱼获取'

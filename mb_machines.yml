@@ -9709,6 +9709,1194 @@ WUWEI_FAJIAO:
         material_type: slimefun
         material: WT_CPBINGLANG
         amount: 1
+    wt_cod_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_COD_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_COD_CAVIAR
+        amount: 1
+    wt_pufferfish_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_PUFFERFISH_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_PUFFERFISH_CAVIAR
+        amount: 1
+    wt_redaiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_REDAIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_REDAIYU_CAVIAR
+        amount: 1
+    wt_meixiyuan_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_MEIXIYUAN_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_MEIXIYUAN_CAVIAR
+        amount: 1
+    wt_youyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YOUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YOUYU_CAVIAR
+        amount: 1
+    wt_faguangyouyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_FAGUANGYOUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_FAGUANGYOUYU_CAVIAR
+        amount: 1
+    wt_guiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: GN_SALMON_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_GUIYU_CAVIAR
+        amount: 1
+    wt_shouweizhe_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHOUWEIZHE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHOUWEIZHE_CAVIAR
+        amount: 1
+    wt_yuangushouweizhe_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YUANGUSHOUWEIZHE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YUANGUSHOUWEIZHE_CAVIAR
+        amount: 1
+    wt_shuizhi_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHUIZHI_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHUIZHI_CAVIAR
+        amount: 1
+    wt_ouzhouluyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_OUZHOULUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_OUZHOULUYU_CAVIAR
+        amount: 1
+    wt_nianyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_NIANYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_NIANYU_CAVIAR
+        amount: 1
+    wt_bingyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BINGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BINGYU_CAVIAR
+        amount: 1
+    wt_zhanyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_ZHANYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_ZHANYU_CAVIAR
+        amount: 1
+    wt_jinyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JINYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JINYU_CAVIAR
+        amount: 1
+    wt_shilaimuyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHILAIMUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHILAIMUYU_CAVIAR
+        amount: 1
+    wt_longxia_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LONGXIA_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LONGXIA_CAVIAR
+        amount: 1
+    wt_lanlongxia_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LANLONGXIA_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LANLONGXIA_CAVIAR
+        amount: 1
+    wt_ynshuimu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YNSHUIMU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YNSHUIMU_CAVIAR
+        amount: 1
+    wt_hexia_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HEXIA_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HEXIA_CAVIAR
+        amount: 1
+    wt_shidifuyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHIDIFUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHIDIFUYU_CAVIAR
+        amount: 1
+    wt_jingdianyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JINGDIANYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JINGDIANYU_CAVIAR
+        amount: 1
+    wt_shuijingyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHUIJINGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHUIJINGYU_CAVIAR
+        amount: 1
+    wt_youniyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YOUNIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YOUNIYU_CAVIAR
+        amount: 1
+    wt_zuanshihetun_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_ZUANSHIHETUN_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_ZUANSHIHETUN_CAVIAR
+        amount: 1
+    wt_shayu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHAYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHAYU_CAVIAR
+        amount: 1
+    wt_nianyuwang_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_NIANYUWANG_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_NIANYUWANG_CAVIAR
+        amount: 1
+    wt_huangqijinqiangyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HUANGQIJINQIANGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HUANGQIJINQIANGYU_CAVIAR
+        amount: 1
+    wt_jinxueyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JINXUEYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JINXUEYU_CAVIAR
+        amount: 1
+    wt_shuidiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHUIDIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHUIDIYU_CAVIAR
+        amount: 1
+    wt_zhangyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_ZHANGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_ZHANGYU_CAVIAR
+        amount: 1
+    wt_jushi_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JUSHI_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JUSHI_CAVIAR
+        amount: 1
+    wt_haixing_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAIXING_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAIXING_CAVIAR
+        amount: 1
+    wt_ruantidongwu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_RUANTIDONGWU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_RUANTIDONGWU_CAVIAR
+        amount: 1
+    wt_beike_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BEIKE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BEIKE_CAVIAR
+        amount: 1
+    wt_yingwuluo_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YINGWULUO_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YINGWULUO_CAVIAR
+        amount: 1
+    wt_pipayu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_PIPAYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_PIPAYU_CAVIAR
+        amount: 1
+    wt_haidan_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAIDAN_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAIDAN_CAVIAR
+        amount: 1
+    wt_tengfhu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_TENGFHU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_TENGFHU_CAVIAR
+        amount: 1
+    wt_haikui_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAIKUI_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAIKUI_CAVIAR
+        amount: 1
+    wt_jijuxie_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JIJUXIE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JIJUXIE_CAVIAR
+        amount: 1
+    wt_haizhe_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAIZHE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAIZHE_CAVIAR
+        amount: 1
+    wt_shshuimu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHSHUIMU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHSHUIMU_CAVIAR
+        amount: 1
+    wt_hailuo_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAILUO_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAILUO_CAVIAR
+        amount: 1
+    wt_yingtaoyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YINGTAOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YINGTAOYU_CAVIAR
+        amount: 1
+    wt_boluoyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BOLUOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BOLUOYU_CAVIAR
+        amount: 1
+    wt_lanmeiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LANMEIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LANMEIYU_CAVIAR
+        amount: 1
+    wt_putaoyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_PUTAOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_PUTAOYU_CAVIAR
+        amount: 1
+    wt_huangguayu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HUANGGUAYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HUANGGUAYU_CAVIAR
+        amount: 1
+    wt_huluoboyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HULUOBOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HULUOBOYU_CAVIAR
+        amount: 1
+    wt_tiancaiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_TIANCAIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_TIANCAIYU_CAVIAR
+        amount: 1
+    wt_xiaomaiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_XIAOMAIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIAOMAIYU_CAVIAR
+        amount: 1
+    wt_xiguayu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_XIGUAYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIGUAYU_CAVIAR
+        amount: 1
+    wt_tudouyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_TUDOUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_TUDOUYU_CAVIAR
+        amount: 1
+    wt_yunduoyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YUNDUOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YUNDUOYU_CAVIAR
+        amount: 1
+    wt_haizeiwangyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAIZEIWANGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAIZEIWANGYU_CAVIAR
+        amount: 1
+    wt_xiguashayu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_XIGUASHAYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIGUASHAYU_CAVIAR
+        amount: 1
+    wt_qingyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_QINGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_QINGYU_CAVIAR
+        amount: 1
+    wt_manyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_MANYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_MANYU_CAVIAR
+        amount: 1
+    wt_zunyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_ZUNYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_ZUNYU_CAVIAR
+        amount: 1
+    wt_luyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LUYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LUYU_CAVIAR
+        amount: 1
+    wt_liyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LIYU_CAVIAR
+        amount: 1
+    wt_suoyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SUOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SUOYU_CAVIAR
+        amount: 1
+    wt_jinqiangyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JINQIANGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JINQIANGYU_CAVIAR
+        amount: 1
+    wt_xia_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_XIA_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIA_CAVIAR
+        amount: 1
+    wt_pangxie_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_PANGXIE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_PANGXIE_CAVIAR
+        amount: 1
 
 
 WUWEI_MIANBAO:
@@ -48290,5 +49478,410 @@ WT_CHENNIANGMIN:
       output:
         material_type: slimefun
         material: WT_XIAOMAIJINGNIANG
+        amount: 1
+WT_DANHUANGJIANGJI:
+  item:
+    name: §e§l蛋黄酱机
+    amount: 1
+    material_type: mc
+    material: EGG
+  item_group: ws_jiqi
+  recipe:
+    '5':
+      amount: 1
+      material_type: mc
+      material: OAK_TRAPDOOR
+    '7':
+      amount: 1
+      material_type: mc
+      material: CAULDRON
+    '8':
+      amount: 1
+      material_type: mc
+      material: DISPENSER
+    '9':
+      amount: 1
+      material_type: mc
+      material: COMPOSTER
+  work: 5
+  sound: ORE_WASHER_WASH_SOUND
+  recipes:
+    wt_egg_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_EGG_DANHUANGJIANG
+        amount: 1
+    wt_turtle_egg_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: TURTLE_EGG
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_TURTLE_EGG_DANHUANGJIANG
+        amount: 1
+    wt_sniffer_egg_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: SNIFFER_EGG
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SNIFFER_EGG_DANHUANGJIANG
+        amount: 1
+    wt_frogspawn_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: FROGSPAWN
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_FROGSPAWN_DANHUANGJIANG
+        amount: 1
+    wt_dragon_egg_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: DRAGON_EGG
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DRAGON_EGG_DANHUANGJIANG
+        amount: 1
+    wt_yadan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YADAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YADAN_DANHUANGJIANG
+        amount: 1
+    wt_zsjd_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_ZSJD
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_ZSJD_DANHUANGJIANG
+        amount: 1
+    wt_lsjd_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LSJD
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LSJD_DANHUANGJIANG
+        amount: 1
+    wt_jindan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JINDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JINDAN_DANHUANGJIANG
+        amount: 1
+    wt_bingdan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BINGDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BINGDAN_DANHUANGJIANG
+        amount: 1
+    wt_handisiladan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HANDISILADAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HANDISILADAN_DANHUANGJIANG
+        amount: 1
+    wt_shiluobudan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHILUOBUDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHILUOBUDAN_DANHUANGJIANG
+        amount: 1
+    wt_yaoxidan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YAOXIDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YAOXIDAN_DANHUANGJIANG
+        amount: 1
+    wt_duduniaodan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_DUDUNIAODAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DUDUNIAODAN_DANHUANGJIANG
+        amount: 1
+    wt_yingwudan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_YINGWUDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YINGWUDAN_DANHUANGJIANG
+        amount: 1
+    wt_lanseyingwudan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LANSEYINGWUDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LANSEYINGWUDAN_DANHUANGJIANG
+        amount: 1
+    wt_kongquedan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_KONGQUEDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KONGQUEDAN_DANHUANGJIANG
+        amount: 1
+    wt_shedan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHEDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHEDAN_DANHUANGJIANG
+        amount: 1
+    wt_xiajiejidan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_XIAJIEJIDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIAJIEJIDAN_DANHUANGJIANG
+        amount: 1
+    wt_modijidan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_MODIJIDAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_MODIJIDAN_DANHUANGJIANG
+        amount: 1
+    wt_kulipadan_danhuangjiang:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_KULIPADAN
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KULIPADAN_DANHUANGJIANG
         amount: 1
 

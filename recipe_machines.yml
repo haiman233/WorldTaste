@@ -3477,4 +3477,1098 @@ WT_DIANDONGBUSHUJIA:
       hide: false
   input: [19, 20, 28, 29]
   output: [16, 33, 34, 24, 25, 42, 43, 15]
+WT_SHUIZUXIANG:
+  item:
+    lore: ['', §7用于养殖鱼类，生产鱼籽, §7鱼在生产过程中不会被消耗, '', §b机器, §8⇨ §e⚡§7 1000 J 可存储, §8⇨
+        §e⚡§7 30 J/s]
+    name: §f§l水族箱
+    amount: 1
+    material_type: skull_hash
+    material: c03563c9259bdc86b44d1a02fee3853dea696770a28c4724d13f713f6c5ec54f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: GLASS
+    '2':
+      amount: 1
+      material_type: mc
+      material: GLASS
+    '3':
+      amount: 1
+      material_type: mc
+      material: GLASS
+    '4':
+      amount: 1
+      material_type: mc
+      material: GLASS
+    '5':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '6':
+      amount: 1
+      material_type: mc
+      material: GLASS
+    '7':
+      amount: 1
+      material_type: mc
+      material: SEAGRASS
+    '8':
+      material_type: slimefun
+      material: STONE_CHUNK
+      amount: 1
+    '9':
+      amount: 1
+      material_type: mc
+      material: BUBBLE_CORAL
+  capacity: 1000
+  energyPerCraft: 15
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: COD_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_COD_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: SALMON_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: GN_SALMON_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TROPICAL_FISH_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_REDAIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: PUFFERFISH_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_PUFFERFISH_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '5':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: AXOLOTL_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MEIXIYUAN_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '6':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: TADPOLE_BUCKET
+      output:
+        '1':
+          amount: 2
+          material_type: mc
+          material: FROGSPAWN
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '7':
+      seconds: 800
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: INK_SAC
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YOUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '8':
+      seconds: 800
+      noConsume: true
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: GLOW_INK_SAC
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_FAGUANGYOUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '9':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHUIZHI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHUIZHI_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '10':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_OUZHOULUYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_OUZHOULUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '11':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NIANYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NIANYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '12':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BINGYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BINGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '13':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_ZHANYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZHANYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '14':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_JINYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JINYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '15':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHILAIMUYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHILAIMUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '16':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_LONGXIA
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LONGXIA_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '17':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_LANLONGXIA
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LANLONGXIA_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '18':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YNSHUIMU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YNSHUIMU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '19':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HEXIA
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HEXIA_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '20':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHIDIFUYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHIDIFUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '21':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_JINGDIANYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JINGDIANYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '22':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHUIJINGYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHUIJINGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '23':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YOUNIYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YOUNIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '24':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_ZUANSHIHETUN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZUANSHIHETUN_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '25':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHAYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHAYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '26':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NIANYUWANG
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NIANYUWANG_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '27':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HUANGQIJINQIANGYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HUANGQIJINQIANGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '28':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_JINXUEYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JINXUEYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '29':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHUIDIYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHUIDIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '30':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_ZHANGYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZHANGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '31':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_JUSHI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JUSHI_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '32':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAIXING
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIXING_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '33':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RUANTIDONGWU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RUANTIDONGWU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '34':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BEIKE
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BEIKE_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '35':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YINGWULUO
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YINGWULUO_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '36':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PIPAYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_PIPAYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '37':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAIDAN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIDAN_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '38':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_TENGFHU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TENGFHU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '39':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAIKUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIKUI_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '40':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_JIJUXIE
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JIJUXIE_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '41':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAIZHE
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIZHE_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '42':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHSHUIMU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHSHUIMU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '43':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAILUO
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAILUO_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '44':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YINGTAOYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YINGTAOYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '45':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BOLUOYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BOLUOYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '46':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_LANMEIYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LANMEIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '47':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PUTAOYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_PUTAOYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '48':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HUANGGUAYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HUANGGUAYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '49':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HULUOBOYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HULUOBOYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '50':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_TIANCAIYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TIANCAIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '51':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XIAOMAIYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAOMAIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '52':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XIGUAYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIGUAYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '53':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_TUDOUYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TUDOUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '54':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YUNDUOYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YUNDUOYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '55':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAIZEIWANGYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIZEIWANGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '56':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XIGUASHAYU
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIGUASHAYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '57':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_MACKEREL
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_QINGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '58':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_EEL
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MANYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '59':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_TROUT
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZUNYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '60':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_BASS
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LUYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '61':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_CARP
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LIYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '62':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_PIKE
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SUOYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '63':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_TUNA
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JINQIANGYU_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '64':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SHRIMP
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIA_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '65':
+      seconds: 600
+      noConsume: true
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CRAB
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_PANGXIE_ROE
+          amount: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+  input: [13]
+  output: [40]
 

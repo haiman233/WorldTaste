@@ -95,6 +95,40 @@ function onPlayerFish(event) {
                     { itemId: "WT_XIGUASHAYU", probability: 0.01 },
                     { itemId: "WT_NANGUAZZ", probability: 0.35 }
                 ];
+            } else if (sfItem_Off_id == "WT_HETUNYUER") {
+                // 河豚鱼饵
+                drops = [
+                    { itemId: "WT_PUFFERFISH_NORMAL", probability: 0.55 },
+                    { itemId: "WT_PUFFERFISH_MECHANICAL", probability: 0.2 },
+                    { itemId: "WT_PUFFERFISH_BEE", probability: 0.2 },
+                    { itemId: "WT_PUFFERFISH_SLIME", probability: 0.12 },
+                    { itemId: "WT_PUFFERFISH_HIM", probability: 0.08 },
+                    { itemId: "WT_PUFFERFISH_MR", probability: 0.2 },
+                    { itemId: "WT_PUFFERFISH_LAVA", probability: 0.08 },
+                    { itemId: "WT_PUFFERFISH_RADIATION", probability: 0.08 },
+                    { itemId: "WT_PUFFERFISH_EMBER", probability: 0.1 },
+                    { itemId: "WT_PUFFERFISH_BIOHAZARD", probability: 0.12 },
+                    { itemId: "WT_PUFFERFISH_GLOW", probability: 0.13 },
+                    { itemId: "WT_PUFFERFISH_NEEDLEFISH", probability: 0.14 },
+                    { itemId: "WT_PUFFERFISH_GRASS_BLOCK", probability: 0.16 },
+                    { itemId: "WT_PUFFERFISH_SACRIFICE", probability: 0.09 },
+                    { itemId: "WT_PUFFERFISH_WHITE", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_PINK", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_RED", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_ORANGE", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_YELLOW", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_YELLOW_GREEN", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_CYAN", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_LIGHT_BLUE", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_PURPLE", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_MAGENTA", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_BROWN", probability: 0.25 },
+                    { itemId: "WT_PUFFERFISH_CARROT", probability: 0.2 },
+                    { itemId: "WT_PUFFERFISH_AMETHYST", probability: 0.16 },
+                    { itemId: "WT_PUFFERFISH_EMERALD", probability: 0.04 },
+                    { itemId: "WT_ZUANSHIHETUN", probability: 0.05 },
+                    { itemId: "WT_PUFFERFISH_GOLD", probability: 0.06 }
+                ];
             } else {
                 // 如果鱼饵类型不匹配，直接返回
                 return;
