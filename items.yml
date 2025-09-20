@@ -25786,7 +25786,7 @@ WT_LALADG:
     name: §d§l拉拉蛋糕
     amount: 1
     material_type: skull_hash
-    material: 9154e51111f32bfc6d356ab6496812dcf4209fc0341ce2751bccf1631bb1ca3c
+    material: 79dcf1d0e8141e0cb588568832534a7dc6ac861c46c2a92e363a5f5a9af454a4
   item_group: ws_dangao
   recipe_type: WUWEI_DANGAO
   recipe:
@@ -26506,7 +26506,7 @@ WT_TUDOUTUANZI:
     name: §6§l土豆团子
     amount: 1
     material_type: skull_hash
-    material: da66dccaea7ed5f7c2310a1145b8e313500f3329e89e729799bdf8193e156c69
+    material: cf4624ebf7d419a11e43ed0c2038d32cd09ad1d7a6c6e20f6339cbcfe386fd1c
   item_group: ws_dangao
   recipe_type: WUWEI_DANGAO
   recipe:
@@ -31025,8 +31025,8 @@ WT_KAOCAN:
   item:
     name: §f§l烤蚕
     amount: 1
-    material_type: skull_hash
-    material: c6339a036039d686b0b207393574f39d622c23cfd1dac39d5c467d15f7e229d6
+    material_type: mc
+    material: mangrove_button
   item_group: ws_kaorou
   recipe_type: WUWEI_JYKRL
   recipe:
@@ -35626,7 +35626,7 @@ WT_ZHENXIASHUI:
     name: §c§l蒸下水
     amount: 1
     material_type: skull_hash
-    material: 927d01678ae26f67c1277b5eca290092589646f44ce10f73f9480ba69fcf39e4
+    material: 41f104d6301e981336c3dbe716df0bb4131a41e0e8b7cdb4de9303cde67c77a5
   item_group: ws_zhongcan
   recipe_type: WUWEI_WAGUO
   recipe:
@@ -35706,7 +35706,7 @@ WT_LACHAOZHUZA:
     name: §6§l辣炒猪杂
     amount: 1
     material_type: skull_hash
-    material: c6022cabd9b39f5eab6d99bfe3da90ab776195796043ad3c8ef24910fc8bff98
+    material: 2130a1a5b94badebd756149eeb855f06361e50e3db618a15c1d11a34771e1b3
   item_group: ws_zhongcan
   recipe_type: WUWEI_WAGUO
   recipe:
@@ -36982,7 +36982,7 @@ WT_HUIMIAN:
     name: §6§l烩面
     amount: 1
     material_type: skull_hash
-    material: e91157c657a20936b51dec586360d2d0b962415eb644d9f4e142a2d399611765
+    material: 129428a58efda6658344d454d24c9ae242f18e58358311b05869a9b49bf9b5ec
   item_group: ws_zhongcan
   recipe_type: WUWEI_WAGUO
   recipe:
@@ -38524,10 +38524,10 @@ WT_YANXUNZHISHI:
 WT_YUMISHALA:
   item:
     lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值和饱和度]
-    name: §e§l玉米沙拉
+    name: §e§l小熊爆米花
     amount: 1
     material_type: skull_hash
-    material: d7b80db0d7c86c0edf214cfd13abd91c156c2dae2941133bdec91017fdd1e1b1
+    material: 11d4204050c7f4487e1feeef9450d553a53aee13a660286f7266f8564286c8a2
   item_group: ws_kuaican
   recipe_type: WUWEI_CHUFANG
   recipe:
@@ -41095,7 +41095,7 @@ WT_YIDALIXIMIAN:
     name: §e§l意大利细面
     amount: 1
     material_type: skull_hash
-    material: 347fe65eb745468e86873a1bda48a5a489fef91cc522d85e0364b55d53f867e
+    material: 315612d82a7625f8ac037ddc9718475c3a354ac95274458f659b7e8022703b7d
   item_group: ws_kuaican
   recipe_type: WUWEI_CHUFANG
   recipe:
@@ -42232,7 +42232,7 @@ WT_TIANMEIDANGAO:
     name: §b§l天莓蛋糕
     amount: 1
     material_type: skull_hash
-    material: 42e8d73257fd18b88f5f7799a02e6de05f23492154bc1d7e4ed13476b05b44cd
+    material: d7f88ed04d37b06fb9eee93077dece24065d6dfa9417b501a3ed923b5c9e4b8a
   item_group: ws_dangao
   recipe_type: WUWEI_DANGAO
   recipe:
@@ -55382,7 +55382,7 @@ WT_NONGYUMGT:
     name: §6§l浓郁蘑菇汤
     amount: 1
     material_type: skull_hash
-    material: 942d6c9010b0f960e6898e7f1d87af8ec775483a4bbf049462849b09007b3504
+    material: f5aa09dadf202195578fb68dfffb9405dec4b6f26547ba42ecc6566cd2e45067
   item_group: ws_tang
   recipe_type: WUWEI_WAGUO
   recipe:
@@ -56022,7 +56022,7 @@ WT_TUOSIKANATANG:
     name: §e§l托斯卡纳汤
     amount: 1
     material_type: skull_hash
-    material: 63d5f06c0a7ff5dd4174a985f6cec7a661fd2222bff44e32547687fa4fbf1cdf
+    material: 5c257984b64d862cdb3451dffac2a3c7e56b826cbaf3c10ce5b3f97647448e0
   item_group: ws_tang
   recipe_type: WUWEI_WAGUO
   recipe:
