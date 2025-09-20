@@ -39,6 +39,16 @@
 - Cultivation（农耕工艺） [点此下载](https://builds.guizhanss.com/SlimefunGuguProject/Cultivation/main)
 - InfinityExpansion（无尽贪婪）[点此下载](https://builds.guizhanss.com/SlimefunGuguProject/InfinityExpansion/master)
 
+## 注意事项
+
+若遇到美食家附属(Gastronomicon)拉低服务器tps的情况，请ban掉美食家的捕鱼网（粘液ID为：GN_FISHING_NET_I、GN_FISHING_NET_II、GN_FISHING_NET_III）
+
+其卡服原理与至尊研究院附属的发电机同理(循环的环境检测)
+
+尘世百味添加了性能更好的机器(捕鱼器)来替代美食家捕鱼网的功能(尘世百味1.7版本加入)
+
+美食家的种子爆率可以在美食家的配置文件中调整（1.20.3之前为grass，1.20.3之后为short_grass）
+
 ## 公告
 
 1、十分感谢[balugaq](https://github.com/balugaq)编写的[rsc-editor](https://github.com/balugaq/RSCEditor)，大大加快了尘世百味的推出进程
