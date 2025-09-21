@@ -10926,6 +10926,90 @@ WUWEI_MIANBAO:
   work: 5
   sound: SMELTERY_CRAFT_SOUND
   recipes:
+    wt_kxgmf:
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_KAIXINGUO
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: WT_KAIXINGUO
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_KAIXINGUO
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: CHEESE
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KXGMF
+        amount: 1
+    wt_jianguomafen:
+      input:
+        '1':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: WT_JIANGUOJIANG
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 1
+        '4':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '5':
+          material_type: slimefun
+          material: CHEESE
+          amount: 1
+        '6':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '7':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_JIANGUOMAFEN
+        amount: 1
     wt_chunmai:
       input:
         '1':
@@ -32457,90 +32541,6 @@ WUWEI_DANGAO:
         material_type: slimefun
         material: WT_PUTAOGAN
         amount: 1
-    wt_kxgmf:
-      input:
-        '1':
-          material_type: slimefun
-          material: WT_KAIXINGUO
-          amount: 1
-        '2':
-          material_type: slimefun
-          material: WT_KAIXINGUO
-          amount: 1
-        '3':
-          material_type: slimefun
-          material: WT_KAIXINGUO
-          amount: 1
-        '4':
-          material_type: slimefun
-          material: MOLASSES
-          amount: 1
-        '5':
-          material_type: slimefun
-          material: CHEESE
-          amount: 1
-        '6':
-          material_type: slimefun
-          material: MOLASSES
-          amount: 1
-        '7':
-          material_type: slimefun
-          material: YEAST
-          amount: 1
-        '8':
-          material_type: slimefun
-          material: GN_DOUGH
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: YEAST
-          amount: 1
-      output:
-        material_type: slimefun
-        material: WT_KXGMF
-        amount: 1
-    wt_jianguomafen:
-      input:
-        '1':
-          material_type: slimefun
-          material: HEAVY_CREAM
-          amount: 1
-        '2':
-          material_type: slimefun
-          material: WT_JIANGUOJIANG
-          amount: 1
-        '3':
-          material_type: slimefun
-          material: HEAVY_CREAM
-          amount: 1
-        '4':
-          amount: 1
-          material_type: mc
-          material: SUGAR
-        '5':
-          material_type: slimefun
-          material: CHEESE
-          amount: 1
-        '6':
-          amount: 1
-          material_type: mc
-          material: SUGAR
-        '7':
-          amount: 1
-          material_type: mc
-          material: MILK_BUCKET
-        '8':
-          material_type: slimefun
-          material: GN_DOUGH
-          amount: 1
-        '9':
-          amount: 1
-          material_type: mc
-          material: MILK_BUCKET
-      output:
-        material_type: slimefun
-        material: WT_JIANGUOMAFEN
-        amount: 1
     wt_qingguodangao:
       input:
         '1':
@@ -37108,8 +37108,8 @@ WUWEI_BINGZHEN:
           amount: 1
         '8':
           amount: 1
-          material_type: mc
-          material: BOWL
+          material_type: slimefun
+          material: WT_HUAFUBINGGANTONG
       output:
         material_type: slimefun
         material: WT_GJTT
@@ -37166,17 +37166,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: GN_VANILLA_BEANS
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37208,17 +37200,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37250,17 +37234,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37284,17 +37260,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: WT_MOCHA
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37318,17 +37286,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37360,17 +37320,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: WT_HAMIGUA
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37402,17 +37354,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: CRANBERRY
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37444,17 +37388,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37486,17 +37422,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: REDSTONE
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37520,17 +37448,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37562,17 +37482,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: GN_CHILI_PEPPER
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37596,17 +37508,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37630,17 +37534,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37672,17 +37568,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: MAGENTA_DYE
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37714,17 +37602,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: PURPLE_DYE
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37748,17 +37628,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: GN_VANILLA_BEANS
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37782,17 +37654,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37816,17 +37680,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: COCOA_BEANS
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37858,17 +37714,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: SALT
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37900,17 +37748,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37942,17 +37782,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: POTATO
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -37976,17 +37808,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: GN_BASIL
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38010,17 +37834,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38052,17 +37868,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38086,17 +37894,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38120,17 +37920,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38162,17 +37954,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38204,17 +37988,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: LAPIS_LAZULI
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38246,17 +38022,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: ROSE_BUSH
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38288,17 +38056,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: LILAC
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38330,17 +38090,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: GLOW_LICHEN
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38372,17 +38124,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: STONE
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38524,17 +38268,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: COCOA_BEANS
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38566,17 +38302,9 @@ WUWEI_BINGZHEN:
           amount: 1
           material_type: mc
           material: COCOA_BEANS
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun
@@ -38608,17 +38336,9 @@ WUWEI_BINGZHEN:
           material_type: slimefun
           material: HEAVY_CREAM
           amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
         '8':
           material_type: slimefun
-          material: GN_BARLEY_FLOUR
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_BARLEY_FLOUR
+          material: WT_HUAFUBINGGANTONG
           amount: 1
       output:
         material_type: slimefun

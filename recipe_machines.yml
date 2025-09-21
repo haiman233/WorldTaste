@@ -3181,21 +3181,21 @@ WT_HWSCPCLJ:
           amount: 1
       output:
         '1':
-          amount: 64
+          amount: 32
           material_type: mc
           material: STRING
         '2':
           material_type: slimefun
           material: CHAIN
-          amount: 16
+          amount: 8
         '3':
           material_type: slimefun
           material: CLOTH
-          amount: 32
+          amount: 12
         '4':
           material_type: slimefun
           material: REINFORCED_CLOTH
-          amount: 8
+          amount: 3
           chance: 60
         '5':
           amount: 2
@@ -3210,7 +3210,12 @@ WT_HWSCPCLJ:
           amount: 1
           material_type: slimefun
           material: WT_NIUPIXUE
-          chance: 10
+          chance: 15
+        '8':
+          amount: 6
+          material_type: mc
+          material: LEATHER
+          chance: 50
       chooseOne: false
       forDisplay: false
       hide: false

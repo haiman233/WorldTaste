@@ -1,165 +1,186 @@
+// 淡水鱼饵掉落列表（全局常量，避免重复创建）
+const DANSHUIYUER_DROPS = [
+    { itemId: "WT_SHUIZHI", probability: 0.5 },
+    { itemId: "WT_OUZHOULUYU", probability: 0.2 },
+    { itemId: "WT_NIANYU", probability: 0.4 },
+    { itemId: "WT_BINGYU", probability: 0.2 },
+    { itemId: "WT_ZHANYU", probability: 0.5 },
+    { itemId: "WT_JINYU", probability: 0.52 },
+    { itemId: "WT_SHILAIMUYU", probability: 0.04 },
+    { itemId: "WT_LONGXIA", probability: 0.25 },
+    { itemId: "WT_LANLONGXIA", probability: 0.115 },
+    { itemId: "WT_YNSHUIMU", probability: 0.1 },
+    { itemId: "WT_YADAN", probability: 0.12 },
+    { itemId: "WT_WUGUI", probability: 0.06 },
+    { itemId: "WT_HEXIA", probability: 0.6 },
+    { itemId: "WT_FEIQIYANGQIGUAN", probability: 0.2 },
+    { itemId: "WT_SHIDIFUYU", probability: 0.03 },
+    { itemId: "WT_JINGDIANYU", probability: 0.3 },
+    { itemId: "WT_SHUIJINGYU", probability: 0.08 },
+    { itemId: "WT_YOUNIYU", probability: 0.2 },
+    { itemId: "WT_ZUANSHIHETUN", probability: 0.009 }
+];
+
+// 咸水鱼饵掉落列表
+const XIANSHUIYUER_DROPS = [
+    { itemId: "WT_SHAYU", probability: 0.01 },
+    { itemId: "WT_NIANYUWANG", probability: 0.08 },
+    { itemId: "WT_HUANGQIJINQIANGYU", probability: 0.4 },
+    { itemId: "WT_JINXUEYU", probability: 0.2 },
+    { itemId: "WT_SHUIDIYU", probability: 0.35 },
+    { itemId: "WT_JINGYU", probability: 0.01 },
+    { itemId: "WT_ZHANGYU", probability: 0.05 },
+    { itemId: "WT_JUSHI", probability: 0.3 },
+    { itemId: "WT_HAIXING", probability: 0.4 },
+    { itemId: "WT_RUANTIDONGWU", probability: 0.3 },
+    { itemId: "WT_BEIKE", probability: 0.2 },
+    { itemId: "WT_YINGWULUO", probability: 0.18 },
+    { itemId: "WT_LANJING", probability: 0.009 },
+    { itemId: "WT_POJIUDEYUWANG", probability: 0.22 },
+    { itemId: "WT_PIPAYU", probability: 0.15 },
+    { itemId: "WT_HAIOU", probability: 0.3 },
+    { itemId: "WT_HAIDAN", probability: 0.4 },
+    { itemId: "WT_TENGFHU", probability: 0.45 },
+    { itemId: "WT_HAIKUI", probability: 0.38 },
+    { itemId: "WT_JIJUXIE", probability: 0.26 },
+    { itemId: "WT_HAIZHE", probability: 0.3 },
+    { itemId: "WT_SHSHUIMU", probability: 0.32 },
+    { itemId: "WT_HAIMIANBAOBAO", probability: 0.02 },
+    { itemId: "WT_SHIDAN", probability: 0.2 },
+    { itemId: "WT_HAILUO", probability: 0.35 }
+];
+
+// 水果鱼饵掉落列表
+const SHUIGUOYUER_DROPS = [
+    { itemId: "WT_YINGTAOYU", probability: 0.5 },
+    { itemId: "WT_BOLUOYU", probability: 0.45 },
+    { itemId: "WT_LANMEIYU", probability: 0.45 },
+    { itemId: "WT_PUTAOYU", probability: 0.45 },
+    { itemId: "WT_HUANGGUAYU", probability: 0.45 },
+    { itemId: "WT_HULUOBOYU", probability: 0.45 },
+    { itemId: "WT_TIANCAIYU", probability: 0.45 },
+    { itemId: "WT_XIAOMAIYU", probability: 0.55 },
+    { itemId: "WT_XIGUAYU", probability: 0.55 },
+    { itemId: "WT_TUDOUYU", probability: 0.55 },
+    { itemId: "WT_YUNDUOYU", probability: 0.1 },
+    { itemId: "WT_HAIZEIWANGYU", probability: 0.18 },
+    { itemId: "WT_XIGUASHAYU", probability: 0.01 },
+    { itemId: "WT_NANGUAZZ", probability: 0.35 }
+];
+
+// 河豚鱼饵掉落列表
+const HETUNYUER_DROPS = [
+    { itemId: "WT_PUFFERFISH_NORMAL", probability: 0.55 },
+    { itemId: "WT_PUFFERFISH_MECHANICAL", probability: 0.2 },
+    { itemId: "WT_PUFFERFISH_BEE", probability: 0.2 },
+    { itemId: "WT_PUFFERFISH_SLIME", probability: 0.12 },
+    { itemId: "WT_PUFFERFISH_HIM", probability: 0.08 },
+    { itemId: "WT_PUFFERFISH_MR", probability: 0.2 },
+    { itemId: "WT_PUFFERFISH_LAVA", probability: 0.08 },
+    { itemId: "WT_PUFFERFISH_RADIATION", probability: 0.08 },
+    { itemId: "WT_PUFFERFISH_EMBER", probability: 0.1 },
+    { itemId: "WT_PUFFERFISH_BIOHAZARD", probability: 0.12 },
+    { itemId: "WT_PUFFERFISH_GLOW", probability: 0.13 },
+    { itemId: "WT_PUFFERFISH_NEEDLEFISH", probability: 0.14 },
+    { itemId: "WT_PUFFERFISH_GRASS_BLOCK", probability: 0.16 },
+    { itemId: "WT_PUFFERFISH_SACRIFICE", probability: 0.09 },
+    { itemId: "WT_PUFFERFISH_WHITE", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_PINK", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_RED", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_ORANGE", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_YELLOW", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_YELLOW_GREEN", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_CYAN", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_LIGHT_BLUE", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_PURPLE", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_MAGENTA", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_BROWN", probability: 0.25 },
+    { itemId: "WT_PUFFERFISH_CARROT", probability: 0.2 },
+    { itemId: "WT_PUFFERFISH_AMETHYST", probability: 0.16 },
+    { itemId: "WT_PUFFERFISH_EMERALD", probability: 0.04 },
+    { itemId: "WT_ZUANSHIHETUN", probability: 0.05 },
+    { itemId: "WT_PUFFERFISH_GOLD", probability: 0.06 }
+];
+
 function onPlayerFish(event) {
     var caught = event.getCaught();
     var player = event.getPlayer();
     var hook = event.getHook();
     var State = event.getState();
 
+    // 提前检查是否为需要处理的事件类型
+    if (State != "CAUGHT_FISH" || caught === null) {
+        return;
+    }
+
     // 获取主手和副手的物品
     var itemInMainHand = player.getInventory().getItemInMainHand();
     var itemInOffHand = player.getInventory().getItemInOffHand();
+    
+    // 提前检查是否使用特定鱼竿
     var sfItem_Main = getSfItemByItem(itemInMainHand);
+    if (sfItem_Main === null || sfItem_Main.getId() != "WT_BAIWEIDIAOGAN") {
+        return;
+    }
+    
     var sfItem_Off = getSfItemByItem(itemInOffHand);
+    if (sfItem_Off === null) {
+        return;
+    }
 
-    if (caught !== null && sfItem_Main !== null && sfItem_Off !== null) {
-        var sfItem_Main_id = sfItem_Main.getId();
-        var sfItem_Off_id = sfItem_Off.getId();
+    var sfItem_Off_id = sfItem_Off.getId();
 
-        // 使用特定鱼竿
-        if (State == "CAUGHT_FISH" && sfItem_Main_id == "WT_BAIWEIDIAOGAN") {
-            // 取消事件防止默认行为
-            event.setCancelled(true);
-            // 删除被捕获的实体
-            let amount = 1;
-            decreaseItemInWhichHand(itemInOffHand, amount);
-            caught.remove();
+    // 使用特定鱼竿
+    // 取消事件防止默认行为
+    event.setCancelled(true);
+    // 删除被捕获的实体
+    let amount = 1;
+    decreaseItemInWhichHand(itemInOffHand, amount);
+    caught.remove();
 
-            // 根据鱼饵类型选择掉落列表
-            let drops;
-            if (sfItem_Off_id == "WT_DANSHUIYUER") {
-                // 淡水鱼饵
-                drops = [
-                    { itemId: "WT_SHUIZHI", probability: 0.5 },
-                    { itemId: "WT_OUZHOULUYU", probability: 0.2 },
-                    { itemId: "WT_NIANYU", probability: 0.4 },
-                    { itemId: "WT_BINGYU", probability: 0.2 },
-                    { itemId: "WT_ZHANYU", probability: 0.5 },
-                    { itemId: "WT_JINYU", probability: 0.52 },
-                    { itemId: "WT_SHILAIMUYU", probability: 0.04 },
-                    { itemId: "WT_LONGXIA", probability: 0.25 },
-                    { itemId: "WT_LANLONGXIA", probability: 0.115 },
-                    { itemId: "WT_YNSHUIMU", probability: 0.1 },
-                    { itemId: "WT_YADAN", probability: 0.12 },
-                    { itemId: "WT_WUGUI", probability: 0.06 },
-                    { itemId: "WT_HEXIA", probability: 0.6 },
-                    { itemId: "WT_FEIQIYANGQIGUAN", probability: 0.2 },
-                    { itemId: "WT_SHIDIFUYU", probability: 0.03 },
-                    { itemId: "WT_JINGDIANYU", probability: 0.3 },
-                    { itemId: "WT_SHUIJINGYU", probability: 0.08 },
-                    { itemId: "WT_YOUNIYU", probability: 0.2 },
-                    { itemId: "WT_ZUANSHIHETUN", probability: 0.009 }
-                ];
-            } else if (sfItem_Off_id == "WT_XIANSHUIYUER") {
-                // 咸水鱼饵
-                drops = [
-                    { itemId: "WT_SHAYU", probability: 0.01 },
-                    { itemId: "WT_NIANYUWANG", probability: 0.08 },
-                    { itemId: "WT_HUANGQIJINQIANGYU", probability: 0.4 },
-                    { itemId: "WT_JINXUEYU", probability: 0.2 },
-                    { itemId: "WT_SHUIDIYU", probability: 0.35 },
-                    { itemId: "WT_JINGYU", probability: 0.01 },
-                    { itemId: "WT_ZHANGYU", probability: 0.05 },
-                    { itemId: "WT_JUSHI", probability: 0.3 },
-                    { itemId: "WT_HAIXING", probability: 0.4 },
-                    { itemId: "WT_RUANTIDONGWU", probability: 0.3 },
-                    { itemId: "WT_BEIKE", probability: 0.2 },
-                    { itemId: "WT_YINGWULUO", probability: 0.18 },
-                    { itemId: "WT_LANJING", probability: 0.009 },
-                    { itemId: "WT_POJIUDEYUWANG", probability: 0.22 },
-                    { itemId: "WT_PIPAYU", probability: 0.15 },
-                    { itemId: "WT_HAIOU", probability: 0.3 },
-                    { itemId: "WT_HAIDAN", probability: 0.4 },
-                    { itemId: "WT_TENGFHU", probability: 0.45 },
-                    { itemId: "WT_HAIKUI", probability: 0.38 },
-                    { itemId: "WT_JIJUXIE", probability: 0.26 },
-                    { itemId: "WT_HAIZHE", probability: 0.3 },
-                    { itemId: "WT_SHSHUIMU", probability: 0.32 },
-                    { itemId: "WT_HAIMIANBAOBAO", probability: 0.02 },
-                    { itemId: "WT_SHIDAN", probability: 0.2 },
-                    { itemId: "WT_HAILUO", probability: 0.35 }
-                ];
-            } else if (sfItem_Off_id == "WT_SHUIGUOYUER") {
-                // 水果鱼饵
-                drops = [
-                    { itemId: "WT_YINGTAOYU", probability: 0.5 },
-                    { itemId: "WT_BOLUOYU", probability: 0.45 },
-                    { itemId: "WT_LANMEIYU", probability: 0.45 },
-                    { itemId: "WT_PUTAOYU", probability: 0.45 },
-                    { itemId: "WT_HUANGGUAYU", probability: 0.45 },
-                    { itemId: "WT_HULUOBOYU", probability: 0.45 },
-                    { itemId: "WT_TIANCAIYU", probability: 0.45 },
-                    { itemId: "WT_XIAOMAIYU", probability: 0.55 },
-                    { itemId: "WT_XIGUAYU", probability: 0.55 },
-                    { itemId: "WT_TUDOUYU", probability: 0.55 },
-                    { itemId: "WT_YUNDUOYU", probability: 0.1 },
-                    { itemId: "WT_HAIZEIWANGYU", probability: 0.18 },
-                    { itemId: "WT_XIGUASHAYU", probability: 0.01 },
-                    { itemId: "WT_NANGUAZZ", probability: 0.35 }
-                ];
-            } else if (sfItem_Off_id == "WT_HETUNYUER") {
-                // 河豚鱼饵
-                drops = [
-                    { itemId: "WT_PUFFERFISH_NORMAL", probability: 0.55 },
-                    { itemId: "WT_PUFFERFISH_MECHANICAL", probability: 0.2 },
-                    { itemId: "WT_PUFFERFISH_BEE", probability: 0.2 },
-                    { itemId: "WT_PUFFERFISH_SLIME", probability: 0.12 },
-                    { itemId: "WT_PUFFERFISH_HIM", probability: 0.08 },
-                    { itemId: "WT_PUFFERFISH_MR", probability: 0.2 },
-                    { itemId: "WT_PUFFERFISH_LAVA", probability: 0.08 },
-                    { itemId: "WT_PUFFERFISH_RADIATION", probability: 0.08 },
-                    { itemId: "WT_PUFFERFISH_EMBER", probability: 0.1 },
-                    { itemId: "WT_PUFFERFISH_BIOHAZARD", probability: 0.12 },
-                    { itemId: "WT_PUFFERFISH_GLOW", probability: 0.13 },
-                    { itemId: "WT_PUFFERFISH_NEEDLEFISH", probability: 0.14 },
-                    { itemId: "WT_PUFFERFISH_GRASS_BLOCK", probability: 0.16 },
-                    { itemId: "WT_PUFFERFISH_SACRIFICE", probability: 0.09 },
-                    { itemId: "WT_PUFFERFISH_WHITE", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_PINK", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_RED", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_ORANGE", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_YELLOW", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_YELLOW_GREEN", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_CYAN", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_LIGHT_BLUE", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_PURPLE", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_MAGENTA", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_BROWN", probability: 0.25 },
-                    { itemId: "WT_PUFFERFISH_CARROT", probability: 0.2 },
-                    { itemId: "WT_PUFFERFISH_AMETHYST", probability: 0.16 },
-                    { itemId: "WT_PUFFERFISH_EMERALD", probability: 0.04 },
-                    { itemId: "WT_ZUANSHIHETUN", probability: 0.05 },
-                    { itemId: "WT_PUFFERFISH_GOLD", probability: 0.06 }
-                ];
-            } else {
-                // 如果鱼饵类型不匹配，直接返回
-                return;
-            }
+    // 根据鱼饵类型选择掉落列表
+    let drops;
+    if (sfItem_Off_id == "WT_DANSHUIYUER") {
+        // 淡水鱼饵
+        drops = DANSHUIYUER_DROPS;
+    } else if (sfItem_Off_id == "WT_XIANSHUIYUER") {
+        // 咸水鱼饵
+        drops = XIANSHUIYUER_DROPS;
+    } else if (sfItem_Off_id == "WT_SHUIGUOYUER") {
+        // 水果鱼饵
+        drops = SHUIGUOYUER_DROPS;
+    } else if (sfItem_Off_id == "WT_HETUNYUER") {
+        // 河豚鱼饵
+        drops = HETUNYUER_DROPS;
+    } else {
+        // 如果鱼饵类型不匹配，直接返回
+        return;
+    }
 
-            // 根据概率随机选择一个物品
-            const selectedDrop = selectRandomDrop(drops);
-            if (selectedDrop) {
-                const slimefunItem = getSfItemById(selectedDrop.itemId);
-                if (slimefunItem) {
-                    const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem().getType());
-                    itemstack.setItemMeta(slimefunItem.getItem().getItemMeta());
-                    itemstack.setAmount(1);
+    // 根据概率随机选择一个物品
+    const selectedDrop = selectRandomDrop(drops);
+    if (selectedDrop) {
+        const slimefunItem = getSfItemById(selectedDrop.itemId);
+        if (slimefunItem) {
+            const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem().getType());
+            itemstack.setItemMeta(slimefunItem.getItem().getItemMeta());
+            itemstack.setAmount(1);
 
-                    var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
 
-                    // 设置物品不会被立即捡起（10 ticks = 0.5秒）
-                    itemEntity.setPickupDelay(2);
+            // 设置物品不会被立即捡起（10 ticks = 0.5秒）
+            itemEntity.setPickupDelay(2);
 
-                    // 将物品拉向玩家（可选增强效果）
-                    var playerLocation = player.getLocation().add(0, 1, 0);
-                    var itemLocation = itemEntity.getLocation();
-                    var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
-                    itemEntity.setVelocity(direction.normalize().multiply(1.7));
+            // 将物品拉向玩家（可选增强效果）
+            var playerLocation = player.getLocation().add(0, 1, 0);
+            var itemLocation = itemEntity.getLocation();
+            var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
+            itemEntity.setVelocity(direction.normalize().multiply(1.7));
 
-                    sendMessage(player, "§b恭喜你钓到了 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
+            sendMessage(player, "§b恭喜你钓到了 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
 
-                    // 发送音效反馈
-                    player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
-                }
-            }
+            // 发送音效反馈
+            player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
         }
     }
 }
