@@ -7,10 +7,6 @@ function onUse(event) {
     var inv = player.getInventory();
     var itemInMainHand = inv.getItemInMainHand();
     var offHandItem = inv.getItemInOffHand();
-    var location = player.getLocation();
-    var x1 = location.getX();
-    var y1 = location.getY();
-    var z1 = location.getZ();
     
     // 检查副手是否持有打火石
     if (offHandItem == null || offHandItem.getType() != org.bukkit.Material.SHEARS) {
@@ -33,16 +29,19 @@ function onUse(event) {
         player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.FIRE_RESISTANCE , 6000, 4));
         player.addPotionEffect(createPotionEffect(org.bukkit.potion.PotionEffectType.HUNGER, 800, 1));
 
-      // 生成粒子效果
+        // 生成粒子效果
+        var location = player.getLocation();
+        var world = player.getWorld();
         const radius = 1;
         for (let x = -radius; x <= radius; x++) {
             for (let z = -radius; z <= radius; z++) {
-                    player.getWorld().spawnParticle(org.bukkit.Particle.CAMPFIRE_COSY_SMOKE, new org.bukkit.Location(player.getWorld(), x1 + x, y1+1, z1 + z), 1);
+                world.spawnParticle(org.bukkit.Particle.CAMPFIRE_COSY_SMOKE, 
+                    new org.bukkit.Location(world, location.getX() + x, location.getY() + 1, location.getZ() + z), 1);
             }
         }
 
-        // 播放声音
+        // 播放声音 - 重用location对象
         var soundName = "item.flintandsteel.use";
-        player.getLocation().getWorld().playSound(player.getLocation(), soundName, 1.0, 1.0);
+        world.playSound(location, soundName, 1.0, 1.0);
     }
 }
