@@ -4578,9 +4578,9 @@ WT_SHUIZUXIANG:
   output: [40]
 WT_BUYUWANG:
   item:
-    lore: ['', §7用于替代美食家附属的捕鱼网, §7耗时更少，效率更高，性能更好, '', §8⇨ §e⚡§7 10 J 可存储, §8⇨ §e⚡§7
+    lore: ['', §7用于替代美食家附属的捕鱼网, §7耗时更少，效率更高，性能更好, §7还可以用来猎取部分肉类, '', §8⇨ §e⚡§7 10 J 可存储, §8⇨ §e⚡§7
         10 J/s]
-    name: §b§l百味捕鱼网
+    name: §b§l百味捕鱼野猎网
     amount: 1
     material_type: mc
     material: IRON_BARS
@@ -4708,40 +4708,162 @@ WT_BUYUWANG:
           material: TROPICAL_FISH
           chance: 45
         '15':
-          material_type: slimefun
-          material: GN_RAW_TURKEY
-          amount: 1
-          chance: 30
-        '16':
           amount: 5
           material_type: mc
           material: SEAGRASS
           chance: 15
-        '17':
+        '16':
           amount: 5
           material_type: mc
           material: KELP
           chance: 15
-        '18':
+        '17':
           amount: 5
           material_type: mc
           material: SEA_PICKLE
           chance: 18
-        '19':
+        '18':
           amount: 1
           material_type: mc
           material: TURTLE_EGG
           chance: 10
-        '20':
+        '19':
           amount: 1
           material_type: mc
           material: FROGSPAWN
           chance: 5
-        '21':
+        '20':
           amount: 1
           material_type: mc
           material: NAUTILUS_SHELL
           chance: 5
+        '21':
+          amount: 1
+          material_type: slimefun
+          material: GN_CLAM
+          chance: 30
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 40
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: CARROT_ON_A_STICK
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: BEEF
+          chance: 50
+        '2':
+          amount: 1
+          material_type: mc
+          material: PORKCHOP
+          chance: 50
+        '3':
+          amount: 1
+          material_type: mc
+          material: MUTTON
+          chance: 50
+        '4':
+          amount: 1
+          material_type: mc
+          material: CHICKEN
+          chance: 50
+        '5':
+          amount: 1
+          material_type: mc
+          material: RABBIT
+          chance: 50
+        '6':
+          material_type: slimefun
+          material: GN_RAW_TURKEY
+          amount: 1
+          chance: 35
+        '7':
+          material_type: slimefun
+          material: GN_RAW_CHEVON
+          amount: 1
+          chance: 40
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '3':
+      seconds: 40
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: WARPED_FUNGUS_ON_A_STICK
+      output:
+        '1':
+          amount: 1
+          material_type: mc
+          material: BROWN_MUSHROOM
+          chance: 50
+        '2':
+          amount: 1
+          material_type: mc
+          material: RED_MUSHROOM
+          chance: 50
+        '3':
+          amount: 1
+          material_type: mc
+          material: CRIMSON_FUNGUS
+          chance: 50
+        '4':
+          amount: 1
+          material_type: mc
+          material: WARPED_FUNGUS
+          chance: 50
+        '5':
+          material_type: slimefun
+          material: GN_FIDDLEHEADS
+          amount: 1
+          chance: 40
+        '6':
+          material_type: slimefun
+          material: GN_TRUFFLE
+          amount: 1
+          chance: 35
+        '7':
+          material_type: slimefun
+          material: GN_ENOKI_MUSHROOMS
+          amount: 1
+          chance: 40
+        '8':
+          material_type: slimefun
+          material: GN_KING_OYSTER_MUSHROOM
+          amount: 1
+          chance: 40
+        '9':
+          material_type: slimefun
+          material: GN_BUTTON_MUSHROOM
+          amount: 1
+          chance: 40
+        '10':
+          material_type: slimefun
+          material: GN_LYCHEE_SAPLING
+          amount: 1
+          chance: 30
+        '11':
+          material_type: slimefun
+          material: GN_BANANA_SAPLING
+          amount: 1
+          chance: 30
+        '12':
+          amount: 1
+          material_type: mc
+          material: GLOW_LICHEN
+          chance: 20
+        '13':
+          amount: 1
+          material_type: mc
+          material: HANGING_ROOTS
+          chance: 20
       chooseOne: true
       forDisplay: false
       hide: false

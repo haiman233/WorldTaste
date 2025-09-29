@@ -19,6 +19,16 @@ WUWEI_JYKRL:
   work: 5
   sound: WIND_STAFF_USE_SOUND
   recipes:
+    wt_yonghengniupai:
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YONGHENGNIUROU
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YONGHENGNIUPAI
+        amount: 1
     wt_kwanjiarou:
       input:
         '1':

@@ -3445,3 +3445,43 @@ WT_LVNAI:
       material_type: slimefun
       material: WT_LVROU
       amount: 1
+
+# 肝帝月
+WT_YONGHENGNIUROU:
+  item_group: ws_gandi
+  item:
+    name: "&6&l永恒牛肉"
+    material_type: mc
+    material: BEEF
+    glow: true
+  script: gandi/yhniurou
+  recipe_type: WUWEI_ZYCHUGUO
+  recipe:
+    2:
+      material_type: slimefun
+      material: WORLDTASTE_ZWF2
+      amount: 1
+    5:
+      material_type: slimefun
+      material: WT_ZYCHUGUO
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
+WT_YONGHENGNIUPAI:
+  item_group: ws_gandi
+  item:
+    name: "&6&l永恒牛排"
+    material_type: mc
+    material: COOKED_BEEF
+    glow: true
+  script: gandi/yhniupai
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_YONGHENGNIUROU
+      amount: 1
+  register:
+    conditions:
+       - "hasplugin InfinityExpansion"
