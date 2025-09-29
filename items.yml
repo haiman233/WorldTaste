@@ -47845,6 +47845,34 @@ WT_NIUYOUGGQ:
       material: WATER_BUCKET
   placeable: false
   script: '4'
+WT_XIGUAGUOPAN:
+  item:
+    lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]
+    name: §f§l西瓜果盘
+    amount: 1
+    material_type: skull_hash
+    material: 613a73d238b5f739de0058f8e3658f570784f5fd29fba35179c66867eac83000
+  item_group: ws_guoqie
+  recipe_type: WUWEI_CHUFANGGUITAI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: MELON_SLICE
+    '2':
+      amount: 1
+      material_type: mc
+      material: MELON_SLICE
+    '3':
+      amount: 1
+      material_type: mc
+      material: MELON_SLICE
+    '5':
+      material_type: mc
+      material: BOWL
+      amount: 1
+  placeable: false
+  script: '8'
 WT_FUMOBOLUO:
   item:
     lore: ['', §7§o恢复 §b§o4 §7§o点饥饿值和饱和度]

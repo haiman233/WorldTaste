@@ -43686,6 +43686,28 @@ WT_CHUFANGGUITAI:
         material_type: slimefun
         material: WT_FUMOMANGGUO
         amount: 1
+    wt_xiguaguopan:
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MELON_SLICE
+        '2':
+          amount: 1
+          material_type: mc
+          material: MELON_SLICE
+        '3':
+          amount: 1
+          material_type: mc
+          material: MELON_SLICE
+        '5':
+          material_type: mc
+          material: BOWL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIGUAGUOPAN
+        amount: 1
 
 WT_ZHENKONGYASUOJI:
   item:
