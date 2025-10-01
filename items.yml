@@ -659,7 +659,7 @@ WT_BAIWEIDIAOGAN:
       material: HONEYCOMB
     '3':
       material_type: slimefun
-      material: CHAIN
+      material: CHAIN | IRON_CHAIN
       amount: 1
     '4':
       amount: 1
@@ -671,7 +671,7 @@ WT_BAIWEIDIAOGAN:
       material: FISHING_ROD
     '6':
       material_type: slimefun
-      material: CHAIN
+      material: CHAIN | IRON_CHAIN
       amount: 1
     '7':
       material_type: slimefun
@@ -27971,7 +27971,7 @@ WT_KAOROULU:
     '2':
       amount: 1
       material_type: mc
-      material: CHAIN
+      material: CHAIN | IRON_CHAIN
     '3':
       amount: 1
       material_type: mc
@@ -73538,7 +73538,7 @@ WT_XIAODIANLU:
     '2':
       amount: 1
       material_type: mc
-      material: CHAIN
+      material: CHAIN | IRON_CHAIN
     '3':
       amount: 1
       material_type: mc
