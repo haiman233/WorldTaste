@@ -2036,7 +2036,7 @@ WT_SEED_DONGGUA:
 WT_SEED_XILANHUA:
   item_group: ws_zhongzi
   item:
-    name: "&f&l西蓝花种子"
+    name: "&f&l苤蓝种子"
     material_type: skull_hash
     material: 367fe5e3e2f7bf92eaa6f202761c10ec32daf3a2a2adec1dbbaca83c5f716da5
     lore: 

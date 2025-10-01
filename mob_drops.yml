@@ -797,7 +797,7 @@ WT_DIAOLINGKULOULEIGU:
   lateInit: false
   item_group: ws_roulei
   item:
-    name: '&f&l生凋零骷髅脆骨'
+    name: '&f&l生凋灵骷髅脆骨'
     material_type: skull_hash
     material: 895a05992afa37b3806b81f0003ca617b3c1cbb9170a2309115b9c6a03eb73af
     amount: 1
