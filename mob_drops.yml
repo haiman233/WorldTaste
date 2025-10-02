@@ -1029,6 +1029,33 @@ WT_TKLROU_V:
   register:
     conditions:
       - version >= 1.21.9
+WT_NPCROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生NPC蛋'
+    material_type: skull_hash
+    material: b0da23cc9cb7928140584441c3740f8f41135a2475cc34ba05c0a233aadf63fb
+    amount: 1
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.21.9
+WT_NPCROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生NPC蛋'
+    material_type: skull_hash
+    material: b0da23cc9cb7928140584441c3740f8f41135a2475cc34ba05c0a233aadf63fb
+    amount: 1
+  entity: MANNEQUIN
+  chance: 40
+  id_alias: WT_NPCROU
+  register:
+    conditions:
+      - version >= 1.21.9
 # 蛋
 WT_MUSEEHUNDAN:
   lateInit: false

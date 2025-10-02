@@ -21,6 +21,36 @@ WUWEI_JYKRL:
   work: 5
   sound: WIND_STAFF_USE_SOUND
   recipes:
+    wt_kaorenzaorou:
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KAORENZAOROU
+        amount: 1
+    wt_kaogutou:
+      input:
+        '1':
+          material_type: mc
+          material: BONE
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KAOGUTOU
+        amount: 1
+    wt_knpcrou:
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KNPCROU
+        amount: 1
     wt_kklehrou:
       input:
         '1':

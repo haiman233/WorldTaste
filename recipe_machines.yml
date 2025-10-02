@@ -5494,3 +5494,897 @@ WT_SHIPINYLJGJ:
       hide: false
   input: [19, 20, 28, 29]
   output: [33, 34, 24, 25]
+WT_RENZAOROUHCJ:
+  item:
+    lore: ['', §7用于在低版本获取高版本的肉类, '', §8⇨ §e⚡§7 2000 J 可存储, §8⇨ §e⚡§7 200 J/s]
+    name: §6§l人造肉合成机
+    amount: 1
+    material_type: skull_hash
+    material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: BEEF
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: mc
+          material: MUSHROOM_STEM
+          amount: 8
+      output:
+        '1':
+          material_type: mc
+          material: SUSPICIOUS_STEW
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1930444218':
+      seconds: 5
+      input:
+        '1':
+          amount: 32
+          material_type: mc
+          material: DRIED_KELP
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_QIUYUROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1312660821':
+      seconds: 5
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: BLAZE_POWDER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XUANFENGROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_388944275':
+      seconds: 5
+      input:
+        '1':
+          amount: 32
+          material_type: mc
+          material: MOSS_BLOCK
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZHAOHAITAIXIAN
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_758187240':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GAZHIROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1032643661':
+      seconds: 5
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: GHAST_TEAR
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KLEHROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1128981547':
+      seconds: 5
+      input:
+        '1':
+          amount: 48
+          material_type: mc
+          material: RAW_COPPER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TKLROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_95042071':
+      seconds: 3600
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENROU
+          amount: 64
+        '2':
+          amount: 32
+          material_type: mc
+          material: TURTLE_EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]
+  register:
+    conditions:
+      - version < 1.20.5
+WT_RENZAOROUHCJ_V1:
+  item:
+    lore: ['', §7用于在低版本获取高版本的肉类, '', §8⇨ §e⚡§7 2000 J 可存储, §8⇨ §e⚡§7 200 J/s]
+    name: §6§l人造肉合成机
+    amount: 1
+    material_type: skull_hash
+    material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: BEEF
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: mc
+          material: MUSHROOM_STEM
+          amount: 8
+      output:
+        '1':
+          material_type: mc
+          material: SUSPICIOUS_STEW
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1312660821':
+      seconds: 5
+      input:
+        '1':
+          amount: 16
+          material_type: mc
+          material: BLAZE_POWDER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XUANFENGROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_388944275':
+      seconds: 5
+      input:
+        '1':
+          amount: 32
+          material_type: mc
+          material: MOSS_BLOCK
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZHAOHAITAIXIAN
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_758187240':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GAZHIROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1032643661':
+      seconds: 5
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: GHAST_TEAR
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KLEHROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1128981547':
+      seconds: 5
+      input:
+        '1':
+          amount: 48
+          material_type: mc
+          material: RAW_COPPER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TKLROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_95042071':
+      seconds: 3600
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENROU
+          amount: 64
+        '2':
+          amount: 32
+          material_type: mc
+          material: TURTLE_EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]
+  id_alias: WT_RENZAOROUHCJ
+  register:
+    conditions:
+      - version >= 1.20.5
+      - version < 1.21
+WT_RENZAOROUHCJ_V2:
+  item:
+    lore: ['', §7用于在低版本获取高版本的肉类, '', §8⇨ §e⚡§7 2000 J 可存储, §8⇨ §e⚡§7 200 J/s]
+    name: §6§l人造肉合成机
+    amount: 1
+    material_type: skull_hash
+    material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: BEEF
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: mc
+          material: MUSHROOM_STEM
+          amount: 8
+      output:
+        '1':
+          material_type: mc
+          material: SUSPICIOUS_STEW
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_758187240':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GAZHIROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1032643661':
+      seconds: 5
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: GHAST_TEAR
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KLEHROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1128981547':
+      seconds: 5
+      input:
+        '1':
+          amount: 48
+          material_type: mc
+          material: RAW_COPPER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TKLROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_95042071':
+      seconds: 3600
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENROU
+          amount: 64
+        '2':
+          amount: 32
+          material_type: mc
+          material: TURTLE_EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]
+  id_alias: WT_RENZAOROUHCJ
+  register:
+    conditions:
+      - version >= 1.21
+      - version < 1.21.4
+WT_RENZAOROUHCJ_V3:
+  item:
+    lore: ['', §7用于在低版本获取高版本的肉类, '', §8⇨ §e⚡§7 2000 J 可存储, §8⇨ §e⚡§7 200 J/s]
+    name: §6§l人造肉合成机
+    amount: 1
+    material_type: skull_hash
+    material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: BEEF
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: mc
+          material: MUSHROOM_STEM
+          amount: 8
+      output:
+        '1':
+          material_type: mc
+          material: SUSPICIOUS_STEW
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1032643661':
+      seconds: 5
+      input:
+        '1':
+          amount: 8
+          material_type: mc
+          material: GHAST_TEAR
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KLEHROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1128981547':
+      seconds: 5
+      input:
+        '1':
+          amount: 48
+          material_type: mc
+          material: RAW_COPPER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TKLROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_95042071':
+      seconds: 3600
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENROU
+          amount: 64
+        '2':
+          amount: 32
+          material_type: mc
+          material: TURTLE_EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]
+  id_alias: WT_RENZAOROUHCJ
+  register:
+    conditions:
+      - version >= 1.21.4
+      - version < 1.21.6
+WT_RENZAOROUHCJ_V4:
+  item:
+    lore: ['', §7用于在低版本获取高版本的肉类, '', §8⇨ §e⚡§7 2000 J 可存储, §8⇨ §e⚡§7 200 J/s]
+    name: §6§l人造肉合成机
+    amount: 1
+    material_type: skull_hash
+    material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: BEEF
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: mc
+          material: MUSHROOM_STEM
+          amount: 8
+      output:
+        '1':
+          material_type: mc
+          material: SUSPICIOUS_STEW
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1128981547':
+      seconds: 5
+      input:
+        '1':
+          amount: 48
+          material_type: mc
+          material: RAW_COPPER
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TKLROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_95042071':
+      seconds: 3600
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENROU
+          amount: 64
+        '2':
+          amount: 32
+          material_type: mc
+          material: TURTLE_EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]
+  id_alias: WT_RENZAOROUHCJ
+  register:
+    conditions:
+      - version >= 1.21.6
+      - version < 1.21.9
+WT_RENZAOROUHCJ_V5:
+  item:
+    lore: ['', §7用于在低版本获取高版本的肉类, '', §8⇨ §e⚡§7 2000 J 可存储, §8⇨ §e⚡§7 200 J/s]
+    name: §6§l人造肉合成机
+    amount: 1
+    material_type: skull_hash
+    material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: BEEF
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COOLING_UNIT
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: PLASTIC_SHEET
+      amount: 1
+  capacity: 2000
+  energyPerCraft: 100
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SOYBEANS
+          amount: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RENZAOROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 3
+      input:
+        '1':
+          material_type: mc
+          material: MUSHROOM_STEM
+          amount: 8
+      output:
+        '1':
+          material_type: mc
+          material: SUSPICIOUS_STEW
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_95042071':
+      seconds: 3600
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_RENROU
+          amount: 64
+        '2':
+          amount: 32
+          material_type: mc
+          material: TURTLE_EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NPCROU
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]
+  id_alias: WT_RENZAOROUHCJ
+  register:
+    conditions:
+      - version >= 1.21.9

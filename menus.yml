@@ -1404,4 +1404,32 @@ WT_SHIPINYLJGJ:
       amount: 1
       material_type: mc
       material: YELLOW_STAINED_GLASS_PANE
+WT_RENZAOROUHCJ:
+  title: §6§l人造肉合成机
+  slots:
+    '22':
+      amount: 1
+      material_type: mc
+      material: CRAFTING_TABLE
+      progressbar: true
+    0-9:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    17-21:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    23-26:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    27-36:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    44-53:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
 

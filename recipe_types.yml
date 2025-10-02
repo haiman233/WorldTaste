@@ -233,3 +233,10 @@ WUWEI_ZYCHUGUO:
     - '&7需要在终焉厨锅中烹饪'
   material_type: skull_hash
   material: 1f5701da4d50dd447e683dd90077ca22d6b4612e5da10803e3c486c52987feef
+WUWEI_RZRHCJ:
+  lateInit: false
+  name: '&f&l人造肉合成机'
+  lore:
+    - '&7需要在人造肉合成机中合成'
+  material_type: skull_hash
+  material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f

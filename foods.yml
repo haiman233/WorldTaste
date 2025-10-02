@@ -3485,3 +3485,32 @@ WT_YONGHENGNIUPAI:
   register:
     conditions:
        - "hasplugin InfinityExpansion"
+# 人造肉
+WT_RENZAOROU:
+  item:
+    name: §f§l生人造肉
+    amount: 1
+    material_type: mc
+    material: PORKCHOP
+  item_group: ws_roulei
+  recipe_type: WUWEI_RZRHCJ
+  recipe:
+    '1':
+      amount: 32
+      material_type: slimefun
+      material: GN_SOYBEANS
+WT_KAORENZAOROU:
+  item_group: ws_kaorou
+  item:
+    name: "&f&l烤人造肉"
+    material: COOKED_PORKCHOP
+    glow: false
+  recipe_type: WUWEI_JYKRL
+  nutrition: 5
+  saturation: 4
+  eatseconds: 1.3
+  script: rou
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_RENZAOROU

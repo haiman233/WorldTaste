@@ -29407,6 +29407,21 @@ WT_KTKLROU:
       material: WT_TKLROU
   placeable: false
   script: 5
+WT_KNPCROU:
+  item:
+    name: §f§l烤NPC蛋
+    amount: 1
+    material_type: skull_hash
+    material: 5039949b7f610f790da59d2f3b1ed322a36f5489b8fcfcd0200ed71b0da4b038
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: slimefun
+      material: WT_NPCROU
+  placeable: false
+  script: 6
 WT_KAOFUROU:
   item:
     name: §f§l烤腐肉
@@ -29423,6 +29438,22 @@ WT_KAOFUROU:
       material: ROTTEN_FLESH
   placeable: false
   script: 5
+WT_KAOGUTOU:
+  item:
+    name: §f§l烤骨头
+    amount: 1
+    material_type: mc
+    material: BONE
+    glow: true
+  item_group: ws_kaorou
+  recipe_type: WUWEI_JYKRL
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: BONE
+  placeable: false
+  script: 2
 WT_KAOCAN:
   item:
     name: §f§l烤蚕
@@ -78198,8 +78229,8 @@ WT_KFGXGBJ:
       material_type: mc
       material: OAK_SLAB
     '6':
-      material_type: slimefun
-      material: RSC_EDITOR_TEXT_TYPE_ITEM
+      material_type: mc
+      material: PAPER
       amount: 1
     '7':
       amount: 1
