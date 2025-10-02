@@ -973,6 +973,62 @@ WT_GAZHIROU_V:
   register:
     conditions:
       - version >= 1.21.3
+WT_KLEHROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生快乐恶魂肉'
+    material_type: mc
+    material: WHITE_DYE
+    glow: true
+    amount: 1
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.21.6
+WT_KLEHROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生快乐恶魂肉'
+    material_type: mc
+    material: WHITE_DYE
+    glow: true
+    amount: 1
+  entity: HAPPY_GHAST
+  chance: 40
+  id_alias: WT_KLEHROU
+  register:
+    conditions:
+      - version >= 1.21.6
+WT_TKLROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生铜傀儡肉'
+    material_type: skull_hash
+    material: 467c5e8c3a208da7f780b340cef22642d55e00472d3693b3486d7145d49970bb
+    amount: 1
+  entity: MARKER
+  chance: 1
+  register:
+    conditions:
+      - version < 1.21.9
+WT_TKLROU_V:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&f&l生铜傀儡肉'
+    material_type: skull_hash
+    material: 467c5e8c3a208da7f780b340cef22642d55e00472d3693b3486d7145d49970bb
+    amount: 1
+  entity: COPPER_GOLEM
+  chance: 30
+  id_alias: WT_TKLROU
+  register:
+    conditions:
+      - version >= 1.21.9
 # 蛋
 WT_MUSEEHUNDAN:
   lateInit: false

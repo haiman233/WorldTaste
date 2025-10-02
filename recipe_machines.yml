@@ -5217,3 +5217,280 @@ WT_DIANFANBAO:
       hide: false
   input: [13]
   output: [40]
+WT_SHIPINYLJGJ:
+  item:
+    lore: ['', §7集发酵，和面，打发，破壁一体的机器, §7可生产基础食品原料, '', §8⇨ §e⚡§7 500 J 可存储, §8⇨ §e⚡§7
+        30 J/s]
+    name: §f§l食品原料加工机
+    amount: 1
+    material_type: skull_hash
+    material: 82c68e9fc68ca4bca3f16e62302ed3dfe28df4e426dfdf1f01fcc5844fe5b2de
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_ROLLING_PIN
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_WHISK
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_MORTAR_AND_PESTLE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_STEEL_SPRING
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_STEEL_SPRING
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: SHEARS
+    '8':
+      material_type: slimefun
+      material: GN_BLENDER
+      amount: 1
+    '9':
+      amount: 1
+      material_type: mc
+      material: FLINT_AND_STEEL
+  capacity: 500
+  energyPerCraft: 15
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 6
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1395847038':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: BUTTER
+          amount: 3
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_2055451138':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: BUTTER
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: CHEESE
+          amount: 2
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1979044124':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: WHEAT_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 2
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_823754553':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: ICE
+      output:
+        '1':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 6
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1875350502':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: PACKED_ICE
+      output:
+        '1':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 8
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_2116211991':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+      output:
+        '1':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 10
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1167310887':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: EGG
+      output:
+        '1':
+          material_type: slimefun
+          material: MAYO
+          amount: 2
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1683126595':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: MUSTARD_SEED
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: MUSTARD
+          amount: 2
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1931158231':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: BEETROOT_SEEDS
+        '2':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 3
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_106409295':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+        '2':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 4
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1370179303':
+      seconds: 3
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: BEETROOT
+        '2':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 2
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_548227659':
+      seconds: 3
+      input:
+        '1':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+      output:
+        '1':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 2
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [19, 20, 28, 29]
+  output: [33, 34, 24, 25]

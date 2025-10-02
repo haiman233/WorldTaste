@@ -1312,4 +1312,96 @@ WT_DIANFANBAO:
       amount: 1
       material_type: mc
       material: YELLOW_STAINED_GLASS_PANE
+WT_SHIPINYLJGJ:
+  title: §f§l食品原料加工机
+  slots:
+    '31':
+      amount: 1
+      material_type: mc
+      material: SHEARS
+      progressbar: true
+    0-3:
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '4':
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    5-8:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    9-12:
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '13':
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    14-17:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '18':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '21':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '22':
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    '23':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '26':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '27':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '30':
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '32':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    '35':
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    36-39:
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '40':
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    41-44:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
+    45-48:
+      amount: 1
+      material_type: mc
+      material: LIME_STAINED_GLASS_PANE
+    '49':
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    50-53:
+      amount: 1
+      material_type: mc
+      material: YELLOW_STAINED_GLASS_PANE
 

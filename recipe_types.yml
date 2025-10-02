@@ -12,9 +12,9 @@ WUWEI_FAJIAO:
   material: COMPOSTER
 WUWEI_MIANBAO:
   lateInit: false
-  name: '&6&l面包窖'
+  name: '&6&l烘焙炉'
   lore:
-    - '&7该物品需要在面包窖中制作'
+    - '&7该物品需要在烘焙炉中制作'
   material: SMOKER
 WUWEI_WAGUO:
   lateInit: false
