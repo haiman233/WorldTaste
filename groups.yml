@@ -30,7 +30,7 @@ ws_cfzs:
   item:
     material_type: skull_hash
     material: f4d376a23bc1c1cf6b4b51a7aaa61949aea43b83e3c46c284317ff208d91002d
-    name: '&e&l厨房装饰'
+    name: '&e&l厨房与门店装饰'
   parent: worldtaste
 ws_zhongzi:
   lateInit: false
