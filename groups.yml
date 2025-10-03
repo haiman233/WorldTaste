@@ -428,33 +428,31 @@ ws_hetun:
     name: "&6&k&ld&c&l河豚钓鱼佬&6&k&ld"
     material: PUFFERFISH
     glow: true
-ws_zwf_2_13:
-  lateInit: false
-  type: button
-  item:
-    material: white_stained_glass_pane
-    name: '&a'
+# 罐头食品
+ws_guantou:
+  type: sub
   parent: worldtaste
-  actions:
-   'none'
-ws_zwf_2_14:
-  lateInit: false
-  type: button
   item:
-    material: white_stained_glass_pane
-    name: '&a'
+    name: "&b&k&ld&f&l罐头食品&b&k&ld"
+    material_type: skull_hash
+    material: d497d9f1493f8dd2765094703435a5321e28f5fe0fa02253e5aea6dbdcd48e82
+# 月饼
+ws_yuebing:
+  type: sub
   parent: worldtaste
-  actions:
-   'none'
-ws_zwf_2_15:
-  lateInit: false
-  type: button
   item:
-    material: white_stained_glass_pane
-    name: '&a'
+    name: "&c&k&ld&e&l中秋节月饼&c&k&ld"
+    material_type: skull_hash
+    material: f484c435aa0dca82c29ebf4a5354c32948061a76c7ecb0535f4e9ba2403d0c36
+# 逻辑食品
+ws_luojishipin:
+  type: sub
   parent: worldtaste
-  actions:
-   'none'
+  item:
+    name: "&e&k&ld&d&l逻辑食品&e&k&ld"
+    material_type: mc
+    material: AMETHYST_BLOCK
+    glow: true
 ws_zwf_2_16:
   lateInit: false
   type: button

@@ -35158,6 +35158,720 @@ WUWEI_DANGAO:
   work: 5
   sound: SMELTERY_CRAFT_SOUND
   recipes:
+    wt_wurenyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: WT_XINREN
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: GN_SESAME_SEEDS
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: WT_HETAO
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_WURENYB
+        amount: 1
+    wt_jiaoyanyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: BLACK_PEPPER
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JIAOYANYB
+        amount: 1
+    wt_lianrongyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: MAYO
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_LIANHUA
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LIANRONGYB
+        amount: 1
+    wt_doushayb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: GN_RED_BEAN_PASTE
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DOUSHAYB
+        amount: 1
+    wt_danhuangyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: GN_MARMALADE
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: GN_HARD_BOILED_EGG
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DANHUANGYB
+        amount: 1
+    wt_lirongyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BANLI
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: CORNMEAL
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LIRONGYB
+        amount: 1
+    wt_huotuiyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          amount: 1
+          material_type: mc
+          material: PORKCHOP
+        '6':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HUOTUIYB
+        amount: 1
+    wt_shuiguoyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: WT_HONGZAO
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: WT_YUNMEI
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHUIGUOYB
+        amount: 1
+    wt_bingpiyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+        '5':
+          material_type: slimefun
+          material: GN_RED_BEAN_PASTE
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: WT_XIAOMI
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BINGPIYB
+        amount: 1
+    wt_hamiguayb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAMIGUA
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAMIGUAYB
+        amount: 1
+    wt_lvchayb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LVCHAYB
+        amount: 1
+    wt_zaoniyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HONGZAO
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GN_RED_BEAN_PASTE
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_ZAONIYB
+        amount: 1
+    wt_xianrouyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: GN_GROUND_BEEF
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GN_GREEN_ONION
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIANROUYB
+        amount: 1
+    wt_xianhuayb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          amount: 1
+          material_type: mc
+          material: ROSE_BUSH
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          amount: 1
+          material_type: mc
+          material: LILAC
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_XIANHUAYB
+        amount: 1
+    wt_yerongyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: COCONUT
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GN_SORGHUM_FLOUR
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YERONGYB
+        amount: 1
+    wt_heizhimayb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: GN_SESAME_SEEDS
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: GN_SESAME_SEEDS
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HEIZHIMAYB
+        amount: 1
+    wt_supiyb:
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '2':
+          amount: 1
+          material_type: mc
+          material: EGG
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY_FLOUR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: WHEAT_FLOUR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_ZHENZI
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 1
+        '7':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: GN_DOUGH
+          amount: 1
+        '9':
+          material_type: slimefun
+          material: VEGETABLE_OIL
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SUPIYB
+        amount: 1
     wt_cmnydgj:
       input:
         '1':
@@ -54827,48 +55541,6 @@ WUWEI_LIEQI:
         material_type: slimefun
         material: WT_MATONGDB
         amount: 1
-    wt_matl114:
-      input:
-        '1':
-          material_type: slimefun
-          material: WT_ZHIWUYOU
-          amount: 1
-        '2':
-          material_type: slimefun
-          material: WT_QIGUA
-          amount: 1
-        '3':
-          material_type: slimefun
-          material: WT_ZHIWUYOU
-          amount: 1
-        '4':
-          material_type: slimefun
-          material: WT_AICAO
-          amount: 1
-        '5':
-          material_type: slimefun
-          material: LOGITECH_MATL114
-          amount: 1
-        '6':
-          material_type: slimefun
-          material: WT_AICAO
-          amount: 1
-        '7':
-          material_type: slimefun
-          material: GN_CUMIN_SEEDS
-          amount: 1
-        '8':
-          material_type: slimefun
-          material: WT_MATONG
-          amount: 1
-        '9':
-          material_type: slimefun
-          material: GN_CUMIN_SEEDS
-          amount: 1
-      output:
-        material_type: slimefun
-        material: WT_MATL114
-        amount: 1
     wt_himliaoli:
       input:
         '1':
@@ -55706,6 +56378,630 @@ WUWEI_GZJ:
   work: 5
   sound: COMPRESSOR_CRAFT_EXTEND_SOUND
   recipes:
+    wt_boluogt:
+      input:
+        '2':
+          material_type: slimefun
+          material: PINEAPPLE
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BOLUOGT
+        amount: 1
+    wt_huangtaogt:
+      input:
+        '2':
+          material_type: slimefun
+          material: PEACH
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HUANGTAOGT
+        amount: 1
+    wt_liguantou:
+      input:
+        '2':
+          material_type: slimefun
+          material: PEAR
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LIGUANTOU
+        amount: 1
+    wt_ganlangt:
+      input:
+        '2':
+          material_type: slimefun
+          material: GN_BRUSSLES_SPROUTS
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_GANLANGT
+        amount: 1
+    wt_bocaigt:
+      input:
+        '2':
+          material_type: slimefun
+          material: GN_SPINACH
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BOCAIGT
+        amount: 1
+    wt_tiancaigt:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: BEETROOT
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_TIANCAIGT
+        amount: 1
+    wt_fanqiegt:
+      input:
+        '2':
+          material_type: slimefun
+          material: TOMATO
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_FANQIEGT
+        amount: 1
+    wt_lvdougt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_LVDOU
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LVDOUGT
+        amount: 1
+    wt_wandougt:
+      input:
+        '2':
+          material_type: slimefun
+          material: GN_PEAS
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_WANDOUGT
+        amount: 1
+    wt_yumigt:
+      input:
+        '2':
+          material_type: slimefun
+          material: CORN
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_YUMIGT
+        amount: 1
+    wt_nanguagt:
+      input:
+        '2':
+          material_type: slimefun
+          material: GN_SQUASH
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_NANGUAGT
+        amount: 1
+    wt_huluobogt:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: CARROT
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HULUOBOGT
+        amount: 1
+    wt_huangdougt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_HUANGDOU
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HUANGDOUGT
+        amount: 1
+    wt_biandougt:
+      input:
+        '2':
+          material_type: slimefun
+          material: GN_LENTILS
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BIANDOUGT
+        amount: 1
+    wt_heidougt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_HEIDOU
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HEIDOUGT
+        amount: 1
+    wt_lajiaogt:
+      input:
+        '2':
+          material_type: slimefun
+          material: GN_CHILI_PEPPER
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_LAJIAOGT
+        amount: 1
+    wt_hongdougt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_HONGDOU
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HONGDOUGT
+        amount: 1
+    wt_qingcaigt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_QINGCAI
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_QINGCAIGT
+        amount: 1
+    wt_kuihuazigt:
+      input:
+        '2':
+          amount: 1
+          material_type: mc
+          material: SUNFLOWER
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_KUIHUAZIGT
+        amount: 1
+    wt_baitaogt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_BAITAO
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BAITAOGT
+        amount: 1
+    wt_moyugt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_MOYU
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_MOYUGT
+        amount: 1
+    wt_hongzaogt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_HONGZAO
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HONGZAOGT
+        amount: 1
+    wt_shizigt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_SHIZI
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHIZIGT
+        amount: 1
+    wt_diaolingguagt:
+      input:
+        '2':
+          material_type: slimefun
+          material: WT_DIAOLINGGUA
+          amount: 1
+        '4':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: MOLASSES
+          amount: 1
+        '6':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DIAOLINGGUAGT
+        amount: 1
     WT_MOGUBAOGT:
       input:
         '1':
