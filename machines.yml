@@ -620,7 +620,7 @@ WT_SEED_MHT:
 WT_SEED_MEIZI:
   item_group: ws_zhongzi
   item:
-    name: "&f&l梅子种子"
+    name: "&f&l西梅种子"
     material_type: skull_hash
     material: e2bdf01281316c925b7a6ffb30526d802c13986bd0bdc50166d3161dfc94ab93
     lore: 

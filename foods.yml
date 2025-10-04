@@ -541,7 +541,7 @@ WT_MEIZIZHI:
   lateInit: false
   item_group: ws_yingliao
   item:
-    name: '&f&l梅子汁'
+    name: '&f&l西梅汁'
     lore:
       - ''
       - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
