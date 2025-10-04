@@ -26969,7 +26969,7 @@ WT_HULUOBOSD:
 WT_BINGSHA:
   item:
     lore: ['', §7§o恢复 §b§o3.5 §7§o点饥饿值和饱和度]
-    name: §f§l冰沙
+    name: §f§l莓果冰浆
     amount: 1
     material_type: skull_hash
     material: 531d2074dce34978fb0c808725bd68e5fed4e43dcd650138f0973ca3d473547e
@@ -28248,6 +28248,7 @@ WT_YLTISHI:
   item_group: ws_yingliao
   recipe_type: 'NULL'
   placeable: false
+# 饮品 椰子水
 WT_YEZIZHI:
   item:
     lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
@@ -28428,6 +28429,87 @@ WT_PUKAIDEYEZI:
       amount: 1
   placeable: false
   script: yl5
+WT_MOCHAYEZIZHI:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §a§l抹茶椰子汁
+    amount: 1
+    material_type: skull_hash
+    material: ea58af3d515d622acc32247cfa9a2d54cad9ff906f83d8ada421db50d2adfabd
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      amount: 1
+      material_type: mc
+      material: MILK_BUCKET
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MOCHA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: COCONUT
+      amount: 1
+  placeable: false
+  script: yl5
+WT_MEIGUIYEZIZHI:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §d§l玫瑰椰子汁
+    amount: 1
+    material_type: skull_hash
+    material: 934f985c641a66660fc5ca5944d8a218f010125c00f7085783e2e80057b83ee7
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: ROSE_BUSH
+    '6':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: COCONUT
+      amount: 1
+  placeable: false
+  script: yl5
+# 饮品
 WT_PIJIU:
   item:
     lore: ['', §7§o恢复 §b§o3 §7§o点饥饿值]
@@ -69279,6 +69361,446 @@ WT_CAOMEISILEBING:
       material: GLASS_BOTTLE
   placeable: false
   script: yl4
+WT_DINGXIANGSLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l丁香思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 27e569cf9e52a2568f56972d897e7337497f346c7bc206fa891ee58fab9d7d73
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: LILAC
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_YINGHUASLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l樱花思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 91b0b4bcc5d93438eda5fe55e5e1cef454dd10c04e9da786f291cb993ef01f3
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: CHERRY_LEAVES
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_PUTAOSLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l葡萄思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 8661074d6d5dd67cabd97f98889f275cc8f8f908475285d1225682d301b4da38
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GRAPE
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_ZISONGSLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l紫颂思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: fd8556e9a60d4e5a1d02f05acf8c2c230d925c3b4c2b2bae9047be4a6b032fcd
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: POPPED_CHORUS_FRUIT
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_LANCULISLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l蓝醋栗思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 6527274566106fb6167ed80fb2a834575f8600315478f6a44080fa028c7c071d
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_LANCULI
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_CHAXIANGSLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l茶香思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 62b9ab73def8375330155c38742bfaaf49f3dd39271275a600c8693e57b54384
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: TEA_LEAF
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_MOCHASLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l抹茶思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 68d89a0b1fa9e25d893867b915fdcf5adacb9f8586d0a41a43bfc95e81ad23ba
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_MOCHA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_XIANGJIAOSLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l香蕉思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 554ba7e62d784bc4da6aa359af8c16a5ad1bba28b7aec10c38001ce7357b0f9d
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_BANANA
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_NINGMENGSLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l柠檬思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 12d84636ef33c2f2ef43dbff53fb791a1db231aa20ed7f408427366f11054039
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: LEMON
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_JUZISLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l橘子思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: 284f968b18884146dbf65f1acb87c205eed25fba9e48030fa365f94306b7398d
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_SHATANGJU
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_MEIGUISLB:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l玫瑰思乐冰
+    amount: 1
+    material_type: skull_hash
+    material: c55654074a10302db032dbe80049fe46d9e9513a3575e7832f6f7a77d3c8d590
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: ROSE_BUSH
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
 WT_CHELIZISILEBING:
   item:
     lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
@@ -69354,8 +69876,8 @@ WT_LANMEISILEBING:
       material: GN_CARAMEL
       amount: 1
     '8':
-      material_type: slimefun
-      material: CAN
+      material_type: mc
+      material: GLASS_BOTTLE
       amount: 1
   placeable: false
   script: yl5
@@ -69863,7 +70385,7 @@ WT_SHUIGUOBINGYIN:
 WT_JTQKLSPXBL:
   item:
     lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值]
-    name: §c§l焦糖巧克力碎片星冰乐
+    name: §c§l焦糖巧克力牛奶
     amount: 1
     material_type: skull_hash
     material: 8fd18ffeadda00e87216ab488de267c9d465c810dc5a079d291fefe68f228666
@@ -69911,7 +70433,7 @@ WT_JTQKLSPXBL:
 WT_JIAOTANGMKXBL:
   item:
     lore: ['', §7§o恢复 §b§o6 §7§o点饥饿值]
-    name: §6§l焦糖摩卡星冰乐
+    name: §6§l焦糖冰摩卡
     amount: 1
     material_type: skull_hash
     material: 6adac46fe7b8e044ae550cffc75fc65f1374543d3a9623dfcf2d74e72e972da8
@@ -69988,6 +70510,449 @@ WT_GUOCHA:
       amount: 1
   placeable: false
   script: yl3
+
+WT_BINGCUIQKL:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l冰萃巧克力
+    amount: 1
+    material_type: skull_hash
+    material: bc837cba607d17a63a1fb1deea344b1c30b66530cd4260ee206e029119dc2935
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: COCOA_BEANS
+    '2':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: COCOA_BEANS
+    '4':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_BGSRNN:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §6§l饼干碎热牛奶
+    amount: 1
+    material_type: skull_hash
+    material: 6aa7c9708b0846741a0ffff53b99d970477fde2994721a54cd118b18d13710cc
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_SESAME_SEEDS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: GN_OATS
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_SESAME_SEEDS
+      amount: 1
+    '4':
+      amount: 1
+      material_type: mc
+      material: MILK_BUCKET
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_XCKKKF:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §c§l香草可可咖啡
+    amount: 1
+    material_type: skull_hash
+    material: 7fd8c161aeece5ffdaef7abf938944f33dd05561a0293facbb9450da384ba376
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_BGSXCKK:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l饼干碎香草可可
+    amount: 1
+    material_type: skull_hash
+    material: df41e88434bb13c24419f8e8920b2c513730179644d66b68ea596d010ffa2b39
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '2':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: COOKIE
+    '4':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_KEKECMKF:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §d§l可可草莓咖啡
+    amount: 1
+    material_type: skull_hash
+    material: 32b7ef8083e3e4e6bc2db56afdeb1ebbba0176749755106dac06cab62fd99db2
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: STRAWBERRY
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_SHENHONGRKF:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §6§l深烘热咖啡
+    amount: 1
+    material_type: skull_hash
+    material: 404cb91cb37599c7fbaf5f501b2db81a2f896b2a017fb141b78883f5adee2b81
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '2':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '3':
+      amount: 1
+      material_type: mc
+      material: SUGAR
+    '4':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_KEKEGUO
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_XCNYNN:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l香草奶油牛奶
+    amount: 1
+    material_type: skull_hash
+    material: f09bc3dd77b37c16571f0362c749504872db54354f0bb97b591e0db8c41be037
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: HEAVY_CREAM
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: MILK_BUCKET
+    '6':
+      material_type: slimefun
+      material: GN_VANILLA_BEANS
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_MOCHAKF:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §a§l抹茶咖啡
+    amount: 1
+    material_type: skull_hash
+    material: e3528722f5b40c354c0f88b3b5758d9d14b61dddfe796c1d02a155eb6157b629
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_MOCHA
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_ZISONGKAFEI:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §d§l紫颂咖啡
+    amount: 1
+    material_type: skull_hash
+    material: 2893ce10ad60adfb6b0fcd9291cc14784be0cde4d176110c871f9fe1850d0615
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: WT_ZISONGYE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+
+
+WT_MEIGUOBINGCHA:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §d§l莓果冰茶
+    amount: 1
+    material_type: skull_hash
+    material: 3f9ef6bef24b878a7e806691db1300aa88b2d6972e5cfe6155e728b7bb38a811
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: TEA_LEAF
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: RASPBERRY
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COWBERRY
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
+WT_BOLUOBC:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §e§l菠萝冰茶
+    amount: 1
+    material_type: skull_hash
+    material: c669f991461901470c2e1e9dc8f92e0230fb1eb71ffc333f55b236dbd0d7c4b9
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: ICE_CUBE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: TEA_LEAF
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: PINEAPPLE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: TEA_LEAF
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+  placeable: false
+  script: yl5
 WT_NONGSUOKAFEI:
   item:
     lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
@@ -71474,6 +72439,46 @@ WT_XINGBAKENAICHA:
       material_type: slimefun
       material: ICE_CUBE
       amount: 1
+  placeable: false
+  script: yl5
+WT_DONGRIKAFEI:
+  item:
+    lore: ['', §7§o恢复 §b§o5 §7§o点饥饿值]
+    name: §f§l星巴克冬日咖啡
+    amount: 1
+    material_type: skull_hash
+    material: 1cc456bb1b5def7160953204461b22cebd18976414c854d4b98126395031
+  item_group: ws_yingliao
+  recipe_type: WUWEI_YINGLIAOJI
+  recipe:
+    '1':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: BROWN_SUGAR
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: MOLASSES
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: MILK_BUCKET
+    '6':
+      material_type: slimefun
+      material: WT_KAOKAFEIDOU
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
   placeable: false
   script: yl5
 WT_NANGUAXLKF:
@@ -95029,5 +96034,9 @@ WT_ZSTPZNYHF:
       material: BOWL
   placeable: false
   script: '14'
+
+# 饮品
+
+
 
 
