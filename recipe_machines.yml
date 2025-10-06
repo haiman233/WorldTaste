@@ -6388,3 +6388,1082 @@ WT_RENZAOROUHCJ_V5:
   register:
     conditions:
       - version >= 1.21.9
+WT_BEICHALU:
+  item:
+    lore: ['', §7用于烘制奶茶粉和茶叶, '', §8⇨ §e⚡§7 200 J 可存储, §8⇨ §e⚡§7 20 J/s]
+    name: §f§l焙茶炉
+    amount: 1
+    material_type: skull_hash
+    material: 31a52b2c808695d8649d2336d4f4603a5e68291848cf4885ff5e971557887f92
+  item_group: ws_chagongyi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: SCAFFOLDING
+    '3':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: SMOKER
+    '9':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+  capacity: 200
+  energyPerCraft: 10
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '3':
+      seconds: 1
+      input:
+        '1':
+          material_type: mc
+          material: MILK_BUCKET
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '4':
+      seconds: 1
+      input:
+        '1':
+          material_type: mc
+          material: OAK_SAPLING
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: COCONUT
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YEZINCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1429610024':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_KAOKAFEIDOU
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KAFEINCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1321380133':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: STRAWBERRY
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_CAOMEINCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_142352014':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: RASPBERRY
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHUMEINCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1329946860':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MANGGUO
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MANGGUONCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_664921567':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NINGMENGNCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1532220865':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MOCHA
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MOCHANCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_798360671':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DIEDOUHUA
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_DIEDOUHUANCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1366463467':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: BLUEBERRY
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LANMEINCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1333445395':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XIANGYU
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_NAIFEN
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIANGYUNCF
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: DARK_OAK_LEAVES
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BAICHAYE
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1294659998':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MANGROVE_LEAVES
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BILUOCHUN
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_791768888':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: ACACIA_LEAVES
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_WULONG
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_2076330288':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: JUNGLE_LEAVES
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MAOJIAN
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_2008882117':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: SPRUCE_LEAVES
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_DANZONG
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1088192036':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: CHERRY_LEAVES
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YINHUACHAYE
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_860944326':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: GLOWSTONE_DUST
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_FENGCHAYE
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1300063603':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: NETHER_WART
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAJIECHAYE
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1639917176':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: CHORUS_FLOWER
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZITENGCHAYE
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_944057570':
+      seconds: 5
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: REDSTONE
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+        '3':
+          material_type: slimefun
+          material: WT_CAOHUI
+          amount: 1
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HONGMEICHAYE
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [12, 13, 14]
+  output: [40]
+WT_DIANCHAHU:
+  item:
+    lore: ['', §7用于煮茶, '', §8⇨ §e⚡§7 150 J 可存储, §8⇨ §e⚡§7 10 J/s]
+    name: §f§l电茶壶
+    amount: 1
+    material_type: skull_hash
+    material: 2bbfff4d0aafdfe75e6aeedd070e2a487751cf499028670da704ae3aafb5b11b
+  item_group: ws_chagongyi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: FLOWER_POT
+    '3':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_CHAHU
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: COPPER_WIRE
+      amount: 1
+  capacity: 150
+  energyPerCraft: 5
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YEZINCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YEZINAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1144967511':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_KAFEINCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KAFEINAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_231086571':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_CAOMEINCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_CAOMEINAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1382792241':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_SHUMEINCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SHUMEINAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1260066409':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MANGGUONCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MANGGUONAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_144769195':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_NINGMENGNCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NINGMENGNAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_1024190394':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MOCHANCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MOCHANAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_762382494':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DIEDOUHUANCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_DIEDOUHUANAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_124077256':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_LANMEINCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LANMEINAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '1_859893221':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XIANGYUNCF
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: GN_TAPIOCA_PEARLS
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIANGYUNAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BAICHAYE
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BAICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_121384950':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BILUOCHUN
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BILUOCHUNCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_714005075':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_WULONG
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_WULONGCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_952576927':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MAOJIAN
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MAOJIANCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1879892892':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DANZONG
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_DANZONGCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1176992341':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_YINHUACHAYE
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YINHUACHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1760195887':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_FENGCHAYE
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_FENGCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1619871714':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_XIAJIECHAYE
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAJIECHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1685138703':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_ZITENGCHAYE
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZITENGCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_1789672564':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HONGMEICHAYE
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HONGMEICHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '2_160032989':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RAW_EEL
+          amount: 1
+        '2':
+          material_type: slimefun
+          material: BROWN_SUGAR
+          amount: 1
+        '3':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIMANCHA
+          amount: 1
+      chooseOne: false
+      forDisplay: false
+      hide: false
+  input: [12, 13, 14]
+  output: [40]

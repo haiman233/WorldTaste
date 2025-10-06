@@ -1432,4 +1432,60 @@ WT_RENZAOROUHCJ:
       amount: 1
       material_type: mc
       material: LIGHT_BLUE_STAINED_GLASS_PANE
+WT_BEICHALU:
+  title: §f§l焙茶炉
+  slots:
+    '22':
+      amount: 1
+      material_type: mc
+      material: CAMPFIRE
+      progressbar: true
+    0-11:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    15-21:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    23-26:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    27-39:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    41-53:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+WT_DIANCHAHU:
+  title: §f§l电茶壶
+  slots:
+    '22':
+      amount: 1
+      material_type: mc
+      material: HOPPER
+      progressbar: true
+    0-11:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    15-21:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    23-26:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    27-39:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    41-53:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
 

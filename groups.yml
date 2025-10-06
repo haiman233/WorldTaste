@@ -471,15 +471,14 @@ ws_zwf_2_17:
   parent: worldtaste
   actions:
    'none'
-ws_zwf_2_18:
-  lateInit: false
-  type: button
-  item:
-    material: white_stained_glass_pane
-    name: '&a'
+# 茶
+ws_chagongyi:
+  type: sub
   parent: worldtaste
-  actions:
-   'none'
+  item:
+    name: "&f&k&ld&a&l焙茶工艺&f&k&ld"
+    material_type: skull_hash
+    material: 2bbfff4d0aafdfe75e6aeedd070e2a487751cf499028670da704ae3aafb5b11b
 ws_zwf_2_19:
   lateInit: false
   type: button

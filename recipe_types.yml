@@ -240,3 +240,17 @@ WUWEI_RZRHCJ:
     - '&7需要在人造肉合成机中合成'
   material_type: skull_hash
   material: 22e32d66699544433a14f8e5a6d482dc9bc5b34ea2f31fd91144001ed3bfdf2f
+WUWEI_BEICHALU:
+  lateInit: false
+  name: '&f&l焙茶炉'
+  lore:
+    - '&7需要在焙茶炉中焙烧'
+  material_type: skull_hash
+  material: 31a52b2c808695d8649d2336d4f4603a5e68291848cf4885ff5e971557887f92
+WUWEI_DIANCHAHU:
+  lateInit: false
+  name: '&f&l电茶壶'
+  lore:
+    - '&7需要在电茶壶中熬煮'
+  material_type: skull_hash
+  material: 2bbfff4d0aafdfe75e6aeedd070e2a487751cf499028670da704ae3aafb5b11b
