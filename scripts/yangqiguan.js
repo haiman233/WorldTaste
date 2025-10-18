@@ -5,7 +5,7 @@ function onUse(event) {
     var offHandItem = inv.getItemInOffHand();
     
     if (offHandItem != null && SlimefunItem.getByItem(offHandItem) != null) {
-        player.sendMessage("您必须通过主手使用废弃的氧气罐且副手不能有粘液物品！");
+        player.sendMessage("您必须通过主手使用废弃的氧气罐且副手不能持有粘液科技物品！");
         return;
     }
 

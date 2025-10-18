@@ -14005,6 +14005,240 @@ WUWEI_FAJIAO:
   work: 5
   sound: ORE_WASHER_WASH_SOUND
   recipes:
+    wt_dongyangyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_DONGYANGYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DONGYANGYU_CAVIAR
+        amount: 1
+    wt_jinli_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_JINLI_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_JINLI_CAVIAR
+        amount: 1
+    wt_shuipaojinyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHUIPAOJINYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHUIPAOJINYU_CAVIAR
+        amount: 1
+    wt_chengzi_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_CHENGZI_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_CHENGZI_CAVIAR
+        amount: 1
+    wt_shenghao_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHENGHAO_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHENGHAO_CAVIAR
+        amount: 1
+    wt_baoyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BAOYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BAOYU_CAVIAR
+        amount: 1
+    wt_haishen_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAISHEN_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAISHEN_CAVIAR
+        amount: 1
+    wt_daiyu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_DAIYU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DAIYU_CAVIAR
+        amount: 1
+    wt_haitu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HAITU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HAITU_CAVIAR
+        amount: 1
+    wt_shenhaishilaimu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_SHENHAISHILAIMU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_SHENHAISHILAIMU_CAVIAR
+        amount: 1
+    wt_huoman_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_HUOMAN_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_HUOMAN_CAVIAR
+        amount: 1
+    wt_bqbfenseshuimu_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_BQBFENSESHUIMU_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_BQBFENSESHUIMU_CAVIAR
+        amount: 1
+    wt_diwangxie_caviar:
+      input:
+        '2':
+          material_type: slimefun
+          material: SALT
+          amount: 1
+        '5':
+          material_type: slimefun
+          material: WT_DIWANGXIE_ROE
+          amount: 1
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+      output:
+        material_type: slimefun
+        material: WT_DIWANGXIE_CAVIAR
+        amount: 1
     wt_moyingnailao:
       input:
         '1':
@@ -67443,6 +67677,20 @@ WT_CHUFANGGUITAI:
   work: 5
   sound: GRIND_STONE_INTERACT_SOUND
   recipes:
+    wt_ganzhepian:
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: SUGAR_CANE
+        '2':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        material_type: slimefun
+        material: WT_GANZHEPIAN
+        amount: 1
     wt_baoliezisongguo:
       input:
         '1':

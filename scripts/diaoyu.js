@@ -1,105 +1,155 @@
 // 淡水鱼饵掉落列表（全局常量，避免重复创建）
 const DANSHUIYUER_DROPS = [
-    { itemId: "WT_SHUIZHI", probability: 0.5 },
-    { itemId: "WT_OUZHOULUYU", probability: 0.2 },
-    { itemId: "WT_NIANYU", probability: 0.4 },
-    { itemId: "WT_BINGYU", probability: 0.2 },
-    { itemId: "WT_ZHANYU", probability: 0.5 },
-    { itemId: "WT_JINYU", probability: 0.52 },
-    { itemId: "WT_SHILAIMUYU", probability: 0.04 },
-    { itemId: "WT_LONGXIA", probability: 0.25 },
-    { itemId: "WT_LANLONGXIA", probability: 0.115 },
-    { itemId: "WT_YNSHUIMU", probability: 0.1 },
-    { itemId: "WT_YADAN", probability: 0.12 },
-    { itemId: "WT_WUGUI", probability: 0.06 },
-    { itemId: "WT_HEXIA", probability: 0.6 },
-    { itemId: "WT_FEIQIYANGQIGUAN", probability: 0.2 },
-    { itemId: "WT_SHIDIFUYU", probability: 0.03 },
-    { itemId: "WT_JINGDIANYU", probability: 0.3 },
-    { itemId: "WT_SHUIJINGYU", probability: 0.08 },
-    { itemId: "WT_YOUNIYU", probability: 0.2 },
-    { itemId: "WT_ZUANSHIHETUN", probability: 0.009 }
+    { itemId: "LILY_PAD", weight: 10 },
+    { itemId: "TADPOLE_BUCKET", weight: 20 },
+    { itemId: "AXOLOTL_BUCKET", weight: 20 },
+    { itemId: "SALMON", weight: 60 },
+    { itemId: "PUFFERFISH", weight: 40 },
+    { itemId: "GN_RAW_TROUT", weight: 30 },
+    { itemId: "GN_RAW_BASS", weight: 15 },
+    { itemId: "GN_RAW_CARP", weight: 12 },
+    { itemId: "GN_SHRIMP", weight: 15 },
+    { itemId: "WT_SHUIZHI", weight: 54 },
+    { itemId: "WT_OUZHOULUYU", weight: 20 },
+    { itemId: "WT_NIANYU", weight: 40 },
+    { itemId: "WT_BINGYU", weight: 20 },
+    { itemId: "WT_ZHANYU", weight: 50 },
+    { itemId: "WT_JINYU", weight: 30 },
+    { itemId: "WT_SHILAIMUYU", weight: 4 },
+    { itemId: "WT_LONGXIA", weight: 25 },
+    { itemId: "WT_LANLONGXIA", weight: 10 },
+    { itemId: "WT_YNSHUIMU", weight: 8 },
+    { itemId: "WT_YADAN", weight: 15 },
+    { itemId: "WT_WUGUI", weight: 10 },
+    { itemId: "WT_HEXIA", weight: 60 },
+    { itemId: "WT_FEIQIYANGQIGUAN", weight: 20 },
+    { itemId: "WT_SHIDIFUYU", weight: 3 },
+    { itemId: "WT_JINGDIANYU", weight: 30 },
+    { itemId: "WT_SHUIJINGYU", weight: 8 },
+    { itemId: "WT_YOUNIYU", weight: 20 },
+    { itemId: "WT_ZUANSHIHETUN", weight: 1 },
+    { itemId: "WT_JINLI", weight: 5 },
+    { itemId: "WT_SHUIPAOJINYU", weight: 20 },
+    { itemId: "WT_EYU", weight: 4 },
+    { itemId: "WT_HUOLIENIAO", weight: 1 },
+    { itemId: "WT_HELI", weight: 10 }
 ];
 
-// 咸水鱼饵掉落列表
+// 小型咸水鱼饵掉落列表
 const XIANSHUIYUER_DROPS = [
-    { itemId: "WT_SHAYU", probability: 0.01 },
-    { itemId: "WT_NIANYUWANG", probability: 0.08 },
-    { itemId: "WT_HUANGQIJINQIANGYU", probability: 0.4 },
-    { itemId: "WT_JINXUEYU", probability: 0.2 },
-    { itemId: "WT_SHUIDIYU", probability: 0.35 },
-    { itemId: "WT_JINGYU", probability: 0.01 },
-    { itemId: "WT_ZHANGYU", probability: 0.05 },
-    { itemId: "WT_JUSHI", probability: 0.3 },
-    { itemId: "WT_HAIXING", probability: 0.4 },
-    { itemId: "WT_RUANTIDONGWU", probability: 0.3 },
-    { itemId: "WT_BEIKE", probability: 0.2 },
-    { itemId: "WT_YINGWULUO", probability: 0.18 },
-    { itemId: "WT_LANJING", probability: 0.009 },
-    { itemId: "WT_POJIUDEYUWANG", probability: 0.22 },
-    { itemId: "WT_PIPAYU", probability: 0.15 },
-    { itemId: "WT_HAIOU", probability: 0.3 },
-    { itemId: "WT_HAIDAN", probability: 0.4 },
-    { itemId: "WT_TENGFHU", probability: 0.45 },
-    { itemId: "WT_HAIKUI", probability: 0.38 },
-    { itemId: "WT_JIJUXIE", probability: 0.26 },
-    { itemId: "WT_HAIZHE", probability: 0.3 },
-    { itemId: "WT_SHSHUIMU", probability: 0.32 },
-    { itemId: "WT_HAIMIANBAOBAO", probability: 0.02 },
-    { itemId: "WT_SHIDAN", probability: 0.2 },
-    { itemId: "WT_HAILUO", probability: 0.35 }
+
+    { itemId: "SEAGRASS", weight: 5 },
+    { itemId: "SEA_PICKLE", weight: 10 },
+    { itemId: "KELP", weight: 10 },
+    { itemId: "COD", weight: 50 },
+    { itemId: "TROPICAL_FISH", weight: 30 },
+    { itemId: "GN_RAW_TUNA", weight: 20 },
+    { itemId: "GN_RAW_SQUID", weight: 15 },
+    { itemId: "GN_CRAB", weight: 20 },
+    { itemId: "WT_HUANGQIJINQIANGYU", weight: 42 },
+    { itemId: "WT_JUSHI", weight: 30 },
+    { itemId: "WT_HAIXING", weight: 40 },
+    { itemId: "WT_RUANTIDONGWU", weight: 30 },
+    { itemId: "WT_BEIKE", weight: 20 },
+    { itemId: "WT_HAIOU", weight: 5 },
+    { itemId: "WT_HAIDAN", weight: 40 },
+    { itemId: "WT_TENGFHU", weight: 45 },
+    { itemId: "WT_HAIKUI", weight: 38 },
+    { itemId: "WT_JIJUXIE", weight: 26 },
+    { itemId: "WT_HAIZHE", weight: 30 },
+    { itemId: "WT_SHIDAN", weight: 20 },
+    { itemId: "WT_HAILUO", weight: 35 },
+    { itemId: "WT_CHENGZI", weight: 30 },
+    { itemId: "WT_HUAJIAO", weight: 5 },
+    { itemId: "WT_SHENGHAO", weight: 10 },
+    { itemId: "WT_BAOYU", weight: 12 },
+    { itemId: "WT_HAISHEN", weight: 15 },
+    { itemId: "WT_TUXIA", weight: 20 },
+    { itemId: "WT_SHACHONG", weight: 10 },
+    { itemId: "WT_DAIYU", weight: 5 },
+    { itemId: "WT_HAITU", weight: 15 }
+];
+
+// 大型咸水鱼饵掉落列表
+const XIANSHUIYUER_2_DROPS = [
+    { itemId: "NAUTILUS_SHELL", weight: 30 },
+    { itemId: "HEART_OF_THE_SEA", weight: 10 },
+    { itemId: "GN_GUARDIAN_FIN", weight: 15 },
+    { itemId: "GN_RAW_MACKEREL", weight: 20 },
+    { itemId: "GN_RAW_EEL", weight: 20 },
+    { itemId: "GN_RAW_PIKE", weight: 20 },
+    { itemId: "WT_SHAYU", weight: 1 },
+    { itemId: "WT_NIANYUWANG", weight: 8 },
+    { itemId: "WT_JINXUEYU", weight: 20 },
+    { itemId: "WT_SHUIDIYU", weight: 35 },
+    { itemId: "WT_JINGYU", weight: 1 },
+    { itemId: "WT_ZHANGYU", weight: 5 },
+    { itemId: "WT_YINGWULUO", weight: 30 },
+    { itemId: "WT_LANJING", weight: 1 },
+    { itemId: "WT_POJIUDEYUWANG", weight: 25 },
+    { itemId: "WT_PIPAYU", weight: 15 },
+    { itemId: "WT_SHSHUIMU", weight: 32 },
+    { itemId: "WT_HAIMIANBAOBAO", weight: 2 },
+    { itemId: "WT_NIUPIXUE", weight: 10 },
+    { itemId: "WT_SHENHAISHILAIMU", weight: 12 },
+    { itemId: "WT_HAIXIANG", weight: 5 },
+    { itemId: "WT_HUOMAN", weight: 20 },
+    { itemId: "WT_BQBFENSESHUIMU", weight: 25 },
+    { itemId: "WT_DIWANGXIE", weight: 2 },
+    { itemId: "WT_DONGYANGYU", weight: 15 },
+    { itemId: "WT_PAOCAIGUO", weight: 25 }
 ];
 
 // 水果鱼饵掉落列表
 const SHUIGUOYUER_DROPS = [
-    { itemId: "WT_YINGTAOYU", probability: 0.5 },
-    { itemId: "WT_BOLUOYU", probability: 0.45 },
-    { itemId: "WT_LANMEIYU", probability: 0.45 },
-    { itemId: "WT_PUTAOYU", probability: 0.45 },
-    { itemId: "WT_HUANGGUAYU", probability: 0.45 },
-    { itemId: "WT_HULUOBOYU", probability: 0.45 },
-    { itemId: "WT_TIANCAIYU", probability: 0.45 },
-    { itemId: "WT_XIAOMAIYU", probability: 0.55 },
-    { itemId: "WT_XIGUAYU", probability: 0.55 },
-    { itemId: "WT_TUDOUYU", probability: 0.55 },
-    { itemId: "WT_YUNDUOYU", probability: 0.1 },
-    { itemId: "WT_HAIZEIWANGYU", probability: 0.18 },
-    { itemId: "WT_XIGUASHAYU", probability: 0.01 },
-    { itemId: "WT_NANGUAZZ", probability: 0.35 }
+    { itemId: "WT_YINGTAOYU", weight: 50 },
+    { itemId: "WT_BOLUOYU", weight: 45 },
+    { itemId: "WT_LANMEIYU", weight: 45 },
+    { itemId: "WT_PUTAOYU", weight: 45 },
+    { itemId: "WT_HUANGGUAYU", weight: 45 },
+    { itemId: "WT_HULUOBOYU", weight: 45 },
+    { itemId: "WT_TIANCAIYU", weight: 45 },
+    { itemId: "WT_XIAOMAIYU", weight: 55 },
+    { itemId: "WT_XIGUAYU", weight: 55 },
+    { itemId: "WT_TUDOUYU", weight: 55 },
+    { itemId: "WT_YUNDUOYU", weight: 10 },
+    { itemId: "WT_HAIZEIWANGYU", weight: 5 },
+    { itemId: "WT_XIGUASHAYU", weight: 1 },
+    { itemId: "WT_NANGUAZZ", weight: 35 }
 ];
 
 // 河豚鱼饵掉落列表
 const HETUNYUER_DROPS = [
-    { itemId: "WT_PUFFERFISH_NORMAL", probability: 0.55 },
-    { itemId: "WT_PUFFERFISH_MECHANICAL", probability: 0.2 },
-    { itemId: "WT_PUFFERFISH_BEE", probability: 0.2 },
-    { itemId: "WT_PUFFERFISH_SLIME", probability: 0.12 },
-    { itemId: "WT_PUFFERFISH_HIM", probability: 0.08 },
-    { itemId: "WT_PUFFERFISH_MR", probability: 0.2 },
-    { itemId: "WT_PUFFERFISH_LAVA", probability: 0.08 },
-    { itemId: "WT_PUFFERFISH_RADIATION", probability: 0.08 },
-    { itemId: "WT_PUFFERFISH_EMBER", probability: 0.1 },
-    { itemId: "WT_PUFFERFISH_BIOHAZARD", probability: 0.12 },
-    { itemId: "WT_PUFFERFISH_GLOW", probability: 0.13 },
-    { itemId: "WT_PUFFERFISH_NEEDLEFISH", probability: 0.14 },
-    { itemId: "WT_PUFFERFISH_GRASS_BLOCK", probability: 0.16 },
-    { itemId: "WT_PUFFERFISH_SACRIFICE", probability: 0.09 },
-    { itemId: "WT_PUFFERFISH_WHITE", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_PINK", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_RED", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_ORANGE", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_YELLOW", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_YELLOW_GREEN", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_CYAN", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_LIGHT_BLUE", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_PURPLE", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_MAGENTA", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_BROWN", probability: 0.25 },
-    { itemId: "WT_PUFFERFISH_CARROT", probability: 0.2 },
-    { itemId: "WT_PUFFERFISH_AMETHYST", probability: 0.16 },
-    { itemId: "WT_PUFFERFISH_EMERALD", probability: 0.04 },
-    { itemId: "WT_ZUANSHIHETUN", probability: 0.05 },
-    { itemId: "WT_PUFFERFISH_GOLD", probability: 0.06 }
+    { itemId: "WT_PUFFERFISH_NORMAL", weight: 55 },
+    { itemId: "WT_PUFFERFISH_MECHANICAL", weight: 20 },
+    { itemId: "WT_PUFFERFISH_BEE", weight: 20 },
+    { itemId: "WT_PUFFERFISH_SLIME", weight: 12 },
+    { itemId: "WT_PUFFERFISH_HIM", weight: 8 },
+    { itemId: "WT_PUFFERFISH_MR", weight: 20 },
+    { itemId: "WT_PUFFERFISH_LAVA", weight: 8 },
+    { itemId: "WT_PUFFERFISH_RADIATION", weight: 8 },
+    { itemId: "WT_PUFFERFISH_EMBER", weight: 10 },
+    { itemId: "WT_PUFFERFISH_BIOHAZARD", weight: 12 },
+    { itemId: "WT_PUFFERFISH_GLOW", weight: 13 },
+    { itemId: "WT_PUFFERFISH_NEEDLEFISH", weight: 14 },
+    { itemId: "WT_PUFFERFISH_GRASS_BLOCK", weight: 16 },
+    { itemId: "WT_PUFFERFISH_SACRIFICE", weight: 9 },
+    { itemId: "WT_PUFFERFISH_WHITE", weight: 25 },
+    { itemId: "WT_PUFFERFISH_PINK", weight: 25 },
+    { itemId: "WT_PUFFERFISH_RED", weight: 25 },
+    { itemId: "WT_PUFFERFISH_ORANGE", weight: 25 },
+    { itemId: "WT_PUFFERFISH_YELLOW", weight: 25 },
+    { itemId: "WT_PUFFERFISH_YELLOW_GREEN", weight: 25 },
+    { itemId: "WT_PUFFERFISH_CYAN", weight: 25 },
+    { itemId: "WT_PUFFERFISH_LIGHT_BLUE", weight: 25 },
+    { itemId: "WT_PUFFERFISH_PURPLE", weight: 25 },
+    { itemId: "WT_PUFFERFISH_MAGENTA", weight: 25 },
+    { itemId: "WT_PUFFERFISH_BROWN", weight: 25 },
+    { itemId: "WT_PUFFERFISH_CARROT", weight: 20 },
+    { itemId: "WT_PUFFERFISH_AMETHYST", weight: 16 },
+    { itemId: "WT_PUFFERFISH_EMERALD", weight: 4 },
+    { itemId: "WT_ZUANSHIHETUN", weight: 5 },
+    { itemId: "WT_PUFFERFISH_GOLD", weight: 6 }
 ];
 
 function onPlayerFish(event) {
@@ -144,8 +194,11 @@ function onPlayerFish(event) {
         // 淡水鱼饵
         drops = DANSHUIYUER_DROPS;
     } else if (sfItem_Off_id == "WT_XIANSHUIYUER") {
-        // 咸水鱼饵
+        // 小型咸水鱼饵
         drops = XIANSHUIYUER_DROPS;
+    } else if (sfItem_Off_id == "WT_XIANSHUIYUER_2") {
+        // 大型咸水鱼饵
+        drops = XIANSHUIYUER_2_DROPS;
     } else if (sfItem_Off_id == "WT_SHUIGUOYUER") {
         // 水果鱼饵
         drops = SHUIGUOYUER_DROPS;
@@ -157,50 +210,53 @@ function onPlayerFish(event) {
         return;
     }
 
-    // 根据概率随机选择一个物品
+
+    // 根据权重随机选择一个物品
     const selectedDrop = selectRandomDrop(drops);
     if (selectedDrop) {
         const slimefunItem = getSfItemById(selectedDrop.itemId);
+        let itemstack;
+        
         if (slimefunItem) {
-            const itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem().getType());
+            // 处理Slimefun物品
+            itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem().getType());
             itemstack.setItemMeta(slimefunItem.getItem().getItemMeta());
-            itemstack.setAmount(1);
-
-            var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
-
-            // 设置物品不会被立即捡起（10 ticks = 0.5秒）
-            itemEntity.setPickupDelay(2);
-
-            // 将物品拉向玩家（可选增强效果）
-            var playerLocation = player.getLocation().add(0, 1, 0);
-            var itemLocation = itemEntity.getLocation();
-            var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
-            itemEntity.setVelocity(direction.normalize().multiply(1.7));
-
-            sendMessage(player, "§b恭喜你钓到了 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
-
-            // 发送音效反馈
-            player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
+        } else {
+            // 如果Slimefun物品不存在，则尝试作为原版物品处理
+            try {
+                const Material = Java.type('org.bukkit.Material');
+                const materialType = Material.valueOf(selectedDrop.itemId);
+                itemstack = new org.bukkit.inventory.ItemStack(materialType);
+            } catch (e) {
+                return;
+            }
         }
+        
+        itemstack.setAmount(1);
+        createDropItemAndEffects(hook, player, itemstack);
+        sendCatchMessageAndSound(player, itemstack);
     }
 }
+
+
+
 
 // 减少物品
 function decreaseItemInWhichHand(itemInWhich, amount) {
     itemInWhich.setAmount(itemInWhich.getAmount() - amount);
 }
 
-// 根据概率随机选择一个物品
+// 根据权重随机选择一个物品
 function selectRandomDrop(drops) {
-    // 计算总概率
-    let totalProbability = drops.reduce((sum, drop) => sum + drop.probability, 0);
+    // 计算总权重
+    let totalWeight = drops.reduce((sum, drop) => sum + drop.weight, 0);
 
     // 生成一个随机数
-    let random = Math.random() * totalProbability;
+    let random = Math.random() * totalWeight;
 
     // 遍历掉落列表，选择一个物品
     for (let drop of drops) {
-        random -= drop.probability;
+        random -= drop.weight;
         if (random <= 0) {
             return drop;
         }
@@ -208,4 +264,32 @@ function selectRandomDrop(drops) {
 
     // 如果没有选中任何物品（理论上不会发生），返回 null
     return null;
+}
+
+function sendCatchMessageAndSound(player, itemstack) {
+    let displayName = itemstack.getItemMeta().getDisplayName();
+    // 如果没有显示名称，则使用物品类型名称
+    if (!displayName || displayName === "") {
+        displayName = itemstack.getType().name().toLowerCase().replace(/_/g, ' ');
+        // 首字母大写格式化
+        displayName = displayName.replace(/\b\w/g, function(l) { return l.toUpperCase(); });
+    }
+    sendMessage(player, "§b恭喜你钓到了 " + displayName + " §b*1");
+    player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
+}
+
+
+function createDropItemAndEffects(hook, player, itemstack) {
+    var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
+    
+    // 设置物品不会被立即捡起（10 ticks = 0.5秒）
+    itemEntity.setPickupDelay(2);
+    
+    // 将物品拉向玩家（可选增强效果）
+    var playerLocation = player.getLocation().add(0, 1, 0);
+    var itemLocation = itemEntity.getLocation();
+    var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
+    itemEntity.setVelocity(direction.normalize().multiply(1.7));
+    
+    return itemEntity;
 }

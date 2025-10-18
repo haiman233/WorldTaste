@@ -2724,6 +2724,25 @@ WT_GUISUGUOZHI:
       material: WT_GUISUGUO
       amount: 1
 # 原版果汁
+WT_GANZHEZHI:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l甘蔗汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o1.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "221,210,79"
+    amount: 1
+  script: gz1
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: mc
+      material: SUGAR_CANE
+      amount: 1
 WT_ZISONGGUOZHI:
   lateInit: false
   item_group: ws_yingliao

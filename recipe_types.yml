@@ -254,3 +254,10 @@ WUWEI_DIANCHAHU:
     - '&7需要在电茶壶中熬煮'
   material_type: skull_hash
   material: 2bbfff4d0aafdfe75e6aeedd070e2a487751cf499028670da704ae3aafb5b11b
+WUWEI_SHUICHANPEIYUJI:
+  lateInit: false
+  name: '&b&l水产培育机'
+  lore:
+    - '&7需要在水产培育机中培育'
+  material_type: skull_hash
+  material: 168cb7346f34bb8b2fde8e4d69c382976eb7bba906d9ea2a4bc6cfccf60364d9

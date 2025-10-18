@@ -8,7 +8,7 @@ function onUse(event) {
         return;
     }
     if (offHandItem != null && SlimefunItem.getByItem(offHandItem) != null) {
-        player.sendMessage("您必须使用主手进食且副手不能有粘液物品！");
+        player.sendMessage("您必须使用主手进食且副手不能持有粘液科技物品！");
         return;
     }
 
