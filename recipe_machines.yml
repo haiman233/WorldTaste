@@ -2907,6 +2907,10 @@ WT_HWSCPCLJ:
           amount: 64
           material_type: mc
           material: SALMON
+        '4':
+          amount: 2
+          material_type: slimefun
+          material: WT_YUCHI
       chooseOne: false
       forDisplay: false
       hide: false
@@ -3216,6 +3220,89 @@ WT_HWSCPCLJ:
           material_type: mc
           material: LEATHER
           chance: 50
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '25':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HEIJINBEIKE
+          amount: 1
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_HEIJINZHENZHU
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '26':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_QIZHENBEIKE
+          amount: 1
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_QIYIZHENZHU
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '27':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_MOYINGBEIKE
+          amount: 1
+      output:
+        '1':
+          amount: 1
+          material_type: slimefun
+          material: WT_XUESEZHENZHU
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '28':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DIWANGXIE
+          amount: 1
+      output:
+        '1':
+          amount: 2
+          material_type: slimefun
+          material: WT_DIWANGXIEQIAN
+        '2':
+          amount: 16
+          material_type: slimefun
+          material: WT_XIEROUBANG
+      chooseOne: false
+      forDisplay: false
+      hide: false
+    '29':
+      seconds: 5
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_EYU
+          amount: 1
+      output:
+        '1':
+          amount: 3
+          material_type: slimefun
+          material: WT_SHENGEYUROU
+        '2':
+          amount: 16
+          material_type: mc
+          material: LEATHER
       chooseOne: false
       forDisplay: false
       hide: false
@@ -7675,3 +7762,231 @@ WT_DIANCHAHU:
       hide: false
   input: [12, 13, 14]
   output: [40]
+WT_SHUICHANPEIYUJI:
+  item:
+    lore: ['', §7用于培育变种水产品, '', §8⇨ §e⚡§7 3000 J 可存储, §8⇨ §e⚡§7 300 J/s]
+    name: §b§l水产培育机
+    amount: 1
+    material_type: skull_hash
+    material: 168cb7346f34bb8b2fde8e4d69c382976eb7bba906d9ea2a4bc6cfccf60364d9
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '2':
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    '3':
+      material_type: slimefun
+      material: BATTERY
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: POWER_CRYSTAL
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: HARDENED_GLASS
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: REINFORCED_CLOTH
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: WATER_BUCKET
+    '9':
+      material_type: slimefun
+      material: REINFORCED_CLOTH
+      amount: 1
+  capacity: 3000
+  energyPerCraft: 150
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    '1':
+      seconds: 120
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAIDAN
+          amount: 1
+        '2':
+          amount: 64
+          material_type: mc
+          material: ENDER_EYE
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: BONE_MEAL
+          chance: 80
+        '2':
+          material_type: slimefun
+          material: WT_MOYINGHAIDAN
+          amount: 1
+          chance: 5
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '1_240248786':
+      seconds: 120
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAISHEN
+          amount: 1
+        '2':
+          amount: 16
+          material_type: mc
+          material: ECHO_SHARD
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: BONE_MEAL
+          chance: 80
+        '2':
+          material_type: slimefun
+          material: WT_LANHAISHEN
+          amount: 1
+          chance: 5
+        '3':
+          material_type: slimefun
+          material: WT_HONGJISHEN
+          amount: 1
+          chance: 1
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '1_1763238081':
+      seconds: 120
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CRAB
+          amount: 1
+        '2':
+          amount: 16
+          material_type: mc
+          material: HONEYCOMB
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: BONE_MEAL
+          chance: 80
+        '2':
+          material_type: slimefun
+          material: WT_SHAXIE
+          amount: 1
+          chance: 20
+        '3':
+          material_type: slimefun
+          material: WT_MOYINGXIE
+          amount: 1
+          chance: 5
+        '4':
+          material_type: slimefun
+          material: WT_LIETOUXIE
+          amount: 1
+          chance: 1
+        '5':
+          material_type: slimefun
+          material: WT_YANGCHENGHUDAZHAXIE
+          amount: 1
+          chance: 6
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '1_1780231200':
+      seconds: 120
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HAITU
+          amount: 1
+        '2':
+          amount: 16
+          material_type: mc
+          material: NAUTILUS_SHELL
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: BONE_MEAL
+          chance: 80
+        '2':
+          material_type: slimefun
+          material: WT_XIANGJIAOKUOYU
+          amount: 1
+          chance: 10
+        '3':
+          material_type: slimefun
+          material: WT_NAOKUOYU
+          amount: 1
+          chance: 1
+        '4':
+          material_type: slimefun
+          material: WT_YEMIANYANGHAITU
+          amount: 1
+          chance: 3
+        '5':
+          material_type: slimefun
+          material: WT_ZILUOLANHAITU
+          amount: 1
+          chance: 3
+        '6':
+          material_type: slimefun
+          material: WT_DIANLANHAITU
+          amount: 1
+          chance: 3
+      chooseOne: true
+      forDisplay: false
+      hide: false
+    '1_1618890993':
+      seconds: 120
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_BEIKE
+          amount: 1
+        '2':
+          amount: 64
+          material_type: mc
+          material: POPPED_CHORUS_FRUIT
+      output:
+        '1':
+          amount: 4
+          material_type: mc
+          material: BONE_MEAL
+          chance: 80
+        '2':
+          material_type: slimefun
+          material: WT_QIZHENBEIKE
+          amount: 1
+          chance: 10
+        '3':
+          material_type: slimefun
+          material: WT_HEIJINBEIKE
+          amount: 1
+          chance: 1
+        '4':
+          material_type: slimefun
+          material: WT_MOYINGBEIKE
+          amount: 1
+          chance: 2
+      chooseOne: true
+      forDisplay: false
+      hide: false
+  input: [10, 11, 12, 13, 14, 15, 16]
+  output: [37, 38, 39, 40, 41, 42, 43]

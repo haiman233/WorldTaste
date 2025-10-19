@@ -5068,7 +5068,7 @@ WT_HAIDAN:
   item:
     name: "&8&l海胆"
     material_type: skull_hash
-    material: a53a6b84d4b56f598418100a145c832278d5f26e2833fd5a78f502b70e6f23dd
+    material: 1da7788696cc5039e27458a33dfc86893e8cbb79a37b11fd71844bde758c6450
   placeable: false
   script: 3
   recipe_type: WUWEI_DIAOYU
@@ -5844,6 +5844,24 @@ WT_MOYINGXIE:
       material_type: mc
       material: HONEYCOMB
       amount: 16
+WT_YANGCHENGHUDAZHAXIE:
+  item_group: ws_roulei
+  item:
+    name: "&c&l阳澄湖大闸蟹"
+    material_type: skull_hash
+    material: afb812ae9f89326ae24f872c81ab2329ba63bdbc9620f0b19da2ac8615469e2
+  placeable: false
+  script: 6
+  recipe_type: WUWEI_SHUICHANPEIYUJI
+  recipe:
+    1:
+      material_type: slimefun
+      material: GN_CRAB
+      amount: 1
+    2:
+      material_type: mc
+      material: HONEYCOMB
+      amount: 16
 WT_LIETOUXIE:
   item_group: ws_roulei
   item:
@@ -5949,7 +5967,7 @@ WT_DIANLANHAITU:
 WT_QIZHENBEIKE:
   item_group: ws_roulei
   item:
-    name: "&d&l奇珍贝壳"
+    name: "&f&l奇珍贝壳"
     material_type: skull_hash
     material: d248fc9ad38fa846f893f87ed37ee8b1151edd42eda0574d2f96bd90b3e99dba
   placeable: true
@@ -5969,6 +5987,23 @@ WT_HEIJINBEIKE:
     name: "&6&l黑金贝壳"
     material_type: skull_hash
     material: 94df43f3ef789009f63e90150b8203e8e6994994e0b0a69c5320b8e2e75cd4d7
+  placeable: true
+  recipe_type: WUWEI_SHUICHANPEIYUJI
+  recipe:
+    1:
+      material_type: slimefun
+      material: WT_BEIKE
+      amount: 1
+    2:
+      material_type: mc
+      material: POPPED_CHORUS_FRUIT
+      amount: 64
+WT_MOYINGBEIKE:
+  item_group: ws_roulei
+  item:
+    name: "&d&l末影贝壳"
+    material_type: skull_hash
+    material: 2332d5fb2296d8d50b138a0cdf28745b1717e9382b5c0ee44c33a264875818e5
   placeable: true
   recipe_type: WUWEI_SHUICHANPEIYUJI
   recipe:
@@ -8675,6 +8710,102 @@ WT_ZHENZHU:
     5:
       material_type: slimefun
       material: WT_BEIKE
+      amount: 1
+WT_HEIJINZHENZHU:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&e&l黑金珍珠'
+    material_type: skull_hash
+    material: 1e199400365f1ce97e73e77574e12d5b279d99608639958ecaa25bc80bbca271
+    amount: 1
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HEIJINBEIKE
+      amount: 1
+WT_QIYIZHENZHU:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&c&l奇异珍珠'
+    material_type: skull_hash
+    material: 20ce0b86f016e4074fdea18909883c9348f9640eaa6e1e2035d23ac75e6838a2
+    amount: 1
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_QIZHENBEIKE
+      amount: 1
+WT_XUESEZHENZHU:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&6&l血色珍珠'
+    material_type: skull_hash
+    material: c7ba1aadd9b6a15d468b40e2e4a9b2f89cbe7fe529b4c8ca930eb4795dff3e8b
+    amount: 1
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_MOYINGBEIKE
+      amount: 1
+WT_YUCHI:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&b&l鱼翅'
+    material_type: skull_hash
+    material: 5789c47e6e4e6bd5f9116a2d9eb9a7fd9b11b560f9922429f0bec49068977987
+    amount: 1
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SHAYU
+      amount: 1
+WT_DIWANGXIEQIAN:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&6&l帝王蟹钳'
+    material_type: skull_hash
+    material: 7e1e0701f1f9e974765e4f2a7c33a9458c598334401538dc9f21f5ed7e35f79a
+    amount: 1
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_DIWANGXIE
+      amount: 1
+WT_SHENGEYUROU:
+  lateInit: false
+  item_group: ws_roulei
+  item:
+    name: '&a&l生鳄鱼肉'
+    material_type: skull_hash
+    material: 6635acd27e247d3297c5fb081723e827a7bc43783f9c72259eed299738258c6b
+    amount: 1
+  placeable: false
+  script: 4
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_EYU
       amount: 1
 WT_JINGYUNAI:
   lateInit: false
@@ -104957,7 +105088,7 @@ WT_BEICHAGONGYI_TISHI:
     amount: 1
     material_type: mc
     material: OAK_SIGN
-  item_group: ws_yuebing
+  item_group: ws_chagongyi
   recipe_type: NULL
   placeable: false
 WT_NAIFEN:
