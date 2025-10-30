@@ -261,3 +261,10 @@ WUWEI_SHUICHANPEIYUJI:
     - '&7需要在水产培育机中培育'
   material_type: skull_hash
   material: 168cb7346f34bb8b2fde8e4d69c382976eb7bba906d9ea2a4bc6cfccf60364d9
+WUWEI_BUYUNPING:
+  lateInit: false
+  name: '&f&l捕云瓶'
+  lore:
+    - '&7需要使用捕云瓶捕云'
+  material_type: skull_hash
+  material: e237527b575f7215416749d64b4fcbb0647444721df2a988fca0feb54b8ff924

@@ -2723,6 +2723,25 @@ WT_GUISUGUOZHI:
       material_type: slimefun
       material: WT_GUISUGUO
       amount: 1
+WT_QGZSSCZ:
+  lateInit: false
+  item_group: ws_yingliao
+  item:
+    name: '&f&l奇怪的紫色生菜汁'
+    lore:
+      - ''
+      - §7§o恢复 §b§o3.0 §7§o点饥饿值和饱和度
+    material_type: mc
+    material: POTION
+    color: "150,82,237"
+    amount: 1
+  script: gz2
+  recipe_type: JUICER
+  recipe:
+    '1':
+      material_type: slimefun
+      material: WT_XINGYUNZSDK
+      amount: 1
 # 原版果汁
 WT_GANZHEZHI:
   lateInit: false

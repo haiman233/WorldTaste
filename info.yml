@@ -7,7 +7,7 @@ pluginDepends:
 softDepends:
 - Cultivation
 - InfinityExpansion
-version: Release-1.8
+version: Release-1.8.1
 scriptListener: diaoyu
 description: 尘世百味，为粘液科技添加了上百种食物
 authors:
@@ -17,7 +17,7 @@ loadStartTexts:
 - "========================================================="
 - "                  尘世百味 开始加载"
 - "                   作者： haiman"
-- "                  当前版本：1.8"
+- "                  当前版本：1.8.1"
 - "                   请等待1~3分钟"
 - "             若有新版本发布，会尝试从github获取存储库"
 - " 并自动更新WorldTaste(默认开启，你可以在rsc的config文件里关闭)"

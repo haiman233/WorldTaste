@@ -22,7 +22,7 @@ WORLDTASTE_VERSINO:
     material: PAPER
     lore:
       - '&f当前版本:'
-      - '&bRelease-1.8'
+      - '&bRelease-1.8.1'
       - '&7您在提issues的时候需要展示这个'
       - '&7在汇报bug时请附带上rsc的版本(请勿使用rsc的v81-v83版本)'
       - '&7如果尘世百味加载不完全，请先检查服务器是否安装了美食家和异域花园附属'
@@ -265,6 +265,24 @@ WORLDTASTE_RYZZDWTL:
     lore:
     material_type: skull_hash
     material: d53f0c9a652897eecabc21a45ddda77464f2a62509b481a6a3b53120ad0e7815
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_QINGTIAN:
+  item_group: ws_tieshi
+  item:
+    name: "&f&l在晴天收集"
+    lore:
+    material_type: skull_hash
+    material: 7948942fed672ded57f8cdb169a5076062586e77002ee30e07693c025e6f0db5
+  placeable: false
+  recipe_type: 'NULL'
+WORLDTASTE_YUTIAN:
+  item_group: ws_tieshi
+  item:
+    name: "&f&l在雨天/雷暴天收集"
+    lore:
+    material_type: skull_hash
+    material: 1ba0953bc3fa45a6af353673276e37975c41ebee0042fd1068fb2c819f72bca2
   placeable: false
   recipe_type: 'NULL'
 # 分类占位符
@@ -695,7 +713,56 @@ WT_TYSILIOA:
       amount: 1
       material_type: mc
       material: WHEAT_SEEDS
-
+WT_BUYUNPING:
+  item_group: ws_gongju
+  item:
+    name: "&f&l捕云瓶"
+    lore:
+      - ''
+      - '&7拿着捕云瓶在云层使用可以收集云朵/乌云'
+      - '&7云的类型取决于当前天气'
+    material_type: skull_hash
+    material: e237527b575f7215416749d64b4fcbb0647444721df2a988fca0feb54b8ff924
+  placeable: false
+  recipe_type: MAGIC_WORKBENCH
+  script: yurenjie/buyunping
+  recipe:
+    '1':
+      amount: 1
+      material_type: mc
+      material: SLIME_BALL
+    '2':
+      amount: 1
+      material_type: slimefun
+      material: WT_RUANMUSAI
+    '3':
+      amount: 1
+      material_type: mc
+      material: SLIME_BALL
+    '4':
+      amount: 1
+      material_type: mc
+      material: HONEYCOMB
+    '5':
+      amount: 1
+      material_type: mc
+      material: HONEYCOMB
+    '6':
+      amount: 1
+      material_type: mc
+      material: HONEYCOMB
+    '7':
+      material_type: mc
+      material: GLASS_BOTTLE
+      amount: 1
+    '8':
+      amount: 1
+      material_type: mc
+      material: GLASS_BOTTLE
+    '9':
+      material_type: mc
+      material: GLASS_BOTTLE
+      amount: 1
 WT_BAIWEIDIAOGAN:
   item_group: ws_gongju
   item:
@@ -1616,6 +1683,24 @@ WT_JIEQIUSHENGCAI: #rgb(143,192,79)
     material: 2d52e883c6436ca7e764bda4b58afa53da6a649030f663953dce9fd6315f9fea
   placeable: false
   script: 1
+  recipe_type: WUWEI_SHOUHUOZUOWU
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_SEED_SHENGCAI
+      amount: 1
+WT_XINGYUNZSDK: #rgb(150,82,237)
+  item_group: ws_zuowu
+  item:
+    name: "&d&l幸运紫色短裤"
+    lore:
+    - ''
+    - '&7刘易斯镇长的短裤'
+    - '&7被誉为奇怪的紫色生菜'
+    material_type: mc
+    material: LEATHER_LEGGINGS
+    color: "150,82,237"
+  placeable: true
   recipe_type: WUWEI_SHOUHUOZUOWU
   recipe:
     5:
@@ -8617,6 +8702,52 @@ WT_QKLHUAFUBINGGANTONG:
       material_type: slimefun
       material: WT_HUAFUBINGGANTONG
       amount: 1
+WT_XIEHUANGBAOROUPAI:
+  item:
+    name: §c§l蟹黄堡肉排
+    amount: 1
+    material_type: skull_hash
+    material: a269e7386fb4b95db1d97e11080fb74cfff81760eca3d20beafa521320f6f341
+  item_group: ws_shicai
+  recipe_type: SMELTERY
+  recipe:
+    '1':
+      material_type: slimefun
+      material: GN_BASIL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: FIRE_CORAL
+    '3':
+      material_type: slimefun
+      material: MAYO
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: WT_XIEROUBANG
+      amount: 1
+    '5':
+      amount: 1
+      material_type: mc
+      material: POTATO
+    '6':
+      material_type: slimefun
+      material: WT_GUANZHUANGYUPAI
+      amount: 1
+    '7':
+      material_type: slimefun
+      material: BLACK_PEPPER
+      amount: 1
+    '8':
+      material_type: slimefun
+      material: WT_BQBFENSESHUIMU
+      amount: 1
+    '9':
+      material_type: slimefun
+      material: BLACK_PEPPER
+      amount: 1
+  placeable: false
 WT_NINGGUDEXUEKUAI:
   lateInit: false
   item_group: ws_shicai
@@ -8823,53 +8954,66 @@ WT_JINGYUNAI:
       material_type: slimefun
       material: WT_LANJING
       amount: 1
-WT_XIEHUANGBAOROUPAI:
-  item:
-    name: §c§l蟹黄堡肉排
-    amount: 1
-    material_type: skull_hash
-    material: a269e7386fb4b95db1d97e11080fb74cfff81760eca3d20beafa521320f6f341
+WT_YANWO:
+  lateInit: false
   item_group: ws_shicai
-  recipe_type: SMELTERY
-  recipe:
-    '1':
-      material_type: slimefun
-      material: GN_BASIL
-      amount: 1
-    '2':
-      amount: 1
-      material_type: mc
-      material: FIRE_CORAL
-    '3':
-      material_type: slimefun
-      material: MAYO
-      amount: 1
-    '4':
-      material_type: slimefun
-      material: WT_XIEROUBANG
-      amount: 1
-    '5':
-      amount: 1
-      material_type: mc
-      material: POTATO
-    '6':
-      material_type: slimefun
-      material: WT_GUANZHUANGYUPAI
-      amount: 1
-    '7':
-      material_type: slimefun
-      material: BLACK_PEPPER
-      amount: 1
-    '8':
-      material_type: slimefun
-      material: WT_BQBFENSESHUIMU
-      amount: 1
-    '9':
-      material_type: slimefun
-      material: BLACK_PEPPER
-      amount: 1
+  item:
+    name: '&c&l燕窝'
+    lore:
+      - ''
+      - §7其实就是个鸟窝
+      - §7美其名曰燕窝
+    material_type: skull_hash
+    material: 8782fc23c575965a4f38133ae4115e26ea4a262aaa714110c7aa717fdfdf5ee6
+    amount: 1
   placeable: false
-
+  script: 6
+  recipe_type: WUWEI_HWSCPCLJ
+  recipe:
+    5:
+      material_type: slimefun
+      material: WT_HAIOU
+      amount: 1
+WT_CLOUD:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&f&l云朵'
+    lore:
+      - ''
+      - §7软乎乎的云朵
+      - §7看上去很好吃
+    material_type: skull_hash
+    material: 466b10bf6ee2cd7e3ac96d9749ea616aa9c73030bdcaeffaed249e55c84994ac
+    amount: 1
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_BUYUNPING
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_QINGTIAN
+      amount: 1
+WT_THUNDERCLOUD:
+  lateInit: false
+  item_group: ws_shicai
+  item:
+    name: '&f&l乌云'
+    lore:
+      - ''
+      - §7湿漉漉的乌云
+      - §7看上去很好吃
+    material_type: skull_hash
+    material: 7d9c7851679b53db79c29f9512115063f765518cb702b876affed63943bda829
+    amount: 1
+  placeable: false
+  script: 2
+  recipe_type: WUWEI_BUYUNPING
+  recipe:
+    5:
+      material_type: slimefun
+      material: WORLDTASTE_YUTIAN
+      amount: 1
 # 丸子
 WT_FUSHI:
   item:
