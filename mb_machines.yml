@@ -65641,7 +65641,7 @@ WUWEI_LIEQI:
           material: MAGMA_BLOCK
         '5':
           material_type: slimefun
-          material: WT_HUOMAN
+          material: WT_TUZAI_JIGUAN
           amount: 1
         '6':
           amount: 1
@@ -65653,8 +65653,8 @@ WUWEI_LIEQI:
           material: MAGMA_BLOCK
         '8':
           amount: 1
-          material_type: mc
-          material: LAVA_BUCKET
+          material_type: slimefun
+          material: WT_SHUIPAOJINYU
         '9':
           amount: 1
           material_type: mc
