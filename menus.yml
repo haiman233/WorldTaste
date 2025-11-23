@@ -1517,3 +1517,39 @@ WT_SHUICHANPEIYUJI:
       material_type: mc
       material: LIGHT_BLUE_STAINED_GLASS_PANE
 
+WT_HWCHENNIANGMIN:
+  title: §6§l恒温陈酿皿
+  slots:
+    '40':
+      amount: 1
+      material_type: mc
+      material: HOPPER
+      progressbar: true
+    0-11:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    15-20:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    24-29:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    33-35:
+      amount: 1
+      material_type: mc
+      material: LIGHT_BLUE_STAINED_GLASS_PANE
+    36-39:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    41-48:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE
+    50-53:
+      amount: 1
+      material_type: mc
+      material: ORANGE_STAINED_GLASS_PANE

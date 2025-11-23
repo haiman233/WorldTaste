@@ -2620,3 +2620,3620 @@ WT_ZYCHUGUO:
   register:
     conditions:
        - "hasplugin InfinityExpansion"
+WT_HWCHENNIANGMIN:
+  item:
+    lore: ['', §7用于酿造美酒, '', §b机器, §8⇨ §e⚡§7 1000 J 可存储, §8⇨ §e⚡§7 50 J/s]
+    name: §6§l恒温陈酿皿
+    amount: 1
+    material_type: skull_hash
+    material: a8270c8ac25a07ae2a71dbd061b6dee1056bf625f8b881a1f2ef464f7053aca8
+  item_group: ws_jiqi
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    '1':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '2':
+      amount: 1
+      material_type: mc
+      material: HOPPER
+    '3':
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    '4':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '5':
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+      amount: 1
+    '6':
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+      amount: 1
+    '7':
+      amount: 1
+      material_type: mc
+      material: MANGROVE_LOG
+    '8':
+      material_type: slimefun
+      material: HEATING_COIL
+      amount: 1
+    '9':
+      amount: 1
+      material_type: mc
+      material: MANGROVE_LOG
+  capacity: 1000
+  energyPerCraft: 25
+  speed: 1
+  hideAllRecipes: false
+  recipes:
+    wt_wuliangye:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_OATS
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_QUINOA
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_RICE
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_WULIANGYE
+          amount: 1
+          slot: 49
+    wt_guizhoumaotai:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_VANILLA_BEANS
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GUIZHOUMAOTAI
+          amount: 1
+          slot: 49
+    wt_sanshilihong:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SANSHILIHONG
+          amount: 1
+          slot: 49
+    wt_fenjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_PEAS
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_FENJIU
+          amount: 1
+          slot: 49
+    wt_gujingongjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_XIAOMI
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GUJINGONGJIU
+          amount: 1
+          slot: 49
+    wt_guojiao1573:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GUOJIAO1573
+          amount: 1
+          slot: 49
+    wt_erguotou:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_YZYM
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_YZYM
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ERGUOTOU
+          amount: 1
+          slot: 49
+    wt_xifengjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_PEAS
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_PEAS
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIFENGJIU
+          amount: 1
+          slot: 49
+    wt_futejia:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_HYM
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_HYM
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: POTATO
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: POTATO
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_FUTEJIA
+          amount: 1
+          slot: 49
+    wt_quejiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: BAMBOO
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_QUEJIU
+          amount: 1
+          slot: 49
+    wt_guanliyuanliang:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_ZUANSHIXRZ
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: COPPER_BLOCK
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GUANLIYUANLIANG
+          amount: 1
+          slot: 49
+    wt_haerbingpijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAERBINGPIJIU
+          amount: 1
+          slot: 49
+    wt_guosuanjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_KUCHENG
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: LIME
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: LIME
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GUOSUANJIU
+          amount: 1
+          slot: 49
+    wt_buxiangzhijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: OMINOUS_BOTTLE
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BUXIANGZHIJIU
+          amount: 1
+          slot: 49
+    wt_hongjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GRAPE
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GRAPE
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HONGJIU
+          amount: 1
+          slot: 49
+    wt_putaojiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_QINGTI
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GRAPE
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GRAPE
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_PUTAOJIU
+          amount: 1
+          slot: 49
+    wt_xiajiejiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_WASIMAI
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_LONGSHELAN
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_WASIMAI
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_WASIMAI
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_WASIMAI
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAJIEJIU
+          amount: 1
+          slot: 49
+    wt_yaojiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_YAOCAO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_YAOCAO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YAOJIU
+          amount: 1
+          slot: 49
+    wt_hongjiucu:
+      seconds: 100
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: SUGAR
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WUWEI_GEOYAN
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GRAPE
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GRAPE
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HONGJIUCU
+          amount: 1
+          slot: 49
+    wt_jinguojiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: GLISTERING_MELON_SLICE
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_HUANGJINGGUO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_HUANGJINGGUO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JINGUOJIU
+          amount: 1
+          slot: 49
+    wt_kuloujiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_KEKEGUO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_KEKEGUO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: SKELETON_SKULL
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KULOUJIU
+          amount: 1
+          slot: 49
+    wt_zaiejiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_TUZAI_DLFBCX
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZAIEJIU
+          amount: 1
+          slot: 49
+    wt_xiajiehejinjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: NETHERITE_SCRAP
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAJIEHEJINJIU
+          amount: 1
+          slot: 49
+    wt_magelitajiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: LIME
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MAGELITAJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_buzzball:
+      seconds: 100
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          material_type: slimefun
+          material: CAN
+          amount: 1
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BUZZBALL
+          amount: 1
+          slot: 49
+    wt_naijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_NAIJIU
+          amount: 1
+          slot: 49
+    wt_weishiji:
+      seconds: 100
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_HEIYUMI
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_RYE
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_WEISHIJI
+          amount: 1
+          slot: 49
+    wt_baiweipijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: ICE_CUBE
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BAIWEIPIJIU
+          amount: 1
+          slot: 49
+    wt_kulipanaijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: HEAVY_CREAM
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: CREEPER_HEAD
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_KULIPANAIJIU
+          amount: 1
+          slot: 49
+    wt_taoguanjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_SHENGJIANG
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: DECORATED_POT
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TAOGUANJIU
+          amount: 1
+          slot: 49
+    wt_jingyanniang:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: EXPERIENCE_BOTTLE
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: EXPERIENCE_BOTTLE
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JINGYANNIANG
+          amount: 1
+          slot: 49
+    wt_dianjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_YANGTAO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_YANGTAO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_DIANJIU
+          amount: 1
+          slot: 49
+    wt_xingkongjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_DENGLONGGUO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_QINGYANGTAO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XINGKONGJIU
+          amount: 1
+          slot: 49
+    wt_bingjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: BLUE_ICE
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BINGJIU
+          amount: 1
+          slot: 49
+    wt_rongyanjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_WASIMAI
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: LAVA_BUCKET
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_WASIMAI
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: MAGMA_CREAM
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_RONGYANJIU
+          amount: 1
+          slot: 49
+    wt_missingjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: CHORUS_FLOWER
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_ZIGANLAN
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: INK_SAC
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MISSINGJIU
+          amount: 1
+          slot: 49
+    wt_fapaojiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_RYE
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CASSAVA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_RYE
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_FAPAOJIU
+          amount: 1
+          slot: 49
+    wt_guoxiangjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_SUANJIAO
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_MIYOU
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_MIYOU
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_GUOXIANGJIU
+          amount: 1
+          slot: 49
+    wt_redaiguoxiangjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_XIAOXIGUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_HAMIGUA
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_HAMIGUA
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_REDAIGUOXIANGJIU
+          amount: 1
+          slot: 49
+    wt_mutongjingniang:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_RYE
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_CASSAVA
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_CASSAVA
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: BARREL
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MUTONGJINGNIANG
+          amount: 1
+          slot: 49
+    wt_mozhifapaojiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: INK_SAC
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: INK_SAC
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MOZHIFAPAOJIU
+          amount: 1
+          slot: 49
+    wt_jiangxiangbaijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_SOY_SAUCE
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JIANGXIANGBAIJIU
+          amount: 1
+          slot: 49
+    wt_longshelanlikoujiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_LONGSHELAN
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_LONGSHELAN
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LONGSHELANLIKOUJIU
+          amount: 1
+          slot: 49
+    wt_huangyoujiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: BUTTER
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: BUTTER
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HUANGYOUJIU
+          amount: 1
+          slot: 49
+    wt_juzijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_SHATANGJU
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_SHATANGJU
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JUZIJIU
+          amount: 1
+          slot: 49
+    wt_sanzhuangmaipi:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_SANZHUANGMAIPI
+          amount: 1
+          slot: 49
+    wt_yenaijiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: COCONUT
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: MILK_BUCKET
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YENAIJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_qingjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_XIAOMI
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_XIAOMI
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_QINGJIU
+          amount: 1
+          slot: 49
+    wt_chunxiangguoniang:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_FANSHILIU
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_FANSHILIU
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_HUANGLONGGUO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_HUANGLONGGUO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_CHUNXIANGGUONIANG
+          amount: 1
+          slot: 49
+    wt_dianlanjiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_DIEDOUHUA
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_LANCULI
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_DIEDOUHUA
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_DIANLANJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_chaxiangjiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: TEA_LEAF
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_CHAXIANGJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_yumijiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: CORN
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: CORN
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YUMIJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_zisongjiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_MODIGUO
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: POPPED_CHORUS_FRUIT
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: POPPED_CHORUS_FRUIT
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ZISONGJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_lajiaojiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_HWNLJ
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_HWNLJ
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LAJIAOJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_meiguijiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_MINT
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: ROSE_BUSH
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: ROSE_BUSH
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_MEIGUIJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_aiqingjiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_ZHANHUAJIANGGUO
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_AIQINGUO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_AIQINGUO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_AIQINGJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_baijiaojiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_CARAMEL
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_QINGXIANGJIAO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_QINGXIANGJIAO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_BAIJIAOJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_haiyangjiweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_LONGSHELAN
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_DIANLANGU
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_DIANLANGU
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_HAIYANGJIWEIJIU
+          amount: 1
+          slot: 49
+    wt_liejiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_XUECHENG
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_XUECHENG
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_LIEJIU
+          amount: 1
+          slot: 49
+    wt_yingguangjiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          amount: 1
+          material_type: mc
+          material: GLOW_BERRIES
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_DENGLONGGUO
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_DENGLONGGUO
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_YINGGUANGJIU
+          amount: 1
+          slot: 49
+    wt_erweijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: WT_XSCZ
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: WT_XSCZ
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_ERWEIJIU
+          amount: 1
+          slot: 49
+    wt_jueniang:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_VANILLA_BEANS
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_VANILLA_BEANS
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: FERN
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: FERN
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JUENIANG
+          amount: 1
+          slot: 49
+    wt_xiaochitanpijiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: WT_PIJIUHUA
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_BARLEY
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAOCHITANPIJIU
+          amount: 1
+          slot: 49
+    wt_jiuguanjianiang:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: GN_PEANUTS
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: YEAST
+          amount: 1
+          slot: 14
+        '4':
+          material_type: slimefun
+          material: GN_QUINOA
+          amount: 1
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          material_type: slimefun
+          material: GN_QUINOA
+          amount: 1
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: BARREL
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_JIUGUANJIANIANG
+          amount: 1
+          slot: 49
+    wt_tujiajiu:
+      seconds: 100
+      input:
+        '1':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: WT_KEKEGUO
+          amount: 1
+          slot: 13
+        '3':
+          material_type: slimefun
+          material: GN_SORGHUM
+          amount: 1
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: HANGING_ROOTS
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: HANGING_ROOTS
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_TUJIAJIU
+          amount: 1
+          slot: 49
+    wt_xiaomaijingniang:
+      seconds: 100
+      input:
+        '1':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 12
+        '2':
+          material_type: slimefun
+          material: LEMON
+          amount: 1
+          slot: 13
+        '3':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 14
+        '4':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 21
+        '5':
+          material_type: slimefun
+          material: WT_JIUQU
+          amount: 1
+          slot: 22
+        '6':
+          amount: 1
+          material_type: mc
+          material: WHEAT
+          slot: 23
+        '7':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 30
+        '8':
+          amount: 1
+          material_type: mc
+          material: GLASS_BOTTLE
+          slot: 31
+        '9':
+          amount: 1
+          material_type: mc
+          material: WATER_BUCKET
+          slot: 32
+      output:
+        '1':
+          material_type: slimefun
+          material: WT_XIAOMAIJINGNIANG
+          amount: 1
+          slot: 49
+  input: [32, 12, 13, 14, 21, 22, 23, 30, 31]
+  output: [49]

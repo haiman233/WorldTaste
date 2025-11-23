@@ -79,9 +79,9 @@ WUWEI_CHUFANGGUITAI:
   material: QUARTZ_BRICKS
 WUWEI_CHENNIANGMIN:
   lateInit: false
-  name: '&6&l陈酿皿'
+  name: '&6&l恒温陈酿皿'
   lore:
-    - '&7该物品需要在陈酿皿中制作'
+    - '&7该物品需要在恒温陈酿皿中制作'
   material_type: skull_hash
   material: a8270c8ac25a07ae2a71dbd061b6dee1056bf625f8b881a1f2ef464f7053aca8
 WUWEI_ZHENKONGYASUOJI:
