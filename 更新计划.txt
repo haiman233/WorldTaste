@@ -1,4 +1,4 @@
-allhead 322页
+allhead 325页
 
 
 更简易的做粘液书的机器
@@ -68,7 +68,6 @@ frosted_ice 0-3
 2、做锁链甲的机器
 
 
-
 （狂乱鸡尾酒丸，吃下去获得全部药水效果（注意1.20.4与1.20.6前后api区别））
 
 
@@ -88,64 +87,182 @@ https://minecraft-heads.com/custom-heads/tag/groceries
 
 42页食物
 
+https://www.minecraftskins.com/search/skin/burger/32/
 
 
-Aquatic
+糯稻：https://www.minecraftskins.com/skin/16866871/lostninja2017-s-burger-skin/
+红米：840e78c4b90911271b75983baeeb0b037c264437a513bf0c06c894e5c88721a7
 
-甘蔗果切
-灾厄丸（三种灾厄效果）
-幻术丸（召唤幻术师）
-
+粽子、青团改成糯米
 
 
+柠檬 生菜
 
+https://minecraft-heads.com/custom-heads/tag/groceries?page=5
 
+改末地种子获取途径（改为紫颂花）
+
+怪味餐
+42号混凝土拌意大利面（加脚趾）
+老八秘制小汉堡（臭豆腐，腐乳，柠檬，生菜，吐司）
+拼好饭
+
+新仪器
+酒精检测仪：8cdf3a9fca65a43691a4669be5ab1de4b2c659f431d89db2e3c0ecd2e095e2d0
+（条件加载，查看是否有ELECTRICITY_BREWING_1）
+/exotic alo info haiman
+
+腐乳：https://minecraft-heads.com/custom-heads/head/71487-red-ball
+臭豆腐：https://minecraft-heads.com/custom-heads/head/39271-gray-slimeball
+糯米（磨石）：https://www.minecraftskins.com/skin/16945372/bag-of-rice--salt--sugar--etc--head/
+
+熊猫奶
+
+中餐
+清蒸大闸蟹：5ba696ed7bd1d9a0ee445058051726d2a61537a90ecd207a507c5cb0c49e3454
+红米：
+
+冰激凌与糖
+翠晶巧克力：https://www.minecraftskins.com/skin/9692971/green-apple-chocolate/
+丁香巧克力：https://www.minecraftskins.com/skin/9608500/lilac-chocolate/
+潜影巧克力：https://www.minecraftskins.com/skin/9594093/chocolaty/
+铀巧克力：https://www.minecraftskins.com/skin/9557111/lime-chocolate/
+葡萄巧克力：https://www.minecraftskins.com/skin/9561270/grape-chocolate/
+树莓巧克力：https://www.minecraftskins.com/skin/9553722/raspberry-chocolate/
+牡丹巧克力：https://www.minecraftskins.com/skin/9552982/strawberry-chocolate/
+钻石巧克力：https://www.minecraftskins.com/skin/9551433/cold-chocolate/
+橙子巧克力：https://www.minecraftskins.com/skin/9550455/orange-chocolate/
 
 
 烘焙
-卡通面包：3dd368c6543cdd992a1a7caa094efd3d0cc92c30de1f146abbbbbb2045ede3e1
+钻石面包：
+青金石面包：
+苦力怕面包：
+糟面包：https://www.minecraftskins.com/skin/22350136/bread/
+板栗面包：https://www.minecraftskins.com/skin/22589831/bread-head/
+坚果面包：https://www.minecraftskins.com/skin/22352505/galactic-bready-warrior/
+糯米吐司：https://www.minecraftskins.com/skin/21935305/toasted-bread-in-a-suit/
+硬麦吐司：https://www.minecraftskins.com/skin/21900667/bread/
+焦糖面包：https://www.minecraftskins.com/skin/21879408/bread/
+树皮面包：https://www.minecraftskins.com/skin/21584057/bread-in-pink/
+辐射面包：已下载到头颅文件
+红米甜菜面包：https://www.minecraftskins.com/skin/19244658/chicken-meat/
+潜影面包（潜影贝肉）：https://www.minecraftskins.com/skin/17308574/pink-breadman/
+铁胡萝卜面包（铁胡萝卜）：https://www.minecraftskins.com/skin/17137944/if-i-die--tattered-skin/
+电视面包：https://www.minecraftskins.com/skin/19337886/tv-bread/
+法式面包：https://www.minecraftskins.com/skin/16999530/french-bread/
+地衣面包：https://www.minecraftskins.com/skin/16842804/loaf-man-but-moldy/
+开心果面包：https://www.minecraftskins.com/skin/15019359/twitter-bred/
+炉灰面包：https://www.minecraftskins.com/skin/14203041/bread-person/
+奶酪包：https://www.minecraftskins.com/skin/14123042/polo-hi-tech-holding-blue-baker-bread-bowl/
 
-
-日料
-锦鲤刺身：f3987abf2c265725dc0667ecdcc815b3e31ad0d12b484ddc9c0c4a60b3210718
-海胆黄刺身：7b3bcd4445e1360623821a2879e497c3de25f899c94ffb9e5942e06b2ccaea65
-
-肉类
-烤鳄鱼肉：82d574fe686db9264c1d88731f808fb4de9bf48c3c3b2211a2038e99bf58e84f
-烤帝王蟹钳：7e1e0701f1f9e974765e4f2a7c33a9458c598334401538dc9f21f5ed7e35f79a
+发酵
+腌橄榄：https://www.minecraftskins.com/skin/23514361/olive-jar/
 
 快餐
-海鲜卷（海参 沙虫）：95494a97b1c143ddacdffcd87e18e9982112321e636d611fbab8ad65e1c960d7
+死神汉堡：https://www.minecraftskins.com/uploads/skins/2025/11/01/red-derpburger-23615999.png?v936
+钻石汉堡（钻石作物）：
+嗅探菌堡：https://www.minecraftskins.com/skin/21643921/snuffer-burger/
+蟹排堡：https://www.minecraftskins.com/skin/20130097/godkey-burger/
+花皮堡：https://www.minecraftskins.com/skin/19176656/cheeseys/
+紫包菜番茄芝士堡：https://www.minecraftskins.com/skin/19107594/burger-knight/
+尸脑汉堡：https://www.minecraftskins.com/skin/18079054/my-skin--d-burger/
+腊肉汉堡（腐乳）：https://www.minecraftskins.com/skin/17546368/burger-kid/
+脆皮珊瑚汉堡：https://www.minecraftskins.com/skin/17080070/spongebob-sqarepants-holding-a-burger/
+糯米肉排堡：https://www.minecraftskins.com/skin/15475641/burger/
+潜影汉堡（潜影贝肉）：https://www.minecraftskins.com/skin/14911079/durr-burger-thanos/
+花瓣肉排堡：https://www.minecraftskins.com/skin/14257550/kiddo-holdin-big-mac/
+抹茶汉堡：https://www.minecraftskins.com/skin/634854/mcdonalds-meal/
+沙滩汉堡：https://www.minecraftskins.com/skin/23322058/burger-beach-bod/
+疣猪脆骨堡：https://www.minecraftskins.com/skin/22524857/improved-food/
+僵尸蔬菜堡（怪味酱）：https://www.minecraftskins.com/skin/10120654/mcburger/
+猫猫汉堡：https://www.minecraftskins.com/skin/21185644/cat-burger/
+末影热狗：https://www.minecraftskins.com/skin/23044915/hotdoug/
+肉夹馍（青椒）：https://www.minecraftskins.com/skin/21805964/bad-looking-sandwhich-with-cheesey-meatballs-covered-in-sauce-/
+腐肉三明治：https://www.minecraftskins.com/skin/19327580/intelligent-rotten-sandwich--prompt-by-grimmace-/
+红烧牛肉方便面：b0c381a0e7a4022ec9a5199e9bace1cd3fb446e3541d3fd7567f8640c357e91
 
-中餐
-蒜泥生蚝：adbb3e1fae2da85d006690c436225d647b2747e932ffebeccd07685b470c64d6
-海胆冻：db25c31b710e57bb7e4369046e63b7207d5d49d74be7641067b6b3ad372ab49
-炖海参（添加泡菜果）：e9d8477e196698bf496bcb3bbb2d8f5c157e75f104f516ab2b28de8f73128ca1
-焗火鳗肉：78484692a2cd4ee5d19514555d08ecc72eef43c47b4018f472f568a1caa96a00
-炒土虾：ba328bb125a93925cd2f563a4e56851fcdf95dee3b579be53d249f47ba7226d5
-蒸海胆膏：dbee1f876bf96b98c373f82b65ad7160efd2102743f5c56915cbde520bfec889
-猪灵的头——猪头肉
+寿司
+深海鱼寿司卷：https://www.minecraftskins.com/skin/23066375/sushi/
+带鱼海苔寿司：https://www.minecraftskins.com/skin/22115090/uramaki-sushi/
+加州寿司：https://www.minecraftskins.com/skin/22015443/california-roll/
+樱花鱼片寿司：https://www.minecraftskins.com/skin/20846018/guy-holding-sushi--my-friends--part-2-/
+樱花寿司卷：https://www.minecraftskins.com/skin/20184092/smart-sushi/
+经典鱼寿司：https://www.minecraftskins.com/skin/20045958/unfinished-sushi/
+史莱姆寿司（深海史莱姆）：https://www.minecraftskins.com/skin/20034081/sushi-slime/
+蔬菜帝王蟹黄寿司：https://www.minecraftskins.com/skin/19564184/sushi-for-contest/
+玉米奶油寿司：https://www.minecraftskins.com/skin/19128634/sushifishy12-holding-a-sushi-/
+余烬寿司：https://www.minecraftskins.com/skin/17045666/man-carrying-sushi/
+终末寿司：https://www.minecraftskins.com/skin/17034535/man-carrying-sushi/
+红肉寿司：https://www.minecraftskins.com/skin/12040159/ottostyle/
+彩椒寿司：https://www.minecraftskins.com/skin/10410764/sushi/
+牛油果寿司：https://www.minecraftskins.com/skin/277123/sushappy/
+紫菜包饭：https://www.minecraftskins.com/skin/23265873/gimbap---white-suit/
+
+饮品
+美禄：dc60b78507df9e9c0658552961e22394dcf29e6dd8c2f6d231336eb0a0611aa8
+
+零食
+魔芋爽：22298da945729cd0fa4b41624bced5b6fe15e5aa42c6178872b505add5e3aec
+珍珠脆饼：4574d2d2afb3359a8591d89b30b722c0ab9b422ed6594fc200e40b5f1be4810c
+火把花饼干：b2292c80e421357cc6a3090e424b6b76d2cd7b59d192d197d94623b752ac641e
+史蒂夫脆角：5799b8bac4d5b0da85e0ef212e7b27bd95d3b1e81e89e00b9bd23d266bfe5349
+龙酥饼干：8f31c7aae5dc744cd1665927d2858461d1361968b5d147ddffed1947616d2614
+婴儿奶粉：3b9be99f158f1aa072a2e3b6a7dddcdd6bca94720fc3944f722106122a6d8690
+丁香奶粉：4d32bebc8b1b619b62d3fffcd6a44d1363b7f0d00f7222563d7ebb788c29ed3a
+香草奶粉：2ff1db00a4854e3fe999a5e88320f02160c3f4628eb1c5cee532f4a62fc0a9b5
+谷物玉米饼干：d521b1c6d844c4f712bf676b68e33c9b4183e9b820db457fb81e133395e
+特K麦片：e8f16e85928773b91c41993e2f25355c1ef750929f73742517f514ed74af
+葡萄大麦饼干：a1bb9a1946abd8ac29c3b95ee845f36d348bf794514aaeac47f9b1782eda
+肉松全麦饼干：caacb76664089bbb5f1108e133c94a457d33447a8f4d2ad6e53dde68ee58a
+圣诞玉米片：6bc531f596164c454c7dd891dd49fbafda45b36b93d7e12b5be861cc136f388f
+脆蛋卷：c6a249e5025bc3aa19ba5591046f651788b1e4d858bdc063fa35a6d77003673
+微软礼盒：2cca984cab5bbcb8921e61ac58d3758b5af3b19fc8317685da5cf96d6309a724
+荒野饼干：3777ba2ed302805f8a391f91e9667cbe2af2515f679e31a8668a1adf4d5bb099
+草莓黄油饼干：50406f1f837d298cf798f5a504fda81ada4fef70bcd41efb8b7aa49e4540de73
+末影龙果脆：40c228cdf84f5db5a8e5dad8f7076338a344df50e304cb4bbae5803119458590
+袋装花生巧克力：fff6af4d50eb5dcf66a69028f4cf54594bef00f46feddea8c287766e2c274b66
+袋装羊奶巧克力：19c12988b7cf92d711dc8441456aae8c6bebaf89b0e6d9317616db91ec2417d2
+袋装辣味巧克力：5c6323b4ed92c30c6e6b673352b77f5ed72026fe27ba7e99aa5e09d13df2a1ce
+袋装紫颂巧克力：c25aa99cfae27f7c5797fe1fd2c1cfbadd577e3d177cca07c0e59ef9e54a34e0
+袋装香蕉能量棒：ec7501aacc4da6aa0c43e48541493d647111bcffdfac5a563e4ec7eea563e91c
+蛋白粉：92d65f28b833a56adf3c530a9f72def30a0e65336654feab5b724773339bd527
+紫颂蔬菜脆片：156975f1b21847518ef3749ae7ca2614c1f7917241ef9d90d69ae08601f8b499
+薄荷漱口水：d03b839349d73a4663f2a31529ea8a604fd02773b596da7ed6953024235744c7
+丁香漱口水：b66f9b1bb8163403385eb63cbe08e12d14f2eab3e6557cb3f300eb9b00e21384
+奥利奥曲奇(三袋装)：b545659a3ce8a6502d529b85667d2d5ff2b0282b58a14c2ba2aa3ac68383170e
+奶油奥利奥(三袋装)：a3ff8573d2ebbd895fb5969381ed633ee9ab33a383656c045f9a36c228116d6c
+巧克力曲奇（三袋装）：5040f7d6e6ac844c2f4861cd7f32b3294e89761abad693f12937d4b62ff24a8d
+苹果曲奇（三袋装）：e1bd063cce10864b3fb2fb4cd2fb513c058ea2a74c100b42b828960f5683e861
+咖啡曲奇（三袋装）：4d42d4c49e4e9c0866433b68731b879d31bc620326abf60f562309e3fb8cd1a5
+天域曲奇（三袋装）：14a732250a68125230ff3d43751997bbc91f221e478d4231b8b09ab1d5ca68e3
+混合水果零食：77a340f757a34370406ad9464f96c3d5148aa9dd625b84e605c37c71b0ba6930
+浆果樱桃水果零食：f0a15cc734f79d2042e904162beac36104a3d267525c69336bc332f9713d72d9
+热带水果零食：bc83352bcac686a0948df3b92a754e06bfb408054bcc1fe2286847b75c130855
+多力多滋奶酪味：662d28860bc623de54f420a3f27a20d6a6c2a3a9fe18992fa46e009f9ff3f6a
+多力多滋蓝莓味：30c8319d0bc2f8b2cfc5d489e1a2cc0905bccaa03e7249d1f01669e381f02489
+多力多滋麻辣味：5dcd46cfbaa38aa8db43da4f0411b64dba74279accf8b26578b8303c75f86bae
+多力多滋紫颂味：4943b32411afc9b72833dba32a0c386f2ae1a96d33f00b4dd16eb944d85243d8
+袋装鸡肉干：3a9c203c0b22c3225a6e63116c1e3c0dea1c76521cfb857ed9f07481f9986260
+
+Aquatic
 
 
+灾厄丸（三种灾厄效果）
+幻术丸（召唤幻术师）
 
-怪味餐
-烤龙髓（龙角，沙蟹）：22d023d1c3fca0a0d64695e70b112cfa580072bbec072aaca0bcee5d131b70e3
-清蒸猎头蟹：578cb99a5da57f67254d42e5dec3bd020439c3ad071c4c63c9fc9035143aebba
-致鲜之卷（泡菜果，远古守卫者肉，沙蟹，沙虫，生蚝）：2b60cedbeaa8b205061b89b6c0820b4961c4a4587286a3b6084ede4750821bb5
-盐烧火烈鸟：849f63c82aebb9293c82c985c45e1845a134b2c336ee101bd3a49996b3e5180d
-紫颂海鲜卷（末影蟹，紫颂海胆）：2933ccaaeefa83a61f5f3fc9430a708d577890960709c7b9c66f2150bd523561
-珍珠液：5396ecd3b0f9f2d64397f9c0cea4e30e278aea77bd887236302843879aa4645d
-坚冰刺身（冻洋鱼与冰鱼）：82da68bbc9bd4ccbc6dac39dfde5db5b0bca8358224b4df3fbf0fb6f37bf7499
+修复高版本唱片刻印机配方错误的问题
 
+老八秘制小汉堡 臭豆腐 腐乳 柠檬
 
+大列巴（武器）
 
+    public static final SlimefunItemStack MysticSeed = new SlimefunItemStack("MYSTIC_SEED", new CustomItemStack(Material.MELON_SEEDS, "§d神秘种子", "", "§7从未见过的种子", "§7直接种植没有什么用", "§7但可以放到特定机器中进行分析"));
 
 
+        (new GrassSeeds(ExoticGarden.instance.miscItemGroup, MysticSeed, ExoticGardenRecipeTypes.BREAKING_GRASS, new ItemStack[]{null, null, null, null, new ItemStack(Material.GRASS), null, null, null, null
+        })).register(ExoticGarden.instance);
 
-蓝瓜 草字头的南瓜 喃瓜 苍白南瓜 鸡冠 末影龙角
-
-爆裂紫颂果和闪烁西瓜加vanilla
-（中餐）
 
 更多功能丸子（僵尸马，幻术师）
 
