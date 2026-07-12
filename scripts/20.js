@@ -1,30 +1,10 @@
-function onUse(event) { 
-    var player = event.getPlayer();
-    var inv = player.getInventory();
-    var itemInMainHand = inv.getItemInMainHand();
-    var offHandItem = inv.getItemInOffHand();
-    
-    if (player.getFoodLevel() >= 20) {
-        return;
-    }
-    if (offHandItem != null && SlimefunItem.getByItem(offHandItem) != null) {
-        player.sendMessage("您必须使用主手进食且副手不能持有粘液科技物品！");
-        return;
-    }
+var Files = Java.type('java.nio.file.Files');
+var Paths = Java.type('java.nio.file.Paths');
+var rsc = server.getPluginManager().getPlugin('RykenSlimefunCustomizer').getDataFolder();
+var base = new java.io.File(rsc, 'addons/WorldTaste/scripts');
+var code = new java.lang.String(Files.readAllBytes(Paths.get(base.getPath(), 'lib/wt_food.js')), 'UTF-8');
+(0, eval)(code);
 
-    // 判断玩家主手中是否有物品，且该物品的数量大于0  
-    if (itemInMainHand != null && itemInMainHand.getAmount() > 0) {
-        var amount = 1;
-        // 将玩家主手中的物品数量设置为已有物品数量 - 1，即消耗了一个物品 
-        itemInMainHand.setAmount(itemInMainHand.getAmount() - amount);
-        player.setFoodLevel(player.getFoodLevel() + 20);
-        player.setSaturation(player.getSaturation() + 20);
-        player.setExhaustion(player.getExhaustion() - 2);
-
-        // 使用正确的声音名称
-        var soundName = "entity.strider.eat";
-
-        // 播放声音，确保音量和音调参数在0到1之间
-        player.getLocation().getWorld().playSound(player.getLocation(), soundName, 1.0, 1.0);
-    }
+function onUse(event) {
+  WT_eatConsumable(event, { food: 20, saturation: 20, exhaustion: 2, requireHungry: true });
 }

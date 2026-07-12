@@ -1,4 +1,9 @@
-// 淡水鱼饵掉落列表（全局常量，避免重复创建）
+// 钓鱼事件脚本（薄壳）：通用逻辑见 lib/wt_fishing.js
+var rsc = server.getPluginManager().getPlugin('RykenSlimefunCustomizer').getDataFolder();
+var base = new java.io.File(rsc, 'addons/WorldTaste/scripts');
+var code = new java.lang.String(Files.readAllBytes(Paths.get(base.getPath(), 'lib/wt_fishing.js')), 'UTF-8');
+(0, eval)(code);
+
 const DANSHUIYUER_DROPS = [
     { itemId: "LILY_PAD", weight: 10 },
     { itemId: "TADPOLE_BUCKET", weight: 20 },
@@ -35,7 +40,6 @@ const DANSHUIYUER_DROPS = [
     { itemId: "WT_HELI", weight: 10 }
 ];
 
-// 小型咸水鱼饵掉落列表
 const XIANSHUIYUER_DROPS = [
 
     { itemId: "SEAGRASS", weight: 5 },
@@ -70,7 +74,6 @@ const XIANSHUIYUER_DROPS = [
     { itemId: "WT_HAITU", weight: 15 }
 ];
 
-// 大型咸水鱼饵掉落列表
 const XIANSHUIYUER_2_DROPS = [
     { itemId: "NAUTILUS_SHELL", weight: 30 },
     { itemId: "HEART_OF_THE_SEA", weight: 10 },
@@ -100,7 +103,6 @@ const XIANSHUIYUER_2_DROPS = [
     { itemId: "WT_PAOCAIGUO", weight: 25 }
 ];
 
-// 水果鱼饵掉落列表
 const SHUIGUOYUER_DROPS = [
     { itemId: "WT_YINGTAOYU", weight: 50 },
     { itemId: "WT_BOLUOYU", weight: 45 },
@@ -118,7 +120,6 @@ const SHUIGUOYUER_DROPS = [
     { itemId: "WT_NANGUAZZ", weight: 35 }
 ];
 
-// 河豚鱼饵掉落列表
 const HETUNYUER_DROPS = [
     { itemId: "WT_PUFFERFISH_NORMAL", weight: 55 },
     { itemId: "WT_PUFFERFISH_MECHANICAL", weight: 20 },
@@ -152,144 +153,13 @@ const HETUNYUER_DROPS = [
     { itemId: "WT_PUFFERFISH_GOLD", weight: 6 }
 ];
 
-function onPlayerFish(event) {
-    var caught = event.getCaught();
-    var player = event.getPlayer();
-    var hook = event.getHook();
-    var State = event.getState();
-
-    // 提前检查是否为需要处理的事件类型
-    if (State != "CAUGHT_FISH" || caught === null) {
-        return;
-    }
-
-    // 获取主手和副手的物品
-    var itemInMainHand = player.getInventory().getItemInMainHand();
-    var itemInOffHand = player.getInventory().getItemInOffHand();
-    
-    // 提前检查是否使用特定鱼竿
-    var sfItem_Main = getSfItemByItem(itemInMainHand);
-    if (sfItem_Main === null || sfItem_Main.getId() != "WT_BAIWEIDIAOGAN") {
-        return;
-    }
-    
-    var sfItem_Off = getSfItemByItem(itemInOffHand);
-    if (sfItem_Off === null) {
-        return;
-    }
-
-    var sfItem_Off_id = sfItem_Off.getId();
-
-    // 使用特定鱼竿
-    // 取消事件防止默认行为
-    event.setCancelled(true);
-    // 删除被捕获的实体
-    let amount = 1;
-    decreaseItemInWhichHand(itemInOffHand, amount);
-    caught.remove();
-
-    // 根据鱼饵类型选择掉落列表
-    let drops;
-    if (sfItem_Off_id == "WT_DANSHUIYUER") {
-        // 淡水鱼饵
-        drops = DANSHUIYUER_DROPS;
-    } else if (sfItem_Off_id == "WT_XIANSHUIYUER") {
-        // 小型咸水鱼饵
-        drops = XIANSHUIYUER_DROPS;
-    } else if (sfItem_Off_id == "WT_XIANSHUIYUER_2") {
-        // 大型咸水鱼饵
-        drops = XIANSHUIYUER_2_DROPS;
-    } else if (sfItem_Off_id == "WT_SHUIGUOYUER") {
-        // 水果鱼饵
-        drops = SHUIGUOYUER_DROPS;
-    } else if (sfItem_Off_id == "WT_HETUNYUER") {
-        // 河豚鱼饵
-        drops = HETUNYUER_DROPS;
-    } else {
-        // 如果鱼饵类型不匹配，直接返回
-        return;
-    }
-
-
-    // 根据权重随机选择一个物品
-    const selectedDrop = selectRandomDrop(drops);
-    if (selectedDrop) {
-        const slimefunItem = getSfItemById(selectedDrop.itemId);
-        let itemstack;
-        
-        if (slimefunItem) {
-            // 处理Slimefun物品
-            itemstack = new org.bukkit.inventory.ItemStack(slimefunItem.getItem().getType());
-            itemstack.setItemMeta(slimefunItem.getItem().getItemMeta());
-        } else {
-            // 如果Slimefun物品不存在，则尝试作为原版物品处理
-            try {
-                const Material = Java.type('org.bukkit.Material');
-                const materialType = Material.valueOf(selectedDrop.itemId);
-                itemstack = new org.bukkit.inventory.ItemStack(materialType);
-            } catch (e) {
-                return;
-            }
-        }
-        
-        itemstack.setAmount(1);
-        createDropItemAndEffects(hook, player, itemstack);
-        sendCatchMessageAndSound(player, itemstack);
-    }
-}
-
-
-
-
-// 减少物品
-function decreaseItemInWhichHand(itemInWhich, amount) {
-    itemInWhich.setAmount(itemInWhich.getAmount() - amount);
-}
-
-// 根据权重随机选择一个物品
-function selectRandomDrop(drops) {
-    // 计算总权重
-    let totalWeight = drops.reduce((sum, drop) => sum + drop.weight, 0);
-
-    // 生成一个随机数
-    let random = Math.random() * totalWeight;
-
-    // 遍历掉落列表，选择一个物品
-    for (let drop of drops) {
-        random -= drop.weight;
-        if (random <= 0) {
-            return drop;
-        }
-    }
-
-    // 如果没有选中任何物品（理论上不会发生），返回 null
-    return null;
-}
-
-function sendCatchMessageAndSound(player, itemstack) {
-    let displayName = itemstack.getItemMeta().getDisplayName();
-    // 如果没有显示名称，则使用物品类型名称
-    if (!displayName || displayName === "") {
-        displayName = itemstack.getType().name().toLowerCase().replace(/_/g, ' ');
-        // 首字母大写格式化
-        displayName = displayName.replace(/\b\w/g, function(l) { return l.toUpperCase(); });
-    }
-    sendMessage(player, "§b恭喜你钓到了 " + displayName + " §b*1");
-    player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
-}
-
-
-function createDropItemAndEffects(hook, player, itemstack) {
-    var itemEntity = hook.getWorld().dropItem(hook.getLocation(), itemstack);
-    
-    // 设置物品不会被立即捡起（10 ticks = 0.5秒）
-    itemEntity.setPickupDelay(2);
-    
-    // 将物品拉向玩家（可选增强效果）
-    var playerLocation = player.getLocation().add(0, 1, 0);
-    var itemLocation = itemEntity.getLocation();
-    var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
-    itemEntity.setVelocity(direction.normalize().multiply(1.7));
-    
-    return itemEntity;
-}
+WT_setupFishing({
+  rodId: "WT_BAIWEIDIAOGAN",
+  baits: {
+    "WT_DANSHUIYUER": DANSHUIYUER_DROPS,
+    "WT_XIANSHUIYUER": XIANSHUIYUER_DROPS,
+    "WT_XIANSHUIYUER_2": XIANSHUIYUER_2_DROPS,
+    "WT_SHUIGUOYUER": SHUIGUOYUER_DROPS,
+    "WT_HETUNYUER": HETUNYUER_DROPS,
+  }
+});
